@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import entwiner as ent
 import math
 import sys
+import json
 from django.contrib.gis.geos import Polygon, Point, MultiPoint, GeometryCollection, LineString
 
 # Upper left: 47.686957, -122.355331
@@ -57,15 +58,19 @@ def generate_sdwk_network(csv_file):
             surface = str(row["surface"])
             # park
             park = str(row["adjacent_parks"]).strip("[]\'").split(",")
+            if len(park) > 0 and park[0] == '':
+                park = []
             # edge
             G.add_edge(v, u)
             G[v][u]['incline'] = incline + offset
             G[v][u]['surface'] = surface
-            G[v][u]['park'] = len(park)
+            G[v][u]['park'] = 100 - float(len(park))
             G.add_edge(u, v)
             G[u][v]['incline'] = 0 - incline + offset
             G[u][v]['surface'] = surface
-            G[u][v]['park'] = len(park)
+            G[u][v]['park'] = 100 - float(len(park))
+
+
 
 
     file.close()
@@ -180,14 +185,36 @@ def path_to_string(path):
     return result
 
 def path_to_geojson(path):
+    output = {}
+    output["type"] = "FeatureCollection"
+    output['features'] = []
+    one_path = {}
+    one_path['type'] = 'Feature'
+    one_path['geometry'] = {}
+    one_path['geometry']['type'] = 'LineString'
+
     line_lst = []
-    for i in range(1, len(path)-1):
-        coords1 = extract_node_from_string(str(path[i]))
-        coords2 = extract_node_from_string(str(path[i+1]))
-        line = LineString((float(coords1[0]), float(coords1[1])), (float(coords2[0]), float(coords2[1])))
+    for i in range(0, len(path)):
+        coords = extract_node_from_string(str(path[i]))
+        line = [float(coords[0]), float(coords[1])]
         line_lst.append(line)
-    gc = GeometryCollection(line_lst)
-    return gc.geojson
+
+    one_path['geometry']['coordinates'] = line_lst
+
+    output['features'].append(one_path)
+
+    # line_lst = []
+    # for i in range(1, len(path)-1):
+    #     coords1 = extract_node_from_string(str(path[i]))
+    #     coords2 = extract_node_from_string(str(path[i+1]))
+    #     line = LineString((float(coords1[0]), float(coords1[1])), (float(coords2[0]), float(coords2[1])))
+    #     line_lst.append(line)
+    # gc = GeometryCollection(line_lst)
+    # return gc.geojson
+
+    filename = 'new_path_example2.geojson'
+    with open(filename, 'w') as outfile:
+        json.dump(output, outfile)
 
 def extract_node_from_string (node_str):
     coords = node_str.strip("()").split(",")
@@ -195,19 +222,53 @@ def extract_node_from_string (node_str):
     return coords
 
 
+# leftBoundary = -122.355331
+# rightBoundary = -122.317377
+# upperBoundary = 47.686790
+# lowerBoundary = 47.665010
+
 
 def main():
-    G_sdw = generate_sdwk_network("data_table/new_small_sidewalks.csv")
-    generate_crossing_network("data_table/crossings.csv")
+    G_sdw = generate_sdwk_network("data_table/new_sidewalks.csv")
+    generate_crossing_network("data_table/new_crossings.csv")
     #print(G_sdw.nodes)
-    src_x = -122.328380
-    src_y = 47.665679
-    dest_x = -122.328261
-    dest_y = 47.674457
+    src_x = leftBoundary
+    src_y = lowerBoundary
+    dest_x = leftBoundary
+    dest_y = lowerBoundary + 0.01
     path = find_shortest_path(src_x, src_y, dest_x, dest_y)
     # print("Path from " + node_to_string(src_x, src_y) + " to " + node_to_string(dest_x, dest_y) + " is: ")
     # print(path_to_string(path))
     print(path_to_geojson(path))
+
+    vis_point_s = {}
+    vis_point_s['type'] = "Feature"
+    vis_point_s['geometry'] = {}
+    vis_point_s['geometry']['type'] = 'Point'
+    vis_point_s['geometry']['coordinates'] = [src_x, src_y]
+    filename = 'start.geojson'
+    with open(filename, 'w') as outfile:
+        json.dump(vis_point_s, outfile)
+
+    vis_point_d = {}
+    vis_point_d['type'] = "Feature"
+    vis_point_d['geometry'] = {}
+    vis_point_d['geometry']['type'] = 'Point'
+    vis_point_d['geometry']['coordinates'] = [dest_x, dest_y]
+    filename = 'end.geojson'
+    with open(filename, 'w') as outfile:
+        json.dump(vis_point_d, outfile)
+    # {
+    #     "type": "Feature",
+    #     "geometry": {
+    #         "type": "Point",
+    #         "coordinates": [125.6, 10.1]
+    #     },
+    #     "properties": {
+    #         "name": "Dinagat Islands"
+    #     }
+    # }
+
 
     # plt.figure()
     # nx.draw(G_sdw)
