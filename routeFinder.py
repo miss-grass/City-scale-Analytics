@@ -134,9 +134,9 @@ def filter(x, y):
 def weight(u, v, d):
     #node_u_wt = G.nodes[u].get('node_weight', 1)
     #node_v_wt = G.nodes[v].get('node_weight', 1)
-    park_list = d.get('park')
-    edge_wt = len(park_list)
-    return edge_wt
+    park = d.get('park')
+    length = d.get('length')
+    return park / length
 
 def use_ent():
     G_ent = ent.graphs.digraphdb.digraphdb('data_db/sidewalks.db')
@@ -172,7 +172,7 @@ def calculate_distance(x1, y1, x2, y2):
 def find_shortest_path(src_x, src_y, dest_x, dest_y):
     node_src = find_closest_node(src_x, src_y)
     node_dest = find_closest_node(dest_x, dest_y)
-    path = nx.dijkstra_path(G, node_src, node_dest, weight="park")
+    path = nx.dijkstra_path(G, node_src, node_dest, weight=weight)
     return path
 
 def node_to_string(x, y):
