@@ -1,0 +1,927 @@
+,sac_id,project,artist_first_name,artist_last_name,title,description,classification,media,measurements,date,location,address,latitude,longitude,Geolocation,closest sidewalk id,closest sidewalk point
+0,ESD00.074.02,CENTRAL LIBRARY,George,Tsutakawa,Fountain of Wisdom,'',Sculpture,Welded bronze,,1957-60,"Central Library, Spring St Plaza",1000 4th Ave,47.6065,-122.33312,"1000 4th Ave
+Seattle, WA
+(47.6065, -122.33312)",16641,POINT (-122.3331235296665 47.60649676969455)
+1,CL77.025,SEATTLE CENTER SCULPTURE GARDEN,Doris,Chase,Moon Gates,'',Sculpture,,,6/23/99,Space Needle Sculpture Garden,305 Harrison St,47.620033,-122.34891699999999,"305 Harrison St
+Seattle, WA
+(47.620033, -122.348917)",4630,POINT (-122.3488289344352 47.6199197949885)
+2,CL99.053,WEST GILMAN BRIDGE,Mark,Lere,Seattle Scatter Piece,'',Sculpture,"Concrete, terrazzo",,1991,West Gilman Bridge, 23rd Ave W & Gilman Ave W,47.632467,-122.37565," 23rd Ave W & Gilman Ave W
+Seattle, WA
+(47.632467, -122.37565)",14172,POINT (-122.3757362712691 47.63259026362292)
+3,PR99.077,DOUGLAS-TRUTH BRANCH LIBRARY,Richard,Spaulding,Renouveau,'',Structures,Stained glass,,1979,Douglas Truth Branch Library ,2300 E Yesler St,47.601833,-122.301767,"2300 E Yesler St
+Seattle, WA
+(47.601833, -122.301767)",40874,POINT (-122.3017671567063 47.6017444485137)
+4,CL77.026,SECOND AVENUE PROJECT,Kurt,Kiefer,Second Avenue Additions,'',Structures,Permanently sited,,2/15/00,2nd Ave & Denny Wy,2nd Ave & Denny Wy,47.61805,-122.35205,"2nd Ave & Denny Wy
+Seattle, WA
+(47.61805, -122.35205)",22549,POINT (-122.3520972737247 47.61796540050344)
+5,CL77.023,SEATTLE ARTISTS 1990,,,Untitled (Kiosk),'',Sculpture,Mixed media; wood; metal,"108x45x22""",MARCH- JUNE 1994,Belltown,4th Ave & Bell St,47.615617,-122.34458300000001,"4th Ave & Bell St
+Seattle, WA
+(47.615617, -122.344583)",37646,POINT (-122.3445835598954 47.61561605288146)
+6,"CL91.015a,b",IN PUBLIC: SEATTLE 1991,Edgar Hachivi ,Heap of Birds,Day/Night,'Lutshootseed and English texts painted on panels  installed on either side of a historical bust of Chief Sealth dedicated to the many transient intertribal native people who live on the streets of Seattle.',IN PUBLIC: SEATTLE 1991,Porcelain enamel on steel panel,"42"" X 84"" EACH",JUNE 1991-JANUARY 1992,Pioneer Square,1st Ave & Yesler Wy,47.601983000000004,-122.33395,"1st Ave & Yesler Wy
+Seattle, WA
+(47.601983, -122.33395)",15641,POINT (-122.3338740896045 47.60181077326713)
+7,PR81.014a-c,JOSE RIZAL PARK,Val,Laigo,East is West,'Wall mural of ceramic and glass tile depicting Filipino history.',2-Dimensional,Ceramic & glass tile,"12'x14'7x3'2.5""",FEBRUARY 1978- JUNE 1981,Dr. Jose P. Rizal Park,1008 12th Ave S,47.59205,-122.31741699999999,"1008 12th Ave S
+Seattle, WA
+(47.59205, -122.317417)",17561,POINT (-122.3173947581591 47.5920499368796)
+8,GCK74.074,ALKI BEACH,Bartoldi,After,Little Liberty,'Replica of the Statue of Liberty',Sculpture,Copper alloy,"6'10""x3'6""x2'11""",ca. 1952,Alki Beach,61st Ave SW & Alki Ave SW,47.579383,-122.410633,"61st Ave SW & Alki Ave SW
+Seattle, WA
+(47.579383, -122.410633)",37885,POINT (-122.410581236933 47.57920572709419)
+9,LIB06.011.01-.03,LIBRARIES FOR ALL - CENTRAL LIBRARY/LIBRARY UNBOUND,Mandy,Greer,"Babe, The Phoenix Fairy, and The Magic Grove",'The three artworks for the Faye G. Allen Children's Center are based on a series of folk tale themes found in the folklore section of the Central Library.  ',Sculpture,"Wood, steel, pink foam, paper mache fabric, beads, glitter, acrylic",Babe - .01: 4'h x 8'w x 3.5'd; Phoenix Fairy - .02:  5'h x 6.5'w x 4'd; Magic Grove - .03  4'h x 8'w x 10'd,"2005. 2005, 2006","Central Library, Faye G. Allen Children's Center",1000 4th Ave,47.6065,-122.33311699999999,"1000 4th Ave
+Seattle, WA
+(47.6065, -122.333117)",16641,POINT (-122.3331221622596 47.60649527556635)
+10,LIB05.002,LIBRARIES FOR ALL--CENTRAL LIBRARY,Gary,Hill,Astronomy by Day (and Other Oxymorons),"'A two channel video Installation projected on the east wall of the atrium, between levels 6-9.   A series of computer-generated 3D objects viewed from a continuous forward tracking shot that moves almost imperceptibly forward. '",VIDEO Installation,"Two-channel video projection, four video projectors with customized wall mounts, two channel synch box, two DVD players and two DVD's","Projector bracket/basket 20"" x 15.5"" x 17""; Wall plate 26"" x 10"" x 4""; Extension Arm from wall approx 37""; vertical shaft on north mount 14 1/4""-south 21 1/4""",2003-04,"Central Library, east wall atrium ",1000 4th Ave,47.6065,-122.33311699999999,"1000 4th Ave
+Seattle, WA
+(47.6065, -122.333117)",16641,POINT (-122.3331221622596 47.60649527556635)
+11,CL77.015,I-90 PORTAL,James,Schoppert,I-90 Portal,'',,Concrete,,1988,Mt. Baker Ridge Tunnel on I-90,,47.5911,-122.288133,"Seattle, WA
+(47.5911, -122.288133)",33569,POINT (-122.2881329001285 47.59108763437701)
+12,ESD00.074.06,BALLARD AVENUE,James Jr.,Washington,Coelacanths,'',Sculpture,Red granite,"12x18""",1978,Ballard,53540 Ballard Ave NW,47.6677,-122.38463300000001,"53540 Ballard Ave NW
+Seattle, WA
+(47.6677, -122.384633)",23114,POINT (-122.384593158004 47.66770000374292)
+13,CETA76.049,,George,Tsutakawa,Naramore Fountain,'',Sculpture,"Bronze, concrete, aggregate","15'x7'3""",1967,6TH AVE & SENECA ST,6th Ave & Seneca St,47.608331,-122.3317,"6th Ave & Seneca St
+Seattle, WA
+(47.608331, -122.3317)",21421,POINT (-122.3317255302636 47.60830763819067)
+14,GCK00.142.01-.10,FORTSON SQUARE  (Project not complete until 2001),Elizabeth,Conner,Fortson Square  ,"'.01 Arched windows:  6'9"" L x 5'5"" W (tapering to 4"" W and 10"" D.  .02 Column:  4'9"" L x 9 1/2"" dia. (base) x 7 1/2"" dia (top)--capital for Column     2' L x 2' W x2' D  .03Tin Ceiling Detail: 4 'L x 2' 10"" W x 8"" D  .04 Logs:  (2) 3'6"" L x 1' W x 6"" D (wil'",Sculpture,"Recycled architectural artifacts, tile, pavers, brick, cast objects, granite sculpture, concrete and plant materials",see description,2000-2001,Pioneer Square,2nd Ave & Yesler Wy (southeast corner),47.601116999999995,-122.3317,"2nd Ave & Yesler Wy (southeast corner)
+Seattle, WA
+(47.601117, -122.3317)",15341,POINT (-122.3316598124675 47.60115376304996)
+15,PL74.067,CENTRAL LIBRARY,Ray,Jensen,Pursuit of Knowledge,'',Bronze,"4'8""x7'7""x6'",,1958-60,9125 Rainier Avenue South,1000 4th Ave,47.521533000000005,-122.27021699999999,"1000 4th Ave
+Seattle, WA
+(47.521533, -122.270217)",7812,POINT (-122.2701330882589 47.52153297445651)
+16,PR88.007.01a-g,WESTLAKE PARK,Robert,Maki,Westlake Star Axis/Seven Hills,'',Environments,Granite; concrete,"30'x2'6x18""",1988,Westlake Plaza,401 Pine St,47.611167,-122.3373,"401 Pine St
+Seattle, WA
+(47.611167, -122.3373)",5946,POINT (-122.3373264252773 47.61123002026746)
+17,CL98.050,BENAROYA SYMPHONY HALL,Anna Valentina,Murch,Skytones,'A volume lighting work in 5 essentially square niches lit by concealed horizontal lines of florescent lights that are programmed through a dimming panel to create a continual abstract reference to dissolving twilight and changing daylight.',Sculpture,Fluorescent lights with lighting jells in painted white niches,25' X ~120' X ~6',1997-98,Benaroya Hall,200 University St,47.60885,-122.336367,"200 University St
+Seattle, WA
+(47.60885, -122.336367)",34975,POINT (-122.3363712049633 47.60886003438495)
+18,PR99.044,WEST SEATTLE CULTURAL TRAIL,,"Fels, Donald; Feddersen, Joe; Quick to see Smith, Jaune",Bronze Imbeds,"'Eight bronze insets inbedded in concrete and located along the West Seattle Cultural Trail.  Images include a bear, canoe, ship, hands and three insets with images of swim pins.  The West Seattle Cultural Trail Phase I art elements (pavers, insets, plaques, medallions and viewing devices) are grouped into a common theme, interweaving nature and culture with the historic and botanical to showcase the memories associated with this place.'",Mixed Media,Evedur silicon bronze alloy; 655 fabricated from 250 plate.,"bear: 3x4'; cande: 2'4""x6'7""; ship: 4'6""x6'2""; hands:...",1997-1998,Park - Alki Beach  ,,47.58215,-122.403517,"Seattle, WA
+(47.58215, -122.403517)",1001,POINT (-122.4034928567966 47.58209742800857)
+19,PR99.043,WEST SEATTLE CULTURAL TRAIL,,"Fels, Donald; Feddersen, Joe; Quick to see Smith, Jaune",Pavers,"'Eighty-four blue stone pavers in concrete and consisting of sandblasted images and text.  Each paver has a separate image.   The pavers are located along the West Seattle Cultural Trail, which extends from Alki Beach to the Duwamish River.   The West Seattle Cultural Trail Phase I art elements (pavers, insets, plaques, medallions and viewing devices) are grouped into a common theme, interweaving nature and culture with the historic and botanical to showcase the memories associated with this place.'",Mixed Media,Blue stone pavers in concrete,"various - 11x17""; 17x17""; 11.5x11.5""",1997-1998,Park - Alki Beach  ,,47.58215,-122.403517,"Seattle, WA
+(47.58215, -122.403517)",1001,POINT (-122.4034928567966 47.58209742800857)
+20,GCK98.042a-w,THE FIN PROJECT,John T.,Young,The Fin Project:  From Swords into Plowshares,"'Sculptural Installation of 22 diving plane fins from decommissioned U.S. Navy attack submarines, in an arrangement suggesting an orca pod or a school of salmon.'",Sculpture,High-tensile steel fused to syntactic foam; carboline mb 133 satin black paint; concrete,12' X 300' X 500',1997-1998,Magnuson Park,6550 Sand Point Wy NE,47.68085,-122.24733300000001,"6550 Sand Point Wy NE
+Seattle, WA
+(47.68085, -122.247333)",37060,POINT (-122.254329899533 47.67403980126174)
+21,PR97.004,WEST SEATTLE CULTURAL TRAIL,Joe,Feddersen,Alki / Duwamish Culture Trail,"'Various brass insets and etched granite pavers containing text and images pertaining to area history, with poetry and statements about people who have lived in West Seattle.'",Environments,Bronze; stone,,1996-97,Alki Beach,Bonair Dr SW & Alki Ave SW,47.58215,-122.403517,"Bonair Dr SW & Alki Ave SW
+Seattle, WA
+(47.58215, -122.403517)",1001,POINT (-122.4034928567966 47.58209742800857)
+22,WD96.025,I-90 VIEWPOINT,Leback,Garner,Equality,"'A sited sculptural Installation of granite and bronze within a landscape; the title refers to a quote from ""on the goals of equality"" a chapter form Alexis de Toqueville's “Democracy in America”, published in 1835.  '",Sculpture,"Granite, bronze",,1995-96,Sturgus Park,904 Sturgis Ave S,47.59405,-122.314117,"904 Sturgis Ave S
+Seattle, WA
+(47.59405, -122.314117)",10034,POINT (-122.3136056052826 47.5930785644214)
+23,PR94.018,DELRIDGE COMMUNITY CENTER,,Wang Po Shu,Geomantic Artwork,"'Environmental piece composed of 3 boulders located on a field outside the center.  Two of the boulders were found on site and placed in triangular juxtaposition with a bronze replica of one of the boulders, creating pathways between the boulders. '",Environments,"Bronze, stone",6'x3'x4',1993-94,Delridge Community Center,4501 Delridge Wy SW,47.563567,-122.3645,"4501 Delridge Wy SW
+Seattle, WA
+(47.563567, -122.3645)",35684,POINT (-122.3653859940178 47.56357451396025)
+24,SC93.027a-d,SEATTLE CHILDREN'S THEATRE RENOVATION,Garth,Edwards,Garthgoyles:  Designs for the Charlotte Martin Theatre,"'Red cut-out figures and other designs make up the indoor door frames and balcony railing -  yellow cut-out animal figures make up ""garthgoyles"" along outside of building, and similar designs in blue, green, and white grace the ceramic tile mural outside.'",Sculpture,Enamel on steel; ceramic tile,,1992-1993,Seattle  Children's Theatre,201 Thomas St,47.62085,-122.35211699999999,"201 Thomas St
+Seattle, WA
+(47.62085, -122.352117)",22762,POINT (-122.3527340225631 47.62081135392909)
+25,CL86.045,FIRST AVENUE PROJECT,Jack,Mackie,Street Treatment,'TOTAL STREET DESIGN WITH PURPLE PLUM  TREES TO MARK BUS STOPS AND SANDSTONE BENCHES TO SERVE AS   REST STOPS; GRATES DESIGNED TO PROTECT TREES' ROOT SYSTEMS;  ROUGH BOULDERS; RECYCLED STONE STEPS; SPLIT-SANDSTONE SLABS',Sculpture,"Concrete, sandstone, trees",,1985-1986,Belltown,Along 1st Ave between Denny Wy and Virginia St.,47.617967,-122.35443300000001,"Along 1st Ave between Denny Wy and Virginia St.
+Seattle, WA
+(47.617967, -122.354433)",37160,POINT (-122.3544544734701 47.61793058733461)
+26,CL86.046a-g,CANAL STREET SUBSTATION,Barbara,Noah,Forms of Power,'7 windows: 1) love; 2-4) physical power (rock-paper-scissors); 5) the law; 6) money; 7) the mind                                                            ',2-Dimensional,Sign paint on plexiglas,,1983-85,Canal Street Sub-station,,47.661483000000004,-122.36463300000001,"Seattle, WA
+(47.661483, -122.364633)",2006,POINT (-122.364633021127 47.66151824461557)
+27,PR84.090,BENEFIT PARK,Joe,Wheeler,Common Ground,'Sculptural arrangement with two vertical elements like a split pillar on a raised platform.',Sculpture,"Sandstone, granite",,1983-84,Benefit Park,9320 38th Ave S,47.518917,-122.284567,"9320 38th Ave S
+Seattle, WA
+(47.518917, -122.284567)",9399,POINT (-122.2837805701328 47.51891386741864)
+28,CETA79.035a-h,SEATTLE AQUARIUM,Jay,Kohn,Marine-Life Paintings,'SEALS; SEA OTTERS; TUFTED PUFFIN AND FIVE OTHER PAINTINGS OF UNDER-WATER MARINE LIFE PAINTED ON SEPARATE SHEETS OF  PLEXIGLAS AND INSET AS DIFFERENT LAYERS INTO WOOD FRAMES CREATING A 3-D ILLUSION.',2-Dimensional,Acrylic/plexiglas,"60x72x7""  EA",1978-80,Seattle Aquarium ,1483 Alaskan Wy,47.607317,-122.342133,"1483 Alaskan Wy
+Seattle, WA
+(47.607317, -122.342133)",10107,POINT (-122.3420127884522 47.60753287164094)
+29,CL77.018,MYRTLE EDWARDS PARK,Michael,Heizer,"Adjacent, Against, Upon",'',Sculpture,"Concrete, granite",9'x25'x130',1976-1977,Myrtle Edwards Park ,3130 Alaskan Wy N,47.619367,-122.361883,"3130 Alaskan Wy N
+Seattle, WA
+(47.619367, -122.361883)",608,POINT (-122.3609212715959 47.62052531558085)
+30,CL75.049,LOUISA BOREN LOOKOUT,Lee,Kelly,Untitled Cor-Ten Steel Sculpture,'Composed of 10 interlocking blocks of welded cor-ten steel rusted to a rich brown color.',Sculpture,Welded cor-ten steel,19'X14'X10',1975-1976,Louisa Boren Park,15th Ave E & E Olin Pl,47.634333000000005,-122.31233300000001,"15th Ave E & E Olin Pl
+Seattle, WA
+(47.634333, -122.312333)",7622,POINT (-122.3123340318463 47.63418667961946)
+31,CL75.000,MOSES PURCHASE,Tony,Smith,Moses,'Black abstract sculpture',Sculpture,Painted steel,"136.5"" X 180"" X 88""",1968-1975,Space Needle Sculpture Garden ,400 Broad St,47.6208,-122.348933,"400 Broad St
+Seattle, WA
+(47.6208, -122.348933)",4629,POINT (-122.3484671878136 47.62020120342972)
+32,ESD00.074.04,CENTRAL LIBRARY,James,Fitzgerald,Sculptural Screen,'',Sculpture,"Welded cast bronze, enamel on brass, colored glass",,1958-60,"Central Library, West Entrance ",1000 4th Ave,47.606167,-122.333483,"1000 4th Ave
+Seattle, WA
+(47.606167, -122.333483)",40504,POINT (-122.3334021838067 47.6059736683199)
+33,GCK74.045,PIONEER PLACE PARK,Charles,Brown,Seattle Totem Pole,'Replica of a Tlingit pole taken from a Tlingit village in Alaska in the early 1900's.',Sculpture,Polycrhomed carved alaskan red cedar,"50'x4'6""DIAM",1939-40,Pioneer Square Park,100 Yesler Wy,47.6021,-122.33406699999999,"100 Yesler Wy
+Seattle, WA
+(47.6021, -122.334067)",16759,POINT (-122.334312907145 47.60210099300032)
+34,PR03.050,PARKS DEPARTMENT,,Various,World Flight Monument,'A monument composed of a granite pylon and with a sculpture of bronze wings topping it.',Sculpture,Granite and bronze,,1930s?,Magnuson Park,7600 Sand Point Wy NE,47.671633,-122.263567,"7600 Sand Point Wy NE
+Seattle, WA
+(47.671633, -122.263567)",362,POINT (-122.2635630102632 47.67163306056008)
+35,GCK74.049,SEWARD PARK,,,Untitled Stone Garden Lantern,'Large one-tiered granite taiko-gata lantern.',Sculpture,Carved granite,,1930 (replica),Seward Park,5902 Lake Wash Blvd S,47.54958,-122.25731999999999,"5902 Lake Wash Blvd S
+Seattle, WA
+(47.54958, -122.25732)",19231,POINT (-122.2575354095601 47.54962457537491)
+36,ED75.110,TILIKUM PLACE,James,Wehn,Chief Seattle,"'Based on the only known photo of Chief Seattle – the statue is posed looking out toward Puget Sound, his arm raised in greeting.  On a granite base are two bronze bear heads that serve as waterspouts and two bronze plaques depicting historical events of the city.'",Sculpture,"Cast, gilded bronze, granite",(LIFE-SIZE),1907-1912,Tilikum Place Park,5th Ave & Denny Wy,47.618417,-122.347417,"5th Ave & Denny Wy
+Seattle, WA
+(47.618417, -122.347417)",36842,POINT (-122.347486299349 47.61841748712948)
+37,PR89.022,BALLARD PLAYGROUND,Charles,Greening,Ballard Boat,"'Highly detailed sculpture resembling a full-scale boat prow emerging from the water, made of a variety of materials and miscellaneous objects.  Located on the sandy playground of the community center, used as a play structure.'",Sculpture,Cast concrete; bronze; yellow cedar; rubber,"92x224x333""",10/88-08/89,Ballard Playground,2644 NW 60th St,47.67275,-122.39265,"2644 NW 60th St
+Seattle, WA
+(47.67275, -122.39265)",21105,POINT (-122.3928927962803 47.67274876311495)
+38,LIB06.010,LIBRARIES FOR ALL - NORTHGATE  BRANCH,Dana Lynn,Louis,Circulation,"'A vertical installation of colored glass circles fused onto glass panels.  The glass panels are integrated into the book drop at the plaza entry to the branch.  There are two visual layers that make up this work, the first being abstracting “drawing” in the glass that illustrates the general concept of language and the second a visual calligraphic abstraction of language. Conceptually, the piece refers to the collection, digestion and dissemination of knowledge that occurs daily at the library.'",Installation,"Kiln formed and sandblasted, laminated glass","13'h x 9'w x 3/4""d",5/1/06,"Northgate Branch Library, Plaza entry",10548 5th Ave NE,47.706033000000005,-122.322717,"10548 5th Ave NE
+Seattle, WA
+(47.706033, -122.322717)",9283,POINT (-122.3230430464686 47.70602883387031)
+39,SPU05.053,LINCOLN RESERVOIR,Douglas,Hollis,Water Works,"'The Source element is approximately 35 feet in diameter, and 12’ high; water flows out of the top over granite cobbles.  The center of the cone is offset, so that the north side is sloped more gently and the water flowing down the surface will be softer so'",Sculpture,"Water, granite, metal","Source cone:  36"" x 12'h; 10 flow diverters:  each 5""h x 4-7""w x 6-11""d",11/1/05,Park - Cal Anderson Park,1635 11th Ave,47.60232,-122.33243,"1635 11th Ave
+Seattle, WA
+(47.60232, -122.33243)",10149,POINT (-122.3323396253138 47.60228878335681)
+40,PR05.054,2000 PRO PARKS LEVY - ALBERT DAVIS PARK/LAKE CITY CIVIC CORE,Perri,Lynch,Imbrication,"'The artwork includes 17 acid-stained, precast concrete sculptures in the shape of waveforms and a custom hatch cover.  The overall design features three complex waveforms at the center of the park, echoed by single waves propagating down the stairs. '",Sculpture,"Concrete, stainless steel","Sculptures:  60""h x 17'w x approx. 32""d.  Hatchcover:  25 1/2"" diam.",10/1/05,Albert Davis Park,12526 27th Ave NE,47.72015,-122.298717,"12526 27th Ave NE
+Seattle, WA
+(47.72015, -122.298717)",10994,POINT (-122.2990133385958 47.72014746304621)
+41,LIB05.052,CENTRAL LIBRARY - LIBRARY UNBOUND,George,Legrady,Making Visible the Invisible,"'An electronic Installation consisting of animated visualizations on six plasma screens located on a glass wall horizontally behind the librarians' main information desk in the Mixing Chamber, an open public space dedicated to online computer research.  '",Installation,"Digital data on server, 3 computers, 6 LCD screens",N.A.,9/1/05,Central Library ,1000 4th Ave,47.6065,-122.33311699999999,"1000 4th Ave
+Seattle, WA
+(47.6065, -122.333117)",16641,POINT (-122.3331221622596 47.60649527556635)
+42,LIB05.052,CENTRAL LIBRARY - LIBRARY UNBOUND,George,Legrady,Making Visible the Invisible,"'An electronic Installation consisting of animated visualizations on six plasma screens located on a glass wall horizontally behind the librarians' main information desk in the Mixing Chamber, an open public space dedicated to online computer research.  '",Installation,"Digital data on server, 3 computers, 6 LCD screens",N.A.,9/1/05,Central Library ,1000 4th Ave,47.6065,-122.33311699999999,"1000 4th Ave
+Seattle, WA
+(47.6065, -122.333117)",16641,POINT (-122.3331221622596 47.60649527556635)
+43,SAC06.001,ARTS UP - Courtland Hill Climb,Donald,Fels,Periscope Tree,"'Sculpture is in the form of a ""hydra-headed""  tree that includes a periscope that allows for a 360 degree view.'",Sculpture,"Galvanized sheet steel, pattern cut and welded",16'h x 8'w,11/1/04,Courtland Hill Climb ,37th Ave S & Courtland Pl S,47.569783,-122.2863,"37th Ave S & Courtland Pl S
+Seattle, WA
+(47.569783, -122.2863)",7106,POINT (-122.2860139471484 47.56978331166344)
+44,LIB05.009,LIBRARIES FOR ALL - WALLINGFORD BRANCH,Richard,Elliott,Five Neons,"'Five window hung neon pieces of artwork that express the unique activities of the Wallingford Library.  The neon artworks consist of five symbols, each representing a different aspect of the Library.  The five symbols are the glove, a jigsaw puzzle piece,'",Installation,Neon (window mounted),"Five pieces, each 19"" x 19""",6/1/04,"Wallingford Branch Library, interior windows on north side of building.",1501 N 45th St,47.661317,-122.338783,"1501 N 45th St
+Seattle, WA
+(47.661317, -122.338783)",16063,POINT (-122.3387829883754 47.66129976580734)
+45,GCK03.012.01-.04,HILLMAN CITY GIFT,Stuart,Nakamura,Wit and Wisdom,'Two cast concrete gateway pieces and two painted steel pillars.    The pillars are embellished with various images and two representative proverbs.  24 Bronze plaques inscribed with proverbs are installed around the concrete base of the pillars.',Sculpture,"Concrete, painted steel, bronze plaques, painted aluminum and ceramic tiles","168"" x 32"" x 15""",1/1/01,Columbia City,NW Corner of Rainier and Findlay St. and on the SE corner of Rainier and Juneau,47.551266999999996,-122.2779,"NW Corner of Rainier and Findlay St. and on the SE corner of Rainier and Juneau
+Seattle, WA
+(47.551267, -122.2779)",38788,POINT (-122.2779000899016 47.5512469971423)
+46,GCK01.019,GIFT TO THE CITY OF SEATTLE FROM THE SEATTLE CENTER FOUNDATION,Gerard,Tsutakawa,Fountain of Seseragi,"'Recurrent forms in Tsutakawa's work include series of steps and repetitions of curves, which often combine to create a dynamic tension before allowing the essential balance to come through and transform the experience into one of deep serenity.  '",Sculpture,"Bronze, Silicon and Copper Tubing","63"" x 144"" x 24""",9/15/00,"Seattle Center, near Kobe Bell",305 Harrison St,47.62335,-122.35247,"305 Harrison St
+Seattle, WA
+(47.62335, -122.35247)",34774,POINT (-122.3524677010191 47.62446095980228)
+47,ED98.025a-ff,EASTLAKE DISTRICT ARTWORK PROJECT,Stacy,Levy,Cornerstones,"'32 cast glass and stone sidewalk insets each depicting a different micro-organism, such as protozoa, rotifers, algae, diatoms and crustaceans found on Lake Union or on its shores. '",Sculpture,"Sandblasted sandstone, cast glass","24"" X 24""",10/1/97,Eastlake ,Eastlake Ave E between E Galer and Fuhrman Ave E,47.632166999999995,-122.32625,"Eastlake Ave E between E Galer and Fuhrman Ave E
+Seattle, WA
+(47.632167, -122.32625)",8445,POINT (-122.3263015021149 47.63213861122932)
+48,ED98.024a-c,EASTLAKE DISTRICT ARTWORK PROJECT,Linda,Beaumont,Dreamboats,"'Three kiosks entitled Respect, Read and Rest.  Upside down kayaks resting on metal columns, meant for notices to be posted. Coming out from under the kayak are approximately 7-8 oars.'",Sculpture,"Fiberglass, fabricated steel, mosaic, slate, stained concrete","11' X 17' 6"" X 1' 6""",10/1/97,Eastlake ,"Eastlake Ave E at E. Boston Street, E. Lynn Street ",47.640183,-122.32596699999999,"Eastlake Ave E at E. Boston Street, E. Lynn Street 
+Seattle, WA
+(47.640183, -122.325967)",6139,POINT (-122.3260146483804 47.64018306401161)
+49,PR97.026,BITTERLAKE COMMUNITY CENTER,,Wang Po Shu,Untitled Star Map Floor Inlay,"'A constellation map etched in granite installed under the conical skylight at the entrance to the lobby.  A sun marker, four planet markers and the asteroid belt marker inlaid in the lobby area.  Four other planet markers inlaid outdoors along the front walk.'",2-Dimensional,"Granite, stainless steel, epoxy, pvc piping, aluminum, wood","STAR MAP 48"" DIAM.; MARKERS 4"" DIAM.",3/1/97,"Bitter Lake Community Center , near North entrance to the lobby",13035 Linden Ave N,47.724083,-122.348533,"13035 Linden Ave N
+Seattle, WA
+(47.724083, -122.348533)",11797,POINT (-122.3482464243083 47.7240418162646)
+50,NEA97.024,BITTERLAKE COMMUNITY CENTER,Beliz,Brother and Mark Calderon,Water Borne,'Wall-mounted cast aluminum high relief sculpture on stained fiberboard.',Sculpture,Cast aluminum; medium density fiberboard; stain,"12""H x 60""W",3/1/97,Bitter Lake Community Center Lobby,13035 Linden Ave N,47.724167,-122.348633,"13035 Linden Ave N
+Seattle, WA
+(47.724167, -122.348633)",11797,POINT (-122.3482366204108 47.72411003636842)
+51,PR97.025,BITTERLAKE COMMUNITY CENTER,Marita,Dingus,Swimming Fish,"'The artist worked with children at the Bitter Lake Community Center to create 39 mobiles using fish forms cut from tin cans, and seaweed made from film negatives strung on wire; the fish are painted with felt tip marking pens and finger-nail polish. '",Sculpture,Tin cans; film negatives; coated wire,"39 PIECES RANGING FROM 36x72"" to 6x12""",3/1/97,"Bitter Lake Community Center, inside main hallway, hanging from the ceiling.",13035 Linden Ave N,47.724233,-122.348633,"13035 Linden Ave N
+Seattle, WA
+(47.724233, -122.348633)",11797,POINT (-122.3482273274862 47.72417470088408)
+52,PR97.022,BITTERLAKE COMMUNITY CENTER,Beliz,Brother and Mark Calderon,Aureole,"'A cast aluminum frieze of a repeating leaf motif along the entrance canopy, illuminated with neon.'",Sculpture,Aluminum; bronze mesh; neon,"24x264x2""",2/18/97,"Bitter Lake Community Center, north entrance outside above door",13035 Linden Ave N,47.7243,-122.348633,"13035 Linden Ave N
+Seattle, WA
+(47.7243, -122.348633)",11797,POINT (-122.3482178937597 47.72424034516513)
+53,PR97.002,MEADOWBROOK COMMUNITY CENTER,Beliz,Brother,Weather Prophet,'Aluminum cut-out weathervane topped by stylized gilded heron.',Structures,"Powder-coated aluminum, gold leaf","108x60x8.5""",1/1/97,Meadowbrook Community Center ,10515 35th Ave NE,47.70575,-122.291367,"10515 35th Ave NE
+Seattle, WA
+(47.70575, -122.291367)",2680,POINT (-122.2909809279743 47.70573792583194)
+54,PR96.051,MEADOWBROOK COMMUNITY CENTER,Mark,Calderon,Fleet,"'25 hollow cast abstract forms, suspended from the ceiling with stainless steel cables, alluding to a school of fish.'",Sculpture,"Gypsum cement, copper powder, paint","25@ 10x7x26""",12/1/96,"Meadowbrook Community Center, Lobby",10515 35th Ave NE,47.705783000000004,-122.291367,"10515 35th Ave NE
+Seattle, WA
+(47.705783, -122.291367)",2680,POINT (-122.2909798969278 47.70577089358659)
+55,"PR96.053a,b",MEADOWBROOK COMMUNITY CENTER,Marita,Dingus,Fish Children,'The artist created two oversized fish forms:  the heads and tails are made from painted plywood and the bodies of juice can lids strung together with green plastic coated wire.  Integrated into the fish heads are images of children's faces.',2-Dimensional,"Painted plywood, aluminum, plastic-coated cable",a: 12x3'  b: 8x3',12/1/96,"Meadowbrook Community Center, Lobby",10515 35th Ave NE,47.70585,-122.29133300000001,"10515 35th Ave NE
+Seattle, WA
+(47.70585, -122.291333)",2680,POINT (-122.2909777703685 47.70583889040908)
+56,NEA96.054,MEADOWBROOK COMMUNITY CENTER,Beliz,Brother,Schema,"'A wall-mounted cast aluminum high relief sculpture on painted wood, ""Schema"" was created with the assistance of young people at the community center.'",Sculpture,Cast aluminum; ranger board; paint,"46x84x2""",12/1/96,Meadowbrook Community Center ,10515 35th Ave NE,47.7059,-122.291367,"10515 35th Ave NE
+Seattle, WA
+(47.7059, -122.291367)",2680,POINT (-122.2909762413993 47.70588777926215)
+57,CL77.019,NORA'S WOODS PARK,Thomas,Jay,Homecoming,'The sculpture depicts a coho salmon fighting its way upstream to its egg-laying waters. ',Sculpture,Bronze & stone,"11""X30""X 11""",1999,Fautleroy Creek,Nora's Woods in Central Seattle,47.523467,-122.39363300000001,"Nora's Woods in Central Seattle
+Seattle, WA
+(47.523467, -122.393633)",25872,POINT (-122.3936342514764 47.52311909609749)
+58,PR96.026,RAINIER COMMUNITY CENTER,Beliz,Brother,Clock Tower,'Relief arch on red wall with yellow painted inset diamonds; relief surrounds a clock at the top of arch way.',DRAWINGS,Cast aluminum; paint,"8'6""x6'6""",9/1/96,Rainer Community Center Lobby,4600 38th Ave S,47.561533000000004,-122.28471699999999,"4600 38th Ave S
+Seattle, WA
+(47.561533, -122.284717)",4384,POINT (-122.2848254887013 47.56153270567962)
+59,PR96.029,RAINIER COMMUNITY CENTER,,Wang Po Shu,Earth Story,'Engraved river-wash rocks with natural finish embedded into concrete with stainless steel pins and construction epoxy.',Sculpture,"Engraved river stones, boulder","12 STONES: 8"" TO 24"" DIAM",8/1/96,Rainer Community Center ,4600 38th Ave S,47.5616,-122.28463300000001,"4600 38th Ave S
+Seattle, WA
+(47.5616, -122.284633)",26413,POINT (-122.2846341624398 47.56171925511717)
+60,SC96.014a-l,CHILDREN'S MUSEUM RENOVATION,Kelly,McLain,Migrare,"'12 cast glass bird heads all indigenous species to the Pacific NW, hand-painted in vibrant colors.  Exterior:  Puffin, King Fisher, Trumpeter Swan, Stellar Jay, and Bullocks Oriole.  Interior:  Stellar Jay.'",Sculpture,Sandcast glass; acrylic,"19x19x3"" each bird",12/1/95,"Seattle Center - Children's Museum, inside and SW entrance",305 Harrison St,47.621767,-122.3515,"305 Harrison St
+Seattle, WA
+(47.621767, -122.3515)",18325,POINT (-122.3527441731274 47.62097341767908)
+61,SC95.043,EAST/WEST PLAZA-SEATTLE CENTER COLISEUM,Scuri,Scuri,Play Ray Plaza,"'Radiating diamond pattern of red, gold and black integrally-colored concrete with inset stainless steel screed marking meridians.'",Environments,Colored concrete; 1/2 stainless steel screed,"APPROX 40,000 SQ FT",10/23/95,Seattle Center - Key Arena West Plaza,400 1st Ave N,47.622433,-122.35518300000001,"400 1st Ave N
+Seattle, WA
+(47.622433, -122.355183)",19353,POINT (-122.3553058722597 47.6224340099194)
+62,SC95.051,CENTER HOUSE SOUTH PLAZA RENOVATION,Timothy,Siciliano,Circus Ring Plaza,"'Two 20-foot sculptural wall sconces in the form of acrobats, light a colored concrete circus-ring design in front of the south entrance to the Seattle Center House.'",Sculpture,Aluminum; colored concrete,2@ 20'H,10/1/95,"Seattle Center, SW entrance of Center House, indoor and outdoor",305 Harrison St,47.621,-122.35088300000001,"305 Harrison St
+Seattle, WA
+(47.621, -122.350883)",22762,POINT (-122.3527385588673 47.62088378049064)
+63,PR94.025,DELRIDGE COMMUNITY CENTER,Marita,Dingus,Children's Screen,"'bottle caps, tin cans, and Photographs of faces of children in the Delridge community.'",Sculpture,"Mixed media.  Plexiglas, Photographs, recycled materials",,11/1/94,"Delridge Community Center, Reception area",4501 Delridge Wy SW,47.563367,-122.364167,"4501 Delridge Wy SW
+Seattle, WA
+(47.563367, -122.364167)",36157,POINT (-122.363489224112 47.56334954739724)
+64,PR95.014.02,GARFIELD COMMUNITY CENTER,Marita,Dingus,Shango Throne,"'Painted male figure in wall niche decorated with all sorts of recycled material on an orange background, flanked by painted wood tiles. Decorated by community children.'",2-Dimensional,Wood; enamel; recycled materials; metal; paint,10'x5',9/1/94,"Garfield Community Center, outdoors",2323 E Cherry St,47.607683,-122.30215,"2323 E Cherry St
+Seattle, WA
+(47.607683, -122.30215)",21405,POINT (-122.3021494596547 47.60792396443613)
+65,PR95.014.01,GARFIELD COMMUNITY CENTER,Marita,Dingus,Oshun Throne,'Painted female figure on wall niche decorated with all sorts of recycled metal with a yellow background and flanked with painted wood.  Decorated by community children.',2-Dimensional,Wood; enamel; recycled materials; metal; paint,10'x5',9/1/94,"Garfield Community Center, outdoors",2323 E Cherry St,47.60775,-122.302383,"2323 E Cherry St
+Seattle, WA
+(47.60775, -122.302383)",21405,POINT (-122.302382608725 47.60792448725604)
+66,PR89.001,GREENLAKE COMMUNITY CENTER,Paul,Marioni,Seven Figures,"'Cast glass tiles, silicon mortar, inner aluminum frames to hold glass with outer frame made of aluminum; depicts 7 life-size human figures swimming through the water.'",Structures,Cast glass,"57x31x.5""",2/1/89,Evans Pool ,7201 E Greenlake Dr N,47.680417,-122.3281,"7201 E Greenlake Dr N
+Seattle, WA
+(47.680417, -122.3281)",13431,POINT (-122.3274108020498 47.68149507546997)
+67,ED79.031,INTERNATIONAL DISTRICT,George,Tsutakawa,"Heaven, Man, Earth",'Vertical abstract sculpture with a black patina is mounted on a cylinder of concrete and lighted',Sculpture,Bronze,14x4x4',6/1/78,Pioneer Square,Maynard Ave S & S Jackson St,47.598983000000004,-122.32518300000001,"Maynard Ave S & S Jackson St
+Seattle, WA
+(47.598983, -122.325183)",3769,POINT (-122.3251472713207 47.59898285525662)
+68,GCK74.091,DOUGLAS-TRUTH BRANCH LIBRARY (NON-SAC),,,Soul Pole,'Carved pole in the style of Native American totems depicting the history of the black man.',Sculpture,Wood,H:21',10/1/72,Douglas Truth Branch Library ,2300 E Yesler St,47.60185,-122.30218300000001,"2300 E Yesler St
+Seattle, WA
+(47.60185, -122.302183)",40874,POINT (-122.3021831854878 47.60174518474471)
+69,PR05.051,1999 COMMUNITY CENTER LEVY - SOUTHWEST COMMUNITY CENTER,Ashley,Thorner,JUMs,"'JUMs combines three elements (jellyfish/umbrellas/mushrooms)  that relate to the Northwest environment.  Each ten-foot high sculpture consists of a stainless steel ""stem"" and upper ""cap"" that has been cast in fiberglass.'",Sculpture,"Stainless steel, fiberglass","132""h x 66""w x 66""d",2005,"Southwest Community Center, South entrance",2801 SW Thistle St,47.527683,-122.36881699999999,"2801 SW Thistle St
+Seattle, WA
+(47.527683, -122.368817)",32921,POINT (-122.3688167282978 47.52820641991696)
+70,ST04.095,WEST LAKE UNION PATHWAY,Maggie,Smith,Spur Line,"'The artwork consists of benches, sidewalk inserts, pedestrian handrail dispersed along the pathway.  View decks have been built in a number of stations.'",Environments,"Galvanized steel, salvaged douglas fir, stainless steel, bronze and concrete","variable, in approximately 10 locations along 1.6 miles of West Lake Union",2004,West Lake Union (1.6 mi. along west shore),,47.6323,-122.34053300000001,"Seattle, WA
+(47.6323, -122.340533)",40464,POINT (-122.3405650725646 47.63231183250227)
+71,LIB05.014.01-.02,LIBRARIES FOR ALL - BEACON HILL BRANCH,Miles,Pepper,.01 - Beacon Hill Discovery; .02 - Ravens Bill Downspouts,"'.01 = A kinetic metal sculpture in the form of a boat.  The sculpture rises above the Library like a large weathervane pointing in the breeze.  The highly engineered sculpture captures wind patterns and slowly changes form as it opens and closes with the wind.  The upper extensions have the capability of folding down in high winds.  The sculpture symbolizes the spirit of adventure the artist feels when entering a library.  The intention is that the sculpture be interpreted as a metaphor for each individual's personal journey.  The library, like a port at the edge of a great ocean, can be viewed as a point of departure from which each traveler may freely set sail. .02 - Two artist designed and created rain scuppers on the west side of the Library building.  Construction of upper half (as well as hull of boat sculpture) were inspired by the design of the Library's roof structure.'",Sculpture,".01 = Aluminum, stainless steel, steel; .02 = Copper, stainless steel",".01 = 11'-8""h x 13'-7""w x 17'd'; .02 = 1' - 3""h x 1' - 6""w x 2' - 8""d",2005,Beacon Hill Branch Library,2821 Beacon Ave S,47.577833,-122.31126699999999,"2821 Beacon Ave S
+Seattle, WA
+(47.577833, -122.311267)",38492,POINT (-122.3112669701119 47.57780382875653)
+72,LIB05.007,LIBRARIES FOR ALL - INTERNATIONAL DISTRICT/CHINATOWN BRANCH,Rene,Yung,Wellspring,"'Wellspring is a collection of teacups donated by the community, each cup an individual well of nourishment, and jointly, a gathering of goodwill and vitality.  '",Installation,"Teacups, MDF, epoxy, paint, plywood, sandblasted glass, cast urethane, LED lighting.","Various - 60"" x 94"" x 5"", 9"" x 9 7/8"" x 4"", 20 3/8"" x 65 15/16"" x 1/4""",2005,International District/Chinatown Branch Library,713 8th Ave S,47.59615,-122.32236699999999,"713 8th Ave S
+Seattle, WA
+(47.59615, -122.322367)",8504,POINT (-122.3223256032441 47.59614982718327)
+73,PR05.050,1999 COMMUNITY CENTER LEVY - YESLER COMMUNITY CENTER,Ela,Lamblin,Whirl Piece:  Current Events,"'The artwork is a gazebo-like sculpture that includes  stainless steel tubing framework, dome, wind catch and shaft and aluminum tubular bells.  '",Sculpture,"Stainless steel, aluminum tubular bells",18' x 10' x 10',2005,Yesler Community Center,917 E Yesler Wy,47.601517,-122.32055,"917 E Yesler Wy
+Seattle, WA
+(47.601517, -122.32055)",33806,POINT (-122.3205494351514 47.60161706470626)
+74,FFD05.022,SEATTLE CIVIC CENTER-CITY HALL-HILLCLIMB PROJECT,Beliz,Brother,illumine,"'A series of glass dichroic discs, 24"" in diameter, are suspended from the ceiling to create illumine, an ever-changing artwork in the glass lantern tower on the northwest corner of City Hall.  Viewed from all four sides, above and below, the discs create a transparent abstraction of shifting color and light.'",Installation,"Dichroic coated glass, stainless steel cable and hardware, metal halide lights","20'8"" h x 11'w x 8'10""d",2005,Seattle City Hall - Hillclimb Stairwell,600 4th Ave,47.603867,-122.33055,"600 4th Ave
+Seattle, WA
+(47.603867, -122.33055)",35129,POINT (-122.3306388350381 47.6037857492711)
+75,SC05.045,MARION OLIVER MCCAW HALL - LOBBY (COMMUNITY PERFORMANCE HALL),Sarah,Sze,An Equal And Opposite Reaction,"'The artwork is a mixed media sculpture.  The title of the artwork is a phrase borrowed from Newton's Third Law of Motion.  Movement through the lobby determines the form of the sculpture in several ways.  As the viewer enters the lobby, the vortex structure of the sculpture is designed to sweep the viewer's sight line up into the space above. Entering from the direction of the café, the spinning vortex acts as an eddie, if you will, in the flow of light and space that curves down the hall.  From the different views offered by the balconies and the stairs of the lobby, a multitude of vantage points are revealed as the sculpture is viewed in the round, and the climbing and tumbling structures within the sculpture play on the movement of the two stairways that flank the piece's location.'",Sculpture,"Mixed:  3/8"" x 1/4"" aluminum; plastic levels; artificial plants; steel tape measures; plastic cable ties/water bottles/cups/push pins/electrical parts/lamp/thermometer faces; aluminum welding wire/desk lamps; fiberglass ladders; 1"" steel elec. conduit","20' wide at widest, 50"" wide at least wide; 30' from upper ring to lowest element; 35' from ceiling to lowest element",2005,"Marion Oliver McCaw Hall,  Lobby ",321 Mercer St,47.624317,-122.35111699999999,"321 Mercer St
+Seattle, WA
+(47.624317, -122.351117)",23767,POINT (-122.3511166918703 47.6244581226273)
+76,FFD05.021,SEATTLE CIVIC CENTER-CITY HALL-HILLCLIMB PROJECT,Nobuho,Nagasawa,Water Weaving Light Cycle,"'A light and sound sculpture, made of optical fiber and woven in Kyoto by traditional kimono weavers, emulates cascading water and the rhythms of waves breaking on the shores of nearby Puget Sound.  The lights and sounds, controlled by computer, link to the Web site of NOAA.  The sounds from ceiling speakers are specifically-made field recordings of waves and other environmental sounds at Golden Garden Park, Lincoln Park, and Carkeek Park.  The pulsations of shifting hues of blue light, cascading up and down the length of the fiber tapestry, are synchronized through real-time acoustic analysis with the ebb and flow of waves.  Sound/light dynamics reflect both the actual weather changes outside and, figuratively, the flow of commmunications inside City Hall.'",Sculpture,"Woven optical fiber, stainless steel cable wire, illuminators, sound","5'5""w x 46' long",2005,Seattle City Hall - Hillclimb Stairwell,600 4th Ave,47.650067,-122.34883300000001,"600 4th Ave
+Seattle, WA
+(47.650067, -122.348833)",38441,POINT (-122.3488003908668 47.65028435164707)
+77,LIB05.015.01-.02,LIBRARIES FOR ALL - BALLARD BRANCH,Donald,Fels,.01 - Weather Permitting   .02 - Flow,"'Both artworks use data generated by scientific devices mounted on the building's roof, including nine anemometers that measure wind speed and direction, a pyranometer that measures sunlight and tracks clouds, and a hydrophone, an underwater microphone that picks up the sound of rain in a vessel on the roof.  The data are read and interpreted by a computer program which responds to climactic changes by triggering both visual and auditory artworks inside the building.  .0: ""Weather Permitting""  The computer interprets wind speed and direction data from the anemometers.  Using that data, the computer creates an image of the motion of air on the roof, patterns which are reflected in LED displays in the library. .02:  ""Flow"" - Weather data along with sounds collected live from the building's microclimate generate responses in a six-channel audio artwork in the neighborhood service center.'",Mixed Media,"LED displays, weather devices such as anemometers and pyranometer and hydrophone, recorded and live sound, sensors",Various,2005,Ballard Branch Library,5614 22nd Ave NW,47.669833000000004,-122.384583,"5614 22nd Ave NW
+Seattle, WA
+(47.669833, -122.384583)",40641,POINT (-122.3846065869203 47.66983300006135)
+78,LIB05.026,LIBRARIES FOR ALL - LAKE CITY  BRANCH,Linda,Haworth,"Collections  Objects, Experiences, Memories",'The artwork is a series of clear glass panels installed into a metal grillwork at the Library and Neighborhood Service Center entrances.  Each glass piece is from one of 21 original images that was first carved in clay.  ',Installation,Glass - Bull's-eye Tekta 6mm fused into plaster molds cast from original clay carvings,"70 pieces:  37 pieces at 15""h x 15""w, 20 pieces at 23"" & 15""w, 13 pieces at 31""h x 15""w.  All pieces are 1""d.  Series of clear glass panels.",2005,Lake City Branch Library.  Downstairs entrance to Lake City Library and entrance to Lake City Neighborhood Service Center,12501 28th Ave NE,47.719547,-122.29786100000001,"12501 28th Ave NE
+Seattle, WA
+(47.719547, -122.297861)",22817,POINT (-122.297786121487 47.71939485072314)
+79,SPU05.024,URBAN CREEKS - A REVELATION:  LONGFELLOW CREEK TRAIL,Peter,de Lory,Longfellow Creek Legacy Trail Way Finding Signs,"'A series of five way finding images in sign form are designed to create visual markers, leading path/creek walkers in and out of the natural creek bed along the entire length of the Longfellow Creek Trail.   The images are ""Lupine"", ""Fern Hook"", ""Elderberry"", ""Horsetail"" and ""Leaves on Water.""  Each image is a black and white photo image of creek flora, photographed by the artist at Longfellow Creek, with vivid color backgrounds and baked on enamel steel signs.  Each piece has a solid color background, a neutral gray and a tinted black (1 color, 2 half tones.)  There are five different designs on 40 signs for a total of 80 sign faces.  The powder coated black posts are topped with cast steel ornaments, which were salvaged from a play field fence in the neighborhood.'",Mixed Media,"Steel plate, porcelain enamel","80 signs:  each 27""h x 17""w x 3/32""d",2004,Roxhill Park,2850 SW Roxbury St,47.519767,-122.36848300000001,"2850 SW Roxbury St
+Seattle, WA
+(47.519767, -122.368483)",10736,POINT (-122.3684777347878 47.52095237209593)
+80,LIB05.011,LIBRARIES FOR ALL - RAINIER BEACH BRANCH,Anna,Skibska,Gravity Law,'Three glass sculptures that hang loosely above crossbeams suspended below the ceiling in the middle skylight area.  The artwork is made of glass rods and range in color from clear to very light brown/amber.  The glass appears to rest over the beams. ',Sculptures,Glass,"3 pieces ranging 9-10 feet total length, varying widths up to 16""",2004,"Rainier Beach Branch Library,  Interior artwork.",9125 Rainier Ave S,47.521383,-122.2705,"9125 Rainier Ave S
+Seattle, WA
+(47.521383, -122.2705)",7571,POINT (-122.2701333917659 47.52137989232855)
+81,SAC05.017,LIBRARIES FOR ALL - RAINIER BEACH BRANCH,Ariela,Boronat,Memories,"'A photo collage of prints consisting of Photographs, letters and documents related to the local community and its history.  The images have been printed onto a transparent fabric panel using photo transfer methods.  '",Print/PHOTO TRANSFER,Photo transfer/print,"23""h x 59""w x 4""d",2004,Rainier Beach Branch Library,9125 Rainier Ave S,47.521483,-122.270533,"9125 Rainier Ave S
+Seattle, WA
+(47.521483, -122.270533)",7812,POINT (-122.2701331035087 47.52148287826786)
+82,PR05.003,1999 COMMUNITY CENTER LEVY - HIGH POINT COMMUNITY CENTER,Daniel,Laskarin,Highpoint,'Sculpture which includes a camera mounted to a 40 foot pole that extends through the roof of the building.  At the base of the pole is a table and chair motif.  Mounted on the table is an art object in the shape of a coffee mug.  ',Sculpture,"Steel, electronic components, camera, monitor","480""height x 200""width x 240""depth",2004,High Point Community Center ,6920 34th Ave SW,47.540783000000005,-122.37501699999999,"6920 34th Ave SW
+Seattle, WA
+(47.540783, -122.375017)",30556,POINT (-122.3751183743414 47.5407854053509)
+83,LIB05.005,LIBRARIES FOR ALL - HIGH POINT BRANCH,Steve,Gardner,Sky Legends,"'Glazed architectural terra cotta sculptures and tiles in exterior niches of the High Point Branch Library.  Five legends from around the world relating to the sun, the stars, and the moon became the inspiration for this series of sculptures and tiles.'",Sculptures,Glazed architectural terra cotta,"10' x 10' (west wall), 48"" x 18"" x 2"" (story panels), 72' x 3"" x 1/2"" (terra cotta banding)",2004,"High Point Branch Library, exterior",6338 32nd Ave SW,47.5481,-122.37601699999999,"6338 32nd Ave SW
+Seattle, WA
+(47.5481, -122.376017)",25893,POINT (-122.3760161443573 47.54826504576149)
+84,PR05.047,WEST SEATTLE CULTURAL TRAIL,Donald,Fels,Story Viewers,"'The artwork consists of 5 story viewers.   A salmon story, told to the artist by Native American elders, is depicted with story viewers that provide views of the river through the eyes of the salmon in the story.'",Installation,"Fabricated and welded steel coated with urethane paint, stainless steel etched story panels, bronze and cast iron appliques","Approximately 65""h x 34""w x 5""d",2004,West Seattle Cultural Trail - Terminal 107,,47.5587,-122.350783,"Seattle, WA
+(47.5587, -122.350783)",11213,POINT (-122.3515898410106 47.55867797248965)
+85,ESD03.016,MAPLE LEAF NEIGHBORHOOD,Linda,Haworth,Garden of Color and Light,"'55 styles of opalescent, irid, dichroic and transparent glass on aluminum as fencing treatment.'",Environments,Handmade glass mosaic on aluminum,"30 @ 130"" x 8"" x 5.5""",2002,"Maple Leaf Park fence, ",Roosevelt Way NE between NE 83rd and NE 84th.,47.689133,-122.317467,"Roosevelt Way NE between NE 83rd and NE 84th.
+Seattle, WA
+(47.689133, -122.317467)",10669,POINT (-122.3174906220833 47.68913266499289)
+86,PR05.048,WEST SEATTLE CULTURAL TRAIL,Donald,Fels,Geo-Slice,"'The artwork is a column cast in iron of a geo-slice ""peel"" and explores the geological history of the site.  A team of scientists used a specially designed machine to probe the soil 12 feet down, bringing up a record of what lies below the ground.  A large bluestone paver explains the geology of the area as depicted in the cast iron column.'",Environments,"Cast iron, steel, aluminum, etched bluestone, concrete",12'h x 6'w x 5'd,2004,West Seattle Cultural Trail - Terminal 107,,47.559067,-122.35066699999999,"Seattle, WA
+(47.559067, -122.350667)",11213,POINT (-122.3515997665946 47.55904153460403)
+87,LIB04.100,LIBRARIES FOR ALL  - COLUMBIA BRANCH,Xiong,Gu,A Place Called Home,"'Lightjet C print portraits in s-curve frames mounted on top of book shelves.  On each page there is a portrait of a Columbia City resident.  On the adjacent page, there will be one word in English combined with its translation into another language.'",Photographs,Laser lightjet photos and plexiglass,"42 images, 22 frames various 22"" x 34"" x .5"" to 18"" x 28"" x .5""",2004,Columbia Branch Library,4721 Rainier Ave S,47.560033000000004,-122.2869,"4721 Rainier Ave S
+Seattle, WA
+(47.560033, -122.2869)",26082,POINT (-122.2865389313119 47.56033662783594)
+88,FFD04.096,PARK 90/5,Luke,Blackstone,Copper,"'A solar-powered, copper chime mounted in an 18 ft. roofed structure held up by posts made of steel and/or aluminum and glass jars.'",Structures/Sculpture,"Aluminum, stainless steel hardware, light-emitting diodes, bronze cylinder, solar panels, concrete, rubber, media bottles, gear motor, electrical and electronic components, paint",18' x 8.3' x 7.3',2004,"Park 90/5 complex, near S Stacy St.",2203 Airport Wy S,47.5822,-122.3236,"2203 Airport Wy S
+Seattle, WA
+(47.5822, -122.3236)",4172,POINT (-122.323600071466 47.58194814773145)
+89,LIB05.004,LIBRARIES FOR ALL - CENTRAL LIBRARY,Tony,Oursler,Braincast,"'A series of video sculptures that contemplate the transmission of information.  The artwork is designed to reflect the tradition of the public library and its expanding role as the transmitter of myriad information forms:  spoken, printed, recorded and dig'",VIDEO Installation,"Four video projectors, three DVD players, four loudspeakers, painted aqua-resin coated styrofoam, plexiglass, prefabricated metal-alloy hinges, wood",Various,2004,"Central Library,  Located within the walls of the escalator connecting levels 3 and 5",1000 4th Ave,47.6065,-122.33311699999999,"1000 4th Ave
+Seattle, WA
+(47.6065, -122.333117)",16641,POINT (-122.3331221622596 47.60649527556635)
+90,LIB05.018,LIBRARIES FOR ALL - CENTRAL LIBRARY,Ann,Hamilton,LEW Floor,"'A tongue-and-groove 7200 square maple floor which appears as a sea of wooden type.  Each length of board is routed with one or more lines of text.  The floor includes 556 lines of text, in reverse, in eleven languages and alphabets, and consists of the first sentences of books found in the ESL/World Languages collection.  The type is set in reverse for two reasons: to reference how books are produced from typeface and to reference how we learn to read, from symbols that are first unknown to us.'",Installation,Tongue-and-groove maple floor,"7,200 sq ft",2004,Central Library,1000 4th Ave,47.6065,-122.33311699999999,"1000 4th Ave
+Seattle, WA
+(47.6065, -122.333117)",16641,POINT (-122.3331221622596 47.60649527556635)
+91,PR94.020,GARFIELD COMMUNITY CENTER,Beliz,Brother,Kuba Grille,'Design based on a traditional textile design of the Kuba people of Zaire; abstract design in metal mounted on maroon steel framework above the main entrance.',Sculpture,"Cast aluminum, painted steel","16'4""x7'10""x5.5""",1994,"Garfield Community Center, outdoors",2323 E Cherry St,47.607983000000004,-122.30218300000001,"2323 E Cherry St
+Seattle, WA
+(47.607983, -122.302183)",21405,POINT (-122.3021831322137 47.60792403994441)
+92,PR97.038.01,DISCOVERY PARK VISITOR CENTER,Bruce,Myers,Leaf Legend,'Entrance walkway to Center is scattered with real leaves trowled and bronze leaves inset into the concrete.',Environments,"Concrete, bronze",4300 SQ FT,1997,"Discovery Park Visitor Center, entrance walkway+O92",3801 W Government Way,47.657683,-122.406117,"3801 W Government Way
+Seattle, WA
+(47.657683, -122.406117)",23433,POINT (-122.4036675119233 47.65767451932368)
+93,PR05.025.01-.05,2000 PRO PARKS LEVY - BERGEN PLACE PARK,Jennifer,Dixon,Witness Trees - What The Trees Have Seen,"'A sculptural Installation consisting of six sculptures:  Fossil Tree, First Tree, Clam Tree, Immigrant Tree and New Growth Tree.  The theme is inspired by the site's rich history.  '",Sculpture,"Mixed - steel, concrete, porcelain, stoneware, fiberglass, wood",".01 - Fossil Tree - 8' x 4' x 2'; .02 - First Tree - 7 1/2' x 5 1/2' x 24""; .03 - Clam Tree - 7' x 8' x 8'; .04 - Immigrant Tree - 8'6"" x 10' x 9'';  .05 - New Growth Tree - 8' x 4 1/2' x 5'",2004,Bergen Place Park,5420 22nd Ave NW,47.668433,-122.385117,"5420 22nd Ave NW
+Seattle, WA
+(47.668433, -122.385117)",7711,POINT (-122.3851168589458 47.66857592612189)
+94,LIB05.010,LIBRARIES FOR ALL - NORTH EAST BRANCH,Heather,Oaksen,Luminaire,"'Permanent media art installations incorporate projected video imagery into three significant areas of the library.  The projections act as visual metaphors for the areas' functions.  A total of 15 images, rotating three at a time to coincide with seasonal changes, will take over a year to experience as an entire set.  The three library functions are:  1) Gather:  how the neighborhood sees and is seen by others 2) Move:  the axis which draws patrons through the space in haptic experience 3) Discover: an exploratory space that stimulates curiosity.'",VIDEO,Video projection of digital video imagery onto plexiglass screens in three locations within library.,,2004,North East Branch Library,6801 35th Ave NE,47.677966999999995,-122.290667,"6801 35th Ave NE
+Seattle, WA
+(47.677967, -122.290667)",26440,POINT (-122.2904472244835 47.67797319644217)
+95,LIB05.006,LIBRARIES FOR ALL - GREENWOOD BRANCH,Fernanda,"D' Agostino, Fernanda",Into the Green Wood,'Multi-layered tempered laminated glass with silk-screened glass enamels in insulated glass units and installed as an architectural component in the front facade window and panels in the reading room and study room windows. ',Installation,Tempered laminated glass with silk-screened glass enamels in insulated glass units,"13 panels - various sizes from 37"" x 34"" to 64 1/2"" x 61""",2004,"Greenwood Branch Library, Meeting room window/study room window",8016 Greenwood Ave N,47.687517,-122.3553,"8016 Greenwood Ave N
+Seattle, WA
+(47.687517, -122.3553)",16072,POINT (-122.355440117335 47.68751690284542)
+96,PR05.023,2000 PRO PARKS LEVY - MINERAL SPRINGS PARK,Stacy,Levy,Cloud Stones,"'A series of 13 stone domes that run throughout Mineral Springs Park, leading the viewer down the path and out into the meadow areas.  The domes have various heights and range in diameter from 2 to 5 feet.  Eight dome-shaped stones are carved from black granite and five domes are carved from white Carrara marble.  The domes have a highly polished finish except for a band around the bottom.  Nine of the domes have bands of text around them.  Cloud Stones brings a sense of the clouds and the weather they bring, and also a sense of the water cycle which connects cloud to rain and sea.'",Sculpture,Granite and marble,"Varied - 24"" x 13"" smallest, 60"" x 18"" largest",2004,Mineral Springs Park,1500 N 105th St,47.705566999999995,-122.336017,"1500 N 105th St
+Seattle, WA
+(47.705567, -122.336017)",35187,POINT (-122.3360176570135 47.70509552883221)
+97,FFD04.097,SEATTLE CIVIC CENTER-CITY HALL- NATIVE AMERICAN PURCHASE,Eric,Robertson,Evolving Wing and the Gravity of Presence,"'A mixed media Installation, drawing inspiration from ""Paddle to Seattle"" an event that brings together many Pacific Northwest tribal groups, the artwork also makes connections to Seattle's local aerospace industry. '",Installation,"Aluminum, yellow cedar wood, copper, flammet stone",72' x 11.5',2003,Seattle City Hall - Fifth Ave Lobby,600 4th Ave,47.602517,-122.32846699999999,"600 4th Ave
+Seattle, WA
+(47.602517, -122.328467)",11021,POINT (-122.3283580536186 47.60261666124767)
+98,SPU03.017,CEDAR RIVER WATERSHED,Dan,Corson,Rain Drum Courtyard,"'a. Djembe b. Conga c. Djembe d. Nagado e. Standing Ngoma f. Standing Ngoma g. Hoop drum h. Hoop drum I. Hoop drum j. Djembe k. Hoop drum l.Standing Ngoma m. Djembe n. Conga o. Djun djun p. Djembe q. Standing Ngoma r. Strap Taiko
+
+The exterior court encircled by vine maples includes 21 painted drums, representative of different cultures, and a few scattered artifacts from towns that once were located inside the watershed boundaries.'",Environments,"Rain drums, resin impregnated paper, plastic, galvanized steel bases, copper tube, dripping mechanism and computer","18 drums,  Varies, drums 14""to 30""diameter see file",2003,"Seattle Public Utilities, Cedar Falls","19901 Cedar Falls Road S.E., North Bend, Wash.",47.42715,-121.774217,"19901 Cedar Falls Road S.E., North Bend, Wash.
+Seattle, WA
+(47.42715, -121.774217)",245,POINT (-122.2372724665678 47.50948859345475)
+99,FFD03.028,SOUTHWEST POLICE PRECINCT,Kay,Kirkpatrick,Looking at a Watershed:  Waterprints,"'Street level windows have a pattern incorporating text, high windows have pattern without text.  The text is read from the outside of the building on Delridge asserting the police mission to the public and from the inside reminding the officers of their role in the community.'",Infrastructure,Frit on glass windows,East (Delridge) Windows: Approx 224 sq. ft. glass pattern; North Lobby (police) windows: Approx 107 sq. ft. glass pattern; South (Meeting Room) Windows:  Approx 20 sq. ft glass pattern; West (public)lobby windows: Approx 410 sq. ft. glass pattern,2003,SPD SW Precinct,2300 SW Webster St,47.5354,-122.361733,"2300 SW Webster St
+Seattle, WA
+(47.5354, -122.361733)",13056,POINT (-122.3617324885374 47.53557001571337)
+100,WD96.033,FROULA PARK,Peter,Reiquam,Froula Park Armchairs,'Two cast concrete armchairs and table form a seating group on a base of poured concrete.  The arrangement is sheltered on the south side by a low curved wall of cultured stone.',Sculpture,Cast concrete; cultured stone; bronze,"21'x17'x2'10""",1996,Froula Park,7200 12th Ave NE,47.680566999999996,-122.31498300000001,"7200 12th Ave NE
+Seattle, WA
+(47.680567, -122.314983)",10701,POINT (-122.3145178406452 47.68034354876137)
+101,FFD03.030,SOUTHWEST POLICE PRECINCT,Kay,Kirkpatrick,Looking at a Watershed: Sanctuary Grove,"'17 logs, 1 steel platform and four wall brackets on the west wall above watch Officer's desk in public lobby. The Alders rest on and angled platform of steel mesh, anchored by root-like extensions.  The viewer looks up through the open mesh as though looking up into the forest from under the surface of water.'",Infrastructure,Steel and peeled Red Alder trees,"192"" x 120"" x 36""",2003,SPD SW Precinct,2300 SW Webster St,47.5354,-122.361733,"2300 SW Webster St
+Seattle, WA
+(47.5354, -122.361733)",13056,POINT (-122.3617324885374 47.53557001571337)
+102,FFD03.027,SOUTHWEST POLICE PRECINCT,Kay,Kirkpartick,Looking at a Watershed: Streambed Memories,'There are a total of 22 cast bronze leaves on patterned sandblasted concrete.  The vertical wall serves as a signpost for the building and memory marker for officers lost in duty.  ',Infrastructure,Cast bronze and concrete,"Southface/Webster 276"" x 162"" Eastface/Delridge 156"" x 132"" x 3"" West Lobby Retaining Wall 96"" x 240"" x 22"" stencil pattern follows 36"" x 36"" squares",2003,SPD SW Precinct,2300 SW Webster St,47.5354,-122.361733,"2300 SW Webster St
+Seattle, WA
+(47.5354, -122.361733)",13056,POINT (-122.3617324885374 47.53557001571337)
+103,FFD03.031,SOUTHWEST POLICE PRECINCT,Kay,Kirkpatrick,Looking at a Watershed: Dream Forest,"'2 lamps 2 globes, north east exterior wall of station along Delridge Way.  Lights cast the reverse shadow of an Alder forest against the wall of the Police Station from dusk until 11pm.'",Infrastructure,"2 projection lamps with steel gobos, timer and light sensor switch","Projection 240"" x 240""",2003,SPD SW Precinct,2300 SW Webster St,47.535767,-122.361617,"2300 SW Webster St
+Seattle, WA
+(47.535767, -122.361617)",13056,POINT (-122.3616175936326 47.5355696700721)
+104,CL77.014,FREMONT SHIP CANAL PARK,,,Fremont Canal Bench Project,'',Paintings,,,1993,NON-SAC,,47.649883,-122.31498300000001,"Seattle, WA
+(47.649883, -122.314983)",39799,POINT (-122.3144981643626 47.651718480578)
+105,PR05.046,WEST SEATTLE CULTURAL TRAIL,Donald,Fels,Paragon,"'Terminal 107 was created by Donald Fels.  The sculpture, a 5/8 scale reproduction of a halibut schooner, illustrates the long history of working communities on the Duwamish River.  Historic panels on the walls supporting the sculpture describe the history of this riverfront community.'",Sculpture,"Steel, concrete, wood, fiberglass",30'h x 58'w x 16'd,2003,West Seattle Cultural Trail - Terminal 107,,47.558867,-122.3512,"Seattle, WA
+(47.558867, -122.3512)",11213,POINT (-122.351594707446 47.55885622411945)
+106,FFD05.001,SEATTLE CIVIC CENTER-CITY HALL,James,Carpenter,Blue Glass Passage,'A walkway suspended between the office tower to the north and the City Council Chamber to the south.  The deck is formed with blue laminated glass panels and the east wall guardrails are transparent laminated glass. ',Structures,"laminated glass panels, steel and wood","Length 60' Width 7'6""",2003,"Seattle City Hall,  2nd floor",600 4th Ave,47.602517,-122.32846699999999,"600 4th Ave
+Seattle, WA
+(47.602517, -122.328467)",11021,POINT (-122.3283580536186 47.60261666124767)
+107,FFD04.098,SEATTLE CIVIC CENTER-CITY HALL,Beliz,Brother,Continuum,"'The artwork is a collection of over 5,000 images of the people of Seattle. The images range from 1.5"" to 4.5"" in dimension.  From a distance the images are seen as a repeating rhythmic pattern.  From close range the images can be read as a peoples history of the city.'",Sculpture,"Glass, stainless steel, archival images","98"" x 120"" x 7""",2003,"Seattle City Hall - City Council Offices, 2nd floor Lobby ",600 4th Ave,47.602517,-122.32846699999999,"600 4th Ave
+Seattle, WA
+(47.602517, -122.328467)",11021,POINT (-122.3283580536186 47.60261666124767)
+108,FFD04.097,SEATTLE CIVIC CENTER-CITY HALL- NATIVE AMERICAN PURCHASE,Eric,Robertson,Evolving Wing and the Gravity of Presence,"'A mixed media Installation, drawing inspiration from ""Paddle to Seattle"" an event that brings together many Pacific Northwest tribal groups, the artwork also makes connections to Seattle's local aerospace industry. '",Installation,"Aluminum, yellow cedar wood, copper, flammet stone",72' x 11.5',2003,Seattle City Hall - Fifth Ave Lobby,600 4th Ave,47.602517,-122.32846699999999,"600 4th Ave
+Seattle, WA
+(47.602517, -122.328467)",11021,POINT (-122.3283580536186 47.60261666124767)
+109,FFD04.099,SEATTLE CIVIC CENTER-CITY HALL,Beliz,Brother,Return,"'The images were created from original photographs taken by the artist with some from archival collections.  The intent was to create a collection of images that appeared timeless.  The 74 glass panels are facted to from a sweeping curved glass wall that divides the main lobby and the public reception room.  Each panel is approximately 20"" x 36""  and contains one image.'",Sculpture,"Laminated glass, archival and original photograpic image","108"" x 600"" x 5""",2003,Seattle City Hall - Fifth Ave Lobby,600 4th Ave,47.602517,-122.32846699999999,"600 4th Ave
+Seattle, WA
+(47.602517, -122.328467)",11021,POINT (-122.3283580536186 47.60261666124767)
+110,ESD03.039,JUSTICE CENTER SITED ARTWORK,Brad,Miller,112 Wristwatches,'112 wristwatches which are arranged to form an images of an elephant.  All of the images are synchronized at the time that the work is installed.  Each watch has an accuracy of +/- 30 seconds per month  Over time the watches will become out of sync.',Sculpture,"Casio digital wristwatches, red, green and blue light.","72"" x 96"" x 4""",2003,"Seattle Justice Center, Seattle Municipal Court, 12th floor",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+111,ESD03.035,JUSTICE CENTER SITED ARTWORK,Marita,Dingus,Ornamental Iron in Leather/Contradictory Vibrations?,'A mixed-media Installation of leather and fabric forms strung together on wire.  The artist took her inspiration from ornamental ironwork and pieced quilts.',Sculpture,"Recycled fabric and leather, metal","72"" x 96"" x 4""",2003,"Seattle Justice Center, Seattle Municipal Court, 2nd floor",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+112,ESD03.045,JUSTICE CENTER INTEGRATED ARTWORK,Pam,Beyette,Points of View,'Two pairs of handles for the entrance for the courts lobby recapitulate the two cones of the lobby sculpture.  The handles are cast and turned bronze capped with stainless steel.',Infrastructure,Bronze and stainless steel,"36"" x 5""",2003,"Seattle Justice Center, Seattle Municipal Court Lobby",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+113,ESD03.043.03,JUSTICE CENTER INTEGRATED ARTWORK,Bill,"Bain with Pam Beyette, Michael Davis, Norie Sato and Richard Turner",Codes & Protocol,"'21 Bronze Medallions, Mounted on a grid on the south wall at the junctions between the stone sections are oval medallions illustrating aspects of police culture in Seattle.  The medallions are 3' x 5' and are cast bronze relief.  '",Infrastructure,Bronze,"4' 3/4"" x 3"" x 3/8""",2003,"Seattle Justice Center  - North and South Lobby Walls, Police Headquarters Lobby, ",610 4th Ave,47.604317,-122.3296,"610 4th Ave
+Seattle, WA
+(47.604317, -122.3296)",16662,POINT (-122.3296045751664 47.60431281367392)
+114,ESD03.043.04,JUSTICE CENTER INTEGRATED ARTWORK,Pam,Beyette,Codes & Protocol,'The handles for the police lobby make use of the tooled leather basket weave pattern seen in larger scale on the walls of the lobby.',Infrastructure,Cast bronze and stainless steel,"2 @ 24"" x 1 /34"" x 3 1/4""",2003,"Seattle Justice Center  - Door, Police Headquarters Lobby",610 4th Ave,47.60432,-122.3296,"610 4th Ave
+Seattle, WA
+(47.60432, -122.3296)",16662,POINT (-122.3296060692691 47.60431444655401)
+115,ESD03.043.02,JUSTICE CENTER INTEGRATED ARTWORK,Pam,Beyette,Codes & Protocol,"'Stone plinths which enfold bronze elements which also serve as benches.  Objects sit on the stone plinths.  South plinth, a bronze police dress hat and a ring of keys. North Plinth,is a base for a bronze sculpture.'",Infrastructure,Limestone and cast bronze,"3' x 11' x 2' 3""-bench 6"" x 11"" x 11"" cast bronze hat, 5 1/2"" x 2"" x 2"" cast bronze keys",2003,"Seattle Justice Center - North and South Lobby Walls, Police Headquarters Lobby,   ",610 4th Ave,47.604566999999996,-122.3292,"610 4th Ave
+Seattle, WA
+(47.604567, -122.3292)",1088,POINT (-122.3292056680968 47.6045805508563)
+116,ESD03.043.01,JUSTICE CENTER INTEGRATED ARTWORK,Pam,Beyette,Codes & Protocol,"'Bronze Panels-On the north and south 14 ft. lobby walls, 6 ft wide bands of bronze form textured focal points.  Inspired by the basket weave of police belts and other leather accoutrements, this cast bronze is a scaled up version of this texture. '",Infrastructure,"Bronze ""LuminOre"" Cold Cast over Mixed Media and Steel Frame limestone and architectural plaster",2 @14' x 6' x 2',2003,"Seattle Justice Center - North and South Lobby Walls, Police Headquarters Lobby, ",610 4th Ave,47.60475,-122.329917,"610 4th Ave
+Seattle, WA
+(47.60475, -122.329917)",21279,POINT (-122.329959413932 47.60471121940449)
+117,ESD03.037,JUSTICE CENTER SITED ARTWORK,Darlene,Nguyen-Ely,Wings,"'A 3-dimensional two part sculpture depicting wings with photo collage insets, 2’5” x 7’3” x 4” of Poplar and Spruce wood, hardware cloth/screening material and Photographs, mounted in a wall niche.'",Sculpture,Wood and photo collage,"2 pieces; 17"" x 48"" x 4"" and 16"" x 36"" x 4""",2002,"Seattle Justice Center, Seattle Municipal Court, 3rd floor",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+118,LIB05.008,LIBRARIES FOR ALL - CAPITOL HILL BRANCH,Iole,Alessandrini,Contour,"'Lighting illuminates a vertical screen of 36 different plants that, over time, will grow up a stainless steel mesh to cover up most of the building.  The fluorescent lights are located in the two feet of space between the brick walls of the building and the mesh.  Light surrounds the building, sandwiched between the brick walls and vertical garden.  Together, nature and light augment the perception of a building that never looks the same.'",Integrated light Installation,Fluorescent light,38 ' x 91' x 95',2003,Capitol Hill Branch Library,425 Harvard Ave E,47.623083,-122.322217,"425 Harvard Ave E
+Seattle, WA
+(47.623083, -122.322217)",30689,POINT (-122.32221706053 47.62306626792473)
+119,SC03.034,COMMUNITY PERFORMANCE HALL-LIGHTING (MARION OLIVER MCCAW HALL),Leni,Schwendinger,Dreaming in Color,"'Designed as a theatrical extension of the building, the Kreielsheimer Promenade is lined with a field of nine, 30-foot-tall metal scrims. Light paintings are projected onto the scrims.'",Infrastructure,"9 large scale mesh scrims, self-contained light (2 to 3 per 900 to 2100 sq.ft.)",9 scrims 300 ft. long scrims range from 30' x 70' to 30' x 40',2003,"Seattle Center, promenade between Phelps Center and Marion Oliver McCaw Hall",321 Mercer St,47.623883,-122.351133,"321 Mercer St
+Seattle, WA
+(47.623883, -122.351133)",23767,POINT (-122.351131744195 47.62445815549282)
+120,ST03.049.01-.08,BALLARD GATEWAY,Lake,Askman,Ballard Gateway,'Eight sculptures that represent a different aspect of the life and history of Ballard. .01-Fishnet;  .02-Mechanical; .03-Scandinavian; 1 .04-Scandinavian; 2 .05-Sawblades;  .06-Fern; .07-Props; .08-Native American.',Sculpture,Plate aluminum and powder coating,"8  @ 10' x 21"" x 16""",2003,Seattle Public Utilities - Haller Lake Storage Facility ,,47.664986,-122.37613600000002,"Seattle, WA
+(47.664986, -122.376136)",30114,POINT (-122.3760267217643 47.66499332444371)
+121,SPU04.006,MEADOWBROOK DETENTION POND (PHASE II),Lydia,Aldredge,Meadowbrook Pond Kiosk,'An informational kiosk located adjacent to the entry of the parking lot to the site near the horticultural center.  The kiosk is a painted tubular steel frame with a wood frame roof beam and rafter structure covered with sheet material and galvanized corrugated roofing.',Structures,"Steel, aluminum, fir, corrugated metal polycarbonate, porcelain enamel and terrazzo",10' x 10' x 13',2003,Meadowbrook Pond ,NE 110th St & 35th Ave NE,47.70645,-122.28928300000001,"NE 110th St & 35th Ave NE
+Seattle, WA
+(47.70645, -122.289283)",7840,POINT (-122.2882108764022 47.70654890020521)
+122,CL04.089,CITY LIGHT ARTIST IN RESIDENCE 1997,Dan,Corson,Temple of Power,'6' tall recycled ceramic bushings with orange glass globes at their top.  The bushings are mounted on top of 10'  steel columns set into the ground by small individual circular cement pads topped with a half dome ceiling.',Structures,"Steel, recycled electrical bushings, LED's, processors, lighting arrestors, and paint",30' x 30' x 30',2003,"Seattle City Light, Newhalem",,48.67305,-121.24783300000001,"Seattle, WA
+(48.67305, -121.247833)",39787,POINT (-122.2884797248485 47.73367458889277)
+123,ESD03.042,JUSTICE CENTER INTEGRATED ARTWORK,Pam,Beyette,"Witness and Dilemma, Levels, Weights and Measures","'The courts stairwell artwork is comprised of 24 bronze sculptures mounted in a grid pattern on a 26 ft. architectural plaster wall.  Each object is a metaphor, symbol or rebus, a puzzle within a larger puzzles that challenges the viewer.'",Infrastructure,Bronze LuminOre Cold Cast over Mixed Media,12' x 9' x 2' Sculpture (24 Objects) and 26' x 10' Architectural Plaster Wall,2002,"Seattle Justice Center , Seattle Municipal Court stairwell east wall between second and third floors, ",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+124,SPU03.018,CEDAR RIVER WATERSHED,Dan,Corson,Dendritic Root Floor,"'An arrangement of stream courses that, on a map or viewed from the air, resemble branching habit of certain trees, such as oaks or maples. Stylized root patterns which have been sandblasted and stained into the concrete floor.'",Infrastructure,Sandblasted and stained concrete,Approximately 80 sq ft.,2002,"Seattle Public Utilities,  Cedar Falls ","19901 Cedar Falls Road S.E., North Bend, Wash.",47.427067,-121.774033,"19901 Cedar Falls Road S.E., North Bend, Wash.
+Seattle, WA
+(47.427067, -121.774033)",245,POINT (-122.2372724665678 47.50948859345475)
+125,PR98.052.02,WOODLAND PARK ZOO SPECIAL PROJECT,,Rude,Together as One,'Animals and other effects of nature on a balance beam scale.',Sculpture,Cast bronze; enamel; stone; aluminum,"59""X24""X24""",1998,Woodland Park Zoo near Raptor Center,5500 Phinney Ave N,47.669467,-122.349783,"5500 Phinney Ave N
+Seattle, WA
+(47.669467, -122.349783)",18554,POINT (-122.3497733039445 47.67178944132045)
+126,SPU03.019,CEDAR RIVER WATERSHED,Dan,Corson,Snaking Root Ceiling,"'Four tree roots, harvested in the area, are suspended in the pitched-roof entry to the Education Center.  Loose material harvested with the roots, such as rocks remain, secured to the roots.  Three tree remnants are intertwined with five to seven root-like coils and lengths of blue krypton and green argon ligth tubes representing the flow of water and energy and referencing the operations of the watershed system.'",Installation,"Neon and Krypton gas tubes, preserved old growth tree roots",Approx. 6' diameter by 6' deep,2002,"Seattle Public Utilities,  Cedar Falls ","19901 Cedar Falls Road S.E., North Bend, Wash.",47.427067,-121.774033,"19901 Cedar Falls Road S.E., North Bend, Wash.
+Seattle, WA
+(47.427067, -121.774033)",245,POINT (-122.2372724665678 47.50948859345475)
+127,LIB05.012.01-.04,LIBRARIES FOR ALL - DELRIDGE BRANCH,"Jean, Nick",Whitesavage and Lyle,The Forest Is Waiting,'A series of exterior sculptural elements that embellish the architectural façade of the library.  Concepts for the artwork are taken from the nearby Longfellow Creek Watershed.  ',Sculpture,Hand forged steel,"46"" x 44.5"" Bunchberry; Oregon Grape 46"" x 44.5""; Stream Orchid 46"" x 44""; Western Bleeding Heart 46"" x 44.5""; Trillium Buttons 36"" diam x 12""d; Red Huckleberry 6'6"" x 5'6"" x 1''; Sitka Willow Leaf Bench 7'long x 3'w x 1'5""h",2002,"Delridge Branch Library, east and south entries",5423 Delridge Wy SW,47.552966999999995,-122.363017,"5423 Delridge Wy SW
+Seattle, WA
+(47.552967, -122.363017)",38330,POINT (-122.3631131837664 47.55296831667279)
+128,ESD03.041,JUSTICE CENTER SITED ARTWORK,Joanne,Hammer,Common Ground,'imagery rooted in both our ancient heritage and folk traditions (of various persons)  is meant to speak to a common humanity. Neither narrative nor hierarchical it is about harmony and balance.',2-Dimensional,Byzantine glass mosaic,"48"" x 72"" x 1.25""",2002,"Seattle Justice Center, Seattle Municipal Court, 9th floor",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+129,ESD03.040.01-.07,JUSTICE CENTER SITED ARTWORK,Deborah,Lawrence,Justice is Served: Celebrating the People Who Work For a Change,'In this work the artist addresses the subject of community service in the name of justice. Each artwork portrays a Seattle citizen whose heroic example has made a positive and lasting impact on the community.  ',Mixed Media,"Acrylic, collage and varnish on recycled tin trays","36"" x 96"" x 1 1/2""",2002,"Seattle Justice Center, Seattle Municipal Court, 10th floor",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+130,ESD03.042,JUSTICE CENTER INTEGRATED ARTWORK,Pam,Beyette,"Witness and Dilemma, Levels, Weights and Measures","'The courts stairwell artwork is comprised of 24 bronze sculptures mounted in a grid pattern on a 26 ft. architectural plaster wall.  Each object is a metaphor, symbol or rebus, a puzzle within a larger puzzles that challenges the viewer.'",Infrastructure,Bronze LuminOre Cold Cast over Mixed Media,12' x 9' x 2' Sculpture (24 Objects) and 26' x 10' Architectural Plaster Wall,2002,"Seattle Justice Center , Seattle Municipal Court stairwell east wall between second and third floors, ",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+131,ESD03.036,JUSTICE CENTER SITED ARTWORK,M.A.,Papanek-Miller,Listening,'A four layered painting in two sections constructed out of acid free “weathered” paper glued to canvas inlaid into the wall niche.  ',2-Dimensional,"Mixed, collage, oil and acrylic paints, gesso matt medium, graphite, charcoal on weathered paper mounted on canvas","60"" x 82"" x 2  1/2"" in two panels",2002,"Seattle Justice Center, Seattle Municipal Court, 11th floor",600 4th Ave,47.60445,-122.33021699999999,"600 4th Ave
+Seattle, WA
+(47.60445, -122.330217)",31988,POINT (-122.3301840534677 47.60437123332143)
+132,CL04.0880 (TEMPORARY),CITY LIGHT ARTIST IN RESIDENCE 1997,Dan,Corson,"Wave, Rave, Cave",'A Belltown community initiated project.  Foam waves covered with pea gravel and lit with colored lighting.',Sculpture,"Foam, cement, pea gravel and specialized lighting",10' x 50' x 150',2002,Belltown,Western Ave & Bell St,47.613033,-122.34753300000001,"Western Ave & Bell St
+Seattle, WA
+(47.613033, -122.347533)",39643,POINT (-122.347585623819 47.61294540322202)
+133,SPU03.033,GROWING VINE STREET,Buster,Simpson,Beckoning Cistern,"'Major element along the Growing Vine Street Project. A series of water catchments along Vine Street.  The tank receives rainwater from the adjacent roof watershed.  The cistern water is then available for community gardening, modulating rain events and providing an ongoing water source to water features, wetlands and gardens further down Vine Street.  The gesture of the hand emerging from the tank with the index finger tip in contact w/ the downspout references Adam reaching for God as depicted in the Sistine Chapel.'",Sculpture,"Mixed Media, stainless steel, aluminum and water",16' x 12' plus 20' downspout,2002,Belltown,81 Vine St,47.61485,-122.35013300000001,"81 Vine St
+Seattle, WA
+(47.61485, -122.350133)",26697,POINT (-122.3500859198998 47.61478907147858)
+134,SC03.022,NEOTOTEMS,Gloria,Bornstein,Neototems Children's Garden,'Whale tail fountain surrounded by various bronze sea creatures and garden area.',Sculpture/FOUNTAIN,Bronze," 5'5"" x 8' x 3'",2002,Pacific Science Center,200 2nd Ave N,47.620166999999995,-122.3517,"200 2nd Ave N
+Seattle, WA
+(47.620167, -122.3517)",22762,POINT (-122.3526897818152 47.62010500684043)
+135,SC03.021,FISHER PAVILION,Deborah,Mersky,Biography of a Branch,"'Traditional Mosaic executed in small scale pieces of marble and glass of Italian origin.  Middle section, large scale branch from composed of many different types of plants representing the nature of our city.'",Infrastructure,Marble and Italian glass,"40"" x 32' (ft) x 1/2""",2002,Seattle Center - Fisher Pavilion,305 Harrison St,47.6212,-122.35173300000001,"305 Harrison St
+Seattle, WA
+(47.6212, -122.351733)",22762,POINT (-122.3527441731274 47.62097341767908)
+136,SC03.020,FISHER PAVILION,Deborah,Mersky,Twine and Branch,'42 faux wood panels with a sandblasted image applied and painted.  Panels span the north wall of the Pavilion.',Infrastructure,Plastic laminate over MDF and acrylic paint,"42 panels @ 26"" x 60"" x 1/8""",2002,"Seattle Center - Fisher Pavilion, near International Fountain",305 Harrison St,47.62135,-122.35206699999999,"305 Harrison St
+Seattle, WA
+(47.62135, -122.352067)",22762,POINT (-122.3527441731274 47.62097341767908)
+137,CLST02.009 (NON-SAC),GALER STREET BRIDGE,Vicki,Scuri,DNA Wave Wall,"'Pattern along retaining wall of bridge.  The pattern could be interpreted as wave forms or even DNA, making reference to the bridge's proximity to the Immunex location.'",Structures,Concrete   15th Avenue W and W Galer Street,"Pattern Layout 5' x 10' Concrete Facia Panels 7,448 sq.ft.",2002,West Galer Street Flyover ,15th Ave W & W Galer St,47.631717,-122.37745,"15th Ave W & W Galer St
+Seattle, WA
+(47.631717, -122.37745)",26742,POINT (-122.3774454156395 47.63160447734518)
+138,CL01.136,UNION SQUARE TRIANGLE,Bill,Will,4 (Where shall I go ahead?),'Etched into the top of each 23 granite cubes is an image or block of text that is referential to the history of the railroad and the area.  The title 4 refers to the Morse code abbreviation for Where shall I go ahead? Used traditionally by the railroad.',Sculpture,Sandblasted Granite,"23 pieces, each 500 lbs 18"" x 18"" x 18""",2001,Union Station Square Park ,S Jackson St & 3rd Ave S,47.599317,-122.330183,"S Jackson St & 3rd Ave S
+Seattle, WA
+(47.599317, -122.330183)",18611,POINT (-122.3301741211965 47.59931774603804)
+139,SPU04.087,SMOLT SLIDE,Paul,Sorey,Salmon Waves,'Seven stainless steel waves varying from 6 to 9 ft. high.',Sculpture,"Stainless steel, fasteners, blue LED light and digital electronics",7 Stainless steel waves each differs in size and scale.  Area covered by waves is 350 sq. ft.,2001,Hiram M. Chittenden Locks,3015 NW 54th St,47.66468,-122.3975,"3015 NW 54th St
+Seattle, WA
+(47.66468, -122.3975)",22084,POINT (-122.3978219482474 47.66402363324353)
+140,ST01.018.01-.02,BEACON V,Clark,Wiegman,"Plynth and Pylon from the Project ""Vista""",'Each stainless steel landmark is incised with waterjet cut calligraphy created by Alex Wu.  By deconstructing the characters from a confucian proverb and repositioning them according to the laws of chance-Artist Statement  Pylon is a vertical slightly larger',Environments,Stainless steel,".01 Plynth:  42"" x 132"" x 18""           .02 Pylon: 84"" x 24"" x 24""",2000,Beacon Avenue and Spokane Street,,47.570733000000004,-122.30796699999999,"Seattle, WA
+(47.570733, -122.307967)",13200,POINT (-122.3079849623828 47.57091746148518)
+141,ST00.133,BEACON V,Glenn,Herlihy,"Hydro Roots from the project ""Vista""","'Cast concrete and stainless steel tree planters.  The ""foundation of the concept is the give and receive relationship between roots and water."" G13'",Environments,Concrete and stainless steel,"24 x 90 x 6""",2000,Beacon Avenue and Spokane Street,,47.571517,-122.30826699999999,"Seattle, WA
+(47.571517, -122.308267)",13200,POINT (-122.3082519189164 47.57152364158033)
+142,CL00.154,SEATTLE CITY LIGHT NORTH SERVICE CENTER,Claudia,Fitch,Conductive Paths,'Terrazzo pathways reference the flow of energy within the complex weave of electrical cable using images that honor the work and service of Seattle City Light.',Environments,"Terrazzo, stained concrete and stainless steel inserts",,2000,Seattle City Light - North Service Center,1900 N 97th St,47.699833,-122.34165,"1900 N 97th St
+Seattle, WA
+(47.699833, -122.34165)",32397,POINT (-122.341650512922 47.69966634589378)
+143,CL00.155,CRESTON-NELSON RENOVATION-RESITED NORTH SERVICE CENTER,Ries,Niemi,Light Bulb Bench,'Cast aluminum bench with three light bulbs in the center.',Sculpture,"Galvanized steel, cast and fabricated aluminum","90"" x 130"" x 96""",2000,Seattle City Light North Service Center,,47.700383,-122.34183300000001,"Seattle, WA
+(47.700383, -122.341833)",32748,POINT (-122.341861025202 47.70038264744856)
+144,CL95.019.01,,Jeffry,Mitchell,Ballard Sculpture Garden,"'THE ARTWORK CONSISTS OF TWO MAJOR ELEMENTS - A CURVED, CONCRETE FRIEZE DEPICTING A REPEAT PATTERN OF PLANT AND ANIMAL FORMS WHICH ENCIRCLES THE TOP PORTION OF THE BUILDING'S CURVED FACADE, AND A SERIES OF MOCK-DELFT BLUE-AND-WHITE COLUMNS AND BENCHES NEST'",Sculpture,Glazed ceramic,,1994,,,47.66285,-122.3645,"Seattle, WA
+(47.66285, -122.3645)",20179,POINT (-122.364499989856 47.66286482257627)
+145,DAS97.030,HALLER LAKE OPERATIONS CENTER,,Winterbottom,Memory Place,'Five steel-mesh structures whose shapes allude to the subject of the enameled signs included in each structure.  Live bamboo hedges grow between each structure to separate the metal with the organic.',Structures,"Painted, enameled steel, concrete, living bamboo",16'(MAX)X12'X3',1997,Seattle Public Utilities - Haller Lake Operations Center ,,47.719633,-122.34148300000001,"Seattle, WA
+(47.719633, -122.341483)",28015,POINT (-122.3414830189856 47.71962943314608)
+146,WD99.090,PHINNEY AND 59TH STREET PROJECT,Miles,Pepper,Morphauna,"'The sculpture is a fabricated metal “moving collage of animal forms,” activated by the wind.  Mounted on a 20’ high pole, a steel framework supporting wing and fish tail forms rotates on various axles and hubs, generating movement in several different directions.'",Sculpture,"Aluminum, brass, stainless steel, powder coated steel, pvc plastic","48X144X120""",1999,"Woodland Park Zoo, Adjacent to entrance at NE 59th & Phinney Ave N",5500 Phinney Ave N,47.671267,-122.3532,"5500 Phinney Ave N
+Seattle, WA
+(47.671267, -122.3532)",17153,POINT (-122.352965759546 47.67180061929449)
+147,CL77.050,WEST SEATTLE CULTURAL TRAIL,Donald,Fels,Inset-Anchor (Park) On Alki,"'Phase One of The West Seattle Cultural Trail begins at Alki Point and extends to Duwamish Head.  It is comprised of etched and inlaid stone pavers, bronze plaques, and viewing devices that merge the view of actual scenery with ghost images.  These elements combine with community stories and poems to celebrate the rich and diverse histories of the area.'",Mixed Media,Bronze imbeds + blue stone pavers in concrete circle,6' diameter circle,1998,Park - Alki Beach  ,,47.595183,-122.38746699999999,"Seattle, WA
+(47.595183, -122.387467)",5190,POINT (-122.3877985856939 47.59494444653875)
+148,PR99.046,WEST SEATTLE CULTURAL TRAIL,,"Fels, Donald; Feddersen, Joe; Quick to see Smith, Jaune",Viewers,"'The artworks includes five viewing devices.  With each device, the viewer sees an image that merges the view of actual scenery with a ghost image (composed of a computer enhanced slide).  The West Seattle Cultural Trail Phase I art elements (pavers, insets, plaques, medallions and viewing devices) are grouped into a common theme, interweaving nature and culture with the historic and botanical to showcase the memories associated with this place.'",Mixed Media,Stainless steel.  Glass optics designed by ed mannery (oscarware),,1998,Alki Beach W Marginal Way,,47.595333000000004,-122.386417,"Seattle, WA
+(47.595333, -122.386417)",30447,POINT (-122.3855860856382 47.59503416946252)
+149,CL77.022,SEATTLE AQUARIUM 1998,Shaun,Peterson,"Sea Otter, Salmon, And Raven",'',Sculpture,Red cedar,"40""X50""X1""",1998,Seattle Aquarium ,1483 Alaskan Wy,47.607317,-122.342133,"1483 Alaskan Wy
+Seattle, WA
+(47.607317, -122.342133)",10107,POINT (-122.3420127884522 47.60753287164094)
+150,PR98.052.01,WOODLAND PARK ZOO SPECIAL PROJECT,,Rude,Dwelling Places,"'Globe with figures of a gorilla, a mountain goat, a bear, an elephant, a turtle, and other animals on top.'",Sculpture,"Cast bronze, enamel, stone","62""X32""X29""",1998,Woodland Park Zop - South Entry,5500 Phinney Ave N,47.666267,-122.351017,"5500 Phinney Ave N
+Seattle, WA
+(47.666267, -122.351017)",16632,POINT (-122.3510087083428 47.66510816660605)
+151,PR98.052.03,WOODLAND PARK ZOO SPECIAL PROJECT,,Rude,Evidence of Domestication,'A cow on a cart with wheels with a bowl of fruits and vegetables.',Sculpture,Cast bronze; enamel; stone; aluminum,"57""X24""x24""",1998,Woodland Park Zoo  Family Farm,5500 Phinney Ave N,47.666267,-122.35213300000001,"5500 Phinney Ave N
+Seattle, WA
+(47.666267, -122.352133)",32870,POINT (-122.3521348829335 47.66496055070086)
+152,ED80.053,WATER CONSERVATION PROJECT GREENLAKE WADING POOL,Ellen,Ziegler,Signs of Life,'',Sculpture,"Concrete, sealer and water, brass.",DIAM.2',1998,"Greenlake Wading Pool, in lawn around pool",N 73rd St & W Greenlake Dr N,47.6851,-122.33758300000001,"N 73rd St & W Greenlake Dr N
+Seattle, WA
+(47.6851, -122.337583)",7092,POINT (-122.3377278863604 47.68557415126678)
+153,SPU00.043 a -f,MEADOWBROOK DETENTION POND,Lydia,"Aldredge, Peggy Gaynor and Kate Wade",Reflective Refuge at Meadowbrook Pond,'1) Sound Mirror; 2) Sound Reflector Wall; 3) Flood Pool and Flood Chute; 4) Tufa Cliff Wall and Site Feature; 5) Wetland Mosaic; 6)  Earth Sculpture and Perimeter Berms',Structures,Mixed Media,,1998,Meadowbrook Pond ,NE 110th St & 35th Ave NE,47.705633,-122.28888300000001,"NE 110th St & 35th Ave NE
+Seattle, WA
+(47.705633, -122.288883)",23579,POINT (-122.2895024142094 47.7048246100202)
+154,PR99.045,WEST SEATTLE CULTURAL TRAIL,,"Fels, Donald; Feddersen, Joe; Quick to see Smith, Jaune",Bronze Plaques and Medallion,'',Mixed Media,Bronze plaques with bronze medallions,"plaques: 24.5x9""; medallions: 3x3"" (approx)",1997,Alki Beach W Marginal Way,,47.579817,-122.40975,"Seattle, WA
+(47.579817, -122.40975)",37885,POINT (-122.4096508380777 47.57947740029792)
+155,PR98.021.01,MILLER COMMUNITY CENTER,Lydia,Aldedge,Lantern Gateway,"'Two columns topped with cube-shaped glass fixtures with steel plates perforated in a house pattern, a pair of notched cantilevered cedar glulam beams support a plexiglas and perforated aluminum roof panel.'",Structures,Concrete; brick; glass; aluminum; cedar; plexiglas; copper,,1997,Miller Community Center Walkway,330 19th Ave E,47.621533,-122.30723300000001,"330 19th Ave E
+Seattle, WA
+(47.621533, -122.307233)",8351,POINT (-122.3072203095966 47.6215327737913)
+156,PR98.021.03,MILLER COMMUNITY CENTER,Lydia,Aldedge,House Finial,'Kinetic sculpture constructed of telescoping aluminum rods which support house forms brightly painted with intricate patterns.',Sculpture,Aluminum rod; aluminum plate,"84""X72""",1997,Miller Community Center entrance,330 19th Ave E,47.6216,-122.30705,"330 19th Ave E
+Seattle, WA
+(47.6216, -122.30705)",8351,POINT (-122.3072190575617 47.62160301348107)
+157,"PR98.021.02a,b",MILLER COMMUNITY CENTER,Lydia,Aldedge,Skyline Canopies,"'Three layers of 1/4"" thick aluminum plate spaced 1-1/2"" apart, each a silhouette of a different house, each a different color, above both the front entrances to the building.'",Sculpture,Aluminum plate; steel channel; steel tube,"a: 27""X180""X6""; b: 27""X210""X6""",1997,Miller Community Center entrance,330 19th Ave E,47.6216,-122.30705,"330 19th Ave E
+Seattle, WA
+(47.6216, -122.30705)",8351,POINT (-122.3072190575617 47.62160301348107)
+158,PR97.038.03a-f,DISCOVERY PARK VISITOR CENTER,Bruce,Myers,Ripple Sculptures,'Concrete slabs and stepping stones with relief ripple patterns.',Environments,"Cast concrete, color pigment",VARIED,1997,Discovery Park Visitor Center,3801 W Government Way,47.65745,-122.406217,"3801 W Government Way
+Seattle, WA
+(47.65745, -122.406217)",23433,POINT (-122.403668228657 47.65744213879795)
+159,PR97.038.02a-d,DISCOVERY PARK VISITOR CENTER,Bruce,Myers,Strata Benches,'Curved benches with a relief decoration suggestive of earth layers.',Environments,"Cast concrete, color pigment, aggregate",VARIED,1997,Discovery Park Visitor Center,3801 W Government Way,47.657467,-122.40645,"3801 W Government Way
+Seattle, WA
+(47.657467, -122.40645)",23433,POINT (-122.4036681784407 47.65745841999874)
+160,PR97.023,BITTERLAKE COMMUNITY CENTER,Beliz,Brother,Whirr,'Six wind activated rotating wheels mounted to the exterior wall of activity room ( 5 wheels on north exterior wall; 1 wheel on south exterior wall).',Sculpture,"Cedar, aluminum, copper","6@ 84"" DIAM. 9"" DEEP",1997,"Bitter LakeCommunity Center, North and South exterior walls ",13035 Linden Ave N,47.724416999999995,-122.348483,"13035 Linden Ave N
+Seattle, WA
+(47.724417, -122.348483)",11797,POINT (-122.3481983847471 47.72437609799886)
+161,PR96.031,RAINIER COMMUNITY CENTER,Marita,Dingus,Bottle Cap Children,"'Four large figurines, each a different color - yellow, red, purple, blue - made of fabric with painted faces, decorated with bottle caps.'",2-Dimensional,"Fabric, bottle caps, chicken wire, plastic, spray paint, wood door slats","8'6""x24'8.25""",1996,Rainer Community Center Lobby,4600 38th Ave S,47.561533000000004,-122.28471699999999,"4600 38th Ave S
+Seattle, WA
+(47.561533, -122.284717)",4384,POINT (-122.2848254887013 47.56153270567962)
+162,WD96.015,MAPLE LEAF PARK,Lyle,Whitesavage,Gazebo,'Steel gazebo with 4 plant-form decorated archways and wooden benches.',Structures,Hand-forged steel; wooden benches; granite pavers,8' X 3' X 3',1996,"Maple Leaf Park, at 90th & Roosevelt",1020 NE 82nd St,47.688967,-122.31665,"1020 NE 82nd St
+Seattle, WA
+(47.688967, -122.31665)",3018,POINT (-122.3166538113271 47.68848757699686)
+163,SC95.042,INTERNATIONAL FOUNTAIN RENOVATION,Timothy,Siciliano,Acrobat Constellation,'Cast aluminum spirals set atop painted steel poles and mounted with aluminum sheet metal figures with inset fiber optic lights.',Sculpture,Aluminum; painted steel; fiber optic lights,3 FIGURES-25'H;23'H; 21'H,1995,Seattle Center - International Fountain,305 Harrison St,47.622083,-122.352833,"305 Harrison St
+Seattle, WA
+(47.622083, -122.352833)",18325,POINT (-122.3528594775098 47.62097617599739)
+164,SC95.046,COLISEUM RENOVATION,Sheldon,Brown,In the Event,'28 video monitors display digitized and remixed images which move across the length of the wall; the monitors are set into a wall of black anodized aluminum panels cast with relief images of vegetation indigenous to the Puget Sound.',Sculpture,Aluminum; steel; video equipment; computers,"96""X 720""X 7""",1995,Seattle Center - Key Arena West Lobby ,400 1st Ave N,47.6221,-122.35477,"400 1st Ave N
+Seattle, WA
+(47.6221, -122.35477)",19352,POINT (-122.3553085811767 47.62210442659232)
+165,SC95.041,KEY ARENA RENOVATION,Wiegman,Trimpin,Hydraulis,'Percussive waterwall in which a programmed and patterned display of falling water is triggered by the movement of passing people.',Sculpture,"Stainless steel, aluminum, copper, brass, w/ electronics, water","8'x60'x1'7""",1995,Key Arena East Lobby,400 1st Ave N,47.622133000000005,-122.35335,"400 1st Ave N
+Seattle, WA
+(47.622133, -122.35335)",18325,POINT (-122.3533773772369 47.62098856522554)
+166,PR84.094,VICTOR STEINBRUECK PARK,James,Bender,Farmer's Pole,'Smooth pole topped with two eight foot high figures of a farming couple back to back.',Sculpture,Carved cedar,50'H,1984,Victor Steinbrueck Park,2001 Western Ave,47.61,-122.343783,"2001 Western Ave
+Seattle, WA
+(47.61, -122.343783)",17205,POINT (-122.3436374880425 47.61014282055356)
+167,SC95.047,INTERNATIONAL FOUNTAIN RENOVATION,Gloria,Bornstein,Neototems,"'A pair of abstract cast bronze whales comprising a ""mother"" and a ""baby"" which appear to be swimming through the lawn.  They interpret a Native American whale myth recorded in inlaid bronze letters on the cast concrete tail of the mother whale.'",Sculpture,Cast bronze; concrete; bronze lettering,5'x25'x8' (LARGE WHALE); 4'x15'x4' (SMALL WHALE),1995,"Seattle Center,  SW of International Fountain",305 Harrison St,47.62235,-122.35255,"305 Harrison St
+Seattle, WA
+(47.62235, -122.35255)",18325,POINT (-122.3527441731274 47.62097341767908)
+168,SC95.045,FOUNDER'S COURT RENOVATION,Horace,Washington,Untitled,"'Design adapted from George Tsutakawa's ""Century 21"" coin design for the 1963 World's Fair.'",Sculpture,Medallions: cast bronze and granite; seating: cast concrete and granite,"18"" dia bronze set into 6' granite; Seating: 14""",1995,"Seattle Center Founders Court,  set into the sidewalk",201 Mercer St,47.623567,-122.35205,"201 Mercer St
+Seattle, WA
+(47.623567, -122.35205)",34774,POINT (-122.3520481518679 47.62446009160212)
+169,SC95.044,FOUNDER'S COURT RENOVATION,Ned,Kahn,Encircled Stream,'Vortex Fountain is granite and black anodized aluminum dish in which jets of water are released and recirculated; water draining through an off-set drain creates a series of oscillating rhythms and patterns in the central whirlpool.',Sculpture,"Anodized aluminum, granite, pump mechanism","14""x120""DIAM",1995,"Seattle Center Founders Court, between Intiman Theatre & Exhibition Hall",201 Mercer St,47.623833000000005,-122.35196699999999,"201 Mercer St
+Seattle, WA
+(47.623833, -122.351967)",34774,POINT (-122.3519657026719 47.62445992098468)
+170,PR94.023,DELRIDGE COMMUNITY CENTER,Beliz,Brother,Framed Portraits,'Thirty-six cast framed images of varying subjects created by high school students working with the artists.',Sculpture,Cast aluminum,,1994,"Delridge Community Center, Main Entrance",4501 Delridge Wy SW,47.56345,-122.36418300000001,"4501 Delridge Wy SW
+Seattle, WA
+(47.56345, -122.364183)",36157,POINT (-122.3634870988955 47.5634320806763)
+171,PR94.030,DELRIDGE COMMUNITY CENTER,Marita,Dingus,One Hundred and Twenty Ancestors,"'Approximately 12 human figures made from bottle caps, with faces of children, strung on green plastic-coated wire.'",Sculpture,"Metal, plastic, fabric",,1994,"Delridge Community Center, hallway",4501 Delridge Wy SW,47.56345,-122.36418300000001,"4501 Delridge Wy SW
+Seattle, WA
+(47.56345, -122.364183)",36157,POINT (-122.3634870988955 47.5634320806763)
+172,PR94.024,DELRIDGE COMMUNITY CENTER,Beliz,Brother,Trophies,'Located above main entrance to the gymnasium where a curved  ceiling and backlit ledge highlight the artworks and consists of 8 trophy forms inspired by traditional designs from many cultures.',Sculpture,Cast recycled aluminum,"20""H",1994,"Delridge Community Center,  above gymnasium entrance ",4501 Delridge Wy SW,47.56345,-122.36418300000001,"4501 Delridge Wy SW
+Seattle, WA
+(47.56345, -122.364183)",36157,POINT (-122.3634870988955 47.5634320806763)
+173,PR94.026,DELRIDGE COMMUNITY CENTER,Beliz,Brother,Tribal Names,'Sandblasted names of six northwest Native American tribes on a concrete semi-circular seating wall surrounding the terrace; historically each of these tribes congregated on this site at the mouth of the Duamish River.',Sculpture,Sandblasted concrete,,1994,Delridge Community Center,4501 Delridge Wy SW,47.563617,-122.3645,"4501 Delridge Wy SW
+Seattle, WA
+(47.563617, -122.3645)",35684,POINT (-122.365385570007 47.56362451036429)
+174,PR94.019,GARFIELD COMMUNITY CENTER,Beliz,Brother,Proverbs and Icons,'Inset in stair risers to Garfield's main entrance using 14 quotations selected from over 100 submitted by community members; the quotations are separated by inlaid icons of various images which were created by local teenagers.',Environments,Cement; aluminum; stone; metal,"26x588""",1994,Garfield Community Center ,2323 E Cherry St,47.6079,-122.30226699999999,"2323 E Cherry St
+Seattle, WA
+(47.6079, -122.302267)",21405,POINT (-122.3022669456707 47.60792422789002)
+175,PR88.007.02,WESTLAKE PARK,Robert,Maki,Children's Art Tiles,"'Various bronze tiles, each with a different design, set in pavement at several locations throughout the park.'",Sculpture,Bronze,,1988,Westlake Plaza,401 Pine St,47.6109,-122.3369,"401 Pine St
+Seattle, WA
+(47.6109, -122.3369)",29857,POINT (-122.3370574912057 47.61075595298256)
+176,CL93.025,ARTWORK / NETWORK,Colin,Baden,Wall of Death,"'Underneath the University Bridge, next to the Burke Gilman trail. Spiral orange wall elevated and supported by six conical columns, reads 'Wall of Death' from bike path.'",Sculpture,"Painted steel, aluminum, concrete",16x30x65',1993,Burke Gilman Trail, NE 39th under Roosevelt way NE,47.65515,-122.31838300000001," NE 39th under Roosevelt way NE
+Seattle, WA
+(47.65515, -122.318383)",31273,POINT (-122.3183604693069 47.65513258611121)
+177,GCK91.014,COLUMBIA BRANCH LIBRARY,Marvin,Oliver,Spirit of Washington,'Figure in the NWC Salish style (W.R.T. Bill Holm's stylistic definitions) shown in relief on a whale fin-shaped sculpture.',Sculpture,"Bronze, enamel, cast glass",,1991,Columbia Park ,4721 Rainier Ave S,47.560033000000004,-122.2873,"4721 Rainier Ave S
+Seattle, WA
+(47.560033, -122.2873)",37764,POINT (-122.2872979856565 47.5606457485675)
+178,GCK91.019,,Robert,Kelly,Martin Luther King Jr. Memorial,"'Monumental black granite column with metal flourishes along its length, set in the middle of a circular fountain basin.'",Sculpture,Black granite; brick; stainless steel; bronze,,1991,Martin Luther King Jr Memorial Park  ,2200 Martin Luther King Jr Wy S,47.583067,-122.29735,"2200 Martin Luther King Jr Wy S
+Seattle, WA
+(47.583067, -122.29735)",39466,POINT (-122.2973479663351 47.58358283913719)
+179,CL93.024,IN PUBLIC: SEATTLE 1991,Jonathan,Borofsky,Hammering Man,'Worker figure constructed of hollow fabricated steel with an aluminum mechanized arm on a three-horsepower electric motor.',Sculpture,Painted cor-ten steel,48'X 30',1991,Seattle Art Museum,100 University St,47.607033,-122.33815,"100 University St
+Seattle, WA
+(47.607033, -122.33815)",12596,POINT (-122.3381872161071 47.6069989658267)
+180,PR91.011,WOODLAND PARK ZOO,Ken,Little,Mesa,"'Cast-bronze picnic table on the surface of which are cast the names of extinct vertebrates overlaid by a map of the United States, a cityscape and drawings of a grizzly bear and a white-tailed deer--two species nearing extinction in the NW.'",Sculpture,Cast bronze,,1991,Woodland Park Zoo   North of North Meadow,5500 Phinney Ave N,47.670483000000004,-122.3514,"5500 Phinney Ave N
+Seattle, WA
+(47.670483, -122.3514)",34449,POINT (-122.3513380850436 47.67179493447634)
+181,GCK90.074,PEACE PARK,Daryl,Smith,Sadako and the Thousand Paper Cranes,'Sculpture of a child raising her arm with an origami crane in her hand; always strung with colorful necklaces of origami cranes.',Sculpture,"Cast bronze, granite",,1990,"Peace Park, NW side of the University Bridge entrance",NE 40th St & NE Pacific St,47.655583,-122.31865,"NE 40th St & NE Pacific St
+Seattle, WA
+(47.655583, -122.31865)",26026,POINT (-122.3187208073989 47.65564446235864)
+182,PR89.002,SOUTH PARK COMMUNITY CENTER,,,The Unified Playing Field Theory,"'A gateway of painted steel atop brick bases leads to a sidewalk with bronze inlays depicting the days of the year and the alphabet, all of which forms a game devised by the artist.  The inlays lead inside the center, where they are set in colored concrete.'",Structures,"Enamel on steel, masonry, bronze, concrete, ceramic","26'x21'x6'3""",1989,South Park Community Center,8319 8th Ave S,47.528166999999996,-122.32305,"8319 8th Ave S
+Seattle, WA
+(47.528167, -122.32305)",9736,POINT (-122.3229945941398 47.52816606822877)
+183,SC85.001,SEATTLE CENTER,Randy,Hayes,Pool,"'Five windows, each with 2 glass panels with one or two figures of swimmers painted on wood and set behind the glass, in front of a painted wall. The windows are lit with green fluorescent light at night.'",2-Dimensional,Oil on marine plywood,"5 WINDOWS w/ 2 GLASS PANELS (H:77"" x W:56"" EACH, D:varies)",1985,Seattle Center - NW Crafts Center,305 Harrison St,47.623067,-122.35286699999999,"305 Harrison St
+Seattle, WA
+(47.623067, -122.352867)",33811,POINT (-122.3540536165058 47.62321781781166)
+184,GCK89.025,JOSE RIZAL PARK,Anastacio,Caedo,Dr. Jose P. Rizal,"'Bust of Dr. Jose P. Rizal, a Filipino patriot who, during his short life, made lasting contributions to medicine, political and social reform, engineering and a large number of other disciplines. He was executed as a result of being accused of complicity in the Filipino insurrection of 1896.'",Sculpture,Plastic resin; bronze powder (?)  Or  cast bronze (?),"12'x3'3x3'3""",1989,Dr. Jose P. Rizal Park,1008 12th Ave S,47.591833,-122.3175,"1008 12th Ave S
+Seattle, WA
+(47.591833, -122.3175)",17561,POINT (-122.3173953746496 47.59183270308241)
+185,CL84.085,WOODLAND PARK ZOO,Lon,Brusselback,Baby Elephant,'',Sculpture,Copper and steel,,1989,Woodland Park Zoo - Elephant House,5500 Phinney Ave N,47.669067,-122.34845,"5500 Phinney Ave N
+Seattle, WA
+(47.669067, -122.34845)",30425,POINT (-122.3474316020276 47.66905899363544)
+186,PR89.024,GREENLAKE COMMUNITY CENTER,Paul,Marioni,Portal,'Twenty-four cast glass tiles consisting of clear glass over dichroic glass base.',Structures,"Cast & dichroic glass, brass","7'10x7'8x5""",1989,"Greenlake Community Center, at the entrance.",7201 E Greenlake Dr N,47.680316999999995,-122.328433,"7201 E Greenlake Dr N
+Seattle, WA
+(47.680317, -122.328433)",13431,POINT (-122.327518511728 47.68156393269889)
+187,CL99.052,"WATERFRONT, PIER 54",Richard,Beyer,Ivar Feeding the Gulls,'',Sculpture,"Bronze, aluminum","5'8x4'9x3'11""",1988,"PIER 54, on sidewalk",Alaskan Wy & Madison St,47.60385,-122.33876699999999,"Alaskan Wy & Madison St
+Seattle, WA
+(47.60385, -122.338767)",34771,POINT (-122.3387124293316 47.60390133182354)
+188,"CL01.041a,b",TRADITONAL ARTS:  SALISH PURCHASE,Marvin,Oliver,Transition,'Wood and cast glass sculpture of human form.  Two panels.',Sculpture,Wood and cast glass,"Glass: 73"" x 37 ½"" x 2""  Cedar panel: 72"" x 35"" x 2""",1988,"Seattle Municipal Tower, 40th floor Conference Rm",700 5th Ave,47.60475,-122.33033300000001,"700 5th Ave
+Seattle, WA
+(47.60475, -122.330333)",15936,POINT (-122.3303046422744 47.60477592861955)
+189,CL88.004,UNION STREET SUBSTATION,Ann,Sperry,Seattle Garden,"'ARTIST-DESIGNED FENCE THAT RUNS ALON TWO SIDES OF THE UNION  SUBSTATION. INSTALLED ATOP A 4' WALL, THE FENCE EXTENDS ANOTHER FOUR FEET WITH THE ADDITION OF SPIKELIKE STEEL FLOWERS AND BLADES, PAINTED WITH COLORFUL HIGHLIGHTS     '",Sculpture,Painted steel,"4'x334""",1988,"Union street substation, ",,47.607433,-122.339867,"Seattle, WA
+(47.607433, -122.339867)",24340,POINT (-122.339859628623 47.60741551479704)
+190,"GCK88.006a,b",WOODLAND PARK ZOO,,,Untitled,"'Triangular tile murals, one with a scene of elephants playing in water, the other a scene of elephants in the jungle.'",2-Dimensional,Ceramic tile,,1988,Woodland Park Zoo - Elephant House,5500 Phinney Ave N,47.6689,-122.348133,"5500 Phinney Ave N
+Seattle, WA
+(47.6689, -122.348133)",30425,POINT (-122.347432895263 47.66889449596925)
+191,GCK74.070,SEATTLE CENTER INTIMAN THEATRE,Francois,Stahly,The Lang Fountain,'White cubed stone column sculpture.',Sculpture,"Carved stone, aggragate",12'x18'x16',1962,"Founders Court, east of Intiman Playhouse",201 Mercer St,47.62405,-122.35215,"201 Mercer St
+Seattle, WA
+(47.62405, -122.35215)",34774,POINT (-122.3521491509384 47.62446030060602)
+192,WD88.005,BITTERLAKE RESERVOIR,Mark,Lere,Seattle Scatter Piece,'5-sided concrete platform with inverted sides sits directly on grassy mound.  Two concrete bench-like sculptural elements are on its west side on ground nearest reservoir and 3 rust colored structures sit on the east side.',Sculpture,"Concrete, metal","2'8""x26'4""x14'3"" above grade",1988,"Park - Bitter Lake Park, east side",N 143rd St & Linden Ave N,47.73215,-122.34856699999999,"N 143rd St & Linden Ave N
+Seattle, WA
+(47.73215, -122.348567)",12585,POINT (-122.3485669972907 47.73225800262608)
+193,DAS87.088,FIRE STATIONS,Ellen,Ziegler,Tidal Wave Story,'SERIES OF 7 BENCH-LIKE FORMS TELLING A JAPANESE FOLKTALE ABOUT  FIRE.',Sculpture,"Concrete, terrazzo, stainless, cor-ten steel, sandstone",,1987,Fire Station #13,3601 Beacon Ave S,47.571783,-122.3085,"3601 Beacon Ave S
+Seattle, WA
+(47.571783, -122.3085)",13200,POINT (-122.3083878826971 47.57183237550205)
+194,WD85.063a-i,WATER DEPARTMENT HATCHCOVERS COMPETITION,Garth,Edwards,Hatch Covers,"'Circles of cartoon like faces rimming the hatchcovers, as if peering down into the opening at a worker below or a passerby.'",Sculpture,Cast iron,"37 1/2"" Diameter",1987,Hatchcovers - COLUMBIA CNTR  4TH & CHERRY; SC  402 1ST; SE SEATTLE  3700 S EDMONDS; GARFIELD HS  500 23RD AVE; INTL DIST  602 S JACKSON; 1701,,47.6039,-122.33083300000001,"Seattle, WA
+(47.6039, -122.330833)",25873,POINT (-122.3307744573947 47.60393402972175)
+195,GCK87.089,,Charles,Greening,Tulip Tree Mosaic,'Tree roots were the cause of the destruction of the previous sidewalk.  Creation of this sidewalk treatment saved the tree for which it is named.',2-Dimensional,"Concrete, bronze, misc bits: ceramic, seashells, beads, etc.","2""x5'5""x15'",1987,Capitol Hill ,16th Ave E & E Aloha St,47.6268,-122.311383,"16th Ave E & E Aloha St
+Seattle, WA
+(47.6268, -122.311383)",15160,POINT (-122.311370968932 47.62679983270402)
+196,DAS87.078,FIRE STATIONS,Tom,Askman,Firefighter Silhouettes,'The fire station tower’s window openings are inset with aluminum silhouettes of firefighters on movable tracks that can be moved out of sight.',Sculpture,Aluminum deck plating,"72x36x.5""",1987,Fire Station #17,1020 NE 50th St,47.6652,-122.316833,"1020 NE 50th St
+Seattle, WA
+(47.6652, -122.316833)",18624,POINT (-122.3168346779637 47.66501309936369)
+197,NC80.065,BEACON HILL ,Mark,Lere,Seattle Scatter Piece,'',Sculpture,"Concrete, marble","5'4.5x35'5x17'7.5""",1986,S. Spokane ST. & 15-16th Ave. S.,,47.5711,-122.312533,"Seattle, WA
+(47.5711, -122.312533)",28589,POINT (-122.3126764298042 47.57151440361681)
+198,PR86.048,RAVENNA-ECKSTEIN COMMUNITY CENTER,Ellen,Ziegler,Playground Artwork,'Gateway to the playground’s west entrance represents the world's record for the pole vault on the day the center opened.',Structures,"Painted steel, bronze,",,1986,Ravenna Eckstein Community Center playground,6535 Ravenna Ave NE,47.6767,-122.30495,"6535 Ravenna Ave NE
+Seattle, WA
+(47.6767, -122.30495)",26132,POINT (-122.3051041682527 47.67668649025558)
+199,PR86.051,RAVENNA-ECKSTEIN COMMUNITY CENTER,Jack,Mackie,Playground,"'Tile murals on the walkway and cast stone reliefs on the building include home base, fence painting, hopscotch museum, long/triple jump walkway, and sportsgoyles.'",Sculpture,Cast stone; ceramic tile,,1986,Ravenna-Eckstein Playground.  ,6535 Ravenna Ave NE,47.67675,-122.30495,"6535 Ravenna Ave NE
+Seattle, WA
+(47.67675, -122.30495)",26132,POINT (-122.3051041682527 47.67668649025558)
+200,GCK85.062,RAINIER BEACH BRANCH LIBRARY,Richard,Beyer,The Children,"'3 life-size children; black, white and Asian sitting on a bench reading.'",Sculpture,"Cast aluminum, granite",,1985,Rainier Beach Branch Library,9125 Rainier Ave S,47.5216,-122.271267,"9125 Rainier Ave S
+Seattle, WA
+(47.5216, -122.271267)",9298,POINT (-122.2712904553707 47.52159896563309)
+201,PR84.096,VICTOR STEINBRUECK PARK,,,Untitled Fence,"'Iron fence at edge of Park over freeway with an organic spiral design, like ivy or grass blowing in the wind.'",Structure,Wrought iron,"5'3""x9'3""",1984,Victor Steinbrueck Park,2001 Western Ave,47.610116999999995,-122.344117,"2001 Western Ave
+Seattle, WA
+(47.610117, -122.344117)",12525,POINT (-122.3438178793598 47.61035685101444)
+202,PR84.097,VICTOR STEINBRUECK PARK,James,Bender,Untitled Totem Pole,"'Four main figures on haida-style pole from bottom to top are: bear, killer whale or blackfish, human and raven. Only red and black paint stain colors are used in combination with the expressed natural cedar.'",Sculpture,Carved cedar,,1984,Victor Steinbrueck Park,2001 Western Ave,47.61015,-122.34411999999999,"2001 Western Ave
+Seattle, WA
+(47.61015, -122.34412)",12525,POINT (-122.3438351590984 47.61037840075218)
+203,PL84.100,MADRONA BRANCH LIBRARY,Richard,Beyer,The Peaceable Kingdom,"'Sculpture showing a pig and a cougar sitting together atop a large granite boulder, with a sheep and a wolf at the base.'",Sculpture,"Cast aluminum, granite",APPROX LIFE SIZE (RUPP),1984,Madrona-Sally Goldmark Branch Library,1134 33rd Ave,47.612783,-122.290217,"1134 33rd Ave
+Seattle, WA
+(47.612783, -122.290217)",40400,POINT (-122.2902166149974 47.61282617837469)
+204,SC84.088,SEATTLE CENTER,Alexander,Liberman,Olympic Iliad,"'Sculpture consists of 41 monumental-scale bright red rolled steel cylinders ranging in size from 48"" to 64"" in diameter, piled on top of one another at various angles.'",Sculpture,Painted steel,H:45'xW:60'xD:30',1984,Space Needle Sculpture Park,400 Broad St,47.6193,-122.3501,"400 Broad St
+Seattle, WA
+(47.6193, -122.3501)",16708,POINT (-122.3499115106353 47.6190625817557)
+205,CL84.093 (WD),LAURELHURST PLAYFIELD,Mark,Lere,Seattle Scatter Piece,'Bronze boat-shaped drinking fountain that mimics a boat-shaped concrete slab.',Sculpture,Concrete; bronze,,1984,Laurelhurst Playfield,4554 NE 41st St,47.659033,-122.2776,"4554 NE 41st St
+Seattle, WA
+(47.659033, -122.2776)",4372,POINT (-122.2776007345215 47.65846650845875)
+206,DAS83.086,POLICE PRECINCTS,Liza,Halvorsen,Salmon,"'A 225-square-foot mural of salmon swimming by island shapes through crackled surface, with iridescent colors.'",2-Dimensional,Raku fired ceramic; glazed brick,225 SQ',1983,SPD South Precinct ,3001 S Myrtle St,47.5387,-122.29331699999999,"3001 S Myrtle St
+Seattle, WA
+(47.5387, -122.293317)",41859,POINT (-122.2933147775991 47.53882490300611)
+207,SC83.087,SEATTLE CENTER BAGLEY WRIGHT THEATRE,Stephen,Antonakos,Neon For The Bagley Wright Theatre,"'Loose assemblage of linear red neon tubes with hard angles and soft curves, narrow strips of tubing separate bands of green and follow contours on building.'",Sculpture,Neon tubing,8'x50',1983,Bagley Wright Theatre,155 Mercer St,47.623883,-122.353183,"155 Mercer St
+Seattle, WA
+(47.623883, -122.353183)",22887,POINT (-122.3531817580263 47.62446246618217)
+208,PR83.134,CHRISTIE PARK,Anne,Fiske,Wisteria Mural,"'Painting on cinder block wall of wisteria branches, next to real vines.'",2-Dimensional,Acrylic enamel on concrete,,1983,Christie Park,NE 43rd St & 9th Ave NE,47.6593,-122.319167,"NE 43rd St & 9th Ave NE
+Seattle, WA
+(47.6593, -122.319167)",14911,POINT (-122.3191667726129 47.65940282054691)
+209,PR82.124,UNIVERSITY PLAYGROUND,Richard,Beyer,Sasquatch Pushing over A House,"'Play sculpture of a leaning house frame of 12x12 wood, painted red, blue and yellow, being pushed on by a silver sasquatch figure.'",Sculpture,"Cast aluminum, painted wood",,1983,University Playfield Park,9th Ave NE & NE 50th St,47.664333,-122.3197,"9th Ave NE & NE 50th St
+Seattle, WA
+(47.664333, -122.3197)",37224,POINT (-122.3196315212461 47.66401566239849)
+210,PR83.129,KZOK JIMI HENDRIX MEMORIAL,Larry,Buckingham,Jimi Hendrix Memorial Viewpoint,"'A viewpoint consisting of a series of rocks surrounded by a mosaic walkway in a flame design; the largest rock in the center is heated  --  a ""hot rock"" meant to symbolize Jimi Hendrix's music.'",Environments,Carved rocks; tile,,1983,Woodland Park Zoo African Savanna - SW Corner,5500 Phinney Ave N,47.667033,-122.349267,"5500 Phinney Ave N
+Seattle, WA
+(47.667033, -122.349267)",30425,POINT (-122.3474476422805 47.66701869671036)
+211,PR82.125,HIGH POINT COMMUNITY CENTER,,,Break Point,'Abstract pattern of two figures playing basketball.',Structures,Stained glass,7' DIA,1982,High Point Community Center ,6920 34th Ave SW,47.540783000000005,-122.37501699999999,"6920 34th Ave SW
+Seattle, WA
+(47.540783, -122.375017)",30556,POINT (-122.3751183743414 47.5407854053509)
+212,SAC,ALKI PLAYGROUND,Richard,Beyer,Whale's Tail,'Play sculpture of the tail of a whale in the air',Sculpture,Cast aluminum,"6' 9""",1982,Alki Playground,58th Ave SW & SW Stevens St,47.579383,-122.40715,"58th Ave SW & SW Stevens St
+Seattle, WA
+(47.579383, -122.40715)",23508,POINT (-122.4071501006798 47.57943121188129)
+213,CL74.093,ARTIST IN THE CITY,Jay,Kohn,Beyond The Reef,"'A large (60x72x7"" EA) permanently-sited 2-dimensional artwork. '",Paintings,Oil on canvas,,1982,Seattle Aquarium ,1483 Alaskan Wy,47.607317,-122.342133,"1483 Alaskan Wy
+Seattle, WA
+(47.607317, -122.342133)",10107,POINT (-122.3420127884522 47.60753287164094)
+214,ED82.100a-h,SEATTLE URBAN SPACES PROGRAM,Jack,Mackie,Dancer's Series: Steps,"'A collection of inlaid bronze footprints and dance instructions.  Each of eight groups depicts different dance steps including rumba, waltz, tango, busstop* and obeedo*, *= artist’s inventions.'",Environments,"Bronze, concrete",,1982,Broadway, E. Pine St to E Roy St.,47.622966999999996,-122.32083300000001," E. Pine St to E Roy St.
+Seattle, WA
+(47.622967, -122.320833)",9738,POINT (-122.3207858446336 47.6229677480475)
+215,GCK82.122,VOLUNTEER PARK CONSERVATORY,Richard,Spaulding,Homage in Green,'20 painted and etched glass panels:  10 glass panels with no surface treatment and 4 architectural bronze frames',Structures,Stained glass,,1982,"Volunteer Park, Conservatory Entryway",1400 E Galer St,47.63205,-122.3157,"1400 E Galer St
+Seattle, WA
+(47.63205, -122.3157)",10806,POINT (-122.3131179906543 47.63456826834172)
+216,DAS81.062,ANIMAL CONTROL,Linda,Beaumont,Step on no Pets,"'Ceramic mural, tile border'",Sculpture,"Ceramic tile, glass, found objects","17'x9'10x3'4""",1982,Animal Control lobby,2061 15th Ave W,47.638166999999996,-122.3766,"2061 15th Ave W
+Seattle, WA
+(47.638167, -122.3766)",11915,POINT (-122.3763750862073 47.63816834306025)
+217,CL82.119,,Clair,Colquitt,Electrical Abuse,"'TINTED CONCRETE DEPICTION OF AN OVERLOADED ELECTRICAL   OUTLET LABELED ""NO"" WHICH STANDS NEXT TO THE PROPERLY  USED OUTLET LABELED ""YES""'",Sculpture,"Concrete, metal","9'x3'8""x7'10""",1981,,,47.506633,-122.26606699999999,"Seattle, WA
+(47.506633, -122.266067)",23511,POINT (-122.266068413236 47.50618771510365)
+218,SAC81.069,ODESSA BROWN CHILDREN'S CLINIC,James Jr.,Washington,My Testimony in Stone,'Artist surrounds a large bird and it’s fledgling with symbolic references to his beliefs about life and the place of humans in the universe.',Sculpture,Carved granite,4x2x5',1981,Odessa Brown Children's Clinic entrance,2101 E Yesler Wy,47.6015,-122.30441699999999,"2101 E Yesler Wy
+Seattle, WA
+(47.6015, -122.304417)",21129,POINT (-122.3044168372769 47.60159233532836)
+219,SC81.009,SEATTLE CENTER SCULPTURE,Ronald,Bladen,Black Lightning,'Monumental steel sculpture designed for its site on the grounds of the Seattle Center.',Sculpture,Painted steel,"H:20'x W:56'x D:36.75""",1981,Space Needle Sculpture Garden,400 Broad St,47.620367,-122.3483,"400 Broad St
+Seattle, WA
+(47.620367, -122.3483)",4629,POINT (-122.3482826796609 47.62034473488981)
+220,DHHS81.070,,Richard,Beyer,The Itinerant,'Sculpture is of a man sleeping on a bench with his head covered by a newspaper.',Sculpture,"Cast aluminum, wood",,1981,Broadway,Broadway E & E Harrison St,47.622033,-122.320683,"Broadway E & E Harrison St
+Seattle, WA
+(47.622033, -122.320683)",3660,POINT (-122.3206829444839 47.62204309448901)
+221,PR81.013,MERIDIAN PARK,Charles,Greening,Meridian Archway,"'ARCHWAY BETWEEN PARK AND STREET, A CIRCULAR WALKWAY CULMINATES   IN AN S-SHAPED RAMP GRADUALLY DESCENDING TO THE ARCH AT STREET  LEVEL. THE WALLS AND ARCHWAY CONSIST OF STONES GLASS AND TILES  SET INTO CONCRETE'",Environments,"Stone, concrete, glass","9'4""x 65'x 68'",1981,Meridian Playground,4649 Sunnyside Ave N,47.6649,-122.33368300000001,"4649 Sunnyside Ave N
+Seattle, WA
+(47.6649, -122.333683)",25272,POINT (-122.3335838727181 47.66489914703568)
+222,PR80.039,WOODLAND PARK ZOO,Betz,Bernhard,Crocodile,'Mosaic relief of a crocodile.',2-Dimensional,"Stained glass, ceramic tile","38x72""",1981,Woodland Park Zoo - Tropical House  ,5500 Phinney Ave N,47.668766999999995,-122.35205,"5500 Phinney Ave N
+Seattle, WA
+(47.668767, -122.35205)",7546,POINT (-122.3542674098088 47.66878465108923)
+223,PR81.067 (NON-SAC),INTERNATIONAL CHILDREN'S PARK,George,Tsutakawa,Sand Dragon,"'A dragon made almost entirely of light silicon bronze; undulating form culminates with contrasting brightness of stainless steel eyes, edges are rounded and sculpture is filled with sand to absorb heat from metal on hot days.'",Sculpture,"Silicon bronze, stainless steel","6'6""x12""",1980,International Children's Park,700 S Lane St,47.596917,-122.323517,"700 S Lane St
+Seattle, WA
+(47.596917, -122.323517)",15884,POINT (-122.3236072352922 47.59691737682444)
+224,GCK81.068,SEATTLE WALLS,Richard,Haas,Untitled Mural,'Trompe L'Oeil mural that appears to be a stained glass window showing Mt. Rainier and downtown Seattle basking in sunlight.',2-Dimensional,,,1980,"1111 3rd Ave, outdoors",1111 3rd Ave,47.606167,-122.335017,"1111 3rd Ave
+Seattle, WA
+(47.606167, -122.335017)",9276,POINT (-122.3349945770062 47.60611344144365)
+225,CL77.016,MADISON PARK,Richard,Beyer,Mcgilvra's Farm,'',Sculpture,"Granite, carved cedar",,1980,Madison Park ,E Madison St & E Howe St,47.635467,-122.27791699999999,"E Madison St & E Howe St
+Seattle, WA
+(47.635467, -122.277917)",28489,POINT (-122.2780346424921 47.63565783844546)
+226,PR80.059a-g,FREMONT CANAL PARK,Anita,Fisk,Reality Relics,"'Originally 7 relics total, 4 remain: a newspaper, a workglove, books and space cards.  Three objects (beer bottle, lunch bag, and running shoes) are no longer at the site.'",Sculpture,Bronze,,1980,Fremont Branch Library,731 N 35th St,47.650133000000004,-122.34843300000001,"731 N 35th St
+Seattle, WA
+(47.650133, -122.348433)",38441,POINT (-122.34841888016 47.65022711383158)
+227,PR80.057,FREMONT CANAL PARK,Paul,Lewing,Ross Creek,"'Mural depicting a view of the  Ship Canal as it was in 1875,  inspired by an old photograph the artist viewed at the Museum of History and Industry; made from 6x6"" glazed, fired tiles.'",2-Dimensional,Ceramic tile,"3'9""x6""x13'",1980,Canal Park ,199 N Canal St,47.652516999999996,-122.3594,"199 N Canal St
+Seattle, WA
+(47.652517, -122.3594)",3979,POINT (-122.3592482895438 47.652808864624)
+228,DCD80.060,NEIGHBORHOOD ARTS PROGRAM,Ann,Gardner,The Stairway In Fremont Project,"'At the bottom of the stairway, childlike pictures have been drawn in the concrete - panels of ceramic shards and  glass arranged in horizontal designs decorate retaining wall / benches surrounding the concrete area.'",2-Dimensional,"Concrete, ceramic tile, glass",,1980,Fremont ,N 40th St & Fremont Ave N,47.655417,-122.350017,"N 40th St & Fremont Ave N
+Seattle, WA
+(47.655417, -122.350017)",21928,POINT (-122.3500550538265 47.65541635236313)
+229,PR81.010,GREENLAKE SMALL CRAFT CENTER,R. Allen,Jensen,Stroke,'A steel and aluminum wind vane sculpture mounted 50' from ground.',Structures,"Steel, aluminum, concrete","216x148x320""",1980,"Greenlake Park, Left of the Small Craft Center",5900 W Greenlake Wy N,47.671383,-122.342717,"5900 W Greenlake Wy N
+Seattle, WA
+(47.671383, -122.342717)",22514,POINT (-122.3400096422512 47.67082413424755)
+230,CL77.011,EARTHWORKS,Herbert,Bayer,1979 Earthworks Symposium,"'An environmental artwork consisting of a series of berms, mounds, and excavated rings that function together as a storm-water detention dam in Mill Creek Canyon Earthworks Park in Kent, Washington.''",,,,1979,Mill Creek Canyon Earthworks Park,"Kent, WA",47.382533,-122.22428300000001,"Kent, WA
+Seattle, WA
+(47.382533, -122.224283)",7256,POINT (-122.2413659402267 47.49946114301719)
+231,PR79.002,DENNY REGRADE PARK,Lloyd,Hamrol,Gyrojack,'The artist created a concrete form consisting of 4 stacked concentric discs which appear to tilt and turn.',Sculpture,Concrete,9'x15'x15',1979,Denny Regrade Park,2251 3rd Ave,47.614533,-122.3448,"2251 3rd Ave
+Seattle, WA
+(47.614533, -122.3448)",20055,POINT (-122.3447829887063 47.61456176982079)
+232,GCK79.040,FREMONT,Richard,Beyer,People Waiting for the Interurban,"'A group of people and a dog with a human face, standing under a shelter and looking out to the street, as if waiting for a streetcar.'",Sculpture,Cast aluminum,,1979,Fremont ,N 34th St & Fremont Ave N,47.64945,-122.349483,"N 34th St & Fremont Ave N
+Seattle, WA
+(47.64945, -122.349483)",24045,POINT (-122.34948130936 47.6494612613963)
+233,CETA79.044,FREMONT,Peter,Larson,Pergola At Waiting For The Interurban,"'White painted framework and glass panel structure shelters the sculpture ""People Waiting for the Interurban"".'",Mixed Media,"Steel, glass",,1979,Fremont ,N 34th St & Fremont Ave N,47.64945,-122.34955,"N 34th St & Fremont Ave N
+Seattle, WA
+(47.64945, -122.34955)",24045,POINT (-122.3495468325892 47.6494710982043)
+234,SAC79.037,WOODLAND PARK ZOO,Betz,Bernhard,Gila Monster Mural,'Mosaic relief of a foreshortened gila monster.',2-Dimensional,"Stained glass, ceramic tile","3'6""x5'6""",1979,Woodland Park Zoo - Tropical House  ,5500 Phinney Ave N,47.668766999999995,-122.35205,"5500 Phinney Ave N
+Seattle, WA
+(47.668767, -122.35205)",7546,POINT (-122.3542674098088 47.66878465108923)
+235,PR74.096,ARTIST IN THE CITY:  GREENLAKE LIBRARY,Richard,Spaulding,Homage to Hokusai,'',Structures,Stained glass,,1979,Greenlake Branch Library,7364 E Green Lake Dr N,47.6814,-122.32695,"7364 E Green Lake Dr N
+Seattle, WA
+(47.6814, -122.32695)",40761,POINT (-122.3269449637212 47.68140790538443)
+236,GCK78.089,,Jan,Evans,Anawog,'Red-orange organic abstract assemblage of painted steel plates',Sculpture,Painted steel,,1978,Near 2nd Ave & S Washington St,,47.601067,-122.331617,"Seattle, WA
+(47.601067, -122.331617)",15341,POINT (-122.3315970976899 47.60108520638332)
+237,CL77.105a-c,WATERFRONT PARK,Douglas,Bennett,Christopher Columbus,'',Sculpture,Bronze,"9'9x5'9.25""",1978,Waterfront Park ,1301 Alaskan Wy,47.6066,-122.34143300000001,"1301 Alaskan Wy
+Seattle, WA
+(47.6066, -122.341433)",31169,POINT (-122.3413126866615 47.60671246378217)
+238,GCK78.119,"WATERFRONT, PIER 60",Tony,Angell,Breaching Orca,"'Sculpture depicts an orca jumping straight up out of the water, the tip of its tail touching the surface.'",Sculpture,Silicon bronze,,1978,Seattle Aquarium ,1483 Alaskan Wy,47.607317,-122.342133,"1483 Alaskan Wy
+Seattle, WA
+(47.607317, -122.342133)",10107,POINT (-122.3420127884522 47.60753287164094)
+239,PR78.120,DENNY REGRADE PARK,Richard,Beyer,Three Dogs,"'Three carved sandstone dogs, each one crouching on the stepped sandstone railing bordering the perimeter of children's play area on Bell Street.  Each dog crouches awaiting the reappearance of a small rat under the bottom step.'",Sculpture,Sandstone,,1978,Denny Regrade Park,2251 3rd Ave,47.614483,-122.3449,"2251 3rd Ave
+Seattle, WA
+(47.614483, -122.3449)",27498,POINT (-122.3449079329717 47.61449326228068)
+240,PL78.109,ARTIST IN THE CITY:  QUEEN ANNE BRANCH LIBRARY,Richard,Spaulding,Quintet in D,"'Fluid ripples of glass created in honor of Katsushika Hokusai (1760-1849), Master of Edo Japanese Woodblock Print'",Structure,Stained glass,"8'6""x3'4""",1978,Queen Anne Branch Library,400 W Garfield St,47.633717,-122.36278300000001,"400 W Garfield St
+Seattle, WA
+(47.633717, -122.362783)",21764,POINT (-122.3627829803781 47.63358535596196)
+241,GCK78.106,GASWORKS PARK,Charles,Greening,Sundial,"'Large sculptural relief of concrete, brick, inlaid and cast bronze and numerous found objects. The viewer's body determines the time of day.'",Sculpture,"Concrete, aggregate, bronze, misc objects, tile","27'9"" DIA",1978,Gasworks Park ,2101 N Northlake Wy,47.645267,-122.33635,"2101 N Northlake Wy
+Seattle, WA
+(47.645267, -122.33635)",17616,POINT (-122.3363419352671 47.64692659536927)
+242,CL78.100,BALLARD AVENUE,Jack,Ferrell,Catfish,'The ceramic tiles in place of sidewalk pavers on this street corner create an illusion of looking down into a pool or stream full of catfish.',2-Dimensional,"Ceramic tile, stoneware","24.5x18""",1978,Ballard,20th Ave NW & Ballard Ave NW,47.665717,-122.38225,"20th Ave NW & Ballard Ave NW
+Seattle, WA
+(47.665717, -122.38225)",14537,POINT (-122.3822612861924 47.66576128721989)
+243,CL78.099,BALLARD AVENUE,Donald,Crabtree,Untitled,'Cast iron abstraction of band type head saw.',Sculpture,Cast iron,"23.5x17.625""",1978,Ballard,5229 Ballard Ave,47.666167,-122.38285,"5229 Ballard Ave
+Seattle, WA
+(47.666167, -122.38285)",14667,POINT (-122.3828037986465 47.66622146738394)
+244,"CL78.101a,b",BALLARD AVENUE,Brian,Goldbloom,Vagor I And Vagor II,'',Sculpture,Black granite,"42x36""; 30x18""",1978,Ballard,22nd Ave NW & Ballard Ave NW,47.6678,-122.38475,"22nd Ave NW & Ballard Ave NW
+Seattle, WA
+(47.6678, -122.38475)",11036,POINT (-122.3848976624856 47.66779998527115)
+245,CL85.061,BALLARD AVENUE,Larry,Tate,Untitled,'',Sculpture,Cast silicon bronze,"17.75x23.75"" ; 17.75x23.75""",1978,Ballard,5410 Ballard Ave NW,47.668017,-122.38536699999999,"5410 Ballard Ave NW
+Seattle, WA
+(47.668017, -122.385367)",41246,POINT (-122.3853198924577 47.66808585062741)
+246,"CL78.102a,b",BALLARD AVENUE,Marvin,Herard,Untitled,'A series of sidewalk pavers with a design of concentric half-circles arranged to create serpentine patterns in the sidewalk.',Sculpture,Precast concrete,"131.125x109.25""; 91.125x112.5""",1978,Ballard,5410-5447 Ballard Ave NW,47.668517,-122.386067,"5410-5447 Ballard Ave NW
+Seattle, WA
+(47.668517, -122.386067)",41246,POINT (-122.3860297074232 47.66857150543973)
+247,ESD00.074.02,CENTRAL LIBRARY,Kepner,Rita,In Transition is Unity,'',Sculpture,African black granite,,1978,Central Library ,1000 4th Ave,47.705883,-122.32256699999999,"1000 4th Ave
+Seattle, WA
+(47.705883, -122.322567)",9283,POINT (-122.3230411056373 47.70587694201207)
+248,GCK77.054,HING HAY PARK,,,Untitled,"'Mural of green and red dragons (the Chinese symbol of good luck) surrounded with multi-colored scenes of Asian-American and International District history.  The mural depicts the struggle of Asian pioneers in America including cannery, agricultural, and railroad workers.'",2-Dimensional,Oil base paints,32x61',1977,Hing Hay Park,423 Maynard Ave S,47.598766999999995,-122.32525,"423 Maynard Ave S
+Seattle, WA
+(47.598767, -122.32525)",3769,POINT (-122.3251481474613 47.59876658737681)
+249,GCK75.059,CASCADE PLAYFIELD,,,Untitled,'',2-Dimensional,Paint on concrete,,1976,Cascade Playfield,333 Pontius Ave N,47.621783,-122.33238300000001,"333 Pontius Ave N
+Seattle, WA
+(47.621783, -122.332383)",6655,POINT (-122.3323825722702 47.6218845399283)
+250,GCK76.046,WASHINGTON PARK ARBORETUM VISITORS CENTER,George,Tsutakawa,Gates,"'ARTIST INCORPORATED THINGS IN THE ARBORETUM; PODS,  LEAVES, TENTACLES AND FLOWERS MADE WITH BRONZE STRIPS WELDED TOGETHER IN COMPOUND AND REVERSE CURVES'",Structures,Silicon bronze,"62""x22'x5""",1976,"Arboretum, Visitors Center",2300 Arboretum Dr E,47.6402,-122.29443300000001,"2300 Arboretum Dr E
+Seattle, WA
+(47.6402, -122.294433)",10947,POINT (-122.298533817446 47.64024324305007)
+251,SAC [Duplicate 14] (NON-SAC),,,,Ballard Centennial Bell Tower,'',Structures,"Bronze, brick",,1976,Ballard,22nd Ave NW & Ballard Ave NW,47.6675,-122.384883,"22nd Ave NW & Ballard Ave NW
+Seattle, WA
+(47.6675, -122.384883)",34479,POINT (-122.3848576296487 47.66749989890793)
+252,CL77.043,GOLDEN GARDENS PROJECT,Lawrence,Beck,Atala Kivliktwok Okitun Dukik (The Golden Money Moon),"'The sculpture is an ""innukshuk"" an Eskimo word for an object with sculptural presence.  Inspired by Alaskan Eskimo and Indian art, the artist's intent was to combine these forms with a contemporary twist i.e., the steel fabrication and hansa yellow paint.'",Sculpture,Welded steel; enamel,"144x96x216""",1976,Golden Gardens Park,8498 Seaview Pl NW,47.690783,-122.400833,"8498 Seaview Pl NW
+Seattle, WA
+(47.690783, -122.400833)",30333,POINT (-122.4018332899816 47.69065659229052)
+253,GCK75.056,OCCIDENTAL PARK,Duane,Pasco,Bear (Totem),'NW Coast Native American style carved bear totem.',Sculpture,"Carved, painted western red cedar",13',1975,Occidental Square,Occidental Ave S & S Main St,47.600733,-122.33325,"Occidental Ave S & S Main St
+Seattle, WA
+(47.600733, -122.33325)",34153,POINT (-122.3332499197844 47.6007984134555)
+254,CL75.054,TILIKUM PLACE,Richard,Beyer,Untitled ,'Fountain basin',Sculpture,Granite; boulders,,1975,Tilikum Place Park,5th Ave & Denny Wy,47.618733,-122.347917,"5th Ave & Denny Wy
+Seattle, WA
+(47.618733, -122.347917)",9502,POINT (-122.3479173225627 47.61865052008132)
+255,GCK75.108,SEATTLE WALLS,Tom,Holder,Untitled,'Six ribbons of bright hues grow out of the buildings left corner and progress up wall and continue off the buildings right side as if caught in a breeze.',2-Dimensional,,,1975,"Seattle Steam Plant,  West wall",1319 Western Ave,47.629616999999996,-122.36673300000001,"1319 Western Ave
+Seattle, WA
+(47.629617, -122.366733)",11655,POINT (-122.3666601348624 47.62961973248551)
+256,PR99.042,BROADVIEW BRANCH LIBRARY,Marvin,Oliver,Untitled,'',Sculpture,"Cedar, paint","93""x93""",1975,Broadview Branch Library ,12755 Greenwood Ave N,47.722716999999996,-122.35608300000001,"12755 Greenwood Ave N
+Seattle, WA
+(47.722717, -122.356083)",2911,POINT (-122.35566949361 47.72271793445582)
+257,GCK74.026,"WATERFRONT PARK, PIER 59",James,Fitzgerald,Waterfront Fountain,'Geometric fountain of bronze blocks in a vertical/horizontal arrangement off which water cascades into an l-shaped shallow basin.',Sculpture,Welded cast bronze,"14'x18'8""x21'6""",1974,Waterfront Park ,1301 Alaskan Wy,47.617983,-122.31946699999999,"1301 Alaskan Wy
+Seattle, WA
+(47.617983, -122.319467)",460,POINT (-122.3199700562712 47.61757779815392)
+258,PR74.095,SANDEL PARK,,,Untitled Columns,'Grouping of four columnar forms',Sculpture,Sandstone,,1974,Sandel Park,9053 1st Ave NW,47.695783,-122.35836699999999,"9053 1st Ave NW
+Seattle, WA
+(47.695783, -122.358367)",21078,POINT (-122.3583663483997 47.69598145648197)
+259,GCK75.057,OCCIDENTAL PARK,Duane,Pasco,Killer Whale (Totem),"'Cedar totem pole of whale, nose down and figure at top holding tail. '",Sculpture,"Carved, painted cedar",(H)12',1971,Occidental Square,Occidental Ave S & S Main St,47.600533,-122.33311699999999,"Occidental Ave S & S Main St
+Seattle, WA
+(47.600533, -122.333117)",34153,POINT (-122.3331166747273 47.60079825005885)
+260,SC74.047,SEATTLE CENTER CENTER HOUSE,Duane,Pasco,Seattle Center Totem,"'Four main figures from top to bottom:  Hawk, Bear (holding a salmon), Raven, and Killer Whale. '",Sculpture,"Carved, painted western red cedar","32'x2'5.5""x2'",1970,"Seattle Center, SW of Center House",305 Harrison St,47.620767,-122.35133300000001,"305 Harrison St
+Seattle, WA
+(47.620767, -122.351333)",22762,POINT (-122.3527257807797 47.62067976574314)
+261,GCK74.048,KERRY PARK,Doris,Chase,Volumetric Space Frame,'A square frame with a circle cut out of the middle stacked on a triangular frame with circles cut out of each side.  The top piece used to rotate but has since been secured by the artist for safety of public and artwork.',Sculpture,Cor-ten steel,"16'6x6'3x4'5""",1969,Kerry Park,211 W Highland Dr,47.6295,-122.35995,"211 W Highland Dr
+Seattle, WA
+(47.6295, -122.35995)",4346,POINT (-122.3599499069008 47.62952762256605)
+262,SAC [Duplicate 6],WOODLAND PARK ZOO,Richard,Beyer,The Bears,'Brick sculpture set in a brick wall to seem as if the bear is coming out of the wall.',Sculpture,Carved brick,,1969,Woodland Park Zoo - Poncho  Amphitheatre  ,5500 Phinney Ave N,47.666633000000004,-122.35,"5500 Phinney Ave N
+Seattle, WA
+(47.666633, -122.35)",40848,POINT (-122.349865242286 47.66512869726853)
+263,NC74.038,,Henry,Moore  Moore,Three Piece Sculpture #3: Vertebrae,"'Bronze abstract sculpture consisting of three united segments, similar but not identical in form and scale; each form incorporates a strong use of positive and negative space and has areas that are domed, lipped, curved, erect or scalloped.'",Sculpture,Bronze,"10x30""",1968,1001 Fourth Ave Bldg.,1001 4th Ave,47.605616999999995,-122.3339,"1001 4th Ave
+Seattle, WA
+(47.605617, -122.3339)",24801,POINT (-122.3338530839518 47.60560141351249)
+264,GCK74.081,VOLUNTEER PARK,Isamu,Noguchi,Black Sun,'Large carved black donut-shape standing on end.',Sculpture,Brazilian black granite,"110""x37""",1968,Volunteer Park,1400 E Galer St,47.629917,-122.31516699999999,"1400 E Galer St
+Seattle, WA
+(47.629917, -122.315167)",25056,POINT (-122.3151776889621 47.62836527050603)
+265,PL74.080,MAGNOLIA BRANCH LIBRARY,Glen,Alps,Untitled,"'Abstract sculpture consisting of thin bars criss-crossing each other with small, round and conical shapes attached, scattered throughout work.'",Sculpture,Bronze (?),"48""X60""X12""",1965,Magnolia Branch Library,2801 34th Ave W,47.645333,-122.4016,"2801 34th Ave W
+Seattle, WA
+(47.645333, -122.4016)",18809,POINT (-122.4015994769839 47.6450591718092)
+266,SAC [Duplicate 1],LAKE CITY LIBRARY,George,Tsutakawa,Untitled,'Bronze gates integrated with brick wall entrance to the library.',Structures,Bronze,,1965,Lake City Branch Library,12501 28th Ave NE,47.719561,-122.297836,"12501 28th Ave NE
+Seattle, WA
+(47.719561, -122.297836)",22817,POINT (-122.297786121487 47.71939485072314)
+267,GCK74.071,SEATTLE CENTER INTIMAN THEATRE,James Jr.,Washington,Barbet,'Gray stone sculpture that faintly resembles a bird.',Sculpture,Carved boulder,"19""X34""X25""",1964,Intiman Playhouse Entry,201 Mercer St,47.62425,-122.35233000000001,"201 Mercer St
+Seattle, WA
+(47.62425, -122.35233)",34774,POINT (-122.3523295640388 47.62446067394651)
+268,GCK74.043,SEATTLE CENTER EXHIBITION HALL,,,Fu,'Two sculptured concrete Chinese lions on inscribed pedestals.',Sculpture,Sculptured concrete,"55""X20""X29"" EACH",1963, Pacific NW Ballet (on sidewalk),225 Mercer St,47.624417,-122.351467,"225 Mercer St
+Seattle, WA
+(47.624417, -122.351467)",23766,POINT (-122.3514669089966 47.62445888596874)
+269,GCK74.031a-c,1964 WORLD'S FAIR,Everett,Dupen,Fountain Of Creation,"'Three separate art works: ""evolution of man / tree of life""; ""flight of gulls""; and ""seaweed"" in cast bronze placed in an undulating basin that is 40x120'.'",Sculpture,"Bronze, colored concrete",,1962,Key Arena North Court,401 1st Ave N,47.6229,-122.35375,"401 1st Ave N
+Seattle, WA
+(47.6229, -122.35375)",33811,POINT (-122.3540536165058 47.62321781781166)
+270,GCK74.069,SEATTLE CENTER INTIMAN THEATRE,James,Fitzgerald,Fountain Of The Northwest,"'Welded assemblage of bold cast bronze shapes evocative of the rocks, forests  and waterfalls of the NW, conduits carry water throughout the sculpture which has been tapped into at multiple points to create a cloak around the sculpture.'",Sculpture,Welded cast bronze,"20'6x11'x10'6""",1962,"Intiman Playhouse, entrance court",201 Mercer St,47.62435,-122.35231999999999,"201 Mercer St
+Seattle, WA
+(47.62435, -122.35232)",34774,POINT (-122.3523197710172 47.62446065368118)
+271,CL77.040,VOLUNTEER PARK,,,Playform,'',Sculpture,Concrete,,1962,Volunteer Park,1400 E Galer St,47.632183000000005,-122.31323300000001,"1400 E Galer St
+Seattle, WA
+(47.632183, -122.313233)",38009,POINT (-122.3123954606001 47.63217200090703)
+272,PL74.097,SOUTHWEST BRANCH LIBRARY,,,Mother Reading with Child,"'Abstract bronze wall sculpture showing a figure sitting on a chair with its legs crossed at the ankles, reading to a child on its lap.'",Sculpture,Cast bronze,"54""X34""X6""",1961,SW Branch Library,9010 35th Ave SW,47.522566999999995,-122.37646699999999,"9010 35th Ave SW
+Seattle, WA
+(47.522567, -122.376467)",34480,POINT (-122.3765701742981 47.52257054867435)
+273,PL80.058,CENTRAL LIBRARY,Glen,Alps,Activity in Growth,"'Cut out pieces of flat metal twisted, bent and embossed, then accented with steel-rod filigree and a rich brown color.  The shapes imitate growing and moving natural forms.'",Sculpture,"Sheet metal, steel rod","5'6""x9'10""",1960,Central Library ,1000 4th Ave,47.60665,-122.3327,"1000 4th Ave
+Seattle, WA
+(47.60665, -122.3327)",20328,POINT (-122.332567755498 47.6063338993021)
+274,CL74.085,"COMMISSIONED IN 1958, PRIOR TO ARTS COMMISSION",Jean,Beall,Water Into Electricity (That Man May Use It Freely),"'Inlaid glass mosaic inspired by Emile Zola's words:  ""One day will come when electricity will be for everyone as the waters of the rivers and the winds of Heaven.  It should not merely be supplied, but lavished, that men may use it at their will as the air they breathe.""'",2-Dimensional,Venetian glass tile; grout,Over 256 square feet,1958,"Museum of History and Industry, level under lobby ",2700 24th Ave E,47.645417,-122.30115,"2700 24th Ave E
+Seattle, WA
+(47.645417, -122.30115)",21559,POINT (-122.3014990084399 47.64569438067726)
+275,SAC [Duplicate 10],COLMAN POOL,Ernest,Norling,American Youth and Freedom,"'Mural depicts youth engaged in various activities and reads ""Laurence Colman pool""'",2-Dimensional,Paint on board,,1941,"Colman Pool, Lincoln Park, open in summer only",8603 Fauntleroy Wy SW,47.530217,-122.393317,"8603 Fauntleroy Wy SW
+Seattle, WA
+(47.530217, -122.393317)",27071,POINT (-122.3928087237715 47.53021072902906)
+276,GCK74.066,DENNY PARK,,,Dr. Mark A. Matthews,'Cast bronze bust of pastor of First Presbyterian Church in Seattle in 1902.',Sculpture,Cast bronze,"3'6""H",1941,Denny Park,100 Dexter Ave N,47.618666999999995,-122.341233,"100 Dexter Ave N
+Seattle, WA
+(47.618667, -122.341233)",34510,POINT (-122.3412331805489 47.61862417461151)
+277,GCK83.130,MONTLAKE CUT,John,Wallace,Story of North Island (Totem Pole),"'Traditional Haida Totem, unpainted'",Sculpture,Carved cedar,"40'x2'10x2""",1937,Montlake cut. In park along the canal. Access @ loop of museum of history,,47.646933000000004,-122.301033,"Seattle, WA
+(47.646933, -122.301033)",21559,POINT (-122.3015345738567 47.64641274971395)
+278,GCK74.072,,,,American Doughboy Bringing Home Victory,'Sculptured cast bronze statue of a soldier in fatigues on a sculptured rock granite base; memorial to the World War I veteran soldier.',Sculpture,Bronze,12'H,1932,Washelli Cemetery                                    ,11111 Aurora Ave N,47.70965,-122.343033,"11111 Aurora Ave N
+Seattle, WA
+(47.70965, -122.343033)",37784,POINT (-122.3421491880606 47.70867906309383)
+279,PR74.075,VOLUNTEER PARK,,,Judge Thomas Burke,'Granite column memorial bears Judge Burke's profile in bronze.  The rest of the memorial concentrates on symbolic references to his career.  It is flanked by two classical heroic figures:  justice and a Greco-Roman Indian.  ',Sculpture,"Granite, marble, bronze",13'H,1929,"Volunteer Park, near the reservoir",1400 E Galer St,47.629283,-122.31525,"1400 E Galer St
+Seattle, WA
+(47.629283, -122.31525)",25056,POINT (-122.3152563179738 47.62836581213556)
+280,GCK74.065,PREFONTAINE PLACE,Carl,Gould,Prefontaine Fountain,"'Seattle's first public fountain, a shallow basin covered with blue tile, with stone animal figures around the rim.'",Sculpture,"Granite, blue tile",,1926,Park - Prefontaine Park,3rd Ave & Yesler Wy,47.601783000000005,-122.3308,"3rd Ave & Yesler Wy
+Seattle, WA
+(47.601783, -122.3308)",19677,POINT (-122.3307999823268 47.60179514050645)
+281,GCK99.076,WOODLAND PARK,Allen G,Newman,Hiker Memorial Statue,'',Sculpture,Cast bronze,H: 14',1926,"Woodland Park Zoo,  SW corner of zoo ",5500 Phinney Ave N,47.665833,-122.35298300000001,"5500 Phinney Ave N
+Seattle, WA
+(47.665833, -122.352983)",28607,POINT (-122.3529842553689 47.66496177476885)
+282,SAC [Duplicate 4] (NON-SAC),WOODLAND PARK ROSE GARDEN,Alice,Carr,Untitled,'Sculptural frieze on retaining wall with women (three graces) and animals (lions).',Sculpture,Concrete,5.5'X23.5',1924,Woodland Park Rose Garden ,5500 Phinney Ave N,47.666267,-122.349267,"5500 Phinney Ave N
+Seattle, WA
+(47.666267, -122.349267)",40848,POINT (-122.3498278042071 47.66513205102826)
+283,GCK74.088,JEFFERSON PARK GOLF COURSE,Max,Nielson,Sherwood Gillespie,"'A four-foot granite pedestal flanked on each side by small bronze drinking fountains and topped by a small bronze statue of a golfer, the bowls of the drinking fountains are encircled  by bronze fish.'",Sculpture,"Bronze, granite","5'7""H",1915,Jefferson Park Golf Course Building entrance,4101 Beacon Ave S,47.567017,-122.3074,"4101 Beacon Ave S
+Seattle, WA
+(47.567017, -122.3074)",13200,POINT (-122.3079849623828 47.57091746148518)
+284,PR74.079 (NON-SAC),PIONEER PLACE PARK,Julian,Everett,Pergola,'Cast iron and glass pergola designed as both a shelter for trolley passengers and as the entrance to a large underground public comfort station.',Structures,"Cast iron, glass",YESLER WY & 1ST AVE,1909,Pioneer Square Park,100 Yesler Wy,47.601883,-122.3341,"100 Yesler Wy
+Seattle, WA
+(47.601883, -122.3341)",10068,POINT (-122.3340425371432 47.6017783259093)
+285,PR74.064,PIONEER PLACE PARK,James,Wehn,Chief Seattle Fountain,'Bronze bust of Chief Seattle adorning a cast iron fountain basin.',Sculpture,"Bronze, cast iron","72"" height 53"" diameter",1909,Pioneer Square Park,100 Yesler Wy,47.602017,-122.33395,"100 Yesler Wy
+Seattle, WA
+(47.602017, -122.33395)",15641,POINT (-122.3338615415096 47.60181630394653)
+286,PR74.077,MCGRAW PLACE,Richard,Brooks,Governor John Harte Mcgraw,"'Realistic historical statue of John H. McGraw, Washington state's second governor, standing on a granite base.'",Sculpture,Bronze,,1909,McGraw Square,Stewart St & Westlake Ave N,47.613033,-122.33758300000001,"Stewart St & Westlake Ave N
+Seattle, WA
+(47.613033, -122.337583)",30004,POINT (-122.3375921128263 47.61304477508786)
+287,PR74.078,VOLUNTEER PARK,Richard,Brooks,William H. Seward,'Realistic historic statue of William Seward standing on a granite base.',Sculpture,Bronze,,1909,"Volunteer Park, In front of the Conservatory",1400 E Galer St,47.6319,-122.31571699999999,"1400 E Galer St
+Seattle, WA
+(47.6319, -122.315717)",10806,POINT (-122.3131179906543 47.63456826834172)
+288,,,Franklin ,Joyce,South Park Lights,'Community-inspired designs illuminate the exterior western wall of the South Park Branch Library.',,,,,"South Park Branch, Seattle Public Library",8604 Eighth Ave. S. at South Cloverdale Street,47.526267,-122.32281699999999,"8604 Eighth Ave. S. at South Cloverdale Street
+Seattle, WA
+(47.526267, -122.322817)",28600,POINT (-122.3228034921996 47.52626677597896)
+289,DAS92.013a-p,SOUTHEAST COMMUNITY HEALTH CENTER,Monad Elohim,Graves,The Unity and Oneness of all,"'ASSEMBLAGE SEWN ENTIRELY BY HAND FROM ARTIFICAL FUR AND  OTHER FABRICS, SHOWING A PLAY OF IMAGINARY CREATURES WITH BOTH   HUMAN AND ANIMAL CHARCTERISTICS; IT CONSISTS OF ONE LARGE, CENTRAL, ""MOTHER"" FIGURE SURROUNDED BY AND CONNECTED TO, MANY   SMALL AND'",Sculpture,"Fabric, artificial fur",,,"Columbia Public Health Center, 4400 37th Ave S. Seattle, WA 98118","4400 37th Ave S. Seattle, WA 98118",47.56355,-122.28606699999999,"4400 37th Ave S. Seattle, WA 98118
+Seattle, WA
+(47.56355, -122.286067)",31542,POINT (-122.2861288501214 47.56354884522521)
+290,,,Lorna ,Jordan,Dragonfly Pavilion and Garden,'A large red-bronze sculptural dragonfly hovers over a terrazzo seating area. Surrounding teh seating area are wing-shaped water-wise garden areas demonstrating salmon friendly and water-wise gardening techniques.',,,,,Longfellow Creek Watershed, 28th Avenue S.W. and S.W. Dakota Street,47.566633,-122.36775," 28th Avenue S.W. and S.W. Dakota Street
+Seattle, WA
+(47.566633, -122.36775)",16513,POINT (-122.3681900928987 47.56663968672198)
+291,PR84.091,MT. BAKER PARK,Wendy,Brawer,Garden Path,'Concrete play sculptures and ceramic inserts of leaves and handprints incorporated into pathway.',Environments,Ceramic; concrete,,,Mount Baker Park ,2301 Lake Wash Blvd S,47.581717,-122.28816699999999,"2301 Lake Wash Blvd S
+Seattle, WA
+(47.581717, -122.288167)",5565,POINT (-122.2878559002538 47.58167038100245)
+292,GCK74.050,MT. BAKER PARK,,Anonymous,Japanese Lantern,"'Japanese lantern of five identical, but successively smaller pagodas standing atop one another.'",Sculpture,Granite,18',,Mount Baker Park  ,2301 Lake Wash Blvd S,47.5825,-122.28795,"2301 Lake Wash Blvd S
+Seattle, WA
+(47.5825, -122.28795)",24087,POINT (-122.287786651757 47.58213134352881)
+293,GCK75.060,HING HAY PARK,,,Chinese Grand Pavilion,'Wooden canopy in a Chinese architectural style',Structures,"Carved, painted wood",,,Hing Hay Park,423 Maynard Ave S,47.598667,-122.32558300000001,"423 Maynard Ave S
+Seattle, WA
+(47.598667, -122.325583)",19435,POINT (-122.3255833438052 47.59843082432123)
+294,CL77.020,OCCIDENTAL PARK,Duane,Pasco,Sun and Raven (Totem),'',Sculpture,"Carved, painted cedar",(H)35',,Occidental Square,Occidental Ave S & S Main St,47.600516999999996,-122.333133,"Occidental Ave S & S Main St
+Seattle, WA
+(47.600517, -122.333133)",34153,POINT (-122.3331326550827 47.60079826965535)
+295,CL77.021,OCCIDENTAL PARK,Duane,Pasco,Tsonqua (Totem),'',Sculpture,"Carved, painted cedar",(H)13',,Occidental Square,Occidental Ave S & S Main St,47.600617,-122.33338300000001,"Occidental Ave S & S Main St
+Seattle, WA
+(47.600617, -122.333383)",34153,POINT (-122.3333827773353 47.60079857637695)
+296,,,Paul,Sorey,Tree Bench,"'Made of colored mortar, concrete and stainless steel inlays, Tree Bench takes the shape of a tree sliced in half lengthwise, floating above the ground and inviting visitors to sit on its trunk and branches.'",,,,,Pratt Park,1800 S. Main St.,47.601517,-122.3071,"1800 S. Main St.
+Seattle, WA
+(47.601517, -122.3071)",21780,POINT (-122.3070998590743 47.60159695917267)
+297,,,Marita ,Dingus,Children of the Sea,"'mixed-media installation of recycled and reclaimed copper features three 5-foot by 3-foot African-American cherub-like figures that ""swim"" among patinated seaweed and vines on the west interior wall of the library addition.'",,,,,"Douglass-Truth Branch, Seattle Public Library",2300 E. Yesler Way,47.601633,-122.301383,"2300 E. Yesler Way
+Seattle, WA
+(47.601633, -122.301383)",1163,POINT (-122.3013830806367 47.60158744928457)
+298,ESD03.044,JUSTICE CENTER INTEGRATED ARTWORK,Pam,"Beyette, Michael Davis, Norie Sato and Richard Turner",Points of View,"'28ft. Sculpture comprised of two conical forms, one suspended directly above the other so that the point of the hanging cone and that of the standing cone almost touch each other. The bronze cone is fabricated so that it responds to air current and vibrations.'",Infrastructure,"Granite, bronze, limestone, and sandblasted quartzite",28' x 3' x 3' Sculpture 29' x 18' curved wall,,"Seattle Justice Center, Seattle Municipal Court Lobby",600 4th Ave,47.603983,-122.329167,"600 4th Ave
+Seattle, WA
+(47.603983, -122.329167)",16662,POINT (-122.3292409107589 47.60391537086719)
+299,NC96.034,METRO,Elizabeth,Conner,Waterway 15,'Artist integrated the history of north Lake Union from Native American times to the present into a narrative which is woven through this street end park.',,,Photographs/STONES,,NORTHLAKE AND 4TH AVE. N.E.,Northlake Ave & 4th Ave NE,47.607167,-122.341967,"Northlake Ave & 4th Ave NE
+Seattle, WA
+(47.607167, -122.341967)",20436,POINT (-122.3416939692748 47.60707501373788)
+300,GCK74.035,FIRST PRESBYTERIAN CHURCH,Ebba Rapp,McLauchlan,Cornerstone,'Cast stone relief',Sculpture,Cast stone,"27.625x33.125""",,"1st Presbyterian Church Building, in enclosed courtyard.",1013 8th Ave,47.607966999999995,-122.32926699999999,"1013 8th Ave
+Seattle, WA
+(47.607967, -122.329267)",8229,POINT (-122.3291754941714 47.60774816977836)
+301,GCK04.090,GIFT TO THE CITY OF SEATTLE,Shaw,Pridgeon,Angie's Umbrella,'A wind-generated kinetic sculpture of red umbrella at the intersection of Lenora and Western in Belltown.',Sculpture,"Stainless steel, powder coated aluminum and cast urethane",30' x 45' diameter,,Belltown,Lenora St & Western Ave,47.611333,-122.345417,"Lenora St & Western Ave
+Seattle, WA
+(47.611333, -122.345417)",38193,POINT (-122.3454427254064 47.61145094921635)
+302,DAS86.047,POLICE PRECINCTS,Diane,Katsiaficas,Neighbors,"'Multi-colored ceramic people, animals and wood cutouts of homes; window seat symbolizes a road through the community and a separate design swirls around the tan ceramic floor symbolizing the whirlwind of activity in the community.'",Sculpture,"Ceramic, wood","10'2x25'x16'8""",,"SPD East Precinct, lobby",1519 12th Ave ,47.615117,-122.31701699999999,"1519 12th Ave 
+Seattle, WA
+(47.615117, -122.317017)",37811,POINT (-122.3170039756878 47.61511720661254)
+303,CL77.024,SEATTLE CENTER,Rita,Kepner,Human Forms in Balance,'',Sculpture,Black steatite,,,Seattle Center - Main Lobby Seattle Center House,305 Harrison St,47.622083,-122.350867,"305 Harrison St
+Seattle, WA
+(47.622083, -122.350867)",36271,POINT (-122.3487297643367 47.6220229807866)
+304,GCK74.042,SEATTLE CENTER INTIMAN THEATRE,,,Kobe Bell,"'Cast bronze bell in wooden temple. Inscribed in Japanese and English:  ""Presented by the people of Kobe to the people of Seattle as a symbol of friendship.  May this bell ring forever signifying friendship between the nations of the United States and Japan.”'",Sculpture,"Cast bronze, wood",,,"Intiman Playhouse, SE Corner",201 Mercer St,47.62345,-122.35211699999999,"201 Mercer St
+Seattle, WA
+(47.62345, -122.352117)",34774,POINT (-122.3521149094663 47.62446022974794)
+305,GCK75.114,VOLUNTEER PARK,Lee,Kelly,Untitled Bird-Bath,'Cube-form steel bird bath with blue enamel square top area  on which water collects; slightly raised spiral design on west face of cube',Sculpture,"Corten steel, enamel","24x24x24""",,"Volunteer Park, in a grove of trees west of the North Parking lot",1400 E Galer St,47.6312,-122.31673300000001,"1400 E Galer St
+Seattle, WA
+(47.6312, -122.316733)",25890,POINT (-122.3186289719362 47.63054391941319)
+306,,,Rebecca ,Cummins,Skylight Aperture Sundial,"'Five colored glass discs in the ceiling, held in place by steel brackets, which project colorful spotlights that float through the library as the sun moves across the sky.'",,,,,"Montlake Branch, Seattle Public Library
+",2401 24th Ave. E.,47.64045,-122.3024,"2401 24th Ave. E.
+Seattle, WA
+(47.64045, -122.3024)",28169,POINT (-122.3024005340278 47.64031623190687)
+307,GCK74.041,MAGNOLIA BRANCH LIBRARY,Steven,Fuller,Untitled,"'Fused glass screen of multi-faceted and vari-colored glass pieces, walnut frame.  Epoxied to the top of a wood bookcase.'",Structures,"Fused glass, walnut",,,Magnolia Branch Library,2801 34th Ave W,47.6452,-122.4014,"2801 34th Ave W
+Seattle, WA
+(47.6452, -122.4014)",18809,POINT (-122.4013997317446 47.64505955332574)
+308,,,Susan,Zoccola,SAMARA,"'The 18-foot-tall tapered steel pole features clusters of seed pods dangling from branches. The pods, inspired by the helicopter seed pods of maple trees, are made of fiberglass.'",,,,,Laurelhurst Community Center, 4554 N.E. 41st St.,47.659083,-122.27761699999999," 4554 N.E. 41st St.
+Seattle, WA
+(47.659083, -122.277617)",4372,POINT (-122.2776177993236 47.65846653058524)
+309,PR93.022a-c,WOODLAND PARK ZOO,,De Jong,Duets for Animals and People,"'Outdoor audio Installation:  five sound-equipped benches programmed to play a composition/story written by the artist about the senses of sight, smell, and hearing, or about linking people and animals in a natural setting.  '",Structures,"Wood, steel, audio equipment","EA BENCH: 30""X70""X21"", EA SPKR: 6.5""X9.75""X6.5""",,"Woodland Park Zoo, after Family Farm Trail",5500 Phinney Ave N,47.666383,-122.351983,"5500 Phinney Ave N
+Seattle, WA
+(47.666383, -122.351983)",16633,POINT (-122.3514651337721 47.66510490030966)
+310,PR74.097,BURKE-GILMAN PARK,,,Sundial,"'Low cylindrical platform with a cone in the center, covered with ceramic tile in crescents of color which indicate seasons.'",Structures,"Concrete, ceramic tile",,,Burke-Gilman Playground Park,5201 Sandpoint Wy NE,47.667266999999995,-122.2818,"5201 Sandpoint Wy NE
+Seattle, WA
+(47.667267, -122.2818)",5661,POINT (-122.2813115930925 47.66695946949344)
+311,PR74.099,BURKE-GILMAN PARK,,,Duck Windvane,"'Red, yellow, and green flying duck on a swivel pole of aggregate surrounded at the base with four bronze duck feet set in the sidewalk.'",Structures,"Concrete, aluminum",,,Burke-Gilman Playground Park,5201 Sandpoint Wy NE,47.6673,-122.2813,"5201 Sandpoint Wy NE
+Seattle, WA
+(47.6673, -122.2813)",18593,POINT (-122.2811550395914 47.66707469218219)
+312,PR03.051,PARKS DEPARTMENT,,Unknown,Junior League of Seattle Playground Compass Rose,'Mosaic inlaid in concrete that replicates a compass rose and nautical/aviation themes.  These themes are to commemorate the site's use as a naval air station.',MOSAIC,Mosaic inlaid in concrete,,,Magnuson Park,7600 Sand Point Wy NE,47.681683,-122.25835,"7600 Sand Point Wy NE
+Seattle, WA
+(47.681683, -122.25835)",29023,POINT (-122.2616066440769 47.68208941543228)
+313,,,Perri,Lynch,Straight Shot,"'12 six-foot ink jade limestone columns placed precisely along this baseline. Drilled into each stone are two circular holes that allow visitors literally a straight shot of views of the surrounding park, reinforcing the use of the baseline.'",,,,,Warren G. Magnuson Park, Sand Point Way NE and NE 65th Street,47.683316999999995,-122.254717," Sand Point Way NE and NE 65th Street
+Seattle, WA
+(47.683317, -122.254717)",29023,POINT (-122.2615879184713 47.6834141247834)
+314,,,Merrily ,Tompkins,Big Tesla,"'Big Tesla is a sculptural portrait of Nikolai Tesla, who pioneered alternating current. Hand cut ceramic tile mosaic covers the concrete sculpture and renders the features of the head. Plantings provide ""hair"" out of the top of the planter.'",,,,,Seattle City Light North Service Center,1300 N. 97th St.,47.699733,-122.34108300000001,"1300 N. 97th St.
+Seattle, WA
+(47.699733, -122.341083)",32397,POINT (-122.3410832105195 47.69966459987101)
+315,CL77.031,URBAN SPACES II,Michael,Sweeney,Lake City Gateway,,Sculpture,"Concrete, wire, painted steel",,,Lake City Way NE,Lake City Way NE from 123rd NE to 127th NE,47.719120000000004,-122.29557,"Lake City Way NE from 123rd NE to 127th NE
+Seattle, WA
+(47.71912, -122.29557)",32196,POINT (-122.2955236615111 47.71909041833766)

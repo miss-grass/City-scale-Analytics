@@ -1,0 +1,1506 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20182.18.0925.2120                               -->
+<workbook original-version='18.1' source-build='2018.2.2 (20182.18.0925.2120)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='sidewalks' inline='true' name='federated.04sokuq1e7jhtd12tz7g318lo7x9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='sidewalks' name='ogrdirect.1r5rtjx04n8sad1ei2bnm1s1nv48'>
+            <connection class='ogrdirect' directory='/Users/Miss-grass/Documents/CSE495 18AU' filename='sidewalks.geojson' ogr-grid-shift-folder='/Applications/Tableau Desktop 2018.2.app/Contents/install/local/proj4' password='' port='0' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='ogrdirect.1r5rtjx04n8sad1ei2bnm1s1nv48' name='sidewalks.geojson' table='[sidewalks.geojson]' type='table'>
+          <columns>
+            <column datatype='string' name='ADDBY' ordinal='0' />
+            <column datatype='real' name='ADDDTTM' ordinal='1' />
+            <column datatype='string' name='ASBLT' ordinal='2' />
+            <column datatype='string' name='ATTACHMENT_1' ordinal='3' />
+            <column datatype='string' name='ATTACHMENT_2' ordinal='4' />
+            <column datatype='string' name='ATTACHMENT_3' ordinal='5' />
+            <column datatype='string' name='ATTACHMENT_4' ordinal='6' />
+            <column datatype='string' name='ATTACHMENT_5' ordinal='7' />
+            <column datatype='string' name='ATTACHMENT_6' ordinal='8' />
+            <column datatype='string' name='ATTACHMENT_7' ordinal='9' />
+            <column datatype='string' name='ATTACHMENT_8' ordinal='10' />
+            <column datatype='string' name='ATTACHMENT_9' ordinal='11' />
+            <column datatype='string' name='BUILDERCD' ordinal='12' />
+            <column datatype='real' name='COMPTYPE' ordinal='13' />
+            <column datatype='string' name='CONDITION' ordinal='14' />
+            <column datatype='real' name='CONDITION_ASSESSMENT_DATE' ordinal='15' />
+            <column datatype='string' name='CURBRAMPHIGH' ordinal='16' />
+            <column datatype='string' name='CURBRAMPLOW' ordinal='17' />
+            <column datatype='string' name='CURBRAMPMID' ordinal='18' />
+            <column datatype='string' name='CURBTYPE' ordinal='19' />
+            <column datatype='string' name='CURRENT_STATUS' ordinal='20' />
+            <column datatype='real' name='CURRENT_STATUS_DATE' ordinal='21' />
+            <column datatype='real' name='DATE_MVW_LAST_UPDATED' ordinal='22' />
+            <column datatype='real' name='DISTANCE' ordinal='23' />
+            <column datatype='real' name='ENDDISTANCE' ordinal='24' />
+            <column datatype='string' name='FILLERTYPE' ordinal='25' />
+            <column datatype='real' name='FILLERWID' ordinal='26' />
+            <column datatype='string' name='GSITYPECD' ordinal='27' />
+            <column datatype='string' name='HANSEN7ID' ordinal='28' />
+            <column datatype='string' name='HANSEN_RPT_MVW_GIS_SDW_LEN' ordinal='29' />
+            <column datatype='real' name='INCSTPOINTLOWEND' ordinal='30' />
+            <column datatype='string' name='INCSTPOINTUNKNOWN' ordinal='31' />
+            <column datatype='real' name='INSTALL_DATE' ordinal='32' />
+            <column datatype='string' name='INVALIDSWRECORDYN' ordinal='33' />
+            <column datatype='string' name='LENUOM' ordinal='34' />
+            <column datatype='string' name='MAINTAINED_BY' ordinal='35' />
+            <column datatype='string' name='MAINTBYRDWYSTRUCTYN' ordinal='36' />
+            <column datatype='string' name='MATL' ordinal='37' />
+            <column datatype='real' name='MINIMUMVARIABLEWIDTH' ordinal='38' />
+            <column datatype='string' name='MODBY' ordinal='39' />
+            <column datatype='real' name='MODDTTM' ordinal='40' />
+            <column datatype='string' name='MULTIPLESURFACEYN' ordinal='41' />
+            <column datatype='string' name='NOTSWCANDIDATEYN' ordinal='42' />
+            <column datatype='real' name='NUM_ATTACHMENTS' ordinal='43' />
+            <column datatype='string' name='OVERRIDECOMMENT' ordinal='44' />
+            <column datatype='string' name='OVERRIDEYN' ordinal='45' />
+            <column datatype='string' name='OWNERSHIP' ordinal='46' />
+            <column datatype='real' name='PRIMARYCROSSSLOPE' ordinal='47' />
+            <column datatype='string' name='PRIMARYDISTRICTCD' ordinal='48' />
+            <column datatype='string' name='SECONDARYDISTRICTCD' ordinal='49' />
+            <column datatype='real' name='SRTS_SIDEWALK_RANK' ordinal='50' />
+            <column datatype='string' name='SWINCOMPLETEYN' ordinal='51' />
+            <column datatype='real' name='Shape_Length' ordinal='52' />
+            <column datatype='string' name='UNITDESC' ordinal='53' />
+            <column datatype='string' name='UNITID' ordinal='54' />
+            <column datatype='string' name='UNITTYPE' ordinal='55' />
+            <column datatype='real' name='forward' ordinal='56' />
+            <column datatype='integer' name='incline' ordinal='57' />
+            <column datatype='integer' name='layer' ordinal='58' />
+            <column datatype='integer' name='pkey' ordinal='59' />
+            <column datatype='string' name='side' ordinal='60' />
+            <column datatype='string' name='street_name' ordinal='61' />
+            <column datatype='integer' name='streets_pkey' ordinal='62' />
+            <column datatype='string' name='surface' ordinal='63' />
+            <column datatype='real' name='width' ordinal='64' />
+            <column datatype='real' name='length' ordinal='65' />
+            <column datatype='spatial' name='Geometry' ordinal='66' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ADDBY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ADDBY]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ADDBY</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADDDTTM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ADDDTTM]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ADDDTTM</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ASBLT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ASBLT]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ASBLT</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_1]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_2]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_2</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_3]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_3</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_4]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_4</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_5]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_5</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_6]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_6</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_7]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_7</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_8]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_8</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTACHMENT_9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATTACHMENT_9]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ATTACHMENT_9</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BUILDERCD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BUILDERCD]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>BUILDERCD</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMPTYPE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COMPTYPE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>COMPTYPE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONDITION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CONDITION]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CONDITION</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONDITION_ASSESSMENT_DATE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CONDITION_ASSESSMENT_DATE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CONDITION_ASSESSMENT_DATE</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CURBRAMPHIGH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CURBRAMPHIGH]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CURBRAMPHIGH</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CURBRAMPLOW</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CURBRAMPLOW]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CURBRAMPLOW</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CURBRAMPMID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CURBRAMPMID]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CURBRAMPMID</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CURBTYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CURBTYPE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CURBTYPE</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CURRENT_STATUS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CURRENT_STATUS]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CURRENT_STATUS</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CURRENT_STATUS_DATE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CURRENT_STATUS_DATE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>CURRENT_STATUS_DATE</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DATE_MVW_LAST_UPDATED</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DATE_MVW_LAST_UPDATED]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>DATE_MVW_LAST_UPDATED</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DISTANCE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DISTANCE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>DISTANCE</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENDDISTANCE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ENDDISTANCE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>ENDDISTANCE</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FILLERTYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FILLERTYPE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>FILLERTYPE</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FILLERWID</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FILLERWID]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>FILLERWID</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GSITYPECD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GSITYPECD]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>GSITYPECD</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HANSEN7ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HANSEN7ID]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>HANSEN7ID</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HANSEN_RPT_MVW_GIS_SDW_LEN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HANSEN_RPT_MVW_GIS_SDW_LEN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>HANSEN_RPT_MVW_GIS_SDW_LEN</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INCSTPOINTLOWEND</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INCSTPOINTLOWEND]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>INCSTPOINTLOWEND</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INCSTPOINTUNKNOWN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[INCSTPOINTUNKNOWN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>INCSTPOINTUNKNOWN</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSTALL_DATE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSTALL_DATE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>INSTALL_DATE</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INVALIDSWRECORDYN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[INVALIDSWRECORDYN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>INVALIDSWRECORDYN</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LENUOM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LENUOM]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>LENUOM</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAINTAINED_BY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MAINTAINED_BY]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>MAINTAINED_BY</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAINTBYRDWYSTRUCTYN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MAINTBYRDWYSTRUCTYN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>MAINTBYRDWYSTRUCTYN</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MATL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MATL]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>MATL</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MINIMUMVARIABLEWIDTH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MINIMUMVARIABLEWIDTH]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>MINIMUMVARIABLEWIDTH</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MODBY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MODBY]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>MODBY</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MODDTTM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MODDTTM]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>MODDTTM</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MULTIPLESURFACEYN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MULTIPLESURFACEYN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>MULTIPLESURFACEYN</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOTSWCANDIDATEYN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NOTSWCANDIDATEYN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>NOTSWCANDIDATEYN</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUM_ATTACHMENTS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NUM_ATTACHMENTS]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>NUM_ATTACHMENTS</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVERRIDECOMMENT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OVERRIDECOMMENT]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>OVERRIDECOMMENT</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVERRIDEYN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OVERRIDEYN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>OVERRIDEYN</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNERSHIP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OWNERSHIP]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>OWNERSHIP</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRIMARYCROSSSLOPE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PRIMARYCROSSSLOPE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>PRIMARYCROSSSLOPE</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRIMARYDISTRICTCD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRIMARYDISTRICTCD]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>PRIMARYDISTRICTCD</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SECONDARYDISTRICTCD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SECONDARYDISTRICTCD]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>SECONDARYDISTRICTCD</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SRTS_SIDEWALK_RANK</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SRTS_SIDEWALK_RANK]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>SRTS_SIDEWALK_RANK</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SWINCOMPLETEYN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SWINCOMPLETEYN]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>SWINCOMPLETEYN</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shape_Length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shape_Length]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>Shape_Length</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITDESC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UNITDESC]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>UNITDESC</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UNITID]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>UNITID</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITTYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UNITTYPE]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>UNITTYPE</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>forward</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[forward]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>forward</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incline</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[incline]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>incline</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>layer</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[layer]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>layer</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pkey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[pkey]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>pkey</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>side</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[side]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>side</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>street_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[street_name]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>street_name</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>streets_pkey</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[streets_pkey]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>streets_pkey</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>surface</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[surface]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>surface</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>width</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[width]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>width</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[length]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>length</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[sidewalks.geojson]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Addby' datatype='string' name='[ADDBY]' role='dimension' type='nominal' />
+      <column caption='Adddttm' datatype='real' name='[ADDDTTM]' role='measure' type='quantitative' />
+      <column caption='Asblt' datatype='string' name='[ASBLT]' role='dimension' type='nominal' />
+      <column caption='Attachment 1' datatype='string' name='[ATTACHMENT_1]' role='dimension' type='nominal' />
+      <column caption='Attachment 2' datatype='string' name='[ATTACHMENT_2]' role='dimension' type='nominal' />
+      <column caption='Attachment 3' datatype='string' name='[ATTACHMENT_3]' role='dimension' type='nominal' />
+      <column caption='Attachment 4' datatype='string' name='[ATTACHMENT_4]' role='dimension' type='nominal' />
+      <column caption='Attachment 5' datatype='string' name='[ATTACHMENT_5]' role='dimension' type='nominal' />
+      <column caption='Attachment 6' datatype='string' name='[ATTACHMENT_6]' role='dimension' type='nominal' />
+      <column caption='Attachment 7' datatype='string' name='[ATTACHMENT_7]' role='dimension' type='nominal' />
+      <column caption='Attachment 8' datatype='string' name='[ATTACHMENT_8]' role='dimension' type='nominal' />
+      <column caption='Attachment 9' datatype='string' name='[ATTACHMENT_9]' role='dimension' type='nominal' />
+      <column caption='Buildercd' datatype='string' name='[BUILDERCD]' role='dimension' type='nominal' />
+      <column caption='Comptype' datatype='real' name='[COMPTYPE]' role='measure' type='quantitative' />
+      <column caption='Condition' datatype='string' name='[CONDITION]' role='dimension' type='nominal' />
+      <column caption='Condition Assessment Date' datatype='real' name='[CONDITION_ASSESSMENT_DATE]' role='measure' type='quantitative' />
+      <column caption='Curbramphigh' datatype='string' name='[CURBRAMPHIGH]' role='dimension' type='nominal' />
+      <column caption='Curbramplow' datatype='string' name='[CURBRAMPLOW]' role='dimension' type='nominal' />
+      <column caption='Curbrampmid' datatype='string' name='[CURBRAMPMID]' role='dimension' type='nominal' />
+      <column caption='Curbtype' datatype='string' name='[CURBTYPE]' role='dimension' type='nominal' />
+      <column caption='Current Status' datatype='string' name='[CURRENT_STATUS]' role='dimension' type='nominal' />
+      <column caption='Current Status Date' datatype='real' name='[CURRENT_STATUS_DATE]' role='measure' type='quantitative' />
+      <column caption='Date Mvw Last Updated' datatype='real' name='[DATE_MVW_LAST_UPDATED]' role='measure' type='quantitative' />
+      <column caption='Distance' datatype='real' name='[DISTANCE]' role='measure' type='quantitative' />
+      <column caption='Enddistance' datatype='real' name='[ENDDISTANCE]' role='measure' type='quantitative' />
+      <column caption='Fillertype' datatype='string' name='[FILLERTYPE]' role='dimension' type='nominal' />
+      <column caption='Fillerwid' datatype='real' name='[FILLERWID]' role='measure' type='quantitative' />
+      <column caption='Gsitypecd' datatype='string' name='[GSITYPECD]' role='dimension' type='nominal' />
+      <column caption='Hansen7Id' datatype='string' name='[HANSEN7ID]' role='dimension' type='nominal' />
+      <column caption='Hansen Rpt Mvw Gis Sdw Len' datatype='string' name='[HANSEN_RPT_MVW_GIS_SDW_LEN]' role='dimension' type='nominal' />
+      <column caption='Incstpointlowend' datatype='real' name='[INCSTPOINTLOWEND]' role='measure' type='quantitative' />
+      <column caption='Incstpointunknown' datatype='string' name='[INCSTPOINTUNKNOWN]' role='dimension' type='nominal' />
+      <column caption='Install Date' datatype='real' name='[INSTALL_DATE]' role='measure' type='quantitative' />
+      <column caption='Invalidswrecordyn' datatype='string' name='[INVALIDSWRECORDYN]' role='dimension' type='nominal' />
+      <column caption='Lenuom' datatype='string' name='[LENUOM]' role='dimension' type='nominal' />
+      <column caption='Maintained By' datatype='string' name='[MAINTAINED_BY]' role='dimension' type='nominal' />
+      <column caption='Maintbyrdwystructyn' datatype='string' name='[MAINTBYRDWYSTRUCTYN]' role='dimension' type='nominal' />
+      <column caption='Matl' datatype='string' name='[MATL]' role='dimension' type='nominal' />
+      <column caption='Minimumvariablewidth' datatype='real' name='[MINIMUMVARIABLEWIDTH]' role='measure' type='quantitative' />
+      <column caption='Modby' datatype='string' name='[MODBY]' role='dimension' type='nominal' />
+      <column caption='Moddttm' datatype='real' name='[MODDTTM]' role='measure' type='quantitative' />
+      <column caption='Multiplesurfaceyn' datatype='string' name='[MULTIPLESURFACEYN]' role='dimension' type='nominal' />
+      <column caption='Notswcandidateyn' datatype='string' name='[NOTSWCANDIDATEYN]' role='dimension' type='nominal' />
+      <column caption='Num Attachments' datatype='real' name='[NUM_ATTACHMENTS]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Overridecomment' datatype='string' name='[OVERRIDECOMMENT]' role='dimension' type='nominal' />
+      <column caption='Overrideyn' datatype='string' name='[OVERRIDEYN]' role='dimension' type='nominal' />
+      <column caption='Ownership' datatype='string' name='[OWNERSHIP]' role='dimension' type='nominal' />
+      <column caption='Primarycrossslope' datatype='real' name='[PRIMARYCROSSSLOPE]' role='measure' type='quantitative' />
+      <column caption='Primarydistrictcd' datatype='string' name='[PRIMARYDISTRICTCD]' role='dimension' type='nominal' />
+      <column caption='Secondarydistrictcd' datatype='string' name='[SECONDARYDISTRICTCD]' role='dimension' type='nominal' />
+      <column caption='Srts Sidewalk Rank' datatype='real' name='[SRTS_SIDEWALK_RANK]' role='measure' type='quantitative' />
+      <column caption='Swincompleteyn' datatype='string' name='[SWINCOMPLETEYN]' role='dimension' type='nominal' />
+      <column caption='Shape Length' datatype='real' name='[Shape_Length]' role='measure' type='quantitative' />
+      <column caption='Unitdesc' datatype='string' name='[UNITDESC]' role='dimension' type='nominal' />
+      <column caption='Unitid' datatype='string' name='[UNITID]' role='dimension' type='nominal' />
+      <column caption='Unittype' datatype='string' name='[UNITTYPE]' role='dimension' type='nominal' />
+      <column caption='Forward' datatype='real' name='[forward]' role='measure' type='quantitative' />
+      <column caption='Incline' datatype='integer' name='[incline]' role='measure' type='quantitative' />
+      <column caption='Layer' datatype='integer' name='[layer]' role='measure' type='quantitative' />
+      <column caption='Length' datatype='real' name='[length]' role='measure' type='quantitative' />
+      <column caption='Pkey' datatype='integer' name='[pkey]' role='measure' type='quantitative' />
+      <column caption='Side' datatype='string' name='[side]' role='dimension' type='nominal' />
+      <column caption='Street Name' datatype='string' name='[street_name]' role='dimension' type='nominal' />
+      <column caption='Streets Pkey' datatype='integer' name='[streets_pkey]' role='measure' type='quantitative' />
+      <column caption='Surface' datatype='string' name='[surface]' role='dimension' type='nominal' />
+      <column caption='Width' datatype='real' name='[width]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.546087' measure-ordering='alphabetic' measure-percentage='0.453913' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='sidewalks (2)' inline='true' name='federated.0qvhgmu0jl5hhf13i89ha0m7ggbn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='sidewalks' name='textscan.1bj8ctg0r2t4yx1bgm9xb00u0qld'>
+            <connection class='textscan' directory='/Users/Miss-grass/Documents/CSE495 18AU/City-scale-Analytics/data_table' filename='sidewalks.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1bj8ctg0r2t4yx1bgm9xb00u0qld' name='sidewalks.csv' table='[sidewalks#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='ID' ordinal='1' />
+            <column datatype='real' name='forward' ordinal='2' />
+            <column datatype='integer' name='incline' ordinal='3' />
+            <column datatype='integer' name='layer' ordinal='4' />
+            <column datatype='string' name='side' ordinal='5' />
+            <column datatype='string' name='street_name' ordinal='6' />
+            <column datatype='string' name='surface' ordinal='7' />
+            <column datatype='real' name='width' ordinal='8' />
+            <column datatype='real' name='length' ordinal='9' />
+            <column datatype='string' name='v_coordinates' ordinal='10' />
+            <column datatype='string' name='u_coordinates' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>forward</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[forward]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>forward</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incline</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[incline]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>incline</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>layer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[layer]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>layer</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>side</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[side]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>side</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>street_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[street_name]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>street_name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>surface</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[surface]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>surface</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>width</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[width]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>width</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[length]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>length</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>v_coordinates</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[v_coordinates]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>v_coordinates</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>u_coordinates</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[u_coordinates]</local-name>
+            <parent-name>[sidewalks.csv]</parent-name>
+            <remote-alias>u_coordinates</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Forward' datatype='real' name='[forward]' role='measure' type='quantitative' />
+      <column caption='Incline' datatype='integer' name='[incline]' role='measure' type='quantitative' />
+      <column caption='Layer' datatype='integer' name='[layer]' role='measure' type='quantitative' />
+      <column caption='Length' datatype='real' name='[length]' role='measure' type='quantitative' />
+      <column caption='Side' datatype='string' name='[side]' role='dimension' type='nominal' />
+      <column caption='Street Name' datatype='string' name='[street_name]' role='dimension' type='nominal' />
+      <column caption='Surface' datatype='string' name='[surface]' role='dimension' type='nominal' />
+      <column caption='U Coordinates' datatype='string' name='[u_coordinates]' role='dimension' type='nominal' />
+      <column caption='V Coordinates' datatype='string' name='[v_coordinates]' role='dimension' type='nominal' />
+      <column caption='Width' datatype='real' name='[width]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.481739' measure-ordering='alphabetic' measure-percentage='0.518261' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sidewalks (2)' name='federated.0qvhgmu0jl5hhf13i89ha0m7ggbn' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0qvhgmu0jl5hhf13i89ha0m7ggbn'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Incline' datatype='integer' name='[incline]' role='measure' type='quantitative' />
+            <column-instance column='[incline]' derivation='None' name='[none:incline:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0qvhgmu0jl5hhf13i89ha0m7ggbn].[sum:Number of Records:qk]</rows>
+        <cols>[federated.0qvhgmu0jl5hhf13i89ha0m7ggbn].[none:incline:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.04sokuq1e7jhtd12tz7g318lo7x9].[clct:Geometry:nk]</field>
+            <field>[federated.0qvhgmu0jl5hhf13i89ha0m7ggbn].[none:layer:ok]</field>
+            <field>[federated.0qvhgmu0jl5hhf13i89ha0m7ggbn].[none:length:qk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3deXCU92E//vfz7L26VvcJ4pYQCHMftgMEG4rPGOw4xk7tTOzWnYk77bSd
+      jjuddpLJ+NemTdvpzLdMEmfAdnxhII6DORIwARvEIUBcAoSQkISEhNCtvZ99ns/vD3nXUuwk
+      7LKrh4fn/ZrxYEm7z7710bPPe59bEkIIEBGR6ch6ByAiIn2wAIiITIoFQERkUiwAIiKTMlwB
+      qKqakukKIRAOh1My7VTRNA2KougdI27hcBhGOvaA88b4CYVCekeI29DQkN4R4hYdZ8MVQCoX
+      HKkql1TSNE3vCHEz2jgLIQw3zkIIQ5VslNHGGQB6e3v1jhC36DgbrgCIiO4kubm5ekdIGAuA
+      iOg29PX16R0hYSwAIqLbkJ2drXeEhLEAiIhuQ39/v94REsYCICK6DVwDICIyqYGBAb0jJEy3
+      AvD5fHj//ffx+uuv4+OPP4aqqqipqUEgEICmadi7dy96enr0ikdEdEuysrL0jpAw3Qrg6NGj
+      KC4uxgsvvIDBwUE0NzejtbUVgUAAZ8+eRWdnJ3JycvSKR0R0S4x4IliUVa8XLi0txZEjR5Cd
+      nY3+/n7k5uZCCIGOjg7s378fL7/8MmRZhhACkUgk9jxVVVN2IpGmaYY6EzF6gpKRMgMj42y0
+      M2tVVTXUOEfnDaOdDGbE+TktLc1wmaPjrFsB2O12eL1edHR0QNO02ML+008/RU5ODtxud+yx
+      FotlzHNlOTUrLqqqwmrVbUjiFj2bz0iZAeONc3RhaqTMnDfGj9frhcfj0TtGXKLjrNtIHzly
+      BOvWrUNZWRmysrJQX18PWZbxzDPPYNeuXTh+/DiWLFkCSZIgSVLseZqmfakQkkEIAUmSUjLt
+      VJEkKWXjkUqSJEGW5TF/1zuZpmmGmzeAkXnaaJmNOM6ZmZmGyxwdZ932AVRWVmLHjh3Yv38/
+      jhw5gsmTJ8cWDE899RSOHj2Kjo4OveIREd0Sr9erd4SESXrdElIIge7ubvT396OoqAgejweD
+      g4NIT0+HxWKB1+uFJElIS0sb87xIJJKSVUQhBILBIFwuV9KnnSrRKz46HA69o8QlEAjA6XQa
+      ag0gHA7D6XTqHeWWRfeV2e12vaPEJRAIGOo9CIxcCsJoB6xEx1m3TUCSJKGwsBCFhYWx740+
+      nCo9PV2PWEREcfH5fIYrgCieCEZElCAhBBq7Q7h8zXiXhAZYAERECesfDuJnH5/G//vlcURU
+      493LgAVARJSgiKpBiWgIKca6yVEUC4CIyKRYAEREJsUCICIyKRYAEZFJsQCIiEyKBUBElCAB
+      Ybgrro7GAiAiSpCmCagaC4CIiAyGBUBEZFIsACIik2IBEBGZFAuAiMikWABERCbFAiAiMikW
+      ABGRSbEAiIhMigVARGRSLAAiotskhIBmwGsCsQCIiG6TpgloBrwmEAuAiMikWABERCbFAiAi
+      MikWABGRSbEAiIhMigVARGRSLAAiIpNiARARmRQLgIjIpKx6vXAwGISiKLGvnU4nNE2D3W6H
+      JEkIhUKwWq2wWCx6RSQiuqvpVgD19fVoaGgAALS0tODRRx/FlStX8MADD8DpdGLTpk341re+
+      hZycHL0iEhHd1XTbBLRgwQI8++yzePrpp2G321FRUYFQKARVVbFz505UV1dz4U9ElEK6rQFE
+      1dbWYs6cOXA4HNA0DXv27IHP58MTTzwBYOQqe+FwOPZ4TdPGbDpKJlVVEQgEUjLtVBBCjFyF
+      UNP0jhIXVVURDAb1jhEXo84bqqrqHSUuRhvnUCgEYGS8g8EAhKr7IvWWRMdZ17SqquLw4cP4
+      3ve+BwCQJAmlpaWoq6tDOByG0+mEJElwOByx50QiEVityY898gcMwuVyJX3aqRItw9HjYwSB
+      QCD2tzUCTdNi86NRqKoKVVVht9v1jhKXQCBgqPegdXjkw6gkSXA6XXDajVEA0XHW9Siguro6
+      VFZWxv7gkiShuroaixcvxi9/+UvDfbIlInOJqMZeRulaAA0NDVi5cmXs6+zsbFitVixduhQu
+      lwvNzc36hSMiusvpur7y3HPPjfl67dq1sf9ft27deMchIjIVnghGRGRSLAAiIpNiARARmRQL
+      gIjIpFgAREQmxQIgIjIpFgARkUmxAIiITIoFQER0m1QhoGlC7xhxYwEQEd0mIQQ0wQIgIiKD
+      YAEQEZkUC4CIyKRYAEREJsUCICIyKRYAEZFJsQCIiEyKBUBEZFIsACIik2IBEBGZFAuAiMik
+      WABERCbFAiAiMikWABFRglRN0zvCbWEBEBElKKKyAIiIyIBYAEREJsUCICIyKRYAEZFJsQCI
+      iEyKBUBEZFK6F4AQQu8IRESmpFsBCCFw6NAhvP7669i0aRP8fj8OHToEv98PTdPwm9/8Bj09
+      PXrFIyK661n1euH29nZcvHgRL7zwAoLBIOx2O65du4aqqipcunQJN2/eRE5Ojl7xiIjueroV
+      wMWLF1FWVobDhw+juLgYlZWVEEKgra0NBw8exMsvvwxZliGEQCQSiT1PVVWoqpqSTJqmIRQK
+      pWTaqSCEMFxmYGScw+Gw3jHioqqqocY5Om8YbROr0eZnRVEAAEIA4XAYIdkY4x0dZ90KwOfz
+      QVVVlJeX4+DBgxBCQAiBI0eOwOPxwOVyxR5rsVjGPFeWU7PlSlVVWK26DUncouVopMzAyMxn
+      pMzRhamRMmufX6PGSJkB470Ho8smTROQJNkw2aPjrFvavLw82Gw2zJw5E4qioLOzE7Is4+mn
+      n8aePXtw9OhRLFu2DJIkQZKk2PM0TftSISSDEAKSJKVk2qmiaZrhMkfJsjzm73onM+o4CyEM
+      l9lo4xz9MCogIMmyYbJHx1m3ncDz58/H4cOHsXfvXhw4cAAzZ86EJEmQZRnr169HbW0t2tvb
+      9YpHRHTX020NIC0tDX/1V3+Fa9euYcGCBcjNzcUjjzwCt9sNi8WCF1980TCfEImIjEjXDVZp
+      aWmorKyMfZ2RkTHmZ0RElDq6nwhGRET6YAEQEZkUC4CIyKRYAEREJsUCICIyKRYAEZFJsQCI
+      iEyKBUBEZFIsACIik2IBEBGZFAuAiChBISU19yYZLywAIqIECRjjBjB/CAuAiMikWABERCbF
+      AiAiMikWABGRSbEAiIhMigVARGRSLAAiIpNiARARmRQLgIjIpFgAREQmxQIgIrpNqioQUTW9
+      Y8SNBUBEZFIsACIik2IBEBGZFAuAiMikWABERCbFAiAiMikWABGRSbEAiIhMyqrXCwshMDw8
+      DCEEJElCeno6wuEwHA4HJElCMBiE1WqF1apbRCKiu5puawCBQAAbN27E7t27sWvXLni9Xuzc
+      uRNDQ0MIBoPYtGkThoeH9YpHRHTX0+3jdXd3N6qqqvD444/HvhcOh6GqKj7++GPMnTsX2dnZ
+      esUjIrrr6VYAQ0NDaG5uxi9+8QtMnjwZ9957LzRNw86dOxEKhbB+/XoAI5uKwuFw7HmapkFR
+      lJRkUlUVgUAgJdNOBSEEhBDQNGNdg0RVVQSDQb1jxMWo84aqqnpHiYvRxjkcGlk2CQiEgkEE
+      7JLOiW5NdJx1K4CqqipMmTIFiqLgww8/REFBASRJwqRJk3DixAmEQiG4XC5IkgSHwxF7XiQS
+      Scl+ASEEgsEgXC5X0qedKtEyHD0+RhAIBOB0OiFJxnizaJqGcDgMp9Opd5RbpqoqVFWF3W7X
+      O0pcAoGAod6DdsfI+EqQ4HA6DZM9Os667QO4ceMGAMDj8cDj8UBRFEiShFmzZmHZsmXYvn27
+      4T7ZEpG5CIMvonRbA/B6vdixYwcAIDMzExUVFejo6IDVasXixYvR3d2N5uZmTJs2Ta+IRER/
+      VDhirE1sv0+3AqioqMCMGTOgKApsNhskScKaNWtiPx+9c5iIiJJP14PsJUky3DZKIqK7Bc8E
+      JiIyqYQLoLOzE0NDQ2hpacGWLVswODiYzFxERJRiCRfAu+++C7/fj9dffx0AsHXr1qSFIiKi
+      1Eu4AFRVRVNTExwOB5YvXw6fz5fMXERElGIJF8Djjz+OTz75BE899RQ6OzuxdOnSZOYiIqIU
+      i/sooP7+fnR1dQEAvvnNbwIAXC4XysrKkpuMiIhSKu4CaG9vx759+3Du3DlMmTIFaWlp6Ozs
+      xOLFi/HUU0+lIiMREaVA3AVQXV2N6upq/Nu//Rtefvll5OTkoL29HR9++GEq8hERUYokfCLY
+      jBkz8L//+7+47777cPToUUyZMiWZuYiIKMUSLoB169ahvLwcjY2NWL16NRYvXpzMXEREhqFq
+      GlTVeFeGS/gooB//+MewWq3YsGEDli1bBovFksxcRESGIfQOkKCE1wAee+wxvPHGG3A6nXC7
+      3cjMzITH40lmNiIiSqGEC6CxsRFpaWn44IMPIEkS7r33XjzwwAPJzEZERCl0W2sA1dXVaG5u
+      RkVFBUpLS5OZi4iIUizhfQA7duzAT37yE3R2duLHP/4xPvvss2TmIiKiFEt4DeDYsWP453/+
+      Z2RmZuLBBx/Epk2bsHz58mRmIyKiFEq4AKZNm4bNmzdjwYIFOHToEKqqqpKZi4iIUizhAvjz
+      P/9zHDp0CA0NDVi5ciUWLVqUzFxERJRiCe8D2LZtG6qqqvDiiy8iPz8fu3fvTmYuIiJKsYQL
+      oKGhIXbyl8ViweXLl5MWioiIUi/hTUArV67Ea6+9hsrKSpw7dw4vvfRSMnMREVGKJVwAK1as
+      wKRJk3D16lU89thjKCwsTGYuIiJKsds6E3jz5s2wWCzIysrCxYsXsWrVqmRmIyKiFEp4H8B7
+      772Hv/3bv0VOTg4KCwtx/vz5ZOYiIrrjCaNeBe5zCRdAZmYmmpqaEAgEcPjwYWRmZiYzFxHR
+      HS+kRPSOcFsSLoDvfve7OHv2LAYHB9Hf3x+7PzARERlDQvsAfD4fmpubsX79euTn56O7uxvH
+      jh3jPgAiIgOJuwAikQh++MMfIjMzE9evX8d3vvMdvPnmm3jxxRdTkY+IiFIk7gLo7++Hw+HA
+      P/3TP+Gzzz7Da6+9hh/+8IeYPXt2KvIREVGKxL0PIBKJwOv14uzZs+ju7sbcuXOhqio6OztT
+      kY+IiFIk7gJIS0tDaWkp9u7di5aWFqSlpWHv3r1obGxMRT4iIkqRuDcBZWZm4u/+7u+SFuDa
+      tWsYHBzE7NmzcfXqVUyYMAEWiwXNzc0oKChARkZG0l6LiIi+EPcagKZp0DQNqqpC3OZZEMFg
+      ENu2bcPBgwcBAEePHsXw8DC6urrw8ccfw2az3db0iYjoD4t7DWDXrl2YNm0aampq8MQTTyAn
+      JyfhF9+5cydWrVqFmpqa2PfC4TC2bduGJ598Ek6nE0KIMUUjhICqqgm/5h+TymmnQnRsjJQ5
+      StM0vSPcMiOO8+gPakZitHEevWwy0nhHxznuAigpKcFPf/pTdHd3o729HS6XCwCwZMmSuG4J
+      2dzcDK/Xi+rq6lgBqKqKzZs3o7y8HGVlZbHHjh5UVVVTtvAQQiASMc6ZfUIIaJpmqMwAmHkc
+      GHXeMNp7MLZsEkBEVQ2TPTrOcRfAvHnzUFRUhLfffhsrV66MXQIiNzc3runs27cPkiThgw8+
+      wLVr13Ds2DFYLBY899xz2L59O9rb21FWVgZJksZsCpIkCVZrwtew+4OibxiHw5H0aaeKpmlQ
+      FMVQmYGR3Ha7HZIk6R3llmiaBiGEocZZVVWoqgq73a53lLgY7T04ellks9kMkz06znHvA5Ak
+      CSUlJXjllVegKApOnDgBn88XdwF8+9vfxoYNG/DII4+gpKQEc+fOBQCkp6fjW9/6FrZu3Qqf
+      zxdvPCKicadqGlTVOJs1oxL+KP3hhx+iq6sLc+fOxZ49e9DV1YVHHnnklp/vdrsBjHzyvu++
+      ++BwODBv3jy4XC54PB488sgjGBgYQFpaWqIRiYjoj0i4AC5cuIB//Md/RFZWFqqqqvDGG2/E
+      VQBRkiRh3rx5AIDKysrY92fMmJFoNCIiugUJF8DChQvx3//935g1axZOnTqFP/uzP0tmLiIi
+      SrGEC+Ab3/gGKioq0NLSgpdeeglTpkxJZi4iIkqxhAtAlmVUVVWhqqoqmXmIiGicJHxDmFOn
+      TmFoaCiZWYiIaBwlXAANDQ3YvXv3bV8OgoiI9JHwJiCPx4PNmzejsbERbrcbixcvxv3335/M
+      bERElEIJF8A999yDH/zgB7Gv4z0RjIiI9JXwJiCHw4E9e/Zg9+7dUFUVHR0dycxFREQplnAB
+      vP7663jwwQchhEB2dvaYK3oSEdGdL+ECUFUVOTk5kGUZbW1tycxERETjIOF9AC+88AI2btyI
+      1tZWdHd3J/UuYURElHoJF0BpaSmef/55dHR0YObMmcjPz09mLiKiO17EgFcAHS3hTUBvvfUW
+      Nm3ahNbWVvzgBz9AbW1tMnMREd3xVM3Y50ElvAbQ1taGV199FdnZ2Vi1ahU++ugjLFq0KJnZ
+      iIgoheIugIaGBtTU1GBoaAg///nPkZeXh76+vjG3cCQiojtf3AXg8XhQUVGBioqKMd8vKSlJ
+      WigiIkq9uAugsLAQhYWFaG1txZEjR2I3aI/e4YuIiIwh4Z3AP/3pT2GxWGKFkJ6ensxcRESU
+      YgnvBJ46dSruueceTJw4EQBgsViSFoqIiFIv4QIIh8N47bXXkJmZCQBYvXo1Hn/88aQFIyKi
+      1Eq4AHp7e/Gf//mfKCgoSGYeIiIaJwkXQH5+Pn72s5+hsLAQwMjloRcvXpy0YERElFoJF8Ca
+      NWvQ09MT+7q4uDgpgYiIaHzc1iag1tbW2NdOp5MngxGRKQkBaAa8PW7Ch4E6nU5kZGQgIyMD
+      7e3tuHr1ajJzEREZhiaEIQsg4TWAWbNmYdasWQCA6dOn45e//GXSQhERUeolXADvv/8+jh8/
+      DgDw+/148MEHkxaKiIhSL+ECeOKJJ/Doo48CAGRZ5qUgiIgMJu4CGBwcxMaNG2PXAAJGbg+5
+      bNkyrF69OqnhiIgodeIugLS0NDz33HMQQkBVVdTV1WHHjh08B4CIyGDiLgCr1YqSkhLU1dXh
+      17/+NYqLi/Hv//7vsRPCiIjIGOIugOHhYfzrv/4rPB4Pnn766diC3+fz8YqgREQGEncBRCIR
+      2Gw2RCIRfPDBB7Hvf+1rX8OaNWtueTqtra3Yt28fIpEIsrOzsW7dOtTU1GDRokVwOp3YtWsX
+      li5diry8vHgjEhHRLYi7ALKzs/Ef//Eft/3Cbrcb69evR3p6OrZv346rV6/i+vXrCAaDqK+v
+      x/DwMHJzc2/7dYiI6KslfBjo7crPz8eNGzdw+vRp3Lx5E8XFxRBCoLm5GYcPH8bLL78MSZIg
+      hICiKLHnaZoGVVVTkknTNIRCoZRMOxWEEIbLDIyMczgc1jvGLYse8GCkcdY0DUIICIOdnWq0
+      +TkS+WLZpIQVw2SPjrNuBQAAzc3NuHTpEiwWS2xhX1dXh8zMTDgcjtjjrNYvYqqqmpKbz0QX
+      pjabLenTThVN02Kb5IxE0zRYrVZIkqR3lFsSXZAaaZxVVTXc/AyM5DZS5tHLIqvVapjs0XHW
+      rQA0TcPSpUuxdOlSHDx4EGfPnoUsy1i/fj327t2Lmpoa3H///ZAkacyCQtM0yHLClzD6g6Kf
+      lFIx7VSSJMlwmYGRcTZKAWiaZrhxjpaWkTIDxpufJemLrJJsnOzRcdYt7f79+/HOO+9g9+7d
+      OHXqFMrLy2OhnnjiCdTV1aGtrU2veEREdz3d1gBWrlyJ3t5eBINBfO1rX0NGRgYef/xxOJ1O
+      yLKMl156yTCfEInInCKq9qcfdAfTrQCsVuuXTh4bfT0hl8s13pGIiOKiGrwAjLHBioiIko4F
+      QERkUiwAIiKTYgEQEZkUC4CIyKRYAEREJsUCICIyKRYAEZFJsQCIiEyKBUBEZFIsACKiJNA0
+      Y917AWABEBElhRIx3nWBWABERCbFAiAiMikWABGRSbEAiIhMigVARGRSLAAiIpNiARARmRQL
+      gIjIpFgAREQmxQIgIjIpFgARkUmxAIiITIoFQERkUiwAIqIEhSOq3hFuCwuAiChBQhjvHgCj
+      sQCIiEyKBUBEZFIsACIik2IBEBGZFAuAiMikdCsAVVVx/vx57Ny5E6dPn4YQAk1NTVAUBUII
+      XL58GUNDQ3rFIyK66+lWAGfPnkVjYyOmT5+O48ePo6mpCcePH4fX60VnZyf27NkDh8OhVzwi
+      orueVa8Xnj17NubOnQtN03D8+PHY8bShUAjbtm3DU089BYfDASEENE2LPU8IAVVNzckXqZx2
+      KmiaZrjMwBfjLEmS3lFuiRDCcOOsaRo0TTNUZsCI70Ex6v+NM97RcdatAGw2G4aGhrBlyxaU
+      lJRg6tSpOHbsGDZv3oxJkyahpKQk9tjRBaCqakpOvuCbfPwYsQCMNs5GnzeMQoixyyajZNe9
+      AHw+H37yk5/g4YcfxqxZsyBJEiwWC55//nls3boVbW1tmDhxIiRJgs1miz1PkiRYrcmPHX2T
+      2+32pE87VTRNg6IohsoMjLxR7Ha7YQoguqZlpHGOLoyMlBmA4TJbLJbY/9tsNsNkj46zbvsA
+      amtrUVZWBqfTiaamJni9XgCA2+3Ghg0bsG3bttj3iIjudBFV+9MPusPotgYwYcIEqKqK1tZW
+      AEB6ejoWLlwIl8sFj8eDb3zjGxgaGkJ6erpeEYmIbpnKArh1U6dOxdSpU8d8r6ioaMzPiYgo
+      dXgiGBGRSbEAiIhMigVARGRSLAAiIpNiARARmRQLgIjIpFgAREQmxQIgIjIpFgARkUmxAIiI
+      TIoFQERkUiwAIqIEqVry700ynlgAREQJUiLGuwLoaCwAIiKTYgEQEZkUC4CIyKRYAEREJsUC
+      ICIyKRYAEZFJsQCIiEyKBUBEZFIsACIik2IBEBGZFAuAiCgJjHhVIBYAEVEShBRV7whxYwEQ
+      EZkUC4CIyKRYAEREJsUCICIyKRYAEZFJsQCIiExK9wLo7++P/b/P54MQI0fT+v1+KIqiVywi
+      oruebgXg8/nw7rvv4kc/+lFsob97924MDg4iEAhg06ZN8Pl8esUjIrrrWfV6YZ/PhwULFmBg
+      YCD2PUVRoKoqPvroIyxevBgej0eveEREdz3dCqCgoAAFBQX43e9+F/uepmn41a9+BUmSsHDh
+      QgCAEALhcHjMY1K1aUhVVQQCgZRMOxWEEBBCQNM0vaPERVVVBINBvWPExajzhqoa6+xUo41z
+      JBKJ/X84HDJM9ug461YAX0WSJMyePRuHDx9GMBiE2+2GJElwOByxx0QiEVityY8thEAwGITL
+      5Ur6tFMlWoajx8cIAoEAnE4nJEnSO8ot0TQN4XAYTqdT7yi3TFVVqKoKu92ud5S4BAIBQ70H
+      Ry+L7HaHYbJHx1n3ncCjSZKE6dOnY8WKFfjggw8M98mWiMhIdFsDqK+vx7FjxxAOh7F582bM
+      nz8fhYWFsNlsmD9/Pm7evInm5mZMmzZNr4hERHc13Qpg1qxZmDVr1h/8+dq1a8cxDRFR/KJH
+      MBrVHbUJiIjISMIRY+1k/30sACIik2IBEBGZFAuAiMikWABERCbFAiAiMikWABGRSbEAiIhM
+      igVARGRSLAAiIpNiARARmRQLgIgoKYx3XSAWABFREoTCxrsuEAuAiMikWABERCbFAiAiMikW
+      ABFRAoQQUFXj7fgdjQVARJSAjp5h/K7uauzrU42dUAx2gxgWABFRAnYfvQJfUEGma+TOup+c
+      vIq6xi6dU8WHBUBEFCdNE2i9MQAA2PD1Ctw7qwwAcLbphp6x4sYCICKK03AghK4+L5x2K4qz
+      HXjsvgrIkoRTlzsx7A/pHe+WsQCIiOJwc8CH/+8Xn6FnwA9PuhPFeR5MKclGfrYbHT3D+MEb
+      BzHkM0YJWPUOQER0pxNCoK17EMFQBLWXruNSWy8AYHKxB2pEgdNuRcWEXNzo86GxvQ+Hz7Wh
+      IDsdsybnw2m/cxezd24yIiIdCCGgCYGwouLTM60ozc+E1SLjB28chBJRoWkCLocVC2aU4Ntr
+      qmFHGACwtGoCjl3oQEhR8caeMwgrKubPKMI37q/EiUvXUV6Uha/PmwxZlnT+Db/AAiAi+pwS
+      UfHpmTacaOiA1WLBp2daYZElZKU54Q8qAABZlvCtVbOx7muVAID29nYAwL2zy5Cb9XUcPN2C
+      XUevAABOXu7Eqctd0ISA3WZBWFFhscionlKAopx0SJK+ZcACICLTu9Hvw2dnWnGlow/HLnZA
+      0744wcvlsGHAG8S86UWYUJCF4tx0rF087Yufu1wAAEmSUDkxDxMLsgBI6B30o/bSdVgtMuZM
+      LURdYyd+tuMUNCGQ6Xbgb765BGFFxcKKEthtlvH+lUcyCyEMdSpbJBKB1Zr83hJCIBgMxv6Y
+      RqBpGhRFgcPh0DtKXAKBAJxOp+6ffm6VpmkIh8NwOp16R7llqqpCVVXY7Xa9o8QlEAiM23sw
+      HFGx70Qz6q/exJWOPnT1eWM/c9qtUFUNbqcNP/qrB9HV50XlxDy4HLYvTae9vR1lZWVf+n5E
+      1bC3tgnFuRmompSPg2da8evDDchKc+D81W5IGJn/7509AQ67BUtmlmJJ1ZenkwrRcWYBfI4F
+      MH5YAKnHAvhqHTeH0DPohyRJeHffOVxs7Yn9LDfThUeWzUAwHMF91RMwMByE025FZXneH51m
+      X18fcnJybun1/UEFkgT8/cbfouPm8JifOWwW3DOtCGsWTUVpfga6er2YP6M4/l/yFkTHmZuA
+      iOiuFlIicNis+N2pq/jZjpMIhlUICAgBZKc74XbZ0HFzGItmluLJFTO/eGLRrU3f5/PdcgG4
+      nSNrEN97YhF++eklXO3sR+9QAJ50J4b8IRy/2IHjFzvgsFmgqBpefHgeHlo6DRY5NUfscw3g
+      c1wDGD9cA0g9rgEAoXAEF9t68IvfnEVJbjpqG64jEIrAYbNACGDW5Hx856G5sMoy9p5sxpPL
+      ZyIzLf73Un9/P7Kzs+N+nqppaO7oR92VLqyYW46+oQB2Hb2CxvZedPV6IQC4HOg0CaYAABP1
+      SURBVFbkZbmxoKIEK+eWY3LxyOsIIdA94EN+VlpCRxVxE9DvYQGMHxZA6pmxAK73DKP20nV4
+      AyGEFBUXW3vQ2TuMYf/IYZpWi4yHl07D6oVTIUlAXpb7K7fpx6utrQ0TJ0687ekAI6WgRDSc
+      bLiOI/XtOFLfDossIaSosFlkrJw3CWFFxazJBXj/k/N4aOk0PP31WXG/Dgvg97AAxg8LIPXu
+      5gLoGwrAZpXROxjA+ZZu+AJhDHiDOHT2GoZGXYZBliRYLBJmlOVi7vQifG3ORBTmpENO8nyX
+      6BrAn6JEVPQM+hEMR7Bp12lcae+DP6SMeUyG245vr56DvuEANE3g8fsq4HRYoWkitiPbYhnZ
+      fKQJgUBIQZrTfmcUwLlz59Dc3Iy5c+eivLwcjY2NmDRpEqxWKxoaGlBcXIysrKwxz2EBfIEF
+      MD5YAKnlC4Zhs1hgtci42tGDth4v3A4bPjvbhhkTcpHvcSOsaGi9MQCvP4yjF9ohSRL8QQXh
+      UZdfliSgJDcDw4EwMt12vLB2LnKzXJhYkAWbNXWHWSZzDeAPCYYjuNLeh93HrmA4EMKl1h6E
+      lC9fenpiYRbCigqHzYLpZTm41NaDyon5mFqSjYZrvWi63ofvrVuETJcVaW4dC6ClpQW7d+/G
+      2rVrsXXrVrzyyiv46KOPsHbtWvh8Pnz44Yd4+eWXvzQDswC+wAIYH2YpACEEAqEIXA4roksF
+      WZagRFQIMbKAHfSFEFE1WC0y7FYLbg740DccQHmhB9d7hpGdMfJ39YcU9A760dnrhS+owB8M
+      oyA7Db6ggqudAyjwpCHNaUPT9X60dQ/CabNAFQL9w0GEv2LBNpokAUKMbB9fWlWG0rwMOOxW
+      2KwWfH3eJNwc8MFltyHP476dIbxlAwMD8Hg84/JawMjhpa03BnHmSheudQ/BZpWhaQID3iBO
+      NFyHLEmf/9202FiN5nJYIQGQZVm/o4Dq6+vxwAMPYPLkyZg/fz6ampoAAMFgENu3b8fTTz8N
+      u90+clq2psWeFw6HY49zOp1J/VcIAZ/Ph4ACbPndhT85I+pvZGxkWZ+TSBKlaioshsoc/zhH
+      NA3q5wvK3z+CI6KqUD8/0chmlSFL8pjv/TF2q2VMcYYjKpSIioiqwWm3QpIkiM8vY6BpGiwW
+      C2xWGWFFHdkBarcgomoY8oXGnHwU/YR8vWcYnnQn/CEFbocNEVWDRZbgCyrQhEAoHIGqidjm
+      lUAoAlXV4LBbEQpHYLNaICCgRLQvZf8qkgTYrTICQRnBcASyDGS5rPCHVZTlpWPGhDx4/X4o
+      moQijwvF+R44rYDL6URepgOTSnIRCoVi72GrDGS7LXA67fB6vQkvCxwOB8LhMOx2+1f+a7PZ
+      oCgKbDYb+vv74Xa7Yx9OI5EILBYLVFWFxWL5fN6Rx/wb/Tv9qQ9BQogvPVeWZZRkO1G2ZErs
+      NVRVhYCM+uYu5HrS0X6jH43XB7B0ZgkutvXh2o1+FORk4Ep7LxqvD0KCACD0KwCv1xtrzays
+      LPh8PqiqijfeeAOTJk1CcfEXx7+OLgBFUSDLMnw+H6xWa1L/tdvtUBQFxxr78dvapnEfE6Lx
+      8lWfDIGRE6BaugYgSSPb0DUhYJFlWGQJFllGRpodNosFSkRFOKKiYkIubFYZ13u9yCn2IBLR
+      IISA22lDXpYbBdlpyHTbIUlAZ68PaU4birLdgDRSHhMKMuG2anC509A/OIRAWEV+hh1eRUKW
+      E8jLycbg4CCysrK+8l9VVVOyLLBYLPD5fLFljSRJ8Pv9sX/dbjcCgQAAICMjA+FwOFYgoVBo
+      TGEoihIrBqvVOmahLctyrAiiG2NGl0O0xKPPiUQiY8pndCk5HA5MKUqH0+lEljMbCytL4Pf7
+      MXnJFPj9fqSlpWF42AtY7PB5h5GZlaXfJqCdO3di+vTpmDFjBvbu3YuioiKcP38eK1aswNat
+      W/HEE0+gvLz8S88bj01AEVXDqcudCIYjSX+dZNI0AVVVYbMZ63SOcFiBzWY1zCYgIUTsjXer
+      Rj6pj6yu//4n+5G1gpHfXVE1aJqAzSLf0uF84c8XsKNfx2qVYbXICIUjsU01EgBZAlwuB3yB
+      MGxWGRluB3xBBbIEZKe7AAmxbIHPr3NTmDOymcbtsCEcUSFJgKoKpLlskCDBbrNAlqWReU/T
+      4LBZIctS7NO/pgnIsgSLLCX09x3PM4GTpbW19SuXVXcy3U8Emz17Nnbu3AlJklBXV4e//uu/
+      xvnz5+FyubBhwwb84he/wF/+5V8iIyNj3LNZLTIWzywd99eNF/cBjA+z7AOIys6IfwEcO5zS
+      SFv2kmQ8t/8nm243hJk4cSKWL1+OhoYGPPPMM3C5XFi0aBFcLhfy8/Oxfv16eL3ePz0hIiId
+      9ff36x0hYTwP4HM8Cmj8cA0g9Yx0GOhoRtwENDQ0hMzMTL1jxCU6zrwlJBHRbejt7dU7QsJY
+      AEREtyE3N1fvCAljARAR3QauARARmVRe3h+/X8CdjAVARHQbbt68qXeEhLEAiIhuQ35+vt4R
+      EsYCICK6DVwDICIyqYKCAr0jJIwFQER0G27cuKF3hISxAIiIbkNhYaHeERLGAiAiug1GXgMw
+      3LWAQqHQn35QgqLX3DYKIUTshhFGYrRxBhC7EYdRcN4YP9H7AxhJdJwNVwCpksg13/WmaRo0
+      TUvJxfFSKXqDDKNcDI7zxviJ3ujESIyc2VgfD1Js9J3HjIKZx4fRPidF1wCMxojzhpEzswCI
+      iEyKBTCK0bY9SpJkuG28gPHGGYDhxpnzxvgxcmbuAyAiMinjfUQgIqKkYAEQEZmU5fvf//73
+      9Q6hB0VRcOrUKTQ2NiIrKwtOpxNdXV04efIkLBYLsrKyIIRAY2Mjzp8/j6ysLF3vVRrN0tbW
+      hq6uLrhcLjgcDrS0tODs2bNwu91IS0uDpmk4f/48GhsbkZube0fcEzaaPRwOIyMjA6FQCLW1
+      teju7kZhYSFkWcbAwACOHTuGUCiE3Nxc3Q4R1TQNTU1NOHfuHIaGhmJZ2tvbUVdXB7vdjoyM
+      DGiahkuXLuHSpUvweDy63i9YCIHOzk6cOXMGg4ODyMvLgyRJsd8jIyMDbrcbqqri7NmzaGpq
+      Qn5+/h1x6OLg4CDa29uRnZ0NSZIQCARw7Ngx9PX1IT8/H7Iso7e3F7W1tYhEIrHH3QmEEGhr
+      a8Pp06fhcrmQnp6ud6QviUQiaGhoQFZWFiwWC4QQuHz5Murr6+HxeMy5BiCEwJYtWzA4OIjc
+      3Fz09vbC6/Xi7bffhsfjwbZt29DT04PGxkbs378fbrcbb731FhRF0S1zJBLBnj17oChK7L+O
+      jg58/PHHyMjIwLvvvgufz4fa2lqcOXMGAPDee+9BVVXdMkd1dHTg3Xffxblz5wAA27dvh9/v
+      R2trKz755BNomobNmzcjLS0NBw4cwKVLl3TL6vV6cfr0aeTm5uLixYs4ePAg+vr6sHXrVmRl
+      ZeGDDz7AwMAA6uvrUVNTA5vNhnfeeQeRSES3zB0dHdi5cyecTifq6upw4sQJNDc347e//S3S
+      0tLw9ttvIxQK4dChQ2hoaEAkEsGWLVt0P0z0xIkTeOONN7Bv3z4AI+/L999/P1auhw8fRjgc
+      xltvvYX09HT89re/xdWrV3XNPFpXVxd+9atfITMzE++99x6Gh4f1jjTG0NAQXn/9dbzzzjvw
+      +XwAgIaGBhw4cAButxtvvvkmjHWWSJJ4vV74fD4sXrwYkiQhPT0dJ06cwNKlSzF37lwoioIL
+      Fy7g5s2beOihh1BeXo7W1lZcv34d5eXlumQOBoNwuVyYPXs2HA4HLBYLdu/ejQcffBAzZ85E
+      d3c3WltbUV9fj3Xr1iE7OxsXL16Ez+dDZmamLpmBkeLauXMnVq9eDb/fD03T0NPTg2eeeQaa
+      pmHjxo2orq5GUVERFi5ciLKyMuzfvx8zZ87UJW9mZiaefPJJRCIR9Pb2IhQKob6+HsuXL8e8
+      efPg9XrR2NiIxsZGPPzwwyguLkZTUxN6e3t1uyZMYWEhvvvd70KWZfj9fgQCAZw5cwYPPfQQ
+      Jk+ejGvXruH69eu4ePEinn/+ebjdbpw7dw6Koui6hjhp0iRUV1fjzTffBDBydurw8DCWL1+O
+      QCCAzZs3o6ysDJMmTcKCBQuQk5OD06dPY8qUKbplHu38+fNYtWoVqqur0dvbi6tXr2LOnDl6
+      x4qx2+145pln8Jvf/Cb2vbq6Ojz++OOx+dZUBTAwMIBIJILh4WF0dHTgo48+wsDAAObPn49g
+      MIji4mIAI7d4q6+vh9/vh8fjAQDk5OTEWnS8CCHQ398PIcTIaduShC1btiAQCODJJ5+Ez+dD
+      dnY2gJEbUw8NDUFV1dimqqysLAQCgXEvgEAgAJ/PB6fTidraWsyYMQMFBQVoaWlBIBBARkYG
+      ZFmO/RddEwNGxlmPT1L9/f3QNA0ejwfnz5/H3r17EQgE8Dd/8zf47LPPUFZWBmBknDs7OxEK
+      hZCRkQEA8Hg84z5vaJqGgYGB2OtHIhHs3r0b3d3d2LBhA7Zv3x6bd6PzBoDYZp+MjAwEg8Fx
+      LwC/3x+7dEJeXt6YNVSfzxfLbLfbIUkShoaGYrdc1Gve+EO8Xm/s/ZeXlxcb4zuF0+n80qZJ
+      v9+PrKwsACPzhakK4Pjx4/B6vZg3bx4qKirw7LPPQlEUbNy4EUuWLIHX6wUADA8Pw+12w+/3
+      w+fzISsrC16vd9y380YiEdTU1EAIgTVr1uCll16CEAL19fU4cuQIHA5HbMEzPDyMvLw8yLIM
+      RVHgdDrh9/t12Tbd3t6Oc+fOobS0FIcOHcL06dPR1NSEgYEBTJkyBX6/P3amqqZpcLvdsTe2
+      1+vVZV/LkSNHEAqFsHbtWsyZMwfTp0/HmTNnsGfPHuTl5X1p3rDZbAgGg0hPT4+V3XgKh8M4
+      fPgwLBYLvv71r2PLli0oKirC888/D6vVCofDgUAggOzsbAwPD8c+3KiqCpvNBr/fD4fDMa6Z
+      AaClpQWXLl1CVVUVKisrx/zM5XLFxllVVQgh4Ha7cf36dQAjBaHnfrjf53Q6x7z/7sR9AL8v
+      Ol9E33OmKoA1a9YAGPn09NFHH+Hq1asIh8PweDyYPn063nnnHZSXl6OmpgaPPPIIsrOz8emn
+      n+L+++9Hc3MzVq9ePa55bTYbHn30UQBAW1sb2tvbMW3aNDQ3NyMnJwdFRUX49NNP4XK5cP78
+      eTz//PPo7u5GTU0Npk2bBq/Xi7S0tHHNDADTp0/H9OnToWkaKisrIYTA1atXce3aNUyYMAE2
+      mw0XLlzA0NAQSkpKUFJSgqamJrS3t+PIkSO6bP55+OGHAQDXr19Hd3c3JkyYALvdjnA4jBkz
+      ZmDHjh0oKCjAyZMn8eSTT0IIgUOHDmHevHno6uqKrcGMF6fTicceewwA0NjYiEAggHvuuQc9
+      PT3IyMhARUUFDhw4gBUrVqCxsRErV65EaWkpjh49ipKSEgghdNkJXFVVhaqqKgAja+TBYBCh
+      UAg9PT3weDzQNA2NjY3o6OjAxIkTUVZWho8//hj33HMPDhw4cEdtYqmoqMD+/fuRkZGBs2fP
+      YsOGDXpHGiMYDGJ4eBiBQAC9vb2wWq2orKzE/v37sWzZMrS0tJj3RLDu7m4cOHAAFosFDz74
+      IDIzM3H27FnU19ejoqIC8+fPh6Zp+Oyzz9DZ2YklS5bouu0xEAjg+PHj6OzsRFFREe677z5Y
+      LBYcO3YMLS0tmDt3LiorK6EoCvbv34/BwUEsX7489slPb729vejv78e0adPQ39+PTz75BDab
+      DWvWrIHT6URrayuOHDmCwsJCrFixQrezK71eLw4fPoyBgQGkp6dj+fLlSE9Px6lTp9DQ0IBZ
+      s2Zhzpw5UFUVBw8exM2bN3Hvvfdi4sSJuuQFRta4Tp48Gft6xowZmDFjBmpqatDe3o5FixZh
+      6tSpCIVC2LdvH/x+P1atWhXbtKKXmpoa9Pb2QggBSZKwcuVKhEKh2IEXq1evht1ux5UrV3Di
+      xAmUlZXh3nvvvWPOvNU0DbW1tWhqasI999yDqqqqO+YIJWDkw8zJkydj41teXo5Zs2bh008/
+      RVdXF5YuXWreAiAiMjtTHgZKREQsACIi02IBEBGZFAuAiMikWABERCbFAiAiMikWABGRSbEA
+      iIhMigVARIZTU1ODlpaWW3rs//3f/+Hy5ctoamrCm2++CU3TUhvOQFgARGQ4u3btwoULF6Cq
+      KkKhEIaHh9Hf3x/7ud/vR09PT+xmRIODg3C5XCgtLQUwcp2cYDCImzdvxu6L4PP50NXVZaqC
+      MNXF4Ijo7nLhwgW8+uqryMjIwMDAAP7rv/4LfX19+J//+R+4XC78xV/8ReyxfX192Lt3LxYt
+      WoRvf/vbSEtLw8DAAF555RVMmzYN//Iv/wK3243q6mr8wz/8g46/1fjhGgARGZaqqigtLcWm
+      TZuwcOFCtLW14ec//zn+/u//Hps2bcKyZctij41EIvD5fBBCQJZlbNy4Ec8++yyuXLmCrVu3
+      4v7778err76KHTt2wO/36/hbjR+uARCRoTkcDrjdbjidTggh4Pf7UVJS8kfvd2C1WpGeng63
+      2x27JWxrayuGh4exatUqhMNhuN3ucfwt9ME1ACK6a8iyjPvuuw8/+tGPsHHjRpw6deqWnrd4
+      8WJ4vV5MmTIF4XBYl3sl6MHy/e9///t6hyAiiofH48GUKVNQUFCACRMmoLS0NPa9FStWID09
+      HbIsY86cOZgwYQKmTJkCj8eD0tJSlJeXo6SkBJMnT0Z6ejrKy8tx//33o6ioCD6fD0uWLMGk
+      SZPuqGv7pwrvB0BEZFLcBEREZFIsACIik2IBEBGZ1P8PCyOmk1pwq2oAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
