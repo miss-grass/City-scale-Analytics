@@ -76,9 +76,9 @@ def main():
 
     art['closest sidewalk id'] = id
     art['closest sidewalk point'] = pt
-    art.to_csv("output/art_mapping_sw", encoding='utf-8')
+    art.to_csv("output/art_mapping_sw.csv", encoding='utf-8')
     sw['art'] = art_array
-    sw.to_csv("output/new_sw_wth_art", encoding='utf-8')
+    sw.to_csv("output/new_sw_wth_art.csv", encoding='utf-8')
 
 
 
