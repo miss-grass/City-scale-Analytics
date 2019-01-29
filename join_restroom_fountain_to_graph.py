@@ -62,6 +62,7 @@ def main():
     df_restroom = gpd.read_file(restroom_file)
     df_sw = gpd.read_file(sidewalks_file)
 
+    print(df_sw.columns)
     fountain_sidewalk_id, fountain_project_pt, fountain_array = processing(df_fountain, df_sw)
 
     restroom_sidewalk_id, restroom_project_pt, restroom_array = processing(df_restroom, df_sw)
