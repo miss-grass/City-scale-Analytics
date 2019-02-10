@@ -43,9 +43,13 @@ def processing(df_extra, df_sw):
         sidewalk_id.append(closest_dist_idx)
         project_pt.append(new_point)
 
+        # if extra_array[closest_dist_idx] is None:
+        #     extra_array[closest_dist_idx] = []
+        # extra_array[closest_dist_idx].append(idx)
+
         if extra_array[closest_dist_idx] is None:
-            extra_array[closest_dist_idx] = []
-        extra_array[closest_dist_idx].append(idx)
+            extra_array[closest_dist_idx] = 0
+        extra_array[closest_dist_idx] = extra_array[closest_dist_idx] + 1
 
     return sidewalk_id, project_pt, extra_array
 
@@ -62,7 +66,6 @@ def main():
     df_restroom = gpd.read_file(restroom_file)
     df_sw = gpd.read_file(sidewalks_file)
 
-    print(df_sw.columns)
     fountain_sidewalk_id, fountain_project_pt, fountain_array = processing(df_fountain, df_sw)
 
     restroom_sidewalk_id, restroom_project_pt, restroom_array = processing(df_restroom, df_sw)
