@@ -1,6 +1,113 @@
 import networkx as nx
 import entwiner as ent
 import math
+import pandas as pd
+import csv
+import json
+
+
+# dataset
+sidewalk_csv = "output/new_sw_collection.csv"
+crossing_csv = "18 AU/data_table/new_crossings.csv"
+sw = pd.read_csv("output/new_sw_collection.csv", index_col=0)
+G = nx.Graph()
+
+
+def generate_sdwk_network(csv_file):
+    '''
+    Given sidewalk csv files, generates the network
+    based on coordinates
+    '''
+    file = open(csv_file)
+    #    G = nx.Graph()
+
+    for row in csv.DictReader(file):
+        # start node
+        coordinates = row["v_coordinates"][1: -1].split(',')
+        xv = "%.7f" % float(coordinates[0])
+        yv = "%.7f" % float(coordinates[1])
+        v = '(' + str(xv) + ', ' + str(yv) + ')'
+
+        # end node
+        coordinates = row["u_coordinates"][1: -1].split(',')
+        xu = "%.7f" % float(coordinates[0])
+        yu = "%.7f" % float(coordinates[1])
+        u = '(' + str(xu) + ', ' + str(yu) + ')'
+
+        if not G.has_node(v):
+            G.add_node(v, pos_x=xv, pos_y=yv)
+
+        if not G.has_node(u):
+            G.add_node(u, pos_x=xu, pos_y=yu)
+
+        # incline
+        incline = float(row["incline"])
+        # surface
+        surface = str(row["surface"])
+        #length
+        length = float(row["length"])
+
+        # edge
+        G.add_edge(v, u)
+        G[v][u]['incline'] = incline
+        G[v][u]['surface'] = surface
+        G[v][u]['length'] = length
+        G.add_edge(u, v)
+        G[u][v]['incline'] = 0 - incline
+        G[u][v]['surface'] = surface
+        G[u][v]['length'] = length
+    file.close()
+    return G
+
+
+def generate_crossing_network(csv_file):
+    '''
+    Given sidewalk csv files, generates the network
+    based on coordinates
+    '''
+    file = open(csv_file)
+    #    G = nx.Graph()
+
+    for row in csv.DictReader(file):
+        # start node
+        coordinates = row["v_coordinates"][1: -1].split(',')
+        xv = "%.7f" % float(coordinates[0])
+        yv = "%.7f" % float(coordinates[1])
+        v = '(' + str(xv) + ', ' + str(yv) + ')'
+
+        # end node
+        coordinates = row["u_coordinates"][1: -1].split(',')
+        xu = "%.7f" % float(coordinates[0])
+        yu = "%.7f" % float(coordinates[1])
+        u = '(' + str(xu) + ', ' + str(yu) + ')'
+
+        if not G.has_node(v):
+            G.add_node(v, pos_x=xv, pos_y=yv)
+
+        if not G.has_node(u):
+            G.add_node(u, pos_x=xu, pos_y=yu)
+
+        # incline
+        incline = 0
+        # marked
+        marked = int(row["marked"])
+        # curbramps
+        curbramps = int(row["curbramps"])
+
+        # edge
+        G.add_edge(v, u)
+        G[v][u]['incline'] = incline
+        G[v][u]['surface'] = None
+        G[v][u]['marked'] = marked
+        G[v][u]['curbramps'] = curbramps
+        G.add_edge(u, v)
+        G[u][v]['incline'] = 0 - incline
+        G[u][v]['surface'] = None
+        G[v][u]['marked'] = marked
+        G[v][u]['curbramps'] = curbramps
+
+    file.close()
+    return G
 
 
 # An edge generator - takes input edges and creates transformed (and lower-memory) ones
@@ -45,12 +152,6 @@ def cost_fun(d, ideal_incline=IDEAL_INCLINE, base=BASE_SPEED):
     time = distance / speed
     d["time"] = time
 
-    if "art" in d:
-        art = str(d["art"]).strip("[]\'").split(",")
-        d["art_num"] = len(art)
-    else:
-        d["art_num"] = 0
-
     return time
 
 
@@ -63,6 +164,8 @@ def walkshed(G, node, max_cost=600, sum_columns=["length", "art_num"]):
         weight="time",
         cutoff=max_cost
     )
+    for it in paths.items():
+        print(it[1])
 
     # We need to do two things:
     # 1) Grab any additional reachable fringe edges. The user cannot traverse them in their
@@ -75,15 +178,15 @@ def walkshed(G, node, max_cost=600, sum_columns=["length", "art_num"]):
     #    to the fraction of marginal cost / edge cost.
 
     # Enumerate the fringes along with their fractional costs.
-    fringe_edges = {}
-    for n, distance in distances.items():
-        for successor in G.successors(n):
-            if successor not in distances:
-                cost = G[n][successor]["time"]
-                if cost is not None:
-                    marginal_cost = max_cost - distance
-                    fraction = marginal_cost / cost
-                    fringe_edges[(n, successor)] = fraction
+    # fringe_edges = {}
+    # for n, distance in distances.items():
+    #     for successor in G.successors(n):
+    #         if successor not in distances:
+    #             cost = G[n][successor]["time"]
+    #             if cost is not None:
+    #                 marginal_cost = max_cost - distance
+    #                 fraction = marginal_cost / cost
+    #                 fringe_edges[(n, successor)] = fraction
 
     # Create the sum total of every attribute in sum_columns
     edges = []
@@ -101,20 +204,109 @@ def walkshed(G, node, max_cost=600, sum_columns=["length", "art_num"]):
             sums[column] += d.get(column, 0)
 
     # TODO: add in fringes!
-    for (n1, n2), fraction in fringe_edges.items():
-        d = G[n1][n2]
-        for column in sum_columns:
-            sums[column] += d.get(column, 0) * fraction
+    # for (n1, n2), fraction in fringe_edges.items():
+    #     d = G[n1][n2]
+    #     for column in sum_columns:
+    #         sums[column] += d.get(column, 0) * fraction
 
-    return sums, list(zip(*paths))[1]
+    # return sums, list(zip(*paths))[1]
+    return sums, paths
+
+
+def paths_to_geojson(paths):
+    output = {}
+    output["type"] = "FeatureCollection"
+    output['features'] = []
+
+
+    for it in paths.items():
+        path = it[1]
+        one_path = {}
+        one_path['type'] = 'Feature'
+        one_path['geometry'] = {}
+        one_path['geometry']['type'] = 'LineString'
+        line_lst = []
+        for i in range(0, len(path)):
+            coords = extract_node_from_string(str(path[i]))
+            line = [float(coords[0]), float(coords[1])]
+            line_lst.append(line)
+
+        one_path['geometry']['coordinates'] = line_lst
+
+        output['features'].append(one_path)
+
+    # line_lst = []
+    # for i in range(1, len(path)-1):
+    #     coords1 = extract_node_from_string(str(path[i]))
+    #     coords2 = extract_node_from_string(str(path[i+1]))
+    #     line = LineString((float(coords1[0]), float(coords1[1])), (float(coords2[0]), float(coords2[1])))
+    #     line_lst.append(line)
+    # gc = GeometryCollection(line_lst)
+    # return gc.geojson
+
+    filename = 'test_walkshed.geojson'
+    with open(filename, 'w') as outfile:
+        json.dump(output, outfile)
+
+
+def extract_node_from_string (node_str):
+    coords = node_str.strip("()").split(",")
+    print(coords)
+    return coords
+
+
+def join_art_to_graph(G):
+    for idx, row in sw.iterrows():
+        if row["art"] is not None:
+            # start node
+            coordinates = row["v_coordinates"][1: -1].split(',')
+            xv = "%.7f" % float(coordinates[0])
+            yv = "%.7f" % float(coordinates[1])
+            v = '(' + str(xv) + ', ' + str(yv) + ')'
+
+            # end node
+            coordinates = row["u_coordinates"][1: -1].split(',')
+            xu = "%.7f" % float(coordinates[0])
+            yu = "%.7f" % float(coordinates[1])
+            u = '(' + str(xu) + ', ' + str(yu) + ')'
+
+            # art number
+            art = str(row["art"]).strip("[]\'").split(",")
+            art_num = len(art)
+
+            G[v][u]['art_num'] = art_num
+            G[u][v]['art_num'] = art_num
 
 
 def main():
-    G = ent.graphs.digraphdb.digraphdb('raw data/sidewalks.db')
-    edge_gen(G)
-    sums, paths = walkshed(G, "-122.3129257, 47.5567878")
-    print(sums["art_num"])
-    print(sums["length"])
+    print("preparing graph...")
+    generate_sdwk_network(sidewalk_csv)
+    generate_crossing_network(crossing_csv)
+    #G = ent.graphs.digraphdb.DiGraphDB('18 AU/data_db/sidewalks.db')
+    join_art_to_graph(G)
+    # print(G.nodes)
+    print("finished preparing graph!")
+    print()
+
+    # edge_gen(G)
+    start_node = "(-122.3897940, 47.5191858)"
+    print("computing walkshed starting from ", start_node)
+    sums, paths = walkshed(G, start_node)
+
+    print("Number of arts: ", sums["art_num"])
+    print("Total length: ", sums["length"])
+
+    print("output paths in walkshed...")
+    paths_to_geojson(paths)
+
+    vis_point_d = {}
+    vis_point_d['type'] = "Feature"
+    vis_point_d['geometry'] = {}
+    vis_point_d['geometry']['type'] = 'Point'
+    vis_point_d['geometry']['coordinates'] = [-122.3897940, 47.5191858]
+    filename = 'start_node.geojson'
+    with open(filename, 'w') as outfile:
+        json.dump(vis_point_d, outfile)
 
 
 if __name__ == "__main__":
