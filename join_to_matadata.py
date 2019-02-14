@@ -5,6 +5,7 @@ import numpy as np
 file1 = './output/new_sw_wth_fountain_restroom.csv'
 file2 = './output/new_sw_collection.csv'
 
+
 def join_dataframe(file1, file2):
     df1 = pd.read_csv(file1, index_col='Unnamed: 0')
     df1 = df1.iloc[:, [-2, -1]]
