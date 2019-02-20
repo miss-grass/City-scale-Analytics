@@ -9,15 +9,18 @@ import json
 # dataset
 sidewalk_csv = "output/new_sw_collection.csv"
 crossing_csv = "18 AU/data_table/new_crossings.csv"
-sw = pd.read_csv(sidewalk_csv, index_col=0)
+sw = pd.read_csv(sidewalk_csv)
 G = nx.Graph()
 
 
 def generate_sdwk_network(csv_file):
-    '''
-    Given sidewalk csv files, generates the network
-    based on coordinates
-    '''
+    """
+    Given sidewalk csv files, add them into networkx graph.
+    based on coordinates.
+    :param csv_file: a csv file which stores all the sidewalks
+    in Seattle.
+    :return: None
+    """
 
     file = open(csv_file)
 
@@ -49,10 +52,13 @@ def generate_sdwk_network(csv_file):
 
         # edge
         G.add_edge(v, u)
+        G[v][u]['type'] = 'sidewalk'
         G[v][u]['incline'] = incline
         G[v][u]['surface'] = surface
         G[v][u]['length'] = length
+
         G.add_edge(u, v)
+        G[u][v]['type'] = 'sidewalk'
         G[u][v]['incline'] = 0 - incline
         G[u][v]['surface'] = surface
         G[u][v]['length'] = length
@@ -61,10 +67,13 @@ def generate_sdwk_network(csv_file):
 
 
 def generate_crossing_network(csv_file):
-    '''
-    Given sidewalk csv files, generates the network
+    """
+    Given crossing csv files, add them into networkx graph.
     based on coordinates
-    '''
+    :param csv_file: a csv file which stores all the crossings
+    in Seattle
+    :return: None
+    """
     file = open(csv_file)
     #    G = nx.Graph()
 
@@ -96,15 +105,26 @@ def generate_crossing_network(csv_file):
 
         # edge
         G.add_edge(v, u)
+        G[v][u]['type'] = 'crossing'
         G[v][u]['incline'] = incline
-        G[v][u]['surface'] = None
+
+        # G[v][u]['surface'] = None
+
+
+        G[v][u]['surface'] = 'Asphalt'
         G[v][u]['marked'] = marked
         G[v][u]['curbramps'] = curbramps
+
+
         G.add_edge(u, v)
+
+        G[u][v]['type'] = 'crossing'
         G[u][v]['incline'] = 0 - incline
-        G[u][v]['surface'] = None
-        G[v][u]['marked'] = marked
-        G[v][u]['curbramps'] = curbramps
+        # G[u][v]['surface'] = None
+
+        G[u][v]['surface'] = 'Asphalt'
+        G[u][v]['marked'] = marked
+        G[u][v]['curbramps'] = curbramps
 
     file.close()
     return G
@@ -156,7 +176,18 @@ def cost_fun(d, ideal_incline=IDEAL_INCLINE, base=BASE_SPEED):
 
 
 # Walksheds:
-def walkshed(G, node, max_cost=600):
+def walkshed(G, node, max_cost=15):
+    """
+    Use single_source_dijkstra to calculate all the
+    paths that a people can reach within max_cost time
+    starting from a node.
+    :param G: networkx graph
+    :param node: starting point
+    :param max_cost: time threshold (unit: minutes)
+    :return: paths: all the edges that a people can reach within
+    max_cost time.
+    sums: sum of the attributes along the path.
+    """
     sum_columns = ["length", "art_num", 'fountain_num', 'restroom_num']
     # Use Dijkstra's method to get the below-400 walkshed paths
     distances, paths = nx.algorithms.shortest_paths.single_source_dijkstra(
@@ -199,13 +230,14 @@ def walkshed(G, node, max_cost=600):
     edges = set(edges)
 
     sums = {k: 0 for k in sum_columns}
-
+    # sums: {'length': 0, 'art_num': 0, 'fountain_num': 0, 'restroom_num': 0}
+    # print(sums)
     for n1, n2 in edges:
         d = G[n1][n2]
         for column in sum_columns:
-            print(d.get(column))
+            # print(d.get(column, 0))
             sums[column] += d.get(column, 0)
-    print(sums)
+
     # TODO: add in fringes!
     # for (n1, n2), fraction in fringe_edges.items():
     #     d = G[n1][n2]
@@ -216,7 +248,14 @@ def walkshed(G, node, max_cost=600):
     return sums, paths
 
 
-def paths_to_geojson(paths):
+def paths_to_geojson(paths, filename):
+    """
+    Store the path into a geojson file.
+    :param paths: the path which calculate by
+    single_source_dijkstra algorithm.
+    :param filename: directory of the output file
+    :return: None
+    """
     output = dict()
     output["type"] = "FeatureCollection"
     output['features'] = []
@@ -244,20 +283,30 @@ def paths_to_geojson(paths):
     # gc = GeometryCollection(line_lst)
     # return gc.geojson
 
-    filename = 'test_walkshed.geojson'
     with open(filename, 'w') as outfile:
         json.dump(output, outfile)
+    outfile.close()
 
 
 def extract_node_from_string(node_str):
+    """
+    Convert node from string type to a list.
+    :param node_str: nodes in the path
+    :return: a list which represents the
+    coordinates of a node.
+    """
     coords = node_str.strip("()").split(",")
-    # print(coords)
     return coords
 
 
-def join_art_to_graph(G):
+def join_attributes_to_node(G):
+    """
+    From the new_sw_collections.csv, extract the attribute of
+    each sidewalk and add them onto the relative edges.
+    :param G: networkx Graph
+    :return: None
+    """
     for idx, row in sw.iterrows():
-        # start node
         coordinates = row["v_coordinates"][1: -1].split(',')
         xv = "%.7f" % float(coordinates[0])
         yv = "%.7f" % float(coordinates[1])
@@ -270,46 +319,71 @@ def join_art_to_graph(G):
         u = '(' + str(xu) + ', ' + str(yu) + ')'
 
         # fountain number
-        fountain = str(row['drinking_fountain']).strip('[]\'').split(',')
-        fountain_num = len(fountain)
+        if pd.notna(row['drinking_fountain']):
+            fountain = row['drinking_fountain'].strip('[]').split(',')
+            fountain_num = len(fountain)
+        else:
+            fountain_num = 0
 
         # restroom number
-        restroom = str(row['public_restroom']).strip('[]\'').split(',')
-        restroom_num = len(restroom)
+        if pd.notna(row['public_restroom']):
+            restroom = row['public_restroom'].strip('[]').split(',')
+            restroom_num = len(restroom)
+        else:
+            restroom_num = 0
+
+        # hospital number
+        if pd.notna(row['hospital']):
+            hospital = row['hospital'].strip('[]').split(',')
+            hospital_num = len(hospital)
+        else:
+            hospital_num = 0
+
+        # dog off leash area number
+        if pd.notna(row['dog_off_leash_areas']):
+            dog = row['dog_off_leash_areas'].strip('[]').split(',')
+            dog_num = len(dog)
+        else:
+            dog_num = 0
 
         # art number
-        art = str(row["art"]).strip("[]\'").split(",")
-        art_num = len(art)
-        if row["art"] is not None:
-            G[v][u]['art_num'] = art_num
-            G[u][v]['art_num'] = art_num
+        if pd.notna(row['art']):
+            art = row['art'].strip('[]').split(',')
+            art_num = len(art)
         else:
-            G[v][u]['art_num'] = 0
-            G[u][v]['art_num'] = 0
+            art_num = 0
 
-        if row['drinking_fountain'] is not None:
-            G[v][u]['fountain_num'] = fountain_num
-            G[u][v]['fountain_num'] = fountain_num
-        else:
-            G[v][u]['fountain_num'] = 0
-            G[u][v]['fountain_num'] = 0
+        # add the attributes to each edge
+        G[v][u]['art_num'] = art_num
+        G[u][v]['art_num'] = art_num
 
-        if row['public_restroom'] is not None:
-            G[v][u]['restroom_num'] = restroom_num
-            G[u][v]['restroom_num'] = restroom_num
-        else:
-            G[v][u]['restroom_num'] = 0
-            G[u][v]['restroom_num'] = 0
+        G[v][u]['fountain_num'] = fountain_num
+        G[u][v]['fountain_num'] = fountain_num
+
+        G[v][u]['restroom_num'] = restroom_num
+        G[u][v]['restroom_num'] = restroom_num
+
+        G[v][u]['hospital_num'] = hospital_num
+        G[u][v]['hospital_num'] = hospital_num
+
+        G[v][u]['dog_num'] = dog_num
+        G[u][v]['dog_num'] = dog_num
 
 
-def start_pt_to_geojson(start_node):
+def start_pt_to_geojson(start_node, filename):
+    """
+    Store the start point to a geojson file.
+    :param start_node: start point node (coordinate)
+    :param filename: directory of the file
+    :return: None
+    """
     node = start_node.strip('()').split(",")
-    vis_point_d = {}
+    vis_point_d = dict()
     vis_point_d['type'] = "Feature"
     vis_point_d['geometry'] = {}
     vis_point_d['geometry']['type'] = 'Point'
     vis_point_d['geometry']['coordinates'] = node
-    filename = 'start_node.geojson'
+
     with open(filename, 'w') as outfile:
         json.dump(vis_point_d, outfile)
     outfile.close()
@@ -320,15 +394,14 @@ def main():
     generate_sdwk_network(sidewalk_csv)
     generate_crossing_network(crossing_csv)
     #G = ent.graphs.digraphdb.DiGraphDB('18 AU/data_db/sidewalks.db')
-    join_art_to_graph(G)
-
-
+    join_attributes_to_node(G)
+    # nx.write_edgelist(G, 'edgelist.txt')
 
     print("finished preparing graph!")
     print()
 
     # edge_gen(G)
-    start_node = "(-122.3897940, 47.5191858)"
+    start_node = "(-122.3343568, 47.5881656)"
     print("computing walkshed starting from ", start_node)
     sums, paths = walkshed(G, start_node)
 
@@ -338,8 +411,11 @@ def main():
     print("Total length: ", sums["length"])
 
     print("output paths in walkshed...")
-    paths_to_geojson(paths)
-    start_pt_to_geojson(start_node)
+
+    path_filename = './walkshed test/test_walkshed.geojson'
+    paths_to_geojson(paths, path_filename)
+    start_pt_filename = './walkshed test/start_node.geojson'
+    start_pt_to_geojson(start_node, start_pt_filename)
 
     print('Done!')
 
