@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+        <title>AccessMapDashboard</title>
+        <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+
+            .header {
+                position: relative;
+                top: 20px;
+                text-align: center;
+                color: green;
+                font-size: 50px;
+                font-style: courier;
+            }
+
+            .typeBox {
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+
+            .constraintBox {
+                position: relative;
+                top: 40px;
+                left: 20px;
+            }
+            
+            .placeBox {
+                position: relative;
+                top: 60px;
+                left: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 class="header">AccessMap</h1>
+
+        <div class="typeBox" >
+            <form>
+                Current Location:<br>
+                <input type="text" location="location placeholder="Type here..."><br>
+            </form>
+        </div>
+
+        <div class="constraintBox">
+            Constraints<br>
+            <select>
+                <option>Incline</option>
+                <option>Time</option>
+                <option>Curb-Ramp</option>
+            </select>
+        </div>
+
+        <div class="placeBox">
+            Places to go<br>
+            <select>
+                <option>Hospitals</option>
+                <option>Public Restrooms</option>
+                <option>View Points</option>
+                <option>Art Views</option>
+            </select>
+        </div>
+
+        <div id='map'></div>
+        <script>
+        mapboxgl.accessToken = '<your access token here>';
+        var map = new mapboxgl.Map({
+        container: 'map', // container id
+        style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
+        center: [-74.50, 40], // starting position [lng, lat]
+        zoom: 9 // starting zoom
+        });
+        </script>
+    </body>
+</html>
