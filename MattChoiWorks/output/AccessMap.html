@@ -5,11 +5,11 @@
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
-
+     
         <title>AccessMapDashboard</title>
         <style>
             body { margin:0; padding:0; }
-            #map { position:absolute; top:0; bottom:0; width:100%; }
+            #map { position:absolute; top:200px; left:300px; width:70%; height: 70%; }
 
             .header {
                 position: relative;
@@ -71,7 +71,7 @@
 
         <div id='map'></div>
         <script>
-        mapboxgl.accessToken = '<your access token here>';
+        mapboxgl.accessToken = 'pk.eyJ1Ijoibm9uamFuZzU0NSIsImEiOiJjanNwMjYzeG8wc3p6NDRsamppZTh4aXRuIn0.7T0Q26x0BfiJzJ8QI0r47Q';
         var map = new mapboxgl.Map({
         container: 'map', // container id
         style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
