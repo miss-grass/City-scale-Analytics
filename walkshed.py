@@ -1,5 +1,5 @@
 import networkx as nx
-import entwiner as ent
+# import entwiner as ent
 import math
 import pandas as pd
 import csv
@@ -188,7 +188,7 @@ def walkshed(G, node, max_cost=15):
     max_cost time.
     sums: sum of the attributes along the path.
     """
-    sum_columns = ["length", "art_num", 'fountain_num', 'restroom_num']
+    sum_columns = ["length", "art_num", 'fountain_num', 'restroom_num', 'dog_num', 'hospital_num']
     # Use Dijkstra's method to get the below-400 walkshed paths
     distances, paths = nx.algorithms.shortest_paths.single_source_dijkstra(
         G,
@@ -230,8 +230,7 @@ def walkshed(G, node, max_cost=15):
     edges = set(edges)
 
     sums = {k: 0 for k in sum_columns}
-    # sums: {'length': 0, 'art_num': 0, 'fountain_num': 0, 'restroom_num': 0}
-    # print(sums)
+
     for n1, n2 in edges:
         d = G[n1][n2]
         for column in sum_columns:
@@ -246,46 +245,6 @@ def walkshed(G, node, max_cost=15):
 
     # return sums, list(zip(*paths))[1]
     return sums, paths
-
-
-def paths_to_geojson(paths, filename):
-    """
-    Store the path into a geojson file.
-    :param paths: the path which calculate by
-    single_source_dijkstra algorithm.
-    :param filename: directory of the output file
-    :return: None
-    """
-    output = dict()
-    output["type"] = "FeatureCollection"
-    output['features'] = []
-
-    for it in paths.items():
-        path = it[1]
-        one_path = dict()
-        one_path['type'] = 'Feature'
-        one_path['geometry'] = {}
-        one_path['geometry']['type'] = 'LineString'
-        line_lst = []
-        for i in range(0, len(path)):
-            coords = extract_node_from_string(str(path[i]))
-            line = [float(coords[0]), float(coords[1])]
-            line_lst.append(line)
-        one_path['geometry']['coordinates'] = line_lst
-        output['features'].append(one_path)
-
-    # line_lst = []
-    # for i in range(1, len(path)-1):
-    #     coords1 = extract_node_from_string(str(path[i]))
-    #     coords2 = extract_node_from_string(str(path[i+1]))
-    #     line = LineString((float(coords1[0]), float(coords1[1])), (float(coords2[0]), float(coords2[1])))
-    #     line_lst.append(line)
-    # gc = GeometryCollection(line_lst)
-    # return gc.geojson
-
-    with open(filename, 'w') as outfile:
-        json.dump(output, outfile)
-    outfile.close()
 
 
 def extract_node_from_string(node_str):
@@ -370,6 +329,46 @@ def join_attributes_to_node(G):
         G[u][v]['dog_num'] = dog_num
 
 
+def paths_to_geojson(paths, filename):
+    """
+    Store the path into a geojson file.
+    :param paths: the path which calculate by
+    single_source_dijkstra algorithm.
+    :param filename: directory of the output file
+    :return: None
+    """
+    output = dict()
+    output["type"] = "FeatureCollection"
+    output['features'] = []
+
+    for it in paths.items():
+        path = it[1]
+        one_path = dict()
+        one_path['type'] = 'Feature'
+        one_path['geometry'] = {}
+        one_path['geometry']['type'] = 'LineString'
+        line_lst = []
+        for i in range(0, len(path)):
+            coords = extract_node_from_string(str(path[i]))
+            line = [float(coords[0]), float(coords[1])]
+            line_lst.append(line)
+        one_path['geometry']['coordinates'] = line_lst
+        output['features'].append(one_path)
+
+    # line_lst = []
+    # for i in range(1, len(path)-1):
+    #     coords1 = extract_node_from_string(str(path[i]))
+    #     coords2 = extract_node_from_string(str(path[i+1]))
+    #     line = LineString((float(coords1[0]), float(coords1[1])), (float(coords2[0]), float(coords2[1])))
+    #     line_lst.append(line)
+    # gc = GeometryCollection(line_lst)
+    # return gc.geojson
+
+    with open(filename, 'w') as outfile:
+        json.dump(output, outfile)
+    outfile.close()
+
+
 def start_pt_to_geojson(start_node, filename):
     """
     Store the start point to a geojson file.
@@ -377,12 +376,17 @@ def start_pt_to_geojson(start_node, filename):
     :param filename: directory of the file
     :return: None
     """
-    node = start_node.strip('()').split(",")
+    node = start_node.strip('()').split(', ')
+    for i in range(len(node)):
+        node[i] = float(node[i])
     vis_point_d = dict()
-    vis_point_d['type'] = "Feature"
-    vis_point_d['geometry'] = {}
-    vis_point_d['geometry']['type'] = 'Point'
-    vis_point_d['geometry']['coordinates'] = node
+    vis_point_d['type'] = "FeatureCollection"
+    vis_point_d['features'] = []
+    geometry = dict()
+    geometry['geometry'] = dict()
+    geometry['geometry']['type'] = 'Point'
+    geometry['geometry']['coordinates'] = node
+    vis_point_d['features'].append(geometry)
 
     with open(filename, 'w') as outfile:
         json.dump(vis_point_d, outfile)
@@ -392,6 +396,7 @@ def start_pt_to_geojson(start_node, filename):
 def main():
     print("preparing graph...")
     generate_sdwk_network(sidewalk_csv)
+    
     generate_crossing_network(crossing_csv)
     #G = ent.graphs.digraphdb.DiGraphDB('18 AU/data_db/sidewalks.db')
     join_attributes_to_node(G)
@@ -401,7 +406,7 @@ def main():
     print()
 
     # edge_gen(G)
-    start_node = "(-122.3343568, 47.5881656)"
+    start_node = "(-122.3323077, 47.6105820)"
     print("computing walkshed starting from ", start_node)
     sums, paths = walkshed(G, start_node)
 

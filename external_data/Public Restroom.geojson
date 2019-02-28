@@ -1,0 +1,2885 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "217646.07995492",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "217646.07995492",
+                "alt_name": "Colman PG SH",
+                "longitude": "1277968.73266543",
+                "point_x": "1277968.73266543",
+                "location_i": null,
+                "park": "COLMAN PLAYGROUND",
+                "pmaid": "406",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30215237820417,
+                    47.58718436000328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "253562.7531437",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "253562.7531437",
+                "alt_name": "Green Lake Park Wading Pool CS",
+                "longitude": "1270202.88766548",
+                "point_x": "1270202.88766548",
+                "location_i": null,
+                "park": "GREEN LAKE PARK",
+                "pmaid": "307",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33645811389773,
+                    47.68522005070778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "256663.33881088",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "256663.33881088",
+                "alt_name": "Greenwood Park CS",
+                "longitude": "1266712.42942192",
+                "point_x": "1266712.42942192",
+                "location_i": null,
+                "park": "GREENWOOD PARK",
+                "pmaid": "4408",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35087446729538,
+                    47.69353082721217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "232740.81974638",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "232740.81974638",
+                "alt_name": "Kinnear Park Obs Deck CS",
+                "longitude": "1262235.37572132",
+                "point_x": "1262235.37572132",
+                "location_i": null,
+                "park": "KINNEAR PARK",
+                "pmaid": "314",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.36711424817828,
+                    47.6277171652031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "248421.74801844",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "248421.74801844",
+                "alt_name": "Ravenna Park Upper CS",
+                "longitude": "1277705.48844117",
+                "point_x": "1277705.48844117",
+                "location_i": null,
+                "park": "RAVENNA PARK",
+                "pmaid": "391",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3056046323523,
+                    47.671526295649485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "215051.06542426",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "215051.06542426",
+                "alt_name": "Alki Beach 63rd St CS",
+                "longitude": "1250546.04636535",
+                "point_x": "1250546.04636535",
+                "location_i": null,
+                "park": "ALKI BEACH PARK",
+                "pmaid": "445",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.41303676175156,
+                    47.57858258865761
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "245788.80350374",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "245788.80350374",
+                "alt_name": "Meridian PG CS",
+                "longitude": "1271045.90008235",
+                "point_x": "1271045.90008235",
+                "location_i": null,
+                "park": "MERIDIAN PLAYGROUND",
+                "pmaid": "1104",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33242145452768,
+                    47.663957022897314
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "214750.76814397",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "214750.76814397",
+                "alt_name": "Hiawatha CC",
+                "longitude": "1257619.0703086",
+                "point_x": "1257619.0703086",
+                "location_i": null,
+                "park": "HIAWATHA PLAYFIELD",
+                "pmaid": "456",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38436113009959,
+                    47.578153891933844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "234061.46569973",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "234061.46569973",
+                "alt_name": "Volunteer Park Pergola CS",
+                "longitude": "1275081.28607048",
+                "point_x": "1275081.28607048",
+                "location_i": null,
+                "park": "VOLUNTEER PARK",
+                "pmaid": "399",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31513161422326,
+                    47.63202695690288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "258522.07065278",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "258522.07065278",
+                "alt_name": "Licton Springs Park SH",
+                "longitude": "1269631.7854569",
+                "point_x": "1269631.7854569",
+                "location_i": null,
+                "park": "LICTON SPRINGS PARK",
+                "pmaid": "286",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33917023506665,
+                    47.69878272609884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "239021.50666481",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "239021.50666481",
+                "alt_name": "Queen Anne Bowl CS",
+                "longitude": "1263979.11793111",
+                "point_x": "1263979.11793111",
+                "location_i": null,
+                "park": "QUEEN ANNE BOWL PLAYFIELD",
+                "pmaid": "331",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3605494924638,
+                    47.645027253151405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "251791.77835789",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "251791.77835789",
+                "alt_name": "Salmon Bay Park CS",
+                "longitude": "1258913.66256593",
+                "point_x": "1258913.66256593",
+                "location_i": null,
+                "park": "SALMON BAY PARK",
+                "pmaid": "249",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38213721420827,
+                    47.67975225893296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "246800.89432079",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "246800.89432079",
+                "alt_name": "Burke-Gilman Park CS",
+                "longitude": "1283725.29235134",
+                "point_x": "1283725.29235134",
+                "location_i": null,
+                "park": "BURKE-GILMAN PLAYGROUND PARK",
+                "pmaid": "496",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2810518664962,
+                    47.66739662393063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "232847.50525048",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "232847.50525048",
+                "alt_name": "Washington Pk Japn Grdn Gate Hse",
+                "longitude": "1279688.4730192",
+                "point_x": "1279688.4730192",
+                "location_i": null,
+                "park": "WASHINGTON PARK - JAPANESE GDN",
+                "pmaid": "4487",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29635582525408,
+                    47.62894115306518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "219947.67342928",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "219947.67342928",
+                "alt_name": "Armeni Boat Ramp CS",
+                "longitude": "1258279.28259727",
+                "point_x": "1258279.28259727",
+                "location_i": null,
+                "park": "DON ARMENI PARK",
+                "pmaid": "3917",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3821105104351,
+                    47.59243472118036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "225936.02530742",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "225936.02530742",
+                "alt_name": "Madrona Park Conc/CS",
+                "longitude": "1282957.44217454",
+                "point_x": "1282957.44217454",
+                "location_i": null,
+                "park": "MADRONA PARK",
+                "pmaid": "370",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28257304271278,
+                    47.61016635905233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "194755.22578749",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "194755.22578749",
+                "alt_name": "Rainier Beach PF CS",
+                "longitude": "1284909.20633654",
+                "point_x": "1284909.20633654",
+                "location_i": null,
+                "park": "RAINIER BEACH PLAYFIELD",
+                "pmaid": "422",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.27229840342542,
+                    47.52479992269804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "266908.90067737",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "266908.90067737",
+                "alt_name": "Northacres Park Wading Pool CS",
+                "longitude": "1272510.10846785",
+                "point_x": "1272510.10846785",
+                "location_i": null,
+                "park": "NORTHACRES PARK",
+                "pmaid": "361",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32814521330972,
+                    47.721924508029744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "208213.32058527",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "208213.32058527",
+                "alt_name": "Seward Park North Point CS",
+                "longitude": "1290282.50989404",
+                "point_x": "1290282.50989404",
+                "location_i": null,
+                "park": "SEWARD PARK",
+                "pmaid": "428",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25155795228929,
+                    47.561962264730994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "198823.89907165",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "198823.89907165",
+                "alt_name": "Lincoln Park Wading Pool SH",
+                "longitude": "1254725.78704163",
+                "point_x": "1254725.78704163",
+                "location_i": null,
+                "park": "LINCOLN PARK",
+                "pmaid": "460",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.39477180991642,
+                    47.534339051490896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "238091.50199185",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "238091.50199185",
+                "alt_name": "Rogers PG CS",
+                "longitude": "1272705.72747605",
+                "point_x": "1272705.72747605",
+                "location_i": null,
+                "park": "ROGERS PLAYGROUND",
+                "pmaid": "380",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32508127334881,
+                    47.64294737768111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "247113.03441709",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "247113.03441709",
+                "alt_name": "Gilman PG SH",
+                "longitude": "1261889.39447297",
+                "point_x": "1261889.39447297",
+                "location_i": null,
+                "park": "GILMAN PLAYGROUND",
+                "pmaid": "242",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.36968058055697,
+                    47.66709164529725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "204432.4229814",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "204432.4229814",
+                "alt_name": "Seward Park Art Studio",
+                "longitude": "1288818.33632454",
+                "point_x": "1288818.33632454",
+                "location_i": null,
+                "park": "SEWARD PARK",
+                "pmaid": "428",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25720394043695,
+                    47.5515246156379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "215200.04084842",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "215200.04084842",
+                "alt_name": "Mt Baker Beach Bathhouse",
+                "longitude": "1281142.95865269",
+                "point_x": "1281142.95865269",
+                "location_i": null,
+                "park": "MOUNT BAKER PARK",
+                "pmaid": "419",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28910442909232,
+                    47.58064512010957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "205874.34496687",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "205874.34496687",
+                "alt_name": "Fairmount PG CS",
+                "longitude": "1258416.48502941",
+                "point_x": "1258416.48502941",
+                "location_i": null,
+                "park": "FAIRMOUNT PLAYGROUND",
+                "pmaid": "452",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38040809114831,
+                    47.553868184075206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "257332.70098756",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "257332.70098756",
+                "alt_name": "Matthews Beach Bathhouse",
+                "longitude": "1285829.85836948",
+                "point_x": "1285829.85836948",
+                "location_i": null,
+                "park": "MATTHEWS BEACH PARK",
+                "pmaid": "347",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.27331172176945,
+                    47.696372556541114
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "194549.06015527",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "194549.06015527",
+                "alt_name": "Beer Sheva Park CS",
+                "longitude": "1286980.88755466",
+                "point_x": "1286980.88755466",
+                "location_i": null,
+                "park": "BEER SHEVA PARK",
+                "pmaid": "440",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.26389941702807,
+                    47.52434070092321
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "251427.07339752",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "251427.07339752",
+                "alt_name": "Magnuson Park Bathhouse",
+                "longitude": "1292220.98240803",
+                "point_x": "1292220.98240803",
+                "location_i": null,
+                "park": "WARREN G. MAGNUSON PARK",
+                "pmaid": "398",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.24692275402758,
+                    47.68050998966584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "237610.09610337",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "237610.09610337",
+                "alt_name": "W Magnolia PF South CS",
+                "longitude": "1254422.46185732",
+                "point_x": "1254422.46185732",
+                "location_i": null,
+                "park": "WEST MAGNOLIA PLAYFIELD",
+                "pmaid": "319",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.39919401125384,
+                    47.64063219541176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "251721.35032582",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "251721.35032582",
+                "alt_name": "Green Lake CC",
+                "longitude": "1272089.87013142",
+                "point_x": "1272089.87013142",
+                "location_i": null,
+                "park": "GREEN LAKE PARK",
+                "pmaid": "307",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32865335590085,
+                    47.68027360719961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "215995.86996923",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "215995.86996923",
+                "alt_name": "Alki Beach 57th St CS",
+                "longitude": "1252406.54499125",
+                "point_x": "1252406.54499125",
+                "location_i": null,
+                "park": "ALKI BEACH PARK",
+                "pmaid": "445",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40557857418959,
+                    47.58127666408927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "246227.16286419",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "246227.16286419",
+                "alt_name": "Disco Park North Bluff CS",
+                "longitude": "1249294.81398007",
+                "point_x": "1249294.81398007",
+                "location_i": null,
+                "park": "DISCOVERY PARK",
+                "pmaid": "310",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.42071040379157,
+                    47.66396283468496
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "261117.18751945",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "261117.18751945",
+                "alt_name": "Meadowbrook PF SH",
+                "longitude": "1280836.84998037",
+                "point_x": "1280836.84998037",
+                "location_i": null,
+                "park": "MEADOWBROOK PLAYFIELD",
+                "pmaid": "352",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29387516017518,
+                    47.70648786978887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "215439.42785667",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "215439.42785667",
+                "alt_name": "Alki Beach Bathhouse",
+                "longitude": "1251395.74550223",
+                "point_x": "1251395.74550223",
+                "location_i": null,
+                "park": "ALKI BEACH PARK",
+                "pmaid": "445",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40962708600776,
+                    47.579694818953726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "199677.86617653",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "199677.86617653",
+                "alt_name": "Riverview PF CS",
+                "longitude": "1265820.007661",
+                "point_x": "1265820.007661",
+                "location_i": null,
+                "park": "RIVERVIEW PLAYFIELD",
+                "pmaid": "463",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34993767403336,
+                    47.53728793706997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "217803.26497908",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "217803.26497908",
+                "alt_name": "Bradner Gardens Park CS",
+                "longitude": "1279556.65503506",
+                "point_x": "1279556.65503506",
+                "location_i": null,
+                "park": "BRADNER GARDENS PARK",
+                "pmaid": "401",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29573098376682,
+                    47.58769810451929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "223289.6611447",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "223289.6611447",
+                "alt_name": "Peppi's PG SH",
+                "longitude": "1280943.95346849",
+                "point_x": "1280943.95346849",
+                "location_i": null,
+                "park": "PEPPIS PLAYGROUND",
+                "pmaid": "378",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29053120876165,
+                    47.60280844143837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "248344.02539437",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "248344.02539437",
+                "alt_name": "Woodland Park Central CS #5",
+                "longitude": "1267634.67300686",
+                "point_x": "1267634.67300686",
+                "location_i": null,
+                "park": "WOODLAND PARK",
+                "pmaid": "292",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34646621658948,
+                    47.670777771689295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "209512.2549866",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "209512.2549866",
+                "alt_name": "Genesee Park CS",
+                "longitude": "1283794.25516741",
+                "point_x": "1283794.25516741",
+                "location_i": null,
+                "park": "GENESEE PARK AND PLAYFIELD",
+                "pmaid": "409",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.27793137891327,
+                    47.5651918339973
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "253136.68709527",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "253136.68709527",
+                "alt_name": "Dahl PF SH",
+                "longitude": "1279296.9977548",
+                "point_x": "1279296.9977548",
+                "location_i": null,
+                "park": "DAHL (WALDO J.) PLAYFIELD",
+                "pmaid": "499",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29951072376865,
+                    47.68453316216227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "247568.07844956",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "247568.07844956",
+                "alt_name": "Ravenna Park Lower SH",
+                "longitude": "1278350.69093783",
+                "point_x": "1278350.69093783",
+                "location_i": null,
+                "park": "RAVENNA PARK",
+                "pmaid": "391",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30292018261525,
+                    47.669220207738626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "199077.45337591",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "199077.45337591",
+                "alt_name": "Othello Park SH",
+                "longitude": "1283838.63174345",
+                "point_x": "1283838.63174345",
+                "location_i": null,
+                "park": "OTHELLO PARK",
+                "pmaid": "403",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.27695883144936,
+                    47.53659223118413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "235368.71178107",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "235368.71178107",
+                "alt_name": "Madison Park Bathhouse",
+                "longitude": "1284562.36844818",
+                "point_x": "1284562.36844818",
+                "location_i": null,
+                "park": "MADISON PARK",
+                "pmaid": "369",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.27678497453194,
+                    47.636104084297344
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "206544.72647156",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "206544.72647156",
+                "alt_name": "Camp Long East CS",
+                "longitude": "1260139.53117518",
+                "point_x": "1260139.53117518",
+                "location_i": null,
+                "park": "CAMP LONG",
+                "pmaid": "4154",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3734860674855,
+                    47.55580040274163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "251625.31186172",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "251625.31186172",
+                "alt_name": "Magnuson Park Sports Meadow SH",
+                "longitude": "1290613.68999039",
+                "point_x": "1290613.68999039",
+                "location_i": null,
+                "park": "WARREN G. MAGNUSON PARK",
+                "pmaid": "398",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25346134052927,
+                    47.68097224343021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "195973.18169273",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "195973.18169273",
+                "alt_name": "Highland Park PG SH",
+                "longitude": "1265895.11806108",
+                "point_x": "1265895.11806108",
+                "location_i": null,
+                "park": "HIGHLAND PARK PLAYGROUND",
+                "pmaid": "457",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34933822600024,
+                    47.527137603268194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "220348.7241177",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "220348.7241177",
+                "alt_name": "Judkins Park & PF Upper SH",
+                "longitude": "1277463.21304892",
+                "point_x": "1277463.21304892",
+                "location_i": null,
+                "park": "JUDKINS PARK AND PLAYFIELD",
+                "pmaid": "397",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30440983404974,
+                    47.59456581212524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "250746.47077282",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "250746.47077282",
+                "alt_name": "Magnuson Park Lookout CS",
+                "longitude": "1291682.02611949",
+                "point_x": "1291682.02611949",
+                "location_i": null,
+                "park": "WARREN G. MAGNUSON PARK",
+                "pmaid": "398",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.249059466602,
+                    47.67861728461956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "236799.98647054",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "236799.98647054",
+                "alt_name": "Donald Graham Visitor Center",
+                "longitude": "1280251.96959578",
+                "point_x": "1280251.96959578",
+                "location_i": null,
+                "park": "WASHINGTON PARK AND ARBORETUM",
+                "pmaid": "393",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2943752770859,
+                    47.63980422432424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "239340.81706514",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "239340.81706514",
+                "alt_name": "Gas Works Park Conc/CS",
+                "longitude": "1270614.3461619",
+                "point_x": "1270614.3461619",
+                "location_i": null,
+                "park": "GAS WORKS PARK",
+                "pmaid": "293",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3336623466782,
+                    47.64626025948815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "207212.11981624",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "207212.11981624",
+                "alt_name": "Lakewood PG CS",
+                "longitude": "1285792.36339346",
+                "point_x": "1285792.36339346",
+                "location_i": null,
+                "park": "LAKEWOOD PLAYGROUND",
+                "pmaid": "414",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.26966549191245,
+                    47.558989664171065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "219840.19202118",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "219840.19202118",
+                "alt_name": "Jose Rizal Park CS",
+                "longitude": "1274228.69394161",
+                "point_x": "1274228.69394161",
+                "location_i": null,
+                "park": "DR. JOSE RIZAL PARK",
+                "pmaid": "433",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31747659233113,
+                    47.59300168458678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "193338.14655404",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "193338.14655404",
+                "alt_name": "Roxhill Park CS",
+                "longitude": "1260875.43056794",
+                "point_x": "1260875.43056794",
+                "location_i": null,
+                "park": "ROXHILL PARK",
+                "pmaid": "464",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.36943890097834,
+                    47.51964222421782
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "222569.10779996",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "222569.10779996",
+                "alt_name": "Pratt Park CS",
+                "longitude": "1276946.3653044",
+                "point_x": "1276946.3653044",
+                "location_i": null,
+                "park": "PRATT PARK",
+                "pmaid": "390",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30667641673621,
+                    47.60062475390964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "209272.77517834",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "209272.77517834",
+                "alt_name": "Delridge PF CS",
+                "longitude": "1262627.13508172",
+                "point_x": "1262627.13508172",
+                "location_i": null,
+                "park": "DELRIDGE PLAYFIELD",
+                "pmaid": "450",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.36363341651433,
+                    47.56341387699134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "245151.54033509",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "245151.54033509",
+                "alt_name": "Disco Park Beach CS",
+                "longitude": "1247489.27234623",
+                "point_x": "1247489.27234623",
+                "location_i": null,
+                "park": "DISCOVERY PARK",
+                "pmaid": "310",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.42794570061196,
+                    47.66091233554029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "203738.50963669",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "203738.50963669",
+                "alt_name": "Seward Park South Beach CS",
+                "longitude": "1290499.34413427",
+                "point_x": "1290499.34413427",
+                "location_i": null,
+                "park": "SEWARD PARK",
+                "pmaid": "428",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.250346154094,
+                    47.54970763883192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "196565.63026933",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "196565.63026933",
+                "alt_name": "Lincoln Park Conc/CS",
+                "longitude": "1254844.20086576",
+                "point_x": "1254844.20086576",
+                "location_i": null,
+                "park": "LINCOLN PARK",
+                "pmaid": "460",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.39410715864378,
+                    47.52815588470257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "255735.06277792",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "255735.06277792",
+                "alt_name": "Golden Gardens Upper CS",
+                "longitude": "1254493.7271374",
+                "point_x": "1254493.7271374",
+                "location_i": null,
+                "park": "GOLDEN GARDENS PARK",
+                "pmaid": "243",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40040202317935,
+                    47.690315203124214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "246583.17131256",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "246583.17131256",
+                "alt_name": "Disco Park Main CS",
+                "longitude": "1250726.35804555",
+                "point_x": "1250726.35804555",
+                "location_i": null,
+                "park": "DISCOVERY PARK",
+                "pmaid": "310",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.41493177846304,
+                    47.665019418117744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "243908.05002981",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "243908.05002981",
+                "alt_name": "Wallingford PF SH",
+                "longitude": "1269918.7782892",
+                "point_x": "1269918.7782892",
+                "location_i": null,
+                "park": "WALLINGFORD PLAYFIELD",
+                "pmaid": "449",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33684559805226,
+                    47.65874166868241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "246488.91460846",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "246488.91460846",
+                "alt_name": "Woodland Park Central CS #3",
+                "longitude": "1267977.74641521",
+                "point_x": "1267977.74641521",
+                "location_i": null,
+                "park": "WOODLAND PARK",
+                "pmaid": "292",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34492614480311,
+                    47.665711477934806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "206721.84883975",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "206721.84883975",
+                "alt_name": "Camp Long West CS",
+                "longitude": "1259829.79389486",
+                "point_x": "1259829.79389486",
+                "location_i": null,
+                "park": "CAMP LONG",
+                "pmaid": "4154",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37475455943289,
+                    47.55626888495838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "204619.93798959",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "204619.93798959",
+                "alt_name": "Georgetown PF SH",
+                "longitude": "1272814.69611616",
+                "point_x": "1272814.69611616",
+                "location_i": null,
+                "park": "GEORGETOWN PLAYFIELD",
+                "pmaid": "410",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32201288474137,
+                    47.55120840508978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "222688.93205608",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "222688.93205608",
+                "alt_name": "Dr. Lavizzo Park CS",
+                "longitude": "1277515.50719297",
+                "point_x": "1277515.50719297",
+                "location_i": null,
+                "park": "DR. BLANCHE LAVIZZO PARK",
+                "pmaid": "395",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30437922047587,
+                    47.6009830377686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "200157.63622502",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "200157.63622502",
+                "alt_name": "John C. Little Sr Park CS",
+                "longitude": "1281523.53433308",
+                "point_x": "1281523.53433308",
+                "location_i": null,
+                "park": "JOHN C. LITTLE, SR. PARK",
+                "pmaid": "429",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28641197211385,
+                    47.539433576755286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "198346.12543917",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "198346.12543917",
+                "alt_name": "E. C. Hughes PG SH",
+                "longitude": "1260969.13252003",
+                "point_x": "1260969.13252003",
+                "location_i": null,
+                "park": "E.C. HUGHES PLAYGROUND",
+                "pmaid": "458",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.36946429313033,
+                    47.5333739493042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "225123.59484258",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "225123.59484258",
+                "alt_name": "Garfield PF SH",
+                "longitude": "1278450.15986593",
+                "point_x": "1278450.15986593",
+                "location_i": null,
+                "park": "GARFIELD PLAYFIELD",
+                "pmaid": "353",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30077962378554,
+                    47.607705341942705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "211350.36353248",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "211350.36353248",
+                "alt_name": "Jefferson Park CS",
+                "longitude": "1275829.40363924",
+                "point_x": "1275829.40363924",
+                "location_i": null,
+                "park": "JEFFERSON PARK",
+                "pmaid": "114",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31033027121613,
+                    47.56981562531921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "237430.46883918",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "237430.46883918",
+                "alt_name": "Montlake CC Tudor Bldg CS",
+                "longitude": "1276495.47839193",
+                "point_x": "1276495.47839193",
+                "location_i": null,
+                "park": "MONTLAKE PLAYFIELD",
+                "pmaid": "376",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30965917650661,
+                    47.64133584104001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "270163.45095271",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "270163.45095271",
+                "alt_name": "Little Brook Park CS",
+                "longitude": "1280972.53247651",
+                "point_x": "1280972.53247651",
+                "location_i": null,
+                "park": "LITTLE BROOK PARK",
+                "pmaid": "297",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29402152140166,
+                    47.73129059742559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "208725.51015379",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "208725.51015379",
+                "alt_name": "Genesee PF CS",
+                "longitude": "1283427.37990303",
+                "point_x": "1283427.37990303",
+                "location_i": null,
+                "park": "GENESEE PARK AND PLAYFIELD",
+                "pmaid": "409",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2793572836731,
+                    47.563016471675674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "225593.92226706",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "225593.92226706",
+                "alt_name": "Madrona Dance Studio",
+                "longitude": "1282922.5804145",
+                "point_x": "1282922.5804145",
+                "location_i": null,
+                "park": "MADRONA PARK",
+                "pmaid": "370",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28268823013931,
+                    47.60922685361627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "191022.37003966",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "191022.37003966",
+                "alt_name": "Hutchinson CC",
+                "longitude": "1287920.83353964",
+                "point_x": "1287920.83353964",
+                "location_i": null,
+                "park": "FRED HUTCHINSON PLAYGROUND",
+                "pmaid": "439",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25983119629257,
+                    47.514721805943125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "238640.18986443",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "238640.18986443",
+                "alt_name": "David Rodgers Park CS",
+                "longitude": "1264403.33399555",
+                "point_x": "1264403.33399555",
+                "location_i": null,
+                "park": "DAVID RODGERS PARK",
+                "pmaid": "331",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35879822732595,
+                    47.64400514848444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "247509.31249751",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "247509.31249751",
+                "alt_name": "Lower Woodland PF Cloverlf SH",
+                "longitude": "1268854.03243211",
+                "point_x": "1268854.03243211",
+                "location_i": null,
+                "park": "WOODLAND PARK",
+                "pmaid": "292",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34145168215161,
+                    47.66855547453656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "228411.39042994",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "228411.39042994",
+                "alt_name": "Cal Anderson Park CS",
+                "longitude": "1273977.08414935",
+                "point_x": "1273977.08414935",
+                "location_i": null,
+                "park": "CAL ANDERSON PARK",
+                "pmaid": "3102",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31916673285843,
+                    47.61648185475988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "194203.08613892",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "194203.08613892",
+                "alt_name": "Atlantic City Boat Ramp CS",
+                "longitude": "1287133.84819482",
+                "point_x": "1287133.84819482",
+                "location_i": null,
+                "park": "ATLANTIC CITY BOAT RAMP",
+                "pmaid": "4081",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.26325441933302,
+                    47.52340017283148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "235746.18083745",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "235746.18083745",
+                "alt_name": "E Queen Anne PG SH",
+                "longitude": "1265551.84580472",
+                "point_x": "1265551.84580472",
+                "location_i": null,
+                "park": "EAST QUEEN ANNE PLAYGROUND",
+                "pmaid": "329",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35390803919624,
+                    47.6361351218469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "232266.8495699",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "232266.8495699",
+                "alt_name": "Washington Park SH",
+                "longitude": "1280298.39801182",
+                "point_x": "1280298.39801182",
+                "location_i": null,
+                "park": "WASHINGTON PARK",
+                "pmaid": "4486",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29383802955604,
+                    47.62738133845013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "207688.80192873",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "207688.80192873",
+                "alt_name": "Maple Wood PF CS",
+                "longitude": "1273800.87749317",
+                "point_x": "1273800.87749317",
+                "location_i": null,
+                "park": "MAPLE WOOD PLAYFIELD",
+                "pmaid": "418",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31825990963753,
+                    47.55967233043426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "249170.6268032",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "249170.6268032",
+                "alt_name": "Woodland Park Bowl Clubhouse",
+                "longitude": "1267706.83588693",
+                "point_x": "1267706.83588693",
+                "location_i": null,
+                "park": "WOODLAND PARK",
+                "pmaid": "292",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34623933287898,
+                    47.67304733789831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "222585.05986399",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "222585.05986399",
+                "alt_name": "Leschi Moorage CS",
+                "longitude": "1281757.17522931",
+                "point_x": "1281757.17522931",
+                "location_i": null,
+                "park": "LESCHI PARK",
+                "pmaid": "367",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28718147616662,
+                    47.600919293564644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "257357.07365958",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "257357.07365958",
+                "alt_name": "Soundview PF CS",
+                "longitude": "1259973.02947901",
+                "point_x": "1259973.02947901",
+                "location_i": null,
+                "park": "SOUNDVIEW PLAYFIELD",
+                "pmaid": "251",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37829113685265,
+                    47.6950647102318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "200904.73644978",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "200904.73644978",
+                "alt_name": "Walt Hundley PF (High Point) CS",
+                "longitude": "1260163.9723912",
+                "point_x": "1260163.9723912",
+                "location_i": null,
+                "park": "WALT HUNDLEY PLAYFIELD",
+                "pmaid": "3941",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3729301800585,
+                    47.54034285246486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "257456.37170769",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "257456.37170769",
+                "alt_name": "Sandel PG SH",
+                "longitude": "1264837.00631599",
+                "point_x": "1264837.00631599",
+                "location_i": null,
+                "park": "SANDEL PLAYGROUND",
+                "pmaid": "250",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35855202772146,
+                    47.69560285147648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "196121.76927689",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "196121.76927689",
+                "alt_name": "Lincoln Park Beach CS",
+                "longitude": "1254492.3859534",
+                "point_x": "1254492.3859534",
+                "location_i": null,
+                "park": "LINCOLN PARK",
+                "pmaid": "460",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3954944258538,
+                    47.52691972538308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "217434.3818427",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "217434.3818427",
+                "alt_name": "Beacon Hill PG SH",
+                "longitude": "1274611.22463",
+                "point_x": "1274611.22463",
+                "location_i": null,
+                "park": "BEACON HILL PLAYGROUND",
+                "pmaid": "400",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31573879448307,
+                    47.58642761503157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "203379.43360432",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "203379.43360432",
+                "alt_name": "Brighton PF SH",
+                "longitude": "1282483.15180606",
+                "point_x": "1282483.15180606",
+                "location_i": null,
+                "park": "BRIGHTON PLAYFIELD",
+                "pmaid": "402",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28277326845041,
+                    47.5483141461044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "197421.13811022",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "197421.13811022",
+                "alt_name": "Colman Pool",
+                "longitude": "1253224.9574081",
+                "point_x": "1253224.9574081",
+                "location_i": null,
+                "park": "LINCOLN PARK",
+                "pmaid": "460",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40073047176003,
+                    47.530410552028265
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "250032.85502809",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "250032.85502809",
+                "alt_name": "Green Lake Park 65th St CS",
+                "longitude": "1270851.12293015",
+                "point_x": "1270851.12293015",
+                "location_i": null,
+                "park": "GREEN LAKE PARK",
+                "pmaid": "307",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33354749144598,
+                    47.675579410954185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "189452.73701406",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "189452.73701406",
+                "alt_name": "Lakeridge PG CS",
+                "longitude": "1291230.17895101",
+                "point_x": "1291230.17895101",
+                "location_i": null,
+                "park": "LAKERIDGE PLAYGROUND",
+                "pmaid": "3972",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.24632517858423,
+                    47.51058676903157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "219634.26952496",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "219634.26952496",
+                "alt_name": "Judkins Park & PF Lower CS",
+                "longitude": "1277649.77202511",
+                "point_x": "1277649.77202511",
+                "location_i": null,
+                "park": "JUDKINS PARK AND PLAYFIELD",
+                "pmaid": "397",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30359856448142,
+                    47.59261727267294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "245905.44107187",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "245905.44107187",
+                "alt_name": "University PG CS",
+                "longitude": "1274179.55294956",
+                "point_x": "1274179.55294956",
+                "location_i": null,
+                "park": "UNIVERSITY PLAYGROUND",
+                "pmaid": "435",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31971586902944,
+                    47.664443350274006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "256285.57778649",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "256285.57778649",
+                "alt_name": "Golden Gardens Bathhouse",
+                "longitude": "1253622.01532851",
+                "point_x": "1253622.01532851",
+                "location_i": null,
+                "park": "GOLDEN GARDENS PARK",
+                "pmaid": "243",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40398630921409,
+                    47.69177540115011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "215195.96904041",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "215195.96904041",
+                "alt_name": "Alki PG CS",
+                "longitude": "1251954.6265908",
+                "point_x": "1251954.6265908",
+                "location_i": null,
+                "park": "ALKI PLAYGROUND",
+                "pmaid": "446",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40734298520375,
+                    47.57905887685863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "224004.24207343",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "224004.24207343",
+                "alt_name": "Powell Barnett Park CS",
+                "longitude": "1279589.23436309",
+                "point_x": "1279589.23436309",
+                "location_i": null,
+                "park": "POWELL BARNETT PARK",
+                "pmaid": "345",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29607657820831,
+                    47.604696651040555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "204317.59507728",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "204317.59507728",
+                "alt_name": "Seward Park Upper CS",
+                "longitude": "1289400.72493315",
+                "point_x": "1289400.72493315",
+                "location_i": null,
+                "park": "SEWARD PARK",
+                "pmaid": "428",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2548373848284,
+                    47.551239384385234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "263890.97331429",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "263890.97331429",
+                "alt_name": "Carkeek Park CS",
+                "longitude": "1260306.43139935",
+                "point_x": "1260306.43139935",
+                "location_i": null,
+                "park": "CARKEEK PARK",
+                "pmaid": "240",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37746990492454,
+                    47.71299200403544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "226381.58965987",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "226381.58965987",
+                "alt_name": "Madrona PG SH",
+                "longitude": "1281186.85881273",
+                "point_x": "1281186.85881273",
+                "location_i": null,
+                "park": "MADRONA PLAYGROUND",
+                "pmaid": "371",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28978395725946,
+                    47.61129601874189
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "230429.35228801",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "230429.35228801",
+                "alt_name": "Cascade PG CS",
+                "longitude": "1270877.71672218",
+                "point_x": "1270877.71672218",
+                "location_i": null,
+                "park": "CASCADE PLAYGROUND",
+                "pmaid": "350",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33189014930367,
+                    47.621848290373805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "254983.83007316",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "254983.83007316",
+                "alt_name": "Maple Leaf PG SH",
+                "longitude": "1275095.28696649",
+                "point_x": "1275095.28696649",
+                "location_i": null,
+                "park": "MAPLE LEAF RESERVOIR PARK",
+                "pmaid": "3881",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3167103758089,
+                    47.68937541074847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "233449.2107231",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "233449.2107231",
+                "alt_name": "Volunteer Park Bandstand CS",
+                "longitude": "1274550.87538193",
+                "point_x": "1274550.87538193",
+                "location_i": null,
+                "park": "VOLUNTEER PARK",
+                "pmaid": "399",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31723454632747,
+                    47.6303207615965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "251298.98635739",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "251298.98635739",
+                "alt_name": "Viewridge PF SH",
+                "longitude": "1283870.95417549",
+                "point_x": "1283870.95417549",
+                "location_i": null,
+                "park": "VIEW RIDGE PLAYFIELD",
+                "pmaid": "444",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2808041483689,
+                    47.679733401873335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "266432.75859688",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "266432.75859688",
+                "alt_name": "Northacres Park PF CS",
+                "longitude": "1272994.46866034",
+                "point_x": "1272994.46866034",
+                "location_i": null,
+                "park": "NORTHACRES PARK",
+                "pmaid": "361",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32614021967308,
+                    47.72064519451646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "242763.79082865",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "242763.79082865",
+                "alt_name": "Disco Park South Bluff CS",
+                "longitude": "1249792.17718059",
+                "point_x": "1249792.17718059",
+                "location_i": null,
+                "park": "DISCOVERY PARK",
+                "pmaid": "310",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.41840294210685,
+                    47.65449816911286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "194102.08633082",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "194102.08633082",
+                "alt_name": "Westcrest Park CS S",
+                "longitude": "1267241.09111846",
+                "point_x": "1267241.09111846",
+                "location_i": null,
+                "park": "WESTCREST PARK",
+                "pmaid": "468",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34374270634738,
+                    47.52208155409174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "248790.10193881",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "248790.10193881",
+                "alt_name": "Green Lake Park Sml Craft Ctr Sh",
+                "longitude": "1268444.59063968",
+                "point_x": "1268444.59063968",
+                "location_i": null,
+                "park": "GREEN LAKE PARK",
+                "pmaid": "307",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34321510198262,
+                    47.67204405540818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "246724.94660871",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "246724.94660871",
+                "alt_name": "City-wide Athletics Office",
+                "longitude": "1269022.71844828",
+                "point_x": "1269022.71844828",
+                "location_i": null,
+                "park": "WOODLAND PARK",
+                "pmaid": "292",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34070483483733,
+                    47.66641461979557
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "267630.10560611",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "267630.10560611",
+                "alt_name": "Bitter Lake PF CS",
+                "longitude": "1267397.04087861",
+                "point_x": "1267397.04087861",
+                "location_i": null,
+                "park": "BITTER LAKE PLAYFIELD",
+                "pmaid": "288",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34897208038836,
+                    47.72362714347702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "208477.98932153",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "208477.98932153",
+                "alt_name": "Rainier PF CS",
+                "longitude": "1281766.84946933",
+                "point_x": "1281766.84946933",
+                "location_i": null,
+                "park": "RAINIER PLAYFIELD",
+                "pmaid": "423",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28606292448346,
+                    47.562252283677026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "239919.22666574",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "239919.22666574",
+                "alt_name": "Interbay PF SH",
+                "longitude": "1259425.84919044",
+                "point_x": "1259425.84919044",
+                "location_i": null,
+                "park": "INTERBAY ATHLETIC FIELD",
+                "pmaid": "3887",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37909041975239,
+                    47.64723864158556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "203867.90931682",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "203867.90931682",
+                "alt_name": "Seward Park Main Entrance CS",
+                "longitude": "1289026.11507677",
+                "point_x": "1289026.11507677",
+                "location_i": null,
+                "park": "SEWARD PARK",
+                "pmaid": "428",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25632042177891,
+                    47.549987806258336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "234959.36547665",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "234959.36547665",
+                "alt_name": "Magnolia Park CS",
+                "longitude": "1254788.9112657",
+                "point_x": "1254788.9112657",
+                "location_i": null,
+                "park": "MAGNOLIA PARK",
+                "pmaid": "317",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3974893169596,
+                    47.633387181152536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "248723.11486675",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "248723.11486675",
+                "alt_name": "Cowen Park CS",
+                "longitude": "1276086.66002351",
+                "point_x": "1276086.66002351",
+                "location_i": null,
+                "park": "COWEN PARK",
+                "pmaid": "483",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31219746627022,
+                    47.67226724737207
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "238690.30557647",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "238690.30557647",
+                "alt_name": "Bayview PG CS",
+                "longitude": "1257353.79491633",
+                "point_x": "1257353.79491633",
+                "location_i": null,
+                "park": "BAYVIEW PLAYGROUND",
+                "pmaid": "303",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38739421213528,
+                    47.64375585568459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "252447.20127057",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "252447.20127057",
+                "alt_name": "Green Lake Pk Bathhouse Theater",
+                "longitude": "1269354.39524862",
+                "point_x": "1269354.39524862",
+                "location_i": null,
+                "park": "GREEN LAKE PARK",
+                "pmaid": "307",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33981359115526,
+                    47.68211688682263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "218812.89979611",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "218812.89979611",
+                "alt_name": null,
+                "longitude": "1258595.2532856",
+                "point_x": "1258595.2532856",
+                "location_i": null,
+                "park": "SEACREST PARK",
+                "pmaid": "455",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38073778263902,
+                    47.58934180357316
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "200138.704769",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "200138.704769",
+                "alt_name": "Van Asselt CS",
+                "longitude": "1279230.22578673",
+                "point_x": "1279230.22578673",
+                "location_i": null,
+                "park": "VAN ASSELT PLAYGROUND",
+                "pmaid": "431",
+                "descriptio": "Closed in Winter"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29569338516507,
+                    47.53926260220906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "latitude": "195211.63538796",
+                "link_1": null,
+                "gis_edt_dt": "1899-11-30T00:00:00.000Z",
+                "link_2": null,
+                "point_y": "195211.63538796",
+                "alt_name": "Westcrest Park CS N",
+                "longitude": "1266976.83319817",
+                "point_x": "1266976.83319817",
+                "location_i": null,
+                "park": "WESTCREST PARK",
+                "pmaid": "468",
+                "descriptio": "Open Year Round"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34490019894805,
+                    47.52510856401081
+                ]
+            }
+        }
+    ]
+}
