@@ -1,0 +1,31 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+$.ajaxSetup({
+contentType: "application/json; charset=utf-8"
+});
+// setup some JSON to use
+var request = {
+    "start_lat": 47.6029592,
+    "start_lon": -122.3329241,
+    "max_time": 10,
+    "feature": 0,
+};
+window.onload = function() {
+	// setup the button click
+	document.getElementById("theButton").onclick = function() {
+		doWork()
+	};
+}
+
+function doWork() {
+	// ajax the JSON to the server
+	$.post("receiver", JSON.stringify(request), function(data){
+	    console.log(request);
+        alert("Data: " + data);
+	});
+	// stop link reloading the page
+    event.preventDefault();
+}
+</script>
+This will send data using AJAX to Python:<br /><br />
+<a href="" id="theButton">Click Me</a>
