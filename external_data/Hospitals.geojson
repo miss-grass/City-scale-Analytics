@@ -1,0 +1,404 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 1,
+                "FACILITY": "Northwest Hospital Medical Center",
+                "ADDRESS": "1550 N 115th ST",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98133-8401",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33688807646581,
+                    47.714248258374525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 2,
+                "FACILITY": "Swedish Medical Center - Ballard Campus",
+                "ADDRESS": "5300 Tallman Ave NW",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA 98107",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37955532075934,
+                    47.667365010590466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 3,
+                "FACILITY": "Highline Medical Center",
+                "ADDRESS": "16251 Sylvester Rd SW",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Burien, WA, 98166-3017",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34141860238611,
+                    47.457799759386
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 4,
+                "FACILITY": "UW Medicine/Valley Medical Center",
+                "ADDRESS": "400 S 43rd St",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Renton, WA, 98055-5714",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.21412088117054,
+                    47.44227325924645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 5,
+                "FACILITY": "St. Francis Hospital",
+                "ADDRESS": "34515 9th Ave S",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Federal Way, WA, 98003-6761",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3272787558476,
+                    47.29261205503941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 6,
+                "FACILITY": "Snoqualmie Valley Hospital",
+                "ADDRESS": "9801 Frontier Ave SE",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Snoqualmie, WA, 98065-5200",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88535976412271,
+                    47.51238657392466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 7,
+                "FACILITY": "Swedish Medical Center - First Hill",
+                "ADDRESS": "747 Broadway",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98122-4379",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3219276104889,
+                    47.60884203096005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 8,
+                "FACILITY": "MHS - Auburn Medical Center",
+                "ADDRESS": "202 N Division St",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Auburn, WA, 98001-4939",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2288855919774,
+                    47.309290882294526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 9,
+                "FACILITY": "Overlake Hospital Medical Center",
+                "ADDRESS": "1035 116th Ave NE",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Bellevue, WA, 98004-4604",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.18768838343819,
+                    47.62149342393807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 10,
+                "FACILITY": "Seattle Children's Hospital",
+                "ADDRESS": "4800 Sand Point Way NE",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98105-3901",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28145789576217,
+                    47.6623130224063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 11,
+                "FACILITY": "Kindred Hospital Seattle - Northgate",
+                "ADDRESS": "10631 8th Ave NE",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98125-7213",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32099978848731,
+                    47.7066037478432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 12,
+                "FACILITY": "Virginia Mason Medical Center",
+                "ADDRESS": "925 Seneca St",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98101-2742",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3277396177323,
+                    47.609858517942826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 13,
+                "FACILITY": "Evergreen Health Medical Center",
+                "ADDRESS": "12040 NE 128th St",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Kirkland, WA, 98034-3013",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.17870690628982,
+                    47.71581098003357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 14,
+                "FACILITY": "Swedish Medical Center - Cherry Hill",
+                "ADDRESS": "500 17th Ave",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98122-5711",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30965642264754,
+                    47.60705477920286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 15,
+                "FACILITY": "Veterans Administration",
+                "ADDRESS": "1660 S Columbian Way",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA 98108",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.309169153005,
+                    47.56245387406317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 16,
+                "FACILITY": "Swedish Medical Center - Issaquah Campus",
+                "ADDRESS": "751 NE Blakely Dr",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Issaquah, WA, 98029-6201",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0219298464306,
+                    47.536105830228884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 17,
+                "FACILITY": "Group Health Central Hospital",
+                "ADDRESS": "201 16th Ave E ",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98112-5226",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31227550001381,
+                    47.620135753647716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 18,
+                "FACILITY": "St. Elizabeth Hospital",
+                "ADDRESS": "1455 Battersby Ave",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Enumclaw, WA, 98022-3634",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.98775974409448,
+                    47.20918006314267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 19,
+                "FACILITY": "Harborview Medical Center",
+                "ADDRESS": "325 9th Ave",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98104-2420",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3237689437401,
+                    47.60399304441338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 20,
+                "FACILITY": "University of Washington Medical Center",
+                "ADDRESS": "1959 NE Pacific St",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98195-0001",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30907234766981,
+                    47.6503441168579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 21,
+                "FACILITY": "Seattle Cancer Care Alliance",
+                "ADDRESS": "825 Eastlake Ave E",
+                "SE_ANNO_CAD_DATA": null,
+                "CITY": "Seattle, WA, 98109-4405",
+                "ACUTE_CARE": "Y",
+                "GIS_EDT_DT": "2016-12-16T00:00:00.000Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32965058598904,
+                    47.62667242477463
+                ]
+            }
+        }
+    ]
+}

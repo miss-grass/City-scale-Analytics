@@ -1,0 +1,4429 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fountain of Wisdom",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33312,
+                    47.6065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Moon Gates",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348917,
+                    47.620033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seattle Scatter Piece",
+                "address": " 23rd Ave W & Gilman Ave W"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37565,
+                    47.632467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Renouveau",
+                "address": "2300 E Yesler St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.301767,
+                    47.601833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Second Avenue Additions",
+                "address": "2nd Ave & Denny Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35205,
+                    47.61805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled (Kiosk)",
+                "address": "4th Ave & Bell St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.344583,
+                    47.615617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Day/Night",
+                "address": "1st Ave & Yesler Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33395,
+                    47.601983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "East is West",
+                "address": "1008 12th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.317417,
+                    47.59205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Little Liberty",
+                "address": "61st Ave SW & Alki Ave SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.410633,
+                    47.579383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Babe, The Phoenix Fairy, and The Magic Grove",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333117,
+                    47.6065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Astronomy by Day (and Other Oxymorons)",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333117,
+                    47.6065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "I-90 Portal",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.288133,
+                    47.5911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Coelacanths",
+                "address": "53540 Ballard Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.384633,
+                    47.6677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Naramore Fountain",
+                "address": "6th Ave & Seneca St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3317,
+                    47.608331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fortson Square  ",
+                "address": "2nd Ave & Yesler Wy (southeast corner)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3317,
+                    47.601117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Pursuit of Knowledge",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.270217,
+                    47.521533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Westlake Star Axis/Seven Hills",
+                "address": "401 Pine St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3373,
+                    47.611167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Skytones",
+                "address": "200 University St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.336367,
+                    47.60885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Bronze Imbeds",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.403517,
+                    47.58215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Pavers",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.403517,
+                    47.58215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Fin Project:  From Swords into Plowshares",
+                "address": "6550 Sand Point Wy NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.247333,
+                    47.68085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Alki / Duwamish Culture Trail",
+                "address": "Bonair Dr SW & Alki Ave SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.403517,
+                    47.58215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Equality",
+                "address": "904 Sturgis Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.314117,
+                    47.59405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Geomantic Artwork",
+                "address": "4501 Delridge Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3645,
+                    47.563567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Garthgoyles:  Designs for the Charlotte Martin Theatre",
+                "address": "201 Thomas St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.352117,
+                    47.62085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Street Treatment",
+                "address": "Along 1st Ave between Denny Wy and Virginia St."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.354433,
+                    47.617967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Forms of Power",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.364633,
+                    47.661483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Common Ground",
+                "address": "9320 38th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.284567,
+                    47.518917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Marine-Life Paintings",
+                "address": "1483 Alaskan Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.342133,
+                    47.607317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Adjacent, Against, Upon",
+                "address": "3130 Alaskan Wy N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.361883,
+                    47.619367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Cor-Ten Steel Sculpture",
+                "address": "15th Ave E & E Olin Pl"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.312333,
+                    47.634333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Moses",
+                "address": "400 Broad St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348933,
+                    47.6208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sculptural Screen",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333483,
+                    47.606167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seattle Totem Pole",
+                "address": "100 Yesler Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.334067,
+                    47.6021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "World Flight Monument",
+                "address": "7600 Sand Point Wy NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.263567,
+                    47.671633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Stone Garden Lantern",
+                "address": "5902 Lake Wash Blvd S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25732,
+                    47.54958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Chief Seattle",
+                "address": "5th Ave & Denny Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.347417,
+                    47.618417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ballard Boat",
+                "address": "2644 NW 60th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.39265,
+                    47.67275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Circulation",
+                "address": "10548 5th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.322717,
+                    47.706033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Water Works",
+                "address": "1635 11th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33243,
+                    47.60232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Imbrication",
+                "address": "12526 27th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.298717,
+                    47.72015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Making Visible the Invisible",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333117,
+                    47.6065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Making Visible the Invisible",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333117,
+                    47.6065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Periscope Tree",
+                "address": "37th Ave S & Courtland Pl S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2863,
+                    47.569783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Five Neons",
+                "address": "1501 N 45th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.338783,
+                    47.661317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Wit and Wisdom",
+                "address": "NW Corner of Rainier and Findlay St. and on the SE corner of Rainier and Juneau"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2779,
+                    47.551267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fountain of Seseragi",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35247,
+                    47.62335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Cornerstones",
+                "address": "Eastlake Ave E between E Galer and Fuhrman Ave E"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32625,
+                    47.632167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dreamboats",
+                "address": "Eastlake Ave E at E. Boston Street, E. Lynn Street "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.325967,
+                    47.640183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Star Map Floor Inlay",
+                "address": "13035 Linden Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348533,
+                    47.724083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Water Borne",
+                "address": "13035 Linden Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348633,
+                    47.724167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Swimming Fish",
+                "address": "13035 Linden Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348633,
+                    47.724233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Aureole",
+                "address": "13035 Linden Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348633,
+                    47.7243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Weather Prophet",
+                "address": "10515 35th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.291367,
+                    47.70575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fleet",
+                "address": "10515 35th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.291367,
+                    47.705783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fish Children",
+                "address": "10515 35th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.291333,
+                    47.70585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Schema",
+                "address": "10515 35th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.291367,
+                    47.7059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Homecoming",
+                "address": "Nora's Woods in Central Seattle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.393633,
+                    47.523467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Clock Tower",
+                "address": "4600 38th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.284717,
+                    47.561533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Earth Story",
+                "address": "4600 38th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.284633,
+                    47.5616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Migrare",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3515,
+                    47.621767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Play Ray Plaza",
+                "address": "400 1st Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.355183,
+                    47.622433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Circus Ring Plaza",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.350883,
+                    47.621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Children's Screen",
+                "address": "4501 Delridge Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.364167,
+                    47.563367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Shango Throne",
+                "address": "2323 E Cherry St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30215,
+                    47.607683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Oshun Throne",
+                "address": "2323 E Cherry St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.302383,
+                    47.60775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seven Figures",
+                "address": "7201 E Greenlake Dr N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3281,
+                    47.680417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Heaven, Man, Earth",
+                "address": "Maynard Ave S & S Jackson St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.325183,
+                    47.598983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Soul Pole",
+                "address": "2300 E Yesler St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.302183,
+                    47.60185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "JUMs",
+                "address": "2801 SW Thistle St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.368817,
+                    47.527683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Spur Line",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.340533,
+                    47.6323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": ".01 - Beacon Hill Discovery; .02 - Ravens Bill Downspouts",
+                "address": "2821 Beacon Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.311267,
+                    47.577833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Wellspring",
+                "address": "713 8th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.322367,
+                    47.59615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Whirl Piece:  Current Events",
+                "address": "917 E Yesler Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32055,
+                    47.601517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "illumine",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33055,
+                    47.603867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "An Equal And Opposite Reaction",
+                "address": "321 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351117,
+                    47.624317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Water Weaving Light Cycle",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348833,
+                    47.650067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": ".01 - Weather Permitting   .02 - Flow",
+                "address": "5614 22nd Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.384583,
+                    47.669833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Collections  Objects, Experiences, Memories",
+                "address": "12501 28th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.297861,
+                    47.719547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Longfellow Creek Legacy Trail Way Finding Signs",
+                "address": "2850 SW Roxbury St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.368483,
+                    47.519767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Gravity Law",
+                "address": "9125 Rainier Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2705,
+                    47.521383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Memories",
+                "address": "9125 Rainier Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.270533,
+                    47.521483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Highpoint",
+                "address": "6920 34th Ave SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.375017,
+                    47.540783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sky Legends",
+                "address": "6338 32nd Ave SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.376017,
+                    47.5481
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Story Viewers",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.350783,
+                    47.5587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Garden of Color and Light",
+                "address": "Roosevelt Way NE between NE 83rd and NE 84th."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.317467,
+                    47.689133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Geo-Slice",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.350667,
+                    47.559067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "A Place Called Home",
+                "address": "4721 Rainier Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2869,
+                    47.560033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Copper",
+                "address": "2203 Airport Wy S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3236,
+                    47.5822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Braincast",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333117,
+                    47.6065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "LEW Floor",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333117,
+                    47.6065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Kuba Grille",
+                "address": "2323 E Cherry St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.302183,
+                    47.607983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Leaf Legend",
+                "address": "3801 W Government Way"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.406117,
+                    47.657683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Witness Trees - What The Trees Have Seen",
+                "address": "5420 22nd Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.385117,
+                    47.668433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Luminaire",
+                "address": "6801 35th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.290667,
+                    47.677967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Into the Green Wood",
+                "address": "8016 Greenwood Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3553,
+                    47.687517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Cloud Stones",
+                "address": "1500 N 105th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.336017,
+                    47.705567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Evolving Wing and the Gravity of Presence",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.328467,
+                    47.602517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Rain Drum Courtyard",
+                "address": "19901 Cedar Falls Road S.E., North Bend, Wash."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.774217,
+                    47.42715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Looking at a Watershed:  Waterprints",
+                "address": "2300 SW Webster St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.361733,
+                    47.5354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Froula Park Armchairs",
+                "address": "7200 12th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.314983,
+                    47.680567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Looking at a Watershed: Sanctuary Grove",
+                "address": "2300 SW Webster St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.361733,
+                    47.5354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Looking at a Watershed: Streambed Memories",
+                "address": "2300 SW Webster St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.361733,
+                    47.5354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Looking at a Watershed: Dream Forest",
+                "address": "2300 SW Webster St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.361617,
+                    47.535767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fremont Canal Bench Project",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.314983,
+                    47.649883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Paragon",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3512,
+                    47.558867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Blue Glass Passage",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.328467,
+                    47.602517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Continuum",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.328467,
+                    47.602517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Evolving Wing and the Gravity of Presence",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.328467,
+                    47.602517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Return",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.328467,
+                    47.602517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "112 Wristwatches",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ornamental Iron in Leather/Contradictory Vibrations?",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Points of View",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Codes & Protocol",
+                "address": "610 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3296,
+                    47.604317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Codes & Protocol",
+                "address": "610 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3296,
+                    47.60432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Codes & Protocol",
+                "address": "610 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3292,
+                    47.604567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Codes & Protocol",
+                "address": "610 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329917,
+                    47.60475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Wings",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Contour",
+                "address": "425 Harvard Ave E"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.322217,
+                    47.623083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dreaming in Color",
+                "address": "321 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351133,
+                    47.623883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ballard Gateway",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.376136,
+                    47.664986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Meadowbrook Pond Kiosk",
+                "address": "NE 110th St & 35th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.289283,
+                    47.70645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Temple of Power",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.247833,
+                    48.67305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Witness and Dilemma, Levels, Weights and Measures",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dendritic Root Floor",
+                "address": "19901 Cedar Falls Road S.E., North Bend, Wash."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.774033,
+                    47.427067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Together as One",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.349783,
+                    47.669467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Snaking Root Ceiling",
+                "address": "19901 Cedar Falls Road S.E., North Bend, Wash."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.774033,
+                    47.427067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Forest Is Waiting",
+                "address": "5423 Delridge Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.363017,
+                    47.552967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Common Ground",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Justice is Served: Celebrating the People Who Work For a Change",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Witness and Dilemma, Levels, Weights and Measures",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Listening",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.330217,
+                    47.60445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Wave, Rave, Cave",
+                "address": "Western Ave & Bell St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.347533,
+                    47.613033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Beckoning Cistern",
+                "address": "81 Vine St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.350133,
+                    47.61485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Neototems Children's Garden",
+                "address": "200 2nd Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3517,
+                    47.620167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Biography of a Branch",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351733,
+                    47.6212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Twine and Branch",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.352067,
+                    47.62135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "DNA Wave Wall",
+                "address": "15th Ave W & W Galer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37745,
+                    47.631717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "4 (Where shall I go ahead?)",
+                "address": "S Jackson St & 3rd Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.330183,
+                    47.599317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Salmon Waves",
+                "address": "3015 NW 54th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3975,
+                    47.66468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Plynth and Pylon from the Project \"Vista\"",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.307967,
+                    47.570733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hydro Roots from the project \"Vista\"",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.308267,
+                    47.571517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Conductive Paths",
+                "address": "1900 N 97th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34165,
+                    47.699833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Light Bulb Bench",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.341833,
+                    47.700383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ballard Sculpture Garden",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3645,
+                    47.66285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Memory Place",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.341483,
+                    47.719633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Morphauna",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3532,
+                    47.671267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Inset-Anchor (Park) On Alki",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.387467,
+                    47.595183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Viewers",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.386417,
+                    47.595333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sea Otter, Salmon, And Raven",
+                "address": "1483 Alaskan Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.342133,
+                    47.607317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dwelling Places",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351017,
+                    47.666267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Evidence of Domestication",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.352133,
+                    47.666267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Signs of Life",
+                "address": "N 73rd St & W Greenlake Dr N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.337583,
+                    47.6851
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Reflective Refuge at Meadowbrook Pond",
+                "address": "NE 110th St & 35th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.288883,
+                    47.705633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Bronze Plaques and Medallion",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40975,
+                    47.579817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Lantern Gateway",
+                "address": "330 19th Ave E"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.307233,
+                    47.621533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "House Finial",
+                "address": "330 19th Ave E"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30705,
+                    47.6216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Skyline Canopies",
+                "address": "330 19th Ave E"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30705,
+                    47.6216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ripple Sculptures",
+                "address": "3801 W Government Way"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.406217,
+                    47.65745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Strata Benches",
+                "address": "3801 W Government Way"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40645,
+                    47.657467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Whirr",
+                "address": "13035 Linden Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348483,
+                    47.724417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Bottle Cap Children",
+                "address": "4600 38th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.284717,
+                    47.561533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Gazebo",
+                "address": "1020 NE 82nd St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31665,
+                    47.688967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Acrobat Constellation",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.352833,
+                    47.622083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "In the Event",
+                "address": "400 1st Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35477,
+                    47.6221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hydraulis",
+                "address": "400 1st Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35335,
+                    47.622133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Farmer's Pole",
+                "address": "2001 Western Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.343783,
+                    47.61
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Neototems",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35255,
+                    47.62235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "201 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35205,
+                    47.623567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Encircled Stream",
+                "address": "201 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351967,
+                    47.623833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Framed Portraits",
+                "address": "4501 Delridge Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.364183,
+                    47.56345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "One Hundred and Twenty Ancestors",
+                "address": "4501 Delridge Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.364183,
+                    47.56345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Trophies",
+                "address": "4501 Delridge Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.364183,
+                    47.56345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Tribal Names",
+                "address": "4501 Delridge Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3645,
+                    47.563617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Proverbs and Icons",
+                "address": "2323 E Cherry St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.302267,
+                    47.6079
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Children's Art Tiles",
+                "address": "401 Pine St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3369,
+                    47.6109
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Wall of Death",
+                "address": " NE 39th under Roosevelt way NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.318383,
+                    47.65515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Spirit of Washington",
+                "address": "4721 Rainier Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2873,
+                    47.560033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Martin Luther King Jr. Memorial",
+                "address": "2200 Martin Luther King Jr Wy S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29735,
+                    47.583067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hammering Man",
+                "address": "100 University St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33815,
+                    47.607033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Mesa",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3514,
+                    47.670483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sadako and the Thousand Paper Cranes",
+                "address": "NE 40th St & NE Pacific St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31865,
+                    47.655583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Unified Playing Field Theory",
+                "address": "8319 8th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32305,
+                    47.528167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Pool",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.352867,
+                    47.623067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dr. Jose P. Rizal",
+                "address": "1008 12th Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3175,
+                    47.591833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Baby Elephant",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34845,
+                    47.669067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Portal",
+                "address": "7201 E Greenlake Dr N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.328433,
+                    47.680317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ivar Feeding the Gulls",
+                "address": "Alaskan Wy & Madison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.338767,
+                    47.60385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Transition",
+                "address": "700 5th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.330333,
+                    47.60475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seattle Garden",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.339867,
+                    47.607433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348133,
+                    47.6689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Lang Fountain",
+                "address": "201 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35215,
+                    47.62405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seattle Scatter Piece",
+                "address": "N 143rd St & Linden Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348567,
+                    47.73215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Tidal Wave Story",
+                "address": "3601 Beacon Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3085,
+                    47.571783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hatch Covers",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.330833,
+                    47.6039
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Tulip Tree Mosaic",
+                "address": "16th Ave E & E Aloha St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.311383,
+                    47.6268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Firefighter Silhouettes",
+                "address": "1020 NE 50th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.316833,
+                    47.6652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seattle Scatter Piece",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.312533,
+                    47.5711
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Playground Artwork",
+                "address": "6535 Ravenna Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30495,
+                    47.6767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Playground",
+                "address": "6535 Ravenna Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30495,
+                    47.67675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Children",
+                "address": "9125 Rainier Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.271267,
+                    47.5216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Fence",
+                "address": "2001 Western Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.344117,
+                    47.610117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Totem Pole",
+                "address": "2001 Western Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34412,
+                    47.61015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Peaceable Kingdom",
+                "address": "1134 33rd Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.290217,
+                    47.612783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Olympic Iliad",
+                "address": "400 Broad St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3501,
+                    47.6193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seattle Scatter Piece",
+                "address": "4554 NE 41st St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2776,
+                    47.659033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Salmon",
+                "address": "3001 S Myrtle St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.293317,
+                    47.5387
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Neon For The Bagley Wright Theatre",
+                "address": "155 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.353183,
+                    47.623883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Wisteria Mural",
+                "address": "NE 43rd St & 9th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.319167,
+                    47.6593
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sasquatch Pushing over A House",
+                "address": "9th Ave NE & NE 50th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3197,
+                    47.664333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Jimi Hendrix Memorial Viewpoint",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.349267,
+                    47.667033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Break Point",
+                "address": "6920 34th Ave SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.375017,
+                    47.540783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Whale's Tail",
+                "address": "58th Ave SW & SW Stevens St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.40715,
+                    47.579383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Beyond The Reef",
+                "address": "1483 Alaskan Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.342133,
+                    47.607317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dancer's Series: Steps",
+                "address": " E. Pine St to E Roy St."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.320833,
+                    47.622967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Homage in Green",
+                "address": "1400 E Galer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3157,
+                    47.63205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Step on no Pets",
+                "address": "2061 15th Ave W"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3766,
+                    47.638167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Electrical Abuse",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.266067,
+                    47.506633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "My Testimony in Stone",
+                "address": "2101 E Yesler Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.304417,
+                    47.6015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Black Lightning",
+                "address": "400 Broad St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3483,
+                    47.620367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Itinerant",
+                "address": "Broadway E & E Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.320683,
+                    47.622033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Meridian Archway",
+                "address": "4649 Sunnyside Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333683,
+                    47.6649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Crocodile",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35205,
+                    47.668767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sand Dragon",
+                "address": "700 S Lane St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.323517,
+                    47.596917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Mural",
+                "address": "1111 3rd Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.335017,
+                    47.606167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Mcgilvra's Farm",
+                "address": "E Madison St & E Howe St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.277917,
+                    47.635467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Reality Relics",
+                "address": "731 N 35th St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348433,
+                    47.650133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ross Creek",
+                "address": "199 N Canal St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3594,
+                    47.652517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Stairway In Fremont Project",
+                "address": "N 40th St & Fremont Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.350017,
+                    47.655417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Stroke",
+                "address": "5900 W Greenlake Wy N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.342717,
+                    47.671383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "1979 Earthworks Symposium",
+                "address": "Kent, WA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.224283,
+                    47.382533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Gyrojack",
+                "address": "2251 3rd Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3448,
+                    47.614533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "People Waiting for the Interurban",
+                "address": "N 34th St & Fremont Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.349483,
+                    47.64945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Pergola At Waiting For The Interurban",
+                "address": "N 34th St & Fremont Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34955,
+                    47.64945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Gila Monster Mural",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35205,
+                    47.668767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Homage to Hokusai",
+                "address": "7364 E Green Lake Dr N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32695,
+                    47.6814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Anawog",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.331617,
+                    47.601067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Christopher Columbus",
+                "address": "1301 Alaskan Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.341433,
+                    47.6066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Breaching Orca",
+                "address": "1483 Alaskan Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.342133,
+                    47.607317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Three Dogs",
+                "address": "2251 3rd Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3449,
+                    47.614483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Quintet in D",
+                "address": "400 W Garfield St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.362783,
+                    47.633717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sundial",
+                "address": "2101 N Northlake Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33635,
+                    47.645267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Catfish",
+                "address": "20th Ave NW & Ballard Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38225,
+                    47.665717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "5229 Ballard Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38285,
+                    47.666167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Vagor I And Vagor II",
+                "address": "22nd Ave NW & Ballard Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38475,
+                    47.6678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "5410 Ballard Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.385367,
+                    47.668017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "5410-5447 Ballard Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.386067,
+                    47.668517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "In Transition is Unity",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.322567,
+                    47.705883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "423 Maynard Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32525,
+                    47.598767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "333 Pontius Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.332383,
+                    47.621783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Gates",
+                "address": "2300 Arboretum Dr E"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.294433,
+                    47.6402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ballard Centennial Bell Tower",
+                "address": "22nd Ave NW & Ballard Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.384883,
+                    47.6675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Atala Kivliktwok Okitun Dukik (The Golden Money Moon)",
+                "address": "8498 Seaview Pl NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.400833,
+                    47.690783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Bear (Totem)",
+                "address": "Occidental Ave S & S Main St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33325,
+                    47.600733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled ",
+                "address": "5th Ave & Denny Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.347917,
+                    47.618733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "1319 Western Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.366733,
+                    47.629617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "12755 Greenwood Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.356083,
+                    47.722717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Waterfront Fountain",
+                "address": "1301 Alaskan Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.319467,
+                    47.617983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Columns",
+                "address": "9053 1st Ave NW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.358367,
+                    47.695783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Killer Whale (Totem)",
+                "address": "Occidental Ave S & S Main St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333117,
+                    47.600533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Seattle Center Totem",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351333,
+                    47.620767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Volumetric Space Frame",
+                "address": "211 W Highland Dr"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35995,
+                    47.6295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Bears",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35,
+                    47.666633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Three Piece Sculpture #3: Vertebrae",
+                "address": "1001 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3339,
+                    47.605617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Black Sun",
+                "address": "1400 E Galer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.315167,
+                    47.629917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "2801 34th Ave W"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4016,
+                    47.645333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "12501 28th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.297836,
+                    47.719561
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Barbet",
+                "address": "201 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35233,
+                    47.62425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fu",
+                "address": "225 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351467,
+                    47.624417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fountain Of Creation",
+                "address": "401 1st Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35375,
+                    47.6229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Fountain Of The Northwest",
+                "address": "201 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35232,
+                    47.62435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Playform",
+                "address": "1400 E Galer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.313233,
+                    47.632183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Mother Reading with Child",
+                "address": "9010 35th Ave SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.376467,
+                    47.522567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Activity in Growth",
+                "address": "1000 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3327,
+                    47.60665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Water Into Electricity (That Man May Use It Freely)",
+                "address": "2700 24th Ave E"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.30115,
+                    47.645417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "American Youth and Freedom",
+                "address": "8603 Fauntleroy Wy SW"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.393317,
+                    47.530217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dr. Mark A. Matthews",
+                "address": "100 Dexter Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.341233,
+                    47.618667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Story of North Island (Totem Pole)",
+                "address": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.301033,
+                    47.646933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "American Doughboy Bringing Home Victory",
+                "address": "11111 Aurora Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.343033,
+                    47.70965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Judge Thomas Burke",
+                "address": "1400 E Galer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31525,
+                    47.629283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Prefontaine Fountain",
+                "address": "3rd Ave & Yesler Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3308,
+                    47.601783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hiker Memorial Statue",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.352983,
+                    47.665833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.349267,
+                    47.666267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sherwood Gillespie",
+                "address": "4101 Beacon Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3074,
+                    47.567017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Pergola",
+                "address": "100 Yesler Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3341,
+                    47.601883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Chief Seattle Fountain",
+                "address": "100 Yesler Wy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33395,
+                    47.602017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Governor John Harte Mcgraw",
+                "address": "Stewart St & Westlake Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.337583,
+                    47.613033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "William H. Seward",
+                "address": "1400 E Galer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.315717,
+                    47.6319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "South Park Lights",
+                "address": "8604 Eighth Ave. S. at South Cloverdale Street"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.322817,
+                    47.526267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Unity and Oneness of all",
+                "address": "4400 37th Ave S. Seattle, WA 98118"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.286067,
+                    47.56355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dragonfly Pavilion and Garden",
+                "address": " 28th Avenue S.W. and S.W. Dakota Street"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.36775,
+                    47.566633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Garden Path",
+                "address": "2301 Lake Wash Blvd S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.288167,
+                    47.581717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Japanese Lantern",
+                "address": "2301 Lake Wash Blvd S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28795,
+                    47.5825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Chinese Grand Pavilion",
+                "address": "423 Maynard Ave S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.325583,
+                    47.598667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sun and Raven (Totem)",
+                "address": "Occidental Ave S & S Main St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333133,
+                    47.600517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Tsonqua (Totem)",
+                "address": "Occidental Ave S & S Main St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.333383,
+                    47.600617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Tree Bench",
+                "address": "1800 S. Main St."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3071,
+                    47.601517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Children of the Sea",
+                "address": "2300 E. Yesler Way"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.301383,
+                    47.601633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Points of View",
+                "address": "600 4th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329167,
+                    47.603983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Waterway 15",
+                "address": "Northlake Ave & 4th Ave NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.341967,
+                    47.607167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Cornerstone",
+                "address": "1013 8th Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.329267,
+                    47.607967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Angie's Umbrella",
+                "address": "Lenora St & Western Ave"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.345417,
+                    47.611333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Neighbors",
+                "address": "1519 12th Ave "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.317017,
+                    47.615117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Human Forms in Balance",
+                "address": "305 Harrison St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.350867,
+                    47.622083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Kobe Bell",
+                "address": "201 Mercer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.352117,
+                    47.62345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled Bird-Bath",
+                "address": "1400 E Galer St"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.316733,
+                    47.6312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Skylight Aperture Sundial",
+                "address": "2401 24th Ave. E."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3024,
+                    47.64045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Untitled",
+                "address": "2801 34th Ave W"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4014,
+                    47.6452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "SAMARA",
+                "address": " 4554 N.E. 41st St."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.277617,
+                    47.659083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Duets for Animals and People",
+                "address": "5500 Phinney Ave N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351983,
+                    47.666383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sundial",
+                "address": "5201 Sandpoint Wy NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2818,
+                    47.667267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Duck Windvane",
+                "address": "5201 Sandpoint Wy NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2813,
+                    47.6673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Junior League of Seattle Playground Compass Rose",
+                "address": "7600 Sand Point Wy NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25835,
+                    47.681683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Straight Shot",
+                "address": " Sand Point Way NE and NE 65th Street"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.254717,
+                    47.683317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Big Tesla",
+                "address": "1300 N. 97th St."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.341083,
+                    47.699733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Lake City Gateway",
+                "address": "Lake City Way NE from 123rd NE to 127th NE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29557,
+                    47.71912
+                ]
+            }
+        }
+    ]
+}
