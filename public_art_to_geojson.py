@@ -3,11 +3,12 @@ import json
 from geojson import Feature, FeatureCollection, Point
 from collections import OrderedDict
 
+
 features = []
 csv_file = open('./external_data/Public_Art_Data.csv')
 for row in csv.DictReader(csv_file):
-    latitude = "%.7f" % float(row['latitude'])
-    longitude = "%.7f" % float(row['longitude'])
+    latitude = row['latitude']
+    longitude = row['longitude']
     title = row['title']
     address = row['address']
     d = OrderedDict()
@@ -20,7 +21,7 @@ for row in csv.DictReader(csv_file):
 
     d['geometry'] = {
         'type': 'Point',
-        'coordinates': [latitude, longitude]
+        'coordinates': [longitude, latitude]
     }
 
     features.append(d)
