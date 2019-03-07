@@ -137,12 +137,10 @@ def walkshed(G, node, max_cost=5, sum_columns=["length", "art_num"]):
     print(len(edges))
 
     sums = {k: 0 for k in sum_columns}
-    print(sums["art_num"])
     for n1, n2 in edges:
         d = G[n1][n2]
         for column in sum_columns:
             sums[column] += d.get(column, 0)
-    print(sums["art_num"])
     return sums, paths
 
 
@@ -194,21 +192,30 @@ def worker():
 
     # TODO: which feature is user looking for?
     if feature == 0:
-        col = "hospital"
-    elif feature == 1:
         col = "art_num"
+    elif feature == 1:
+        col = "drinking_fountain_num"
+    elif feature == 2:
+        col = "public_restroom_num"
+    elif feature == 3:
+        col = "hospital_num"
+    elif feature == 4:
+        col = "dola_num"
+    else:
+        raise ValueError("Invalid feature requested!")
 
     start_node = str(start_lon) + ", " + str(start_lat)
 
-    sums, paths = walkshed(G, start_node, max_cost=max_time)
+    sums, paths = walkshed(G, start_node, max_cost=max_time, sum_columns=["length", col])
 
     result = paths_to_geojson(paths)
     return result
 
 
-def join_art_to_graph():
+# generic method for joining feature
+def join_feature_to_graph(feature_name, attr_name):
     for idx, row in sw.iterrows():
-        if pd.notna(row["art"]):
+        if pd.notna(row[feature_name]):
             # print(row["art"])
             # start node
             coordinates = row["v_coordinates"][1: -1].split(',')
@@ -223,12 +230,12 @@ def join_art_to_graph():
             u = str(xu) + ', ' + str(yu)
 
             # art number
-            art = str(row["art"]).strip("[]\'").split(",")
+            art = str(row[feature_name]).strip("[]\'").split(",")
             # print(art)
             art_num = len(art)
 
-            G[v][u]['art_num'] = art_num
-            G[u][v]['art_num'] = art_num
+            G[v][u][attr_name] = art_num
+            G[u][v][attr_name] = art_num
 
 
 def main():
@@ -236,7 +243,13 @@ def main():
     print("loading data...")
     generate_sdwk_network(sidewalk_csv)
     generate_crossing_network(crossing_csv)
-    join_art_to_graph()
+
+    # join features to network
+    join_feature_to_graph("art", "art_num")
+    join_feature_to_graph("drinking_fountain", "drinking_fountain_num")
+    join_feature_to_graph("public_restroom", "public_restroom_num")
+    join_feature_to_graph("hospital", "hospital_num")
+    join_feature_to_graph("dog_off_leash_areas", "dola_num")
 
 
 
