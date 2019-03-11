@@ -13,6 +13,7 @@ var map = new mapboxgl.Map({
 	maxBounds: bounds
 });
 
+
 map.on('load', () => {
 	// add hospitals
 	map.addSource('hos', {
@@ -93,6 +94,18 @@ map.on('load', () => {
 		}
 	});
 
+	// map.addSource('sp', {
+	// 	type: 'geojson',
+	// 	data: ''
+	// });
+	//
+	// map.addLayer({
+	// 	id: 'Start Point',
+	// 	source: 'sp',
+	// 	type: 'circle',
+	//
+	// });
+
 	//public art
 	// map.addSource('art', {
 	// 	type: 'geojson',
@@ -150,7 +163,7 @@ map.on('load', () => {
 			"line-color": "#FF00FF",
 			"line-width": 1
 		}
-	})
+	});
 
 });
 
@@ -186,18 +199,24 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 // Add Zoom-in, Zoom-out button
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
+// access current location
+map.addControl(new mapboxgl.GeolocateControl({
+	positionOptions: {
+		enableHighAccuracy: true
+	},
+	trackUserLocation: true
+}), 'bottom-left');
+
+
 //show lat and long in console
 map.on('click', function(e) {
-	var isClicked = false;
 	const result = map.queryRenderedFeatures(e.point, {layers:['sidewalk']});
-	if (!isClicked) {
-		if (result.length > 0) {
-			var marker = new mapboxgl.Marker({color: "red"}).setLngLat(e.lngLat).addTo(map);
-		}
-	} else {
-		marker.remove();
+	if (result.length > 0) {
+		if (typeof circleMarker !== "undefined" ){
+	    	circleMarker.remove();
+	  	}
+	  //add marker
+	  	circleMarker = new mapboxgl.Marker({color:"red"}).setLngLat(e.lngLat).addTo(map);
+		console.log('click', e.lngLat);
 	}
-	isClicked = !isClicked;
-	console.log(isClicked);
-	console.log('click', e.lngLat);
-})
+});
