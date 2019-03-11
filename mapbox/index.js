@@ -337,8 +337,30 @@ map.on('click', function(e) {
 		if (typeof circleMarker !== "undefined" ){
 	    	circleMarker.remove();
 	  	}
-	  //add marker
+	  	//add marker
+		// console.log(typeof e.lngLat);
 	  	circleMarker = new mapboxgl.Marker({color:"red"}).setLngLat(e.lngLat).addTo(map);
-		console.log('click', e.lngLat);
+		var geocodes = [];
+		geocodes.push(coordinateFeature(e));
+		// console.log(geocodes);
+		return geocodes;
+		// console.log('click', e.lngLat);
 	}
+
+
+	function coordinateFeature(e) {
+	return {
+			center: [e.lngLat["lng"], e.lngLat["lat"]],
+			geometry: {
+				type: "Point",
+				coordinates: [e.lngLat["lng"], e.lngLat["lat"]]
+			},
+			place_name: 'Lat: ' + e.lngLat["lat"] + ', Lng: ' + e.lngLat["lng"], // eslint-disable-line camelcase
+			place_type: ['coordinate'], // eslint-disable-line camelcase
+			properties: {},
+			type: 'Feature'
+		};
+	}
+
+
 });
