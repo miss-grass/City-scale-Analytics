@@ -1,31 +1,22 @@
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script type="text/javascript">
-$.ajaxSetup({
-contentType: "application/json; charset=utf-8"
-});
-// setup some JSON to use
-var request = {
-    "start_lat": 47.6029592,
-    "start_lon": -122.3329241,
-    "max_time": 10,
-    "feature": 0,
-};
-window.onload = function() {
-	// setup the button click
-	document.getElementById("theButton").onclick = function() {
-		doWork()
-	};
-}
-
-function doWork() {
-	// ajax the JSON to the server
-	$.post("receiver", JSON.stringify(request), function(data){
-	    console.log(request);
-        alert("Data: " + data);
-	});
-	// stop link reloading the page
-    event.preventDefault();
-}
-</script>
-This will send data using AJAX to Python:<br /><br />
-<a href="" id="theButton">Click Me</a>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Mapbox</title>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+		<link rel="stylesheet" href="/static/style.css">
+		<style>
+			body {margin:0; padding:0;}
+			#map {position:absolute; top:0; bottom:0; width:100%;}
+		</style>
+		<script src="/static/index.js"></script>
+	</head>
+	<body>
+		<nav id="menu">	</nav>
+		<div id='map'></div>
+		<a href="" id="theButton">Click Me</a>
+		<script type="text/javascript" src="/static/index.js"></script>
+	</body>
+</html>
