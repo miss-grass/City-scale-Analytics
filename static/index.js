@@ -366,11 +366,11 @@ map.on('click', function(e) {
 	    	circleMarker.remove();
 	  	}
 	  	//add marker
-		// console.log(typeof e.lngLat);
+		print(typeof e.lngLat);
 	  	circleMarker = new mapboxgl.Marker({color:"red"}).setLngLat(e.lngLat).addTo(map);
 		var geocodes = [];
 		geocodes.push(coordinateFeature(e));
-		// console.log(geocodes);
+		console.log(geocodes);
 		return geocodes;
 		// console.log('click', e.lngLat);
 	}
