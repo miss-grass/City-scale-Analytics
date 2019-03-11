@@ -2,17 +2,18 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>Demo</title>
+		<title>Mapbox</title>
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
 		<style>
 			body {margin:0; padding:0;}
 			#map {position:absolute; top:0; bottom:0; width:100%;}
 		</style>
+		<script src="index.js"></script>
 	</head>
 	<body>
 
-		<style>
+		<style type='text/css'>
 			#menu {
 			background: #fff;
 			position: absolute;
@@ -54,6 +55,20 @@
 			#menu a.active:hover {
 			background: #3074a4;
 			}
+			
+			#info {
+	        display: block;
+	        position: relative;
+	        margin: 0px auto;
+	        width: 50%;
+	        padding: 10px;
+	        border: none;
+	        border-radius: 3px;
+	        font-size: 12px;
+	        text-align: center;
+	        color: #222;
+	        background: #fff;
+		    }
 		</style>
 
 
