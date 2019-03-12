@@ -7,6 +7,7 @@
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
 		<link rel="stylesheet" href="../static/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<style>
 			body {margin:0; padding:0;}
 			#map {position:absolute; top:0; bottom:0; width:100%;}
@@ -30,7 +31,7 @@
                 <label for="timeinput">Time limit(min):</label>
                 <input id="timeinput" type="number" placeholder="10">
             </div>
-            <button id="search">
+            <button type="button" class="btn btn-primary" id="search">
                 Get walkshed
             </button>
         </div>

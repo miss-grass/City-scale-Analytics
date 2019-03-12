@@ -97,7 +97,7 @@
   box-sizing: border-box;
 }
 
-#search {
+/* #search {
   width: 15%;
     z-index: 1;
   position: relative;
@@ -107,7 +107,7 @@
     padding: 8px;
   font-size: 16px;
   font-weight: normal;
-}
+} */
 
 .mapboxgl-ctrl-nav {
   top: 30%;
