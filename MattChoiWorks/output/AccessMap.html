@@ -5,79 +5,74 @@
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
-     
+        <link href='webCSS.css' rel='stylesheet' type='text/css'>
         <title>AccessMapDashboard</title>
-        <style>
-            body { margin:0; padding:0; }
-            #map { position:absolute; top:200px; left:300px; width:70%; height: 70%; }
-
-            .header {
-                position: relative;
-                top: 20px;
-                text-align: center;
-                color: green;
-                font-size: 50px;
-                font-style: courier;
-            }
-
-            .typeBox {
-                position: relative;
-                top: 20px;
-                left: 20px;
-            }
-
-            .constraintBox {
-                position: relative;
-                top: 40px;
-                left: 20px;
-            }
-            
-            .placeBox {
-                position: relative;
-                top: 60px;
-                left: 20px;
-            }
-
-        </style>
     </head>
     <body>
         <h1 class="header">AccessMap</h1>
 
-        <div class="typeBox" >
-            <form>
-                Current Location:<br>
-                <input type="text" location="location placeholder="Type here..."><br>
-            </form>
-        </div>
+        <div class="content">
+            <div class="typeBox" >
+                <form>
+                    Your Location:<br>
+                    <input type="text" location="location placeholder="Type here..."><br>
+                </form>
+            </div>
 
-        <div class="constraintBox">
-            Constraints<br>
-            <select>
-                <option>Incline</option>
-                <option>Time</option>
-                <option>Curb-Ramp</option>
-            </select>
-        </div>
+            <div class="timeBox" >
+                    <form>
+                        Time Limit(Min):<br>
+                        <input type="text" location="location placeholder="Type here..."><br>
+                    </form>
+                </div>
 
-        <div class="placeBox">
-            Places to go<br>
-            <select>
-                <option>Hospitals</option>
-                <option>Public Restrooms</option>
-                <option>View Points</option>
-                <option>Art Views</option>
-            </select>
+            <!-- <div class="incline">
+                Incline(%):<br>
+                <input type="range" min="-594" max="490" id="start" name="incline"
+                        min="0" max="10">
+            </div> -->
+
+            <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                  </div>
+
+            <label class="switch">
+                <input type="checkbox">
+                    <span class="slider round"></span>
+            </label>
+
+            <label class="dropdown">
+                    <div class="dd-button">
+                    Destination
+                    </div>
+                
+                    <input type="checkbox" class="dd-input" id="test">
+                
+                    <ul class="dd-menu">
+                    <li>Art Views</li>
+                    <li>Hospitals</li>
+                    <li>Public Restrooms</li>
+                    <li>View Points</li>
+                    <li class="divider"></li>
+                    <!-- <li>
+                        <a href="http://rane.io">Link to Rane.io</a>
+                    </li> -->
+                    </ul>     
+            </label>
         </div>
 
         <div id='map'></div>
+
         <script>
-        mapboxgl.accessToken = 'pk.eyJ1Ijoibm9uamFuZzU0NSIsImEiOiJjanNwMjYzeG8wc3p6NDRsamppZTh4aXRuIn0.7T0Q26x0BfiJzJ8QI0r47Q';
-        var map = new mapboxgl.Map({
-        container: 'map', // container id
-        style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-        center: [-74.50, 40], // starting position [lng, lat]
-        zoom: 9 // starting zoom
-        });
+            mapboxgl.accessToken = 'pk.eyJ1Ijoibm9uamFuZzU0NSIsImEiOiJjanNwMjYzeG8wc3p6NDRsamppZTh4aXRuIn0.7T0Q26x0BfiJzJ8QI0r47Q';
+            var map = new mapboxgl.Map({
+                container: 'map', // container id
+                style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
+                center: [-74.50, 40], // starting position [lng, lat]
+                zoom: 9 // starting zoom
+            });     
+
         </script>
     </body>
 </html>
+
