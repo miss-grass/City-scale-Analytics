@@ -7,146 +7,6 @@ var map = new mapboxgl.Map({
     zoom: 10
 });
 
-
-map.on('load', () => {
-	// add hospitals
-	map.addSource('hos', {
-		type: 'geojson',
-		data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/external_data/Hospitals.geojson',
-
-	});
-
-	map.addLayer({
-		id: 'Hospitals',
-		source: 'hos',
-		type: 'circle',
-		'layout': {
-			'visibility': 'visible'
-		},
-		paint: {
-			'circle-radius': 5,
-			'circle-color': 'black'
-		}
-	});
-
-	//add drinking_fountain
-	map.addSource('df', {
-		type: 'geojson',
-		data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/external_data/Drinking%20Fountain.geojson'
-	});
-
-	map.addLayer({
-		id: 'Drinking Fountains',
-		source: 'df',
-		type: 'circle',
-		'layout': {
-			'visibility': 'visible'
-		},
-		paint: {
-			'circle-radius': 5,
-			'circle-color': '#f08'
-		}
-	});
-
-	//public restroom
-	map.addSource('pr', {
-		type: 'geojson',
-		data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/external_data/Public%20Restroom.geojson'
-
-	});
-
-	map.addLayer({
-		id: 'Public Restrooms',
-		source: 'pr',
-		type: 'circle',
-		'layout': {
-			'visibility': 'visible'
-		},
-		paint: {
-			'circle-radius': 5,
-			'circle-color': 'green'
-		}
-	});
-
-	// dog off leash
-	map.addSource('dol', {
-		type: 'geojson',
-		data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/external_data/Dog%20Off%20Leash%20Areas.geojson'
-
-	});
-
-	map.addLayer({
-		id: 'Dog Off Leash Areas',
-		source: 'dol',
-		type: 'circle',
-		'layout': {
-			'visibility': 'visible'
-		},
-		paint: {
-			'circle-radius': 5,
-			'circle-color': '#F08080'
-		}
-	});
-
-	//public art
-	// map.addSource('art', {
-	// 	type: 'geojson',
-	// 	data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/external_data/public_arts.geojson'
-	//
-	// });
-	//
-	// map.addLayer({
-	// 	id: 'Public Arts',
-	// 	source: 'art',
-	// 	type: 'circle',
-	// 	paint: {
-	// 		'circle-radius': 5,
-	// 		'circle-color': '#1313D1'
-	// 	}
-	// });
-
-	//walkshed
-	map.addLayer({
-		id: 'walkshed',
-		type: 'line',
-		source: {
-			type: 'geojson',
-			data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/walkshed%20test/test_walkshed.geojson'
-		},
-		paint: {
-			"line-color": "#000000",
-			"line-width": 4
-		}
-	});
-
-	// sidewalk
-	map.addLayer({
-		id: 'sidewalk',
-		type: 'line',
-		source: {
-			type: 'geojson',
-			data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/18%20AU/data_table/sidewalks.geojson'
-		},
-		paint: {
-			"line-color": "#005EFF",
-			"line-width": 1
-		}
-	});
-
-	// crossing
-	map.addLayer({
-		id: 'crossing',
-		type: 'line',
-		source: {
-			type: 'geojson',
-			data: 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytics/shenghao/18%20AU/data_table/crossings.geojson'
-		},
-		paint: {
-			"line-color": "#FF00FF",
-			"line-width": 1
-		}
-	});
-});
 // Datasets
 var sidewalks = 'https://raw.githubusercontent.com/robin-qu/City-scale-Analytics/' +
     'master/data_table/sidewalks.geojson'
@@ -226,7 +86,55 @@ map.on('load', function() {
             }
         });
 
-        map.addLayer({
+		// Create a popup
+		var popup = new mapboxgl.Popup({
+			closeButton: false,
+			closeOnClick: false
+		});
+
+		map.on('mouseenter', 'unclustered ' + id, function(e) {
+			// Change the cursor style as a UI indicator.
+			map.getCanvas().style.cursor = 'pointer';
+
+			var coordinates = e.features[0].geometry.coordinates.slice();
+			if (id === "Hospitals") {
+				var description = "Hospital: NAME: " + e.features[0].properties.FACILITY +
+					"; ADDRESS: " + e.features[0].properties.ADDRESS +
+					"; CITY: " + e.features[0].properties.CITY;
+			} else if (id === "Public Restrooms") {
+				var description = "Public Restroom: NAME: " + e.features[0].properties.alt_name +
+					"; PARK: " + e.features[0].properties.park +
+					"; DESCRIPTION: " + e.features[0].properties.descriptio;
+			} else if (id === "Dog Off Leash Areas") {
+				var description = "Dog Off Leash Area: NAME: " + e.features[0].properties.name;
+			} else if (id === "Drinking Fountains") {
+				var description = "Drinking Fountain: LOCATION: (" + e.features[0].geometry.coordinates + ")";
+			} else {
+				var description = "View Point: NAME: " + e.features[0].properties.name +
+					"; ADDRESS: " + e.features[0].properties.address;
+			}
+
+			// Ensure that if the map is zoomed out such that multiple
+			// copies of the feature are visible, the popup appears
+			// over the copy being pointed to.
+			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+			}
+
+			// Populate the popup and set its coordinates
+			// based on the feature found.
+			popup.setLngLat(coordinates)
+				.setHTML(description)
+				.addTo(map);
+		});
+
+		map.on('mouseleave', 'unclustered ' + id, function() {
+			map.getCanvas().style.cursor = '';
+			popup.remove();
+		});
+
+
+		map.addLayer({
             id: id + "text",
             type: "symbol",
             source: source,
