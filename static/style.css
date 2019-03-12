@@ -1,3 +1,8 @@
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
 #menu {
     background: #fff;
     position: absolute;
@@ -102,4 +107,28 @@
     padding: 8px;
   font-size: 16px;
   font-weight: normal;
+}
+
+.mapboxgl-ctrl-nav {
+  top: 30%;
+  left: 97.3%;
+  position:absolute;
+  pointer-events:none;
+  z-index:2;
+}
+
+.mapboxgl-ctrl-nav .mapboxgl-ctrl {
+  margin:10px 0 0 10px;
+}
+
+.mapboxgl-ctrl-currLocation {
+  top: 25%;
+  left: 97.8%;
+  position:absolute;
+  pointer-events:none;
+  z-index:2;
+}
+
+.mapboxgl-ctrl-currLocation .mapboxgl-ctrl {
+  margin:10px 0 0 1px;
 }

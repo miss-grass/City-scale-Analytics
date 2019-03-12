@@ -6,12 +6,12 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
-		<link rel="stylesheet" href="/static/style.css">
+		<link rel="stylesheet" href="../static/style.css">
 		<style>
 			body {margin:0; padding:0;}
 			#map {position:absolute; top:0; bottom:0; width:100%;}
 		</style>
-		<script src="/static/index.js"></script>
+		<script src="../static/index.js"></script>
 	</head>
 	<body>
         <div id="userinput">
@@ -27,7 +27,7 @@
                 </datalist>
             </div>
             <div class="myinput">
-                <label for="timeinput">Time limit:</label>
+                <label for="timeinput">Time limit(min):</label>
                 <input id="timeinput" type="number" placeholder="10">
             </div>
             <button id="search">
@@ -37,6 +37,6 @@
 
 		<nav id="menu">	</nav>
 		<div id='map'></div>
-		<script type="text/javascript" src="/static/index.js"></script>
+		<script type="text/javascript" src="../static/index.js"></script>
 	</body>
 </html>
