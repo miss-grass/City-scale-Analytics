@@ -14,9 +14,29 @@
 		<script src="/static/index.js"></script>
 	</head>
 	<body>
+        <div id="userinput">
+            <div class="myinput">
+                <label for="featuresinput">Where to explore:</label>
+                <input id="featuresinput" list="features">
+                <datalist id="features">
+                    <option> Drinking Fountains </option>
+                    <option> Dog Off Leash Areas </option>
+                    <option> Hospitals </option>
+                    <option> Public Restrooms </option>
+                    <option> View Points </option>
+                </datalist>
+            </div>
+            <div class="myinput">
+                <label for="timeinput">Time limit:</label>
+                <input id="timeinput" type="number" placeholder="10">
+            </div>
+            <button id="search">
+                Get walkshed
+            </button>
+        </div>
+
 		<nav id="menu">	</nav>
 		<div id='map'></div>
-		<a href="" id="theButton">Click Me</a>
 		<script type="text/javascript" src="/static/index.js"></script>
 	</body>
 </html>

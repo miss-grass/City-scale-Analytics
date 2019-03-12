@@ -1,30 +1,28 @@
-$.ajaxSetup({
-contentType: "application/json; charset=utf-8"
-});
 
-
-var request = {
-    "start_lat": 47.6029592,
-    "start_lon": -122.3329241,
-    "max_time": 10,
-    "feature": 0,
-};
-window.onload = function() {
-	// setup the button click
-	document.getElementById("theButton").onclick = function() {
-		doWork()
-	};
-}
-
-function doWork() {
-	// ajax the JSON to the server
-	$.post("receiver", JSON.stringify(request), function(data){
-	    console.log(request);
-        alert("Data: " + data);
-	});
-	// stop link reloading the page
-    event.preventDefault();
-}
+//
+//
+// var request = {
+//     "start_lat": 47.6029592,
+//     "start_lon": -122.3329241,
+//     "max_time": 10,
+//     "feature": 0,
+// };
+// window.onload = function() {
+// 	// setup the button click
+// 	document.getElementById("theButton").onclick = function() {
+// 		doWork()
+// 	};
+// }
+//
+// function doWork() {
+// 	// ajax the JSON to the server
+// 	$.post("receiver", JSON.stringify(request), function(data){
+// 	    console.log(request);
+//         alert("Data: " + data);
+// 	});
+// 	// stop link reloading the page
+//     event.preventDefault();
+// }
 
 mapboxgl.accessToken = 'pk.eyJ1IjoieGllZ3Vkb25nNDU2IiwiYSI6ImNqczUyczJ1NzBiZDM0NG5peDV1MGc0OHgifQ.zqfiaGVaYRrjY--NLs9kxw';
 
@@ -392,3 +390,27 @@ map.on('click', function(e) {
 
 
 });
+
+document.getElementById("search").onclick = getFeature;
+function getFeature() {
+	var feature = document.getElementById("featuresinput").value;
+	var time = document.getElementById("timeinput").value;
+	$.ajaxSetup({
+	contentType: "application/json; charset=utf-8"
+	});
+	var request = {
+		"start_lat": 47.6029592,
+		"start_lon": -122.3329241,
+		"max_time": time,
+		"feature": feature,
+	};
+	// ajax the JSON to the server
+	$.post("receiver", JSON.stringify(request), function(data){
+	    console.log(request);
+        alert("Data: " + data);
+	});
+	// stop link reloading the page
+    event.preventDefault();
+}
+
+
