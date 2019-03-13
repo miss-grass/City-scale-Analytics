@@ -97,17 +97,22 @@
   box-sizing: border-box;
 }
 
-/* #search {
+#search {
   width: 15%;
     z-index: 1;
   position: relative;
   display: inline-block;
     background-color: #3498DB;
     color: white;
-    padding: 8px;
+    padding: 12px;
   font-size: 16px;
   font-weight: normal;
-} */
+}
+
+/* Dropdown button on hover & focus */
+#search:hover, #search:focus {
+  background-color: #2980B9;
+}
 
 .mapboxgl-ctrl-nav {
   top: 30%;

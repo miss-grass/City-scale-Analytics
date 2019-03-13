@@ -1,11 +1,14 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoieGllZ3Vkb25nNDU2IiwiYSI6ImNqczUyczJ1NzBiZDM0NG5peDV1MGc0OHgifQ.zqfiaGVaYRrjY--NLs9kxw';
 
 var map = new mapboxgl.Map({
-	container: 'map',
-	style: 'mapbox://styles/mapbox/streets-v9',
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
     center: [237.66921043396, 47.604889909932865],
     zoom: 10
 });
+
+// start point
+var geocodes;
 
 // Datasets
 var sidewalks = 'https://raw.githubusercontent.com/robin-qu/City-scale-Analytics/' +
@@ -29,7 +32,7 @@ var walkshed = 'https://raw.githubusercontent.com/miss-grass/City-scale-Analytic
     'shenghao/walkshed%20test/test_walkshed.geojson'
 
 // Add datasets
-map.on('load', function() {
+map.on('load', function () {
     function addLine(file, id, color, line_width) {
         map.addLayer({
             id: id,
@@ -86,55 +89,55 @@ map.on('load', function() {
             }
         });
 
-		// Create a popup
-		var popup = new mapboxgl.Popup({
-			closeButton: false,
-			closeOnClick: false
-		});
+        // Create a popup
+        var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false
+        });
 
-		map.on('mouseenter', 'unclustered ' + id, function(e) {
-			// Change the cursor style as a UI indicator.
-			map.getCanvas().style.cursor = 'pointer';
+        map.on('mouseenter', 'unclustered ' + id, function (e) {
+            // Change the cursor style as a UI indicator.
+            map.getCanvas().style.cursor = 'pointer';
 
-			var coordinates = e.features[0].geometry.coordinates.slice();
-			if (id === "Hospitals") {
-				var description = "Hospital: NAME: " + e.features[0].properties.FACILITY +
-					"; ADDRESS: " + e.features[0].properties.ADDRESS +
-					"; CITY: " + e.features[0].properties.CITY;
-			} else if (id === "Public Restrooms") {
-				var description = "Public Restroom: NAME: " + e.features[0].properties.alt_name +
-					"; PARK: " + e.features[0].properties.park +
-					"; DESCRIPTION: " + e.features[0].properties.descriptio;
-			} else if (id === "Dog Off Leash Areas") {
-				var description = "Dog Off Leash Area: NAME: " + e.features[0].properties.name;
-			} else if (id === "Drinking Fountains") {
-				var description = "Drinking Fountain: LOCATION: (" + e.features[0].geometry.coordinates + ")";
-			} else {
-				var description = "View Point: NAME: " + e.features[0].properties.name +
-					"; ADDRESS: " + e.features[0].properties.address;
-			}
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            if (id === "Hospitals") {
+                var description = "Hospital: NAME: " + e.features[0].properties.FACILITY +
+                    "; ADDRESS: " + e.features[0].properties.ADDRESS +
+                    "; CITY: " + e.features[0].properties.CITY;
+            } else if (id === "Public Restrooms") {
+                var description = "Public Restroom: NAME: " + e.features[0].properties.alt_name +
+                    "; PARK: " + e.features[0].properties.park +
+                    "; DESCRIPTION: " + e.features[0].properties.descriptio;
+            } else if (id === "Dog Off Leash Areas") {
+                var description = "Dog Off Leash Area: NAME: " + e.features[0].properties.name;
+            } else if (id === "Drinking Fountains") {
+                var description = "Drinking Fountain: LOCATION: (" + e.features[0].geometry.coordinates + ")";
+            } else {
+                var description = "View Point: NAME: " + e.features[0].properties.name +
+                    "; ADDRESS: " + e.features[0].properties.address;
+            }
 
-			// Ensure that if the map is zoomed out such that multiple
-			// copies of the feature are visible, the popup appears
-			// over the copy being pointed to.
-			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-			}
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
 
-			// Populate the popup and set its coordinates
-			// based on the feature found.
-			popup.setLngLat(coordinates)
-				.setHTML(description)
-				.addTo(map);
-		});
+            // Populate the popup and set its coordinates
+            // based on the feature found.
+            popup.setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+        });
 
-		map.on('mouseleave', 'unclustered ' + id, function() {
-			map.getCanvas().style.cursor = '';
-			popup.remove();
-		});
+        map.on('mouseleave', 'unclustered ' + id, function () {
+            map.getCanvas().style.cursor = '';
+            popup.remove();
+        });
 
 
-		map.addLayer({
+        map.addLayer({
             id: id + "text",
             type: "symbol",
             source: source,
@@ -148,7 +151,7 @@ map.on('load', function() {
 
         // inspect a cluster on click
         map.on('click', id, function (e) {
-            var features = map.queryRenderedFeatures(e.point, { layers: [id] });
+            var features = map.queryRenderedFeatures(e.point, {layers: [id]});
             var clusterId = features[0].properties.cluster_id;
             map.getSource(source).getClusterExpansionZoom(clusterId, function (err, zoom) {
                 if (err)
@@ -184,117 +187,122 @@ map.on('load', function() {
 // Filter features by toggling a list
 var marker;
 var toggleableLayerIds = ['Drinking Fountains',
-                          'Dog Off Leash Areas',
-                          'Hospitals',
-                          'Public Restrooms',
-                          'View Points'];
+    'Dog Off Leash Areas',
+    'Hospitals',
+    'Public Restrooms',
+    'View Points'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
-	var id = toggleableLayerIds[i];
+    var id = toggleableLayerIds[i];
 
-	var link = document.createElement('a');
-	link.href = '#';
-	link.className = 'active';
-	link.textContent = id;
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
     link.uncluster = "unclustered " + id;
     link.numbertext = id + "text";
 
-	link.onclick = function (e) {
-		var clickedLayer = this.textContent;
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
         var clickedLayer2 = this.uncluster;
         var clickedLayer3 = this.numbertext;
-		e.preventDefault();
-		e.stopPropagation();
+        e.preventDefault();
+        e.stopPropagation();
 
-		var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
 
-		if (visibility === 'visible') {
-			map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
             map.setLayoutProperty(clickedLayer2, 'visibility', 'none');
             map.setLayoutProperty(clickedLayer3, 'visibility', 'none');
-			this.className = '';
-		} else {
-			this.className = 'active';
-			map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
             map.setLayoutProperty(clickedLayer2, 'visibility', 'visible');
             map.setLayoutProperty(clickedLayer3, 'visibility', 'visible');
-		}
-	};
+        }
+    };
 
-	var layers = document.getElementById('menu');
-	layers.appendChild(link);
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
 }
 
 
 // Add Zoom-in, Zoom-out button
 var nav = new mapboxgl.NavigationControl({position: 'bottom-right'});
 map.addControl(nav);
-nav._container.parentNode.className="mapboxgl-ctrl-nav";
+nav._container.parentNode.className = "mapboxgl-ctrl-nav";
 
 // access current location
 
 var currentLocation = new mapboxgl.GeolocateControl({
-	positionOptions: {
-		enableHighAccuracy: true
-	},
-	trackUserLocation: true
+    positionOptions: {
+        enableHighAccuracy: true
+    },
+    trackUserLocation: true
 });
 
 map.addControl(currentLocation);
-currentLocation._container.parentNode.className="mapboxgl-ctrl-currLocation";
+currentLocation._container.parentNode.className = "mapboxgl-ctrl-currLocation";
 
 
 //show lat and long in console
-map.on('click', function(e) {
-	const result = map.queryRenderedFeatures(e.point, {layers:['Sidewalks']});
-	if (result.length > 0) {
-		if (typeof circleMarker !== "undefined" ){
-	    	circleMarker.remove();
-	  	}
-	  	//add marker
-		console.log(typeof e.lngLat);
-	  	circleMarker = new mapboxgl.Marker({color:"red"}).setLngLat(e.lngLat).addTo(map);
-		var geocodes = [];
-		geocodes.push(coordinateFeature(e));
-		console.log(geocodes);
-		return geocodes;
-		// console.log('click', e.lngLat);
-	}
+map.on('click', function (e) {
+    const result = map.queryRenderedFeatures(e.point, {layers: ['Sidewalks']});
+    if (result.length > 0) {
+        if (typeof circleMarker !== "undefined") {
+            circleMarker.remove();
+        }
+        //add marker
+        console.log(typeof e.lngLat);
+        circleMarker = new mapboxgl.Marker({color: "red"}).setLngLat(e.lngLat).addTo(map);
+        geocodes = [];
+        geocodes.push(coordinateFeature(e));
+        console.log(geocodes);
+        return geocodes;
+        // console.log('click', e.lngLat);
+    }
 
 
-	function coordinateFeature(e) {
-	return {
-			center: [e.lngLat["lng"], e.lngLat["lat"]],
-			geometry: {
-				type: "Point",
-				coordinates: [e.lngLat["lng"], e.lngLat["lat"]]
-			},
-			place_name: 'Lat: ' + e.lngLat["lat"] + ', Lng: ' + e.lngLat["lng"], // eslint-disable-line camelcase
-			place_type: ['coordinate'], // eslint-disable-line camelcase
-			properties: {},
-			type: 'Feature'
-		};
-	}
-
-	document.getElementById("search").onclick = getFeature;
-	function getFeature() {
-		var feature = document.getElementById("featuresinput").value;
-		var time = document.getElementById("timeinput").value;
-		$.ajaxSetup({
-		contentType: "application/json; charset=utf-8"
-		});
-		var request = {
-			"start_lat": 47.6029592,
-			"start_lon": -122.3329241,
-			"max_time": time,
-			"feature": feature,
-		};
-		// ajax the JSON to the server
-		$.post("receiver", /*JSON.stringify(request)*/result, function(data){
-		    console.log(request);
-	        alert("Data: " + data);
-		});
-		// stop link reloading the page
-	    event.preventDefault();
-	}
+    function coordinateFeature(e) {
+        return {
+            center: [e.lngLat["lng"], e.lngLat["lat"]],
+            geometry: {
+                type: "Point",
+                coordinates: [e.lngLat["lng"], e.lngLat["lat"]]
+            },
+            place_name: 'Lat: ' + e.lngLat["lat"] + ', Lng: ' + e.lngLat["lng"], // eslint-disable-line camelcase
+            place_type: ['coordinate'], // eslint-disable-line camelcase
+            properties: {},
+            type: 'Feature'
+        };
+    }
 });
+
+
+//////////////////////////////////////////////////////
+/////////       The Get Walkshed button      /////////
+//////////////////////////////////////////////////////
+document.getElementById("search").onclick = getFeature;
+
+function getFeature() {
+    var feature = document.getElementById("featuresinput").value;
+    var time = document.getElementById("timeinput").value;
+    $.ajaxSetup({
+        contentType: "application/json; charset=utf-8"
+    });
+    var request = {
+        "start_lat": geocodes[0].center[1],
+        "start_lon": geocodes[0].center[0],
+        "max_time": time,
+        "feature": feature,
+    };
+    // ajax the JSON to the server
+    $.post("receiver", JSON.stringify(request), function (data) {
+        console.log(request);
+        alert("Data: " + data);
+    });
+    // stop link reloading the page
+    event.preventDefault();
+}
