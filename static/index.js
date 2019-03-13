@@ -175,12 +175,46 @@ map.on('load', function () {
     //visualize
     addLine(sidewalks, 'Sidewalks', '#000000', 1)
     addLine(crossings, 'Crossings', '#FF0000', 1)
-    addLine(walkshed, 'Walkshed', '#0000FF', 6)
+    // addLine(walkshed, 'Walkshed', '#0000FF', 6)
     addPoints(dog_off_leash_areas, 'dola', 'Dog Off Leash Areas', '#006400')
     addPoints(public_restrooms, 'pr', 'Public Restrooms', '#4B0082')
     addPoints(drinking_fountains, 'df', 'Drinking Fountains', '#6495ED')
     addPoints(view_points, 'vp', 'View Points', '#FFD700')
     addPoints(hospitals, 'hsp', 'Hospitals', '#FF1493')
+
+    //////////////////////////////////////////////////////
+    /////////       The Get Walkshed button      /////////
+    //////////////////////////////////////////////////////
+    document.getElementById("search").onclick = getFeature;
+
+    function getFeature() {
+        var feature = document.getElementById("featuresinput").value;
+        var time = document.getElementById("timeinput").value;
+        $.ajaxSetup({
+            contentType: "application/json; charset=utf-8"
+        });
+        var request = {
+            "start_lat": geocodes[0].center[1],
+            "start_lon": geocodes[0].center[0],
+            "max_time": time,
+            "feature": feature,
+        };
+        // ajax the JSON to the server
+        $.post("receiver", JSON.stringify(request), function (data) {
+            console.log(request);
+            alert("Data: " + data);
+            var mapLayer = map.getLayer('walkshed');
+            if(typeof mapLayer !== 'undefined') {
+              // Remove map layer & source.
+              map.removeLayer('walkshed').removeSource('walkshed');
+            }
+            addLine(JSON.parse(data), 'walkshed', '#6600cc', 6);
+            // stop link reloading the page
+            event.preventDefault();
+        });
+        // stop link reloading the page
+        event.preventDefault();
+}
 });
 
 
@@ -281,28 +315,3 @@ map.on('click', function (e) {
 });
 
 
-//////////////////////////////////////////////////////
-/////////       The Get Walkshed button      /////////
-//////////////////////////////////////////////////////
-document.getElementById("search").onclick = getFeature;
-
-function getFeature() {
-    var feature = document.getElementById("featuresinput").value;
-    var time = document.getElementById("timeinput").value;
-    $.ajaxSetup({
-        contentType: "application/json; charset=utf-8"
-    });
-    var request = {
-        "start_lat": geocodes[0].center[1],
-        "start_lon": geocodes[0].center[0],
-        "max_time": time,
-        "feature": feature,
-    };
-    // ajax the JSON to the server
-    $.post("receiver", JSON.stringify(request), function (data) {
-        console.log(request);
-        alert("Data: " + data);
-    });
-    // stop link reloading the page
-    event.preventDefault();
-}

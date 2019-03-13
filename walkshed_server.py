@@ -205,7 +205,7 @@ def worker():
             if dist < min_dist:
                 min_dist = dist
                 start_node = node
-            
+
     if feature == "Drinking Fountains":
         col = "drinking_fountain_num"
     elif feature == "Public Restrooms":
@@ -219,7 +219,7 @@ def worker():
 
 
     sums, paths = walkshed(G, start_node, max_cost=int(max_time), sum_columns=["length", col])
-
+    print("sum of utilities: ", sums[col])
     result = paths_to_geojson(paths)
     return result
 
