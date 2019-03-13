@@ -115,7 +115,7 @@ def generate_crossing_network(csv_file):
     file.close()
 
 
-def walkshed(G, node, max_cost=5, sum_columns=["length", "art_num"]):
+def walkshed(G, node, max_cost=5, sum_columns=["length", "drinking_fountain_num"]):
     # Use Dijkstra's method to get the below-400 walkshed paths
     distances, paths = nx.algorithms.shortest_paths.single_source_dijkstra(
         G=G,
@@ -257,7 +257,7 @@ def main():
     generate_crossing_network(crossing_csv)
 
     # join features to network
-    join_feature_to_graph("art", "art_num")
+    #join_feature_to_graph("art", "art_num")
     join_feature_to_graph("drinking_fountain", "drinking_fountain_num")
     join_feature_to_graph("public_restroom", "public_restroom_num")
     join_feature_to_graph("hospital", "hospital_num")

@@ -188,7 +188,7 @@ map.on('load', function () {
     document.getElementById("search").onclick = getFeature;
 
     function getFeature() {
-        var feature = document.getElementById("featuresinput").value;
+        var feature = $("#featuresinput").text();
         var time = document.getElementById("timeinput").value;
         $.ajaxSetup({
             contentType: "application/json; charset=utf-8"
@@ -201,8 +201,8 @@ map.on('load', function () {
         };
         // ajax the JSON to the server
         $.post("receiver", JSON.stringify(request), function (data) {
-            console.log(request);
-            alert("Data: " + data);
+            console.log("request: " + request);
+            console.log("Data: " + data);
             var mapLayer = map.getLayer('walkshed');
             if(typeof mapLayer !== 'undefined') {
               // Remove map layer & source.
