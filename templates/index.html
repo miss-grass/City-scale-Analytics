@@ -56,40 +56,74 @@
 		          Utilities
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Dog off Leash Area</a>
-		          <a class="dropdown-item" href="#">Hospital</a>
-				  <a class="dropdown-item" href="#">Drinking Fountain</a>
-				  <a class="dropdown-item" href="#">Public Restroom</a>
-		          <a class="dropdown-item" href="#">View Point</a>
+		          <a id="featuresinput" class="dropdown-item" href="#">Dog off Leash Area</a>
+		          <a id="featuresinput" class="dropdown-item" href="#">Hospital</a>
+				  <a id="featuresinput" class="dropdown-item" href="#">Drinking Fountain</a>
+				  <a id="featuresinput" class="dropdown-item" href="#">Public Restroom</a>
+		          <a id="featuresinput" class="dropdown-item" href="#">View Point</a>
 		        </div>
 		      </li>
 
-
-		      <li>
+			  <!-- Time input -->
+		      <li class="time">
 				  <div class="time">
 	  				<input class="form-control mr-sm-2" id="timeinput" type="number" placeholder="Time">
 	  			</div>
 			  </li>
+			  <!-- Get Walkshed Button -->
+			  <li>
+				  <button type="button" class="btn btn-primary" id="search">
+	                  Get Walkshed
+	              </button>
+			  </li>
 		    </ul>
 
-			<button type="button" class="btn btn-primary" id="search">
-                Get Walkshed
-            </button>
+			<div class="form-inline my-2 my-lg-0">
+			  <!-- Button to Open the Modal -->
+			  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+			    Instruction
+			  </button>
+
+			  <!-- The Modal -->
+			  <div class="modal" id="myModal">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">Instruction</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          To use this app, you need to
+
+					  1. Click the utility you are looking for.
+
+					  2. Enter the maximum time you want to get there.
+
+					  3. Press "Get Walkshed".
+			        </div>
+
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        </div>
+
+			      </div>
+			    </div>
+			  </div>
+
+			</div>
 
 		  </div>
 		</nav>
 
-		<div class="container">
-			<button type="button" class="btn btn-info my-btn" data-toggle="popover" title="Instructions" data-content="To use this app, you need to 1. Click the utility you are looking for. 2. Enter the maximum time you want to get there. 3. Press \'Get Walkshed\'. " id="readme">Read me when first use</button>
-		</div>
-
 		<nav id="menu">	</nav>
 		<div id='map'></div>
 
-
-
 		<script type="text/javascript" src="../static/index.js"></script>
-
 
 	</body>
 </html>

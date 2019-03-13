@@ -100,15 +100,16 @@
 }
 
 #search {
-  width: 15%;
     z-index: 1;
-  position: relative;
-  display: inline-block;
+	position: absolute;
+	left: 500px;
+	top: 13px;
+	display: inline-block;
 
     color: white;
-    padding: 12px;
-  font-size: 16px;
-  font-weight: normal;
+    /* padding: 12px; */
+	font-size: 16px;
+ 	font-weight: normal;
 }
 
 /* Dropdown button on hover & focus */
@@ -144,6 +145,10 @@
 	background-color: rgb(75,45,131);
 }
 
+/* .modal-content {
+	z-index: 1200;
+} */
+
 #Navbar .navbar-brand {
 	color: rgb(255,255,255);
 	font-size: 22px;
@@ -154,12 +159,5 @@
 }
 
 #Navbar {
-	z-index:2;
-}
-
-
-#readme {
-	top: 1000px;
-	left: 0;
-	z-index: 90;
+	z-index:1200;
 }
