@@ -306,3 +306,7 @@ function getFeature() {
     // stop link reloading the page
     event.preventDefault();
 }
+
+$document.ready(function () {
+  $('[data-toggle="popover"]').popover();
+})

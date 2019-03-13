@@ -6,16 +6,19 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
-		<link rel="stylesheet" href="/static/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="../static/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<style>
 			body {margin:0; padding:0;}
 			#map {position:absolute; top:0; bottom:0; width:100%;}
 		</style>
-		<script src="/static/index.js"></script>
+		<script src="../static/index.js"></script>
 	</head>
+
 	<body>
-        <div id="userinput">
+        <!-- <div id="userinput1" class="dropdown">
             <div class="myinput">
                 <label for="featuresinput">Where to explore:</label>
                 <input id="featuresinput" list="features">
@@ -27,17 +30,66 @@
                     <option> View Points </option>
                 </datalist>
             </div>
+
             <div class="myinput">
                 <label for="timeinput">Time limit(min):</label>
                 <input id="timeinput" type="number" placeholder="10">
             </div>
+
             <button type="button" class="btn btn-primary" id="search">
                 Get walkshed
             </button>
-        </div>
+        </div> -->
+
+		<nav class="navbar navbar-expand-lg navbar-light bd-navbar" id="Navbar">
+		  <a class="navbar-brand" href="https://vip.uw.edu/teams/accessmap">AccessMap</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+
+			  <!-- Utilities Dropdown Button -->
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Utilities
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Dog off Leash Area</a>
+		          <a class="dropdown-item" href="#">Hospital</a>
+				  <a class="dropdown-item" href="#">Drinking Fountain</a>
+				  <a class="dropdown-item" href="#">Public Restroom</a>
+		          <a class="dropdown-item" href="#">View Point</a>
+		        </div>
+		      </li>
+
+
+		      <li>
+				  <div class="time">
+	  				<input class="form-control mr-sm-2" id="timeinput" type="number" placeholder="Time">
+	  			</div>
+			  </li>
+		    </ul>
+
+			<button type="button" class="btn btn-primary" id="search">
+                Get Walkshed
+            </button>
+
+		  </div>
+		</nav>
+
+		<div class="container">
+			<button type="button" class="btn btn-info my-btn" data-toggle="popover" title="Instructions" data-content="To use this app, you need to 1. Click the utility you are looking for. 2. Enter the maximum time you want to get there. 3. Press \'Get Walkshed\'. " id="readme">Read me when first use</button>
+		</div>
 
 		<nav id="menu">	</nav>
 		<div id='map'></div>
-		<script type="text/javascript" src="/static/index.js"></script>
+
+
+
+		<script type="text/javascript" src="../static/index.js"></script>
+
+
 	</body>
 </html>

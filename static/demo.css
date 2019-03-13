@@ -1,0 +1,15 @@
+body {
+	color: rgb(255,255,255);
+}
+.bd-navbar {
+	background-color: rgb(75,45,131);
+}
+
+.bd-navbar .navbar-brand {
+	color: rgb(255,255,255);
+	font-size: 25px;
+}
+
+.myinput {
+
+}
