@@ -208,13 +208,28 @@ map.on('load', function () {
               // Remove map layer & source.
               map.removeLayer('walkshed').removeSource('walkshed');
             }
-            addLine(JSON.parse(data), 'walkshed', '#6600cc', 6);
+            var walkshed = JSON.parse(data);
+            addLine(walkshed, 'walkshed', '#6600cc', 6);
+
+            document.getElementById('zoomto').addEventListener('click', function() {
+                var lat = geocodes[0].center[1];
+                var lon = geocodes[0].center[0];
+                map.fitBounds([[
+                    lon - 0.01,
+                    lat - 0.01
+                ], [
+                    lon + 0.01,
+                    lat + 0.01
+                ]]);
+            });
+
             // stop link reloading the page
             event.preventDefault();
         });
         // stop link reloading the page
         event.preventDefault();
-}
+    }
+
 });
 
 
