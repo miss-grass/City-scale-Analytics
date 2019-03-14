@@ -216,7 +216,7 @@ map.on('load', function () {
             var walkshed = JSON.parse(data);
             addLine(walkshed, 'walkshed', '#6600cc', 6);
 
-            document.getElementById('zoomto').addEventListener('click', function() {
+            function zoom() {
                 var lat = geocodes[0].center[1];
                 var lon = geocodes[0].center[0];
                 map.fitBounds([[
@@ -226,7 +226,9 @@ map.on('load', function () {
                     lon + 0.01,
                     lat + 0.01
                 ]]);
-            });
+            };
+
+            zoom();
 
             // stop link reloading the page
             event.preventDefault();
