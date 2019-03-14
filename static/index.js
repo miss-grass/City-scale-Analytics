@@ -176,11 +176,11 @@ map.on('load', function () {
     addLine(sidewalks, 'Sidewalks', '#000000', 1)
     addLine(crossings, 'Crossings', '#FF0000', 1)
     // addLine(walkshed, 'Walkshed', '#0000FF', 6)
-    addPoints(dog_off_leash_areas, 'dola', 'Dog Off Leash Areas', '#006400')
-    addPoints(public_restrooms, 'pr', 'Public Restrooms', '#4B0082')
+    addPoints(dog_off_leash_areas, 'dola', 'Dog Off Leash Areas', '#008000')
+    addPoints(public_restrooms, 'pr', 'Public Restrooms', '#8A2BE2')
     addPoints(drinking_fountains, 'df', 'Drinking Fountains', '#6495ED')
     addPoints(view_points, 'vp', 'View Points', '#FFD700')
-    addPoints(hospitals, 'hsp', 'Hospitals', '#FF1493')
+    addPoints(hospitals, 'hsp', 'FF1493', '#FF1493')
 
     //////////////////////////////////////////////////////
     /////////       The Get Walkshed button      /////////
@@ -328,6 +328,8 @@ map.on('click', function (e) {
         };
     }
 });
+
+var legend = document.getElementById('places-legend');
 
 
 var legend = document.getElementById('places-legend');
