@@ -186,9 +186,14 @@ map.on('load', function () {
     /////////       The Get Walkshed button      /////////
     //////////////////////////////////////////////////////
     document.getElementById("search").onclick = getFeature;
+    var feature;
+    $().ready(function(){
+       $('.dropdown-item').click(function(){
+        feature = $(this).text();
+       });
+    });
 
     function getFeature() {
-        var feature = $("#featuresinput").text();
         var time = document.getElementById("timeinput").value;
         $.ajaxSetup({
             contentType: "application/json; charset=utf-8"
