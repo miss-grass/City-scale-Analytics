@@ -332,6 +332,3 @@ map.on('click', function (e) {
 var legend = document.getElementById('places-legend');
 
 
-var legend = document.getElementById('places-legend');
-
-
