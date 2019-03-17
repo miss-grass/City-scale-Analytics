@@ -180,7 +180,7 @@ map.on('load', function () {
     addPoints(public_restrooms, 'pr', 'Public Restrooms', '#8A2BE2')
     addPoints(drinking_fountains, 'df', 'Drinking Fountains', '#6495ED')
     addPoints(view_points, 'vp', 'View Points', '#FFD700')
-    addPoints(hospitals, 'hsp', 'FF1493', '#FF1493')
+    addPoints(hospitals, 'hsp', 'Hospitals', '#FF1493')
 
     //////////////////////////////////////////////////////
     /////////       The Get Walkshed button      /////////
