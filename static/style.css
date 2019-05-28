@@ -1,8 +1,13 @@
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
 #menu {
     background: #fff;
     position: absolute;
     z-index: 1;
-    top: 10px;
+    top: 100px;
     right: 10px;
     border-radius: 3px;
     width: 120px;
@@ -20,6 +25,7 @@
     text-decoration: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
     text-align: center;
+	font-size: 15px;
 }
 
 #menu a:last-child {
@@ -32,12 +38,13 @@
 }
 
 #menu a.active {
-    background-color: #3887be;
-    color: #ffffff;
+    background-color: rgb(183, 165, 122);
+    color: rgb(236,232,226);
+
 }
 
 #menu a.active:hover {
-    background: #3074a4;
+    color: rgb(255, 255, 255);
 }
 
 #info {
@@ -53,3 +60,130 @@
     color: #222;
     background: #fff;
 }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.myinput {
+    width: 20%;
+    z-index: 1;
+    padding: 16px;
+  position: relative;
+  display: inline-block;
+    color: #222222;
+  font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.myinput input {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#search {
+    z-index: 1;
+	position: absolute;
+	left: 500px;
+	top: 13px;
+	display: inline-block;
+
+    color: white;
+    /* padding: 12px; */
+	font-size: 16px;
+ 	font-weight: normal;
+}
+
+/* Dropdown button on hover & focus */
+#search:hover, #search:focus {
+  background-color: #2980B9;
+}
+
+.mapboxgl-ctrl-nav {
+  top: 90%;
+  left: 97.3%;
+  position:absolute;
+  pointer-events:none;
+  z-index:2;
+}
+
+.mapboxgl-ctrl-nav .mapboxgl-ctrl {
+  margin:10px 0 0 10px;
+}
+
+.mapboxgl-ctrl-currLocation {
+  top: 83%;
+  left: 97.8%;
+  position:absolute;
+  pointer-events:none;
+  z-index:2;
+}
+
+.mapboxgl-ctrl-currLocation .mapboxgl-ctrl {
+  margin:10px 0 0 1px;
+}
+
+.bd-navbar {
+	background-color: rgb(75,45,131);
+}
+
+/* .modal-content {
+	z-index: 1200;
+} */
+
+#Navbar .navbar-brand {
+	color: rgb(255,255,255);
+	font-size: 22px;
+}
+
+#navbarDropdown {
+	color: rgb(255,255,255);
+}
+
+#Navbar {
+	z-index:1200;
+}
+
+/* add legend */
+.legend {
+    background-color: #fff;
+    border-radius: 3px;
+    bottom: 150px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+
+.legend h4 {
+    margin: 0 0 10px;
+}
+
+.legend div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+

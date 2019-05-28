@@ -5,7 +5,7 @@ import sys
 from flask import Flask, render_template, request, redirect, Response
 import random, json
 import networkx as nx
-import entwiner as ent
+# import entwiner as ent
 import math
 import pandas as pd
 import csv
@@ -115,7 +115,7 @@ def generate_crossing_network(csv_file):
     file.close()
 
 
-def walkshed(G, node, max_cost=5, sum_columns=["length", "art_num"]):
+def walkshed(G, node, max_cost=5, sum_columns=["length", "drinking_fountain_num"]):
     # Use Dijkstra's method to get the below-400 walkshed paths
     distances, paths = nx.algorithms.shortest_paths.single_source_dijkstra(
         G=G,
@@ -174,6 +174,10 @@ def extract_node_from_string (node_str):
     return coords
 
 
+def compute_distance(x_lon, x_lat, y_lon, y_lat):
+    return math.pow(x_lon - y_lon, 2) + math.pow(x_lat - y_lat, 2)
+
+
 @app.route("/")
 def output():
     return render_template('index.html', name='Joe')
@@ -184,30 +188,38 @@ def worker():
     # read json + reply
     data = request.get_json()
     print(data)
-
-    start_lat = data['start_lat']
-    start_lon = data['start_lon']
     max_time = data['max_time']
     feature = data['feature']
 
-    # TODO: which feature is user looking for?
-    if feature == 0:
-        col = "art_num"
-    elif feature == 1:
+    start_lat = round(float(data['start_lat']), 7)
+    lon = float(data['start_lon'])
+    start_lon = round(lon - (360 if lon > 0 else 0), 7)
+    start_node = str(start_lon) + ", " + str(start_lat)
+
+    # find closest node in G for start node
+    if start_node not in G.nodes:
+        min_dist = math.inf
+        for node in G.nodes:
+            coords = node.split(', ')
+            dist = compute_distance(start_lon, start_lat, float(coords[0]), float(coords[1]))
+            if dist < min_dist:
+                min_dist = dist
+                start_node = node
+
+    if feature == "Drinking Fountains":
         col = "drinking_fountain_num"
-    elif feature == 2:
+    elif feature == "Public Restrooms":
         col = "public_restroom_num"
-    elif feature == 3:
+    elif feature == "Hospitals":
         col = "hospital_num"
-    elif feature == 4:
+    elif feature == "Dog Off Leash Areas":
         col = "dola_num"
     else:
         raise ValueError("Invalid feature requested!")
 
-    start_node = str(start_lon) + ", " + str(start_lat)
 
-    sums, paths = walkshed(G, start_node, max_cost=max_time, sum_columns=["length", col])
-
+    sums, paths = walkshed(G, start_node, max_cost=int(max_time), sum_columns=["length", col])
+    print("sum of utilities: ", sums[col])
     result = paths_to_geojson(paths)
     return result
 
@@ -245,7 +257,7 @@ def main():
     generate_crossing_network(crossing_csv)
 
     # join features to network
-    join_feature_to_graph("art", "art_num")
+    #join_feature_to_graph("art", "art_num")
     join_feature_to_graph("drinking_fountain", "drinking_fountain_num")
     join_feature_to_graph("public_restroom", "public_restroom_num")
     join_feature_to_graph("hospital", "hospital_num")
@@ -256,4 +268,4 @@ def main():
 if __name__ == '__main__':
     main()
     # run!
-    app.run()
+    app.run(host='localhost', port=5001)

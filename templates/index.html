@@ -6,17 +6,113 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
-		<link rel="stylesheet" href="/static/style.css">
+		<link rel="stylesheet" href="../static/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<style>
 			body {margin:0; padding:0;}
 			#map {position:absolute; top:0; bottom:0; width:100%;}
 		</style>
-		<script src="/static/index.js"></script>
+		<script src="../static/index.js"></script>
 	</head>
+
 	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light bd-navbar" id="Navbar">
+		  <a class="navbar-brand" href="https://vip.uw.edu/teams/accessmap">AccessMap</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+
+			  <!-- Amenities Dropdown Button -->
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Amenities
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <!--<a id="featuresinput" class="dropdown-item" href="#">Dog Off Leash Areas</a>-->
+		          <!--<a id="featuresinput" class="dropdown-item" href="#">Hospitals</a>-->
+				  <a id="featuresinput" class="dropdown-item" href="#">Drinking Fountains</a>
+				  <a id="featuresinput" class="dropdown-item" href="#">Public Restrooms</a>
+		        </div>
+		      </li>
+
+			  <!-- Time input -->
+		      <li class="time">
+				  <div class="time">
+	  				<input class="form-control mr-sm-2" id="timeinput" type="number" placeholder="Time">
+	  			</div>
+			  </li>
+			  <!-- Get Walkshed Button -->
+			  <li>
+				  <button type="button" class="btn btn-primary" id="search">
+	                  Get Walkshed
+	              </button>
+			  </li>
+		    </ul>
+
+			<div class="form-inline my-2 my-lg-0">
+			  <!-- Button to Open the Modal -->
+			  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+			    Instruction
+			  </button>
+
+			  <!-- The Modal -->
+			  <div class="modal" id="myModal">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">Instruction</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          To use this app, you need to
+
+					  1. Click the amenity you are looking for.
+
+					  2. Enter the maximum time you want to get there.
+
+                      3. Select your starting location on the map.
+
+					  4. Press "Get Walkshed".
+
+                      5. Press "Zoom to bounds" to fit the view of a walkshed.
+			        </div>
+
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        </div>
+
+			      </div>
+			    </div>
+			  </div>
+
+			</div>
+
+		  </div>
+		</nav>
+
 		<nav id="menu">	</nav>
 		<div id='map'></div>
-		<a href="" id="theButton">Click Me</a>
-		<script type="text/javascript" src="/static/index.js"></script>
+		<div id='palces-legend' class='legend'>
+			<h4>Amenities</h4>
+			<div><span style='background-color: #6495ED'></span>Drinking Fountains</div>
+			<!--<div><span style='background-color: #008000'></span>Dog Off Leash Area</div>-->
+			<!--<div><span style='background-color: #FF1493'></span>Hospitals</div>-->
+			<div><span style='background-color: #8A2BE2'></span>Public Restrooms</div>
+			<!--<div><span style='background-color: #FFD700'></span>View Points</div>-->
+		</div>
+
+		<script type="text/javascript" src="../static/index.js"></script>
+
 	</body>
 </html>
